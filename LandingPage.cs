@@ -50,5 +50,20 @@ namespace QuanLyThuVienSGU_Winform
             {
             }
         }
+
+
+        private void guna2Panel16_Paint(object sender, PaintEventArgs e)
+        {
+            Pen myPen = new Pen(Color.Black, 1); 
+            e.Graphics.DrawLine(myPen, 0, 0, 256, 0);
+            myPen.Dispose();
+        }
+
+        private void guna2Panel17_Paint(object sender, PaintEventArgs e)
+        {
+            Pen myPen = new Pen(Color.Black, 1);  
+            e.Graphics.DrawLine(myPen, 0, 0, 256, 0);
+            myPen.Dispose();
+        }
     }
 }

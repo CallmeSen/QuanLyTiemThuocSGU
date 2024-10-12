@@ -30,7 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginForm));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -41,6 +40,7 @@
             this.ShowPassword = new System.Windows.Forms.CheckBox();
             this.signupBtn = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
+            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -48,30 +48,18 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.SandyBrown;
-            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.guna2Button1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(320, 35);
             this.panel1.TabIndex = 0;
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label1.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(303, 4);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(14, 15);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "X";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Tai Le", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(11, 242);
+            this.label3.Location = new System.Drawing.Point(9, 195);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(125, 30);
             this.label3.TabIndex = 3;
@@ -81,7 +69,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Tai Le", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(11, 307);
+            this.label4.Location = new System.Drawing.Point(9, 260);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(116, 30);
             this.label4.TabIndex = 4;
@@ -100,7 +88,7 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(16, 276);
+            this.textBox1.Location = new System.Drawing.Point(14, 229);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(283, 30);
@@ -108,7 +96,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(16, 341);
+            this.textBox2.Location = new System.Drawing.Point(14, 294);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(283, 30);
@@ -117,11 +105,11 @@
             // loginBtn
             // 
             this.loginBtn.Font = new System.Drawing.Font("Consolas", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.loginBtn.Location = new System.Drawing.Point(16, 411);
+            this.loginBtn.Location = new System.Drawing.Point(14, 364);
             this.loginBtn.Name = "loginBtn";
             this.loginBtn.Size = new System.Drawing.Size(283, 38);
             this.loginBtn.TabIndex = 8;
-            this.loginBtn.Text = "LOGIN";
+            this.loginBtn.Text = "Đăng nhập";
             this.loginBtn.UseVisualStyleBackColor = true;
             this.loginBtn.Click += new System.EventHandler(this.loginBtn_Click);
             // 
@@ -138,7 +126,7 @@
             // ShowPassword
             // 
             this.ShowPassword.AutoSize = true;
-            this.ShowPassword.Location = new System.Drawing.Point(200, 377);
+            this.ShowPassword.Location = new System.Drawing.Point(198, 330);
             this.ShowPassword.Name = "ShowPassword";
             this.ShowPassword.Size = new System.Drawing.Size(99, 17);
             this.ShowPassword.TabIndex = 2;
@@ -148,11 +136,11 @@
             // signupBtn
             // 
             this.signupBtn.Font = new System.Drawing.Font("Consolas", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.signupBtn.Location = new System.Drawing.Point(14, 521);
+            this.signupBtn.Location = new System.Drawing.Point(14, 457);
             this.signupBtn.Name = "signupBtn";
             this.signupBtn.Size = new System.Drawing.Size(283, 38);
             this.signupBtn.TabIndex = 10;
-            this.signupBtn.Text = "SIGN UP";
+            this.signupBtn.Text = "Đăng ký";
             this.signupBtn.UseVisualStyleBackColor = true;
             this.signupBtn.Click += new System.EventHandler(this.signupBtn_Click);
             // 
@@ -160,11 +148,28 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(17, 489);
+            this.label5.Location = new System.Drawing.Point(17, 435);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(216, 19);
             this.label5.TabIndex = 11;
             this.label5.Text = "Bạn chưa có tài khoản ?";
+            // 
+            // guna2Button1
+            // 
+            this.guna2Button1.BorderColor = System.Drawing.Color.Transparent;
+            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button1.FillColor = System.Drawing.Color.Transparent;
+            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button1.ForeColor = System.Drawing.Color.Transparent;
+            this.guna2Button1.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button1.Image")));
+            this.guna2Button1.Location = new System.Drawing.Point(297, 3);
+            this.guna2Button1.Name = "guna2Button1";
+            this.guna2Button1.Size = new System.Drawing.Size(20, 20);
+            this.guna2Button1.TabIndex = 3;
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // LoginForm
             // 
@@ -187,7 +192,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login_Form";
             this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -200,7 +204,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Button loginBtn;
@@ -208,5 +211,6 @@
         private System.Windows.Forms.CheckBox ShowPassword;
         private System.Windows.Forms.Button signupBtn;
         private System.Windows.Forms.Label label5;
+        private Guna.UI2.WinForms.Guna2Button guna2Button1;
     }
 }

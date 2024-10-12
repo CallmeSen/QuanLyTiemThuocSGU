@@ -18,3 +18,23 @@ E:\Visual Studio\QuanLyThuVienSGU_Winform\bin\Debug\EntityFramework.xml
 E:\Visual Studio\QuanLyThuVienSGU_Winform\bin\Debug\EntityFramework.SqlServer.xml
 E:\Visual Studio\QuanLyThuVienSGU_Winform\obj\Debug\QuanLyThuVienSGU_Winform.LandingPage.resources
 E:\Visual Studio\QuanLyThuVienSGU_Winform\obj\Debug\QuanLyTh.D02B7272.Up2Date
+E:\GitHub\QuanLyTiemThuocSGU\bin\Debug\QuanLyThuVienSGU_Winform.exe.config
+E:\GitHub\QuanLyTiemThuocSGU\bin\Debug\QuanLyThuVienSGU_Winform.exe
+E:\GitHub\QuanLyTiemThuocSGU\bin\Debug\QuanLyThuVienSGU_Winform.pdb
+E:\GitHub\QuanLyTiemThuocSGU\bin\Debug\EntityFramework.dll
+E:\GitHub\QuanLyTiemThuocSGU\bin\Debug\EntityFramework.SqlServer.dll
+E:\GitHub\QuanLyTiemThuocSGU\bin\Debug\Guna.Charts.WinForms.dll
+E:\GitHub\QuanLyTiemThuocSGU\bin\Debug\Guna.UI2.dll
+E:\GitHub\QuanLyTiemThuocSGU\bin\Debug\EntityFramework.xml
+E:\GitHub\QuanLyTiemThuocSGU\bin\Debug\EntityFramework.SqlServer.xml
+E:\GitHub\QuanLyTiemThuocSGU\obj\Debug\QuanLyThuVienSGU_Winform.csproj.AssemblyReference.cache
+E:\GitHub\QuanLyTiemThuocSGU\obj\Debug\QuanLyThuVienSGU_Winform.LandingPage.resources
+E:\GitHub\QuanLyTiemThuocSGU\obj\Debug\QuanLyThuVienSGU_Winform.LoadingScreen.resources
+E:\GitHub\QuanLyTiemThuocSGU\obj\Debug\QuanLyThuVienSGU_Winform.LoginForm.resources
+E:\GitHub\QuanLyTiemThuocSGU\obj\Debug\QuanLyThuVienSGU_Winform.Properties.Resources.resources
+E:\GitHub\QuanLyTiemThuocSGU\obj\Debug\QuanLyThuVienSGU_Winform.RegisterForm.resources
+E:\GitHub\QuanLyTiemThuocSGU\obj\Debug\QuanLyThuVienSGU_Winform.csproj.GenerateResource.cache
+E:\GitHub\QuanLyTiemThuocSGU\obj\Debug\QuanLyThuVienSGU_Winform.csproj.CoreCompileInputs.cache
+E:\GitHub\QuanLyTiemThuocSGU\obj\Debug\QuanLyTh.D02B7272.Up2Date
+E:\GitHub\QuanLyTiemThuocSGU\obj\Debug\QuanLyThuVienSGU_Winform.exe
+E:\GitHub\QuanLyTiemThuocSGU\obj\Debug\QuanLyThuVienSGU_Winform.pdb

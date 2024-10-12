@@ -1,46 +1,46 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Visual Studio\\QuanLyThuVienSGU_Winform\\",
+  "WorkspaceRootPath": "E:\\GitHub\\QuanLyTiemThuocSGU\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyThuVienSGU_Winform.csproj|E:\\Visual Studio\\QuanLyThuVienSGU_Winform\\landingpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyThuVienSGU_Winform.csproj|solutionrelative:landingpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyThuVienSGU_Winform.csproj|e:\\visual studio\\quanlythuviensgu_winform\\landingpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyThuVienSGU_Winform.csproj|e:\\github\\quanlytiemthuocsgu\\landingpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyThuVienSGU_Winform.csproj|solutionrelative:landingpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyThuVienSGU_Winform.csproj|E:\\Visual Studio\\QuanLyThuVienSGU_Winform\\login\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyThuVienSGU_Winform.csproj|solutionrelative:login\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyThuVienSGU_Winform.csproj|E:\\Visual Studio\\QuanLyThuVienSGU_Winform\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyThuVienSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyThuVienSGU_Winform.csproj|solutionrelative:registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyThuVienSGU_Winform.csproj|E:\\Visual Studio\\QuanLyThuVienSGU_Winform\\login\\loadingscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyThuVienSGU_Winform.csproj|solutionrelative:login\\loadingscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyThuVienSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU\\login\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyThuVienSGU_Winform.csproj|solutionrelative:login\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyThuVienSGU_Winform.csproj|E:\\Visual Studio\\QuanLyThuVienSGU_Winform\\landingpage.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyThuVienSGU_Winform.csproj|solutionrelative:landingpage.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyThuVienSGU_Winform.csproj|E:\\Visual Studio\\QuanLyThuVienSGU_Winform\\login\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyThuVienSGU_Winform.csproj|solutionrelative:login\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyThuVienSGU_Winform.csproj|E:\\Visual Studio\\QuanLyThuVienSGU_Winform\\login\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyThuVienSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU\\login\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyThuVienSGU_Winform.csproj|solutionrelative:login\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyThuVienSGU_Winform.csproj|E:\\Visual Studio\\QuanLyThuVienSGU_Winform\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyThuVienSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyThuVienSGU_Winform.csproj|solutionrelative:registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyThuVienSGU_Winform.csproj|E:\\Visual Studio\\QuanLyThuVienSGU_Winform\\registerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyThuVienSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU\\registerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyThuVienSGU_Winform.csproj|solutionrelative:registerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyThuVienSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU\\landingpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyThuVienSGU_Winform.csproj|solutionrelative:landingpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyThuVienSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU\\landingpage.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyThuVienSGU_Winform.csproj|solutionrelative:landingpage.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyThuVienSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU\\login\\loadingscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyThuVienSGU_Winform.csproj|solutionrelative:login\\loadingscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyThuVienSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU\\login\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyThuVienSGU_Winform.csproj|solutionrelative:login\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,38 +62,38 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LandingPage.cs [Design]",
-              "DocumentMoniker": "E:\\Visual Studio\\QuanLyThuVienSGU_Winform\\LandingPage.cs",
-              "RelativeDocumentMoniker": "LandingPage.cs",
-              "ToolTip": "E:\\Visual Studio\\QuanLyThuVienSGU_Winform\\LandingPage.cs [Design]",
-              "RelativeToolTip": "LandingPage.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T12:40:34.161Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "LandingPage.cs",
-              "DocumentMoniker": "E:\\Visual Studio\\QuanLyThuVienSGU_Winform\\LandingPage.cs",
+              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU\\LandingPage.cs",
               "RelativeDocumentMoniker": "LandingPage.cs",
-              "ToolTip": "E:\\Visual Studio\\QuanLyThuVienSGU_Winform\\LandingPage.cs",
-              "RelativeToolTip": "LandingPage.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAADwvx4AAAAAAAAAAAAAAA==",
+              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU\\LandingPage.cs*",
+              "RelativeToolTip": "LandingPage.cs*",
+              "ViewState": "AgIAADQAAAAAAAAAAAAWwEMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-11T12:54:11.265Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
+              "Title": "LandingPage.cs [Design]",
+              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU\\LandingPage.cs",
+              "RelativeDocumentMoniker": "LandingPage.cs",
+              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU\\LandingPage.cs [Design]*",
+              "RelativeToolTip": "LandingPage.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T12:40:34.161Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "LandingPage.Designer.cs",
-              "DocumentMoniker": "E:\\Visual Studio\\QuanLyThuVienSGU_Winform\\LandingPage.Designer.cs",
+              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU\\LandingPage.Designer.cs",
               "RelativeDocumentMoniker": "LandingPage.Designer.cs",
-              "ToolTip": "E:\\Visual Studio\\QuanLyThuVienSGU_Winform\\LandingPage.Designer.cs",
-              "RelativeToolTip": "LandingPage.Designer.cs",
-              "ViewState": "AgIAANMAAAAAAAAAAAAqwN4AAAAfAAAAAAAAAA==",
+              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU\\LandingPage.Designer.cs*",
+              "RelativeToolTip": "LandingPage.Designer.cs*",
+              "ViewState": "AgIAAIwGAAAAAAAAAAAjwJ8GAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-11T12:35:42.762Z",
               "EditorCaption": ""
@@ -102,9 +102,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "LoginForm.cs [Design]",
-              "DocumentMoniker": "E:\\Visual Studio\\QuanLyThuVienSGU_Winform\\Login\\LoginForm.cs",
+              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU\\Login\\LoginForm.cs",
               "RelativeDocumentMoniker": "Login\\LoginForm.cs",
-              "ToolTip": "E:\\Visual Studio\\QuanLyThuVienSGU_Winform\\Login\\LoginForm.cs [Design]",
+              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU\\Login\\LoginForm.cs [Design]",
               "RelativeToolTip": "Login\\LoginForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-10T02:07:15.349Z",
@@ -112,24 +112,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "LoginForm.cs",
-              "DocumentMoniker": "E:\\Visual Studio\\QuanLyThuVienSGU_Winform\\Login\\LoginForm.cs",
+              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU\\Login\\LoginForm.cs",
               "RelativeDocumentMoniker": "Login\\LoginForm.cs",
-              "ToolTip": "E:\\Visual Studio\\QuanLyThuVienSGU_Winform\\Login\\LoginForm.cs",
+              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU\\Login\\LoginForm.cs",
               "RelativeToolTip": "Login\\LoginForm.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAYwC8AAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAD4vy8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-10T02:24:07.534Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "LoginForm.Designer.cs",
-              "DocumentMoniker": "E:\\Visual Studio\\QuanLyThuVienSGU_Winform\\Login\\LoginForm.Designer.cs",
+              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU\\Login\\LoginForm.Designer.cs",
               "RelativeDocumentMoniker": "Login\\LoginForm.Designer.cs",
-              "ToolTip": "E:\\Visual Studio\\QuanLyThuVienSGU_Winform\\Login\\LoginForm.Designer.cs",
+              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU\\Login\\LoginForm.Designer.cs",
               "RelativeToolTip": "Login\\LoginForm.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -138,54 +138,53 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "RegisterForm.cs [Design]",
-              "DocumentMoniker": "E:\\Visual Studio\\QuanLyThuVienSGU_Winform\\RegisterForm.cs",
+              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU\\RegisterForm.cs",
               "RelativeDocumentMoniker": "RegisterForm.cs",
-              "ToolTip": "E:\\Visual Studio\\QuanLyThuVienSGU_Winform\\RegisterForm.cs [Design]",
-              "RelativeToolTip": "RegisterForm.cs [Design]",
+              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU\\RegisterForm.cs [Design]*",
+              "RelativeToolTip": "RegisterForm.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-10T03:25:58.323Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "RegisterForm.cs",
-              "DocumentMoniker": "E:\\Visual Studio\\QuanLyThuVienSGU_Winform\\RegisterForm.cs",
+              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU\\RegisterForm.cs",
               "RelativeDocumentMoniker": "RegisterForm.cs",
-              "ToolTip": "E:\\Visual Studio\\QuanLyThuVienSGU_Winform\\RegisterForm.cs",
-              "RelativeToolTip": "RegisterForm.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAYwBcAAAAaAAAAAAAAAA==",
+              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU\\RegisterForm.cs*",
+              "RelativeToolTip": "RegisterForm.cs*",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAawB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-10T03:31:51.866Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
               "Title": "RegisterForm.Designer.cs",
-              "DocumentMoniker": "E:\\Visual Studio\\QuanLyThuVienSGU_Winform\\RegisterForm.Designer.cs",
+              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU\\RegisterForm.Designer.cs",
               "RelativeDocumentMoniker": "RegisterForm.Designer.cs",
-              "ToolTip": "E:\\Visual Studio\\QuanLyThuVienSGU_Winform\\RegisterForm.Designer.cs",
-              "RelativeToolTip": "RegisterForm.Designer.cs",
-              "ViewState": "AgIAANQAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
+              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU\\RegisterForm.Designer.cs*",
+              "RelativeToolTip": "RegisterForm.Designer.cs*",
+              "ViewState": "AgIAAJIAAAAAAAAAAADwv6UAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-10T03:52:10.94Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "LoadingScreen.cs",
-              "DocumentMoniker": "E:\\Visual Studio\\QuanLyThuVienSGU_Winform\\Login\\LoadingScreen.cs",
+              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU\\Login\\LoadingScreen.cs",
               "RelativeDocumentMoniker": "Login\\LoadingScreen.cs",
-              "ToolTip": "E:\\Visual Studio\\QuanLyThuVienSGU_Winform\\Login\\LoadingScreen.cs",
+              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU\\Login\\LoadingScreen.cs",
               "RelativeToolTip": "Login\\LoadingScreen.cs",
               "ViewState": "AgIAACcAAAAAAAAAAAA4wDcAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T00:15:19.239Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-10T00:15:19.239Z"
             }
           ]
         }

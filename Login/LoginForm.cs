@@ -19,17 +19,15 @@ namespace QuanLyThuVienSGU_Winform
 
 
 
-        private void label1_Click(object sender, EventArgs e)
+        private void guna2Button1_Click(object sender, EventArgs e)
         {
             DialogResult result = MessageBox.Show("Bạn có muốn thoát?", "Xác nhận", MessageBoxButtons.YesNo);
             if (result == DialogResult.Yes)
             {
-                // Hành động khi người dùng chọn "Continue" (Yes)
                 Application.Exit();  
             }
             else if (result == DialogResult.No)
             {
-                // Hành động khi người dùng chọn "Cancel" (No)
             }
 
         }

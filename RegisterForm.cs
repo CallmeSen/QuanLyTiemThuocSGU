@@ -18,41 +18,29 @@ namespace QuanLyThuVienSGU_Winform
         }
 
 
-        private void registerBtn_Click(object sender, EventArgs e)
-        {
-            LoginForm loginForm = new LoginForm();
-            loginForm.Show();
-            this.Hide();
-        }
-
         private void signupBtn_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void ShowPassword_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
         }
 
         private void loginBtn_Click(object sender, EventArgs e)
         {
-
+            LoginForm loginForm = new LoginForm();
+            loginForm.Show();
+            this.Hide();
         }
 
-        private void textBox2_TextChanged(object sender, EventArgs e)
+
+        private void guna2Button1_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
+            DialogResult result = MessageBox.Show("Bạn có muốn thoát?", "Xác nhận", MessageBoxButtons.YesNo);
+            if (result == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+            else if (result == DialogResult.No)
+            {
+            }
         }
     }
 }
