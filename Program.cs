@@ -16,7 +16,7 @@ namespace QuanLyThuVienSGU_Winform
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new LoadingScreen());
+            Application.Run(new fLoading());
         }
     }
 }
