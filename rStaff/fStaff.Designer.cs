@@ -33,7 +33,6 @@
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.panel_Sidebar = new System.Windows.Forms.Panel();
             this.button_ThongBao = new System.Windows.Forms.Button();
-            this.button_ThongKe = new System.Windows.Forms.Button();
             this.panel_ChildQuanLiDocGia = new System.Windows.Forms.Panel();
             this.button_ChinhSuaDocGia = new System.Windows.Forms.Button();
             this.button_ThongTinDocGia = new System.Windows.Forms.Button();
@@ -63,6 +62,7 @@
             this.label_CurrentPage = new System.Windows.Forms.Label();
             this.label_DecorLine = new System.Windows.Forms.Label();
             this.label_Home = new System.Windows.Forms.Label();
+            this.button_ThongKe = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.panel_Sidebar.SuspendLayout();
             this.panel_ChildQuanLiDocGia.SuspendLayout();
@@ -121,24 +121,6 @@
             this.button_ThongBao.Text = "          Thông báo";
             this.button_ThongBao.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button_ThongBao.UseVisualStyleBackColor = true;
-            // 
-            // button_ThongKe
-            // 
-            this.button_ThongKe.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button_ThongKe.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button_ThongKe.FlatAppearance.BorderSize = 0;
-            this.button_ThongKe.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_ThongKe.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_ThongKe.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(177)))), ((int)(((byte)(185)))));
-            this.button_ThongKe.Image = ((System.Drawing.Image)(resources.GetObject("button_ThongKe.Image")));
-            this.button_ThongKe.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button_ThongKe.Location = new System.Drawing.Point(0, 609);
-            this.button_ThongKe.Name = "button_ThongKe";
-            this.button_ThongKe.Size = new System.Drawing.Size(217, 50);
-            this.button_ThongKe.TabIndex = 12;
-            this.button_ThongKe.Text = "          Thống kê";
-            this.button_ThongKe.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button_ThongKe.UseVisualStyleBackColor = true;
             // 
             // panel_ChildQuanLiDocGia
             // 
@@ -492,6 +474,24 @@
             this.label_Home.TabIndex = 1;
             this.label_Home.Text = "Home ";
             // 
+            // button_ThongKe
+            // 
+            this.button_ThongKe.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button_ThongKe.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button_ThongKe.FlatAppearance.BorderSize = 0;
+            this.button_ThongKe.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_ThongKe.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_ThongKe.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(177)))), ((int)(((byte)(185)))));
+            this.button_ThongKe.Image = ((System.Drawing.Image)(resources.GetObject("button_ThongKe.Image")));
+            this.button_ThongKe.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button_ThongKe.Location = new System.Drawing.Point(0, 609);
+            this.button_ThongKe.Name = "button_ThongKe";
+            this.button_ThongKe.Size = new System.Drawing.Size(217, 50);
+            this.button_ThongKe.TabIndex = 12;
+            this.button_ThongKe.Text = "          Thống kê";
+            this.button_ThongKe.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button_ThongKe.UseVisualStyleBackColor = true;
+            // 
             // fStaff
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -524,7 +524,6 @@
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
         private System.Windows.Forms.Panel panel_Sidebar;
         private System.Windows.Forms.Button button_ThongBao;
-        private System.Windows.Forms.Button button_ThongKe;
         private System.Windows.Forms.Panel panel_ChildQuanLiDocGia;
         private System.Windows.Forms.Button button_ChinhSuaDocGia;
         private System.Windows.Forms.Button button_ThongTinDocGia;
@@ -554,5 +553,6 @@
         private System.Windows.Forms.Label label_CurrentPage;
         private System.Windows.Forms.Label label_DecorLine;
         private System.Windows.Forms.Label label_Home;
+        private System.Windows.Forms.Button button_ThongKe;
     }
 }

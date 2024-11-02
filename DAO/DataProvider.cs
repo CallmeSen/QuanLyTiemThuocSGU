@@ -25,7 +25,8 @@ namespace QuanLyThuVienSGU_Winform.DAO
         #endregion
 
 
-        private string connectionSTR = "Data Source=DESKTOP-7VUB332\\SQLEXPRESS;Initial Catalog=quanlycuahangthuoc;Integrated Security=True";
+        private string connectionSTR = "Data Source=localhost,1433;Initial Catalog=quanlycuahangthuoc;Persist Security Info=True;User ID=sa;Password=Thanhtuan@123";
+            //"Data Source=DESKTOP-7VUB332\\SQLEXPRESS;Initial Catalog=quanlycuahangthuoc;Integrated Security=True";
 
 
         public DataTable ExecuteQuery(string query, object[] parameter = null)

@@ -21,13 +21,18 @@ namespace QuanLyThuVienSGU_Winform.DAO
             private set => instance = value;
         }
 
-        private AccountDAO() { }
+        private AccountDAO() {}
 
-        public bool Login(string username, string password)
+        public (bool isSuccess, int role) Login(string username, string password)
         {
             string query = "USP_Login @username , @password";
             DataTable result = DataProvider.Instance.ExecuteQuery(query, new object[] {username, password});
-            return result.Rows.Count > 0;
+            if (result.Rows.Count > 0)
+            {
+                int role = Convert.ToInt32(result.Rows[0]["Role"]); // Lấy trường Role từ kết quả trả về
+                return (true, role);
+            }
+            return (false, -1);
             //, new object[] { username, password }
         }
     }

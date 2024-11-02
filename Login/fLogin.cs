@@ -40,24 +40,34 @@ namespace QuanLyThuVienSGU_Winform
 
             string username = txbUsername.Text;
             string password = txbPassword.Text;
+            var loginResult = Login(username, password);
 
-            if (Login(username, password))
+            if (loginResult.isSuccess)
             {
-
-                fLandingPage lForm = new fLandingPage();
-                lForm.Show();
-                this.Hide();
-                //fc_AddRemoveStaff addRemoveStaffForm = new fc_AddRemoveStaff();
-                //addRemoveStaffForm.Show();
-
+                if (loginResult.role == 1)
+                {
+                    fAdmin lForm = new fAdmin();
+                    lForm.Show();
+                    this.Hide();
+                }
+                else if (loginResult.role == 0)
+                {
+                    fStaff lForm = new fStaff();
+                    lForm.Show();
+                    this.Hide();
+                }
             }
             else
             {
-
                 MessageBox.Show("Sai tên đăng nhập hoặc mật khẩu");
             }
+            
         }
-        bool Login(string username, string password)
+
+        //BLL
+
+
+        (bool isSuccess, int role) Login(string username, string password)
         {
 
             return AccountDAO.Instance.Login(username, password);

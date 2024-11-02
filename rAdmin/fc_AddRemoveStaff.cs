@@ -25,7 +25,7 @@ namespace QuanLyThuVienSGU_Winform
             string query = "EXEC dbo.USP_GetEmployeeByName @nameEmployee";
 
 
-            dataGridView_ChinhSuaTaiKhoan.DataSource = DataProvider.Instance.ExecuteQuery(query , new object[] { "Pham Tuan Anh" });
+            dataGridView_ChinhSuaTaiKhoan.DataSource = DataProvider.Instance.ExecuteQuery(query , new object[] { "Tran Quang Huy" });
 
 
         }
