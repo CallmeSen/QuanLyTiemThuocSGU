@@ -114,5 +114,5 @@ E:\GitHub\QuanLyTiemThuocSGU\obj\Debug\QuanLyThuVienSGU_Winform.fDashboard.resou
 E:\GitHub\QuanLyTiemThuocSGU\obj\Debug\QuanLyThuVienSGU_Winform.fEditAccount.resources
 E:\GitHub\QuanLyTiemThuocSGU\obj\Debug\QuanLyThuVienSGU_Winform.fc_StaffDetail.resources
 E:\GitHub\QuanLyTiemThuocSGU\obj\Debug\QuanLyThuVienSGU_Winform.fc_AddRemoveStaff.resources
-E:\GitHub\QuanLyTiemThuocSGU\obj\Debug\QuanLyThuVienSGU_Winform.fSellMed.resources
 E:\GitHub\QuanLyTiemThuocSGU\obj\Debug\QuanLyThuVienSGU_Winform.fStaff.resources
+E:\GitHub\QuanLyTiemThuocSGU\obj\Debug\QuanLyThuVienSGU_Winform.fc_SellMed.resources

@@ -1,4 +1,5 @@
-﻿using QuanLyThuVienSGU_Winform.DAO;
+﻿using QuanLyThuVienSGU_Winform.BLL;
+using QuanLyThuVienSGU_Winform.DAO;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -13,6 +14,10 @@ namespace QuanLyThuVienSGU_Winform
 {
     public partial class fLogin : Form
     {
+        //Variables
+        #region Variables
+        int employeeID; 
+        #endregion
         public fLogin()
         {
             InitializeComponent();
@@ -40,19 +45,20 @@ namespace QuanLyThuVienSGU_Winform
 
             string username = txbUsername.Text;
             string password = txbPassword.Text;
-            var loginResult = Login(username, password);
+            AccountBLL accountBLL = new AccountBLL(); //Dùng để gọi hàm Login từ BLL
+            var (isSuccess, role, employeeID) = accountBLL.Login(username, password);
 
-            if (loginResult.isSuccess)
+            if (isSuccess)
             {
-                if (loginResult.role == 1)
+                if (role == 1)
                 {
-                    fAdmin lForm = new fAdmin();
+                    fAdmin lForm = new fAdmin(employeeID);
                     lForm.Show();
                     this.Hide();
                 }
-                else if (loginResult.role == 0)
+                else if (role == 0)
                 {
-                    fStaff lForm = new fStaff();
+                    fStaff lForm = new fStaff(employeeID);
                     lForm.Show();
                     this.Hide();
                 }
@@ -67,11 +73,10 @@ namespace QuanLyThuVienSGU_Winform
         //BLL
 
 
-        (bool isSuccess, int role) Login(string username, string password)
-        {
-
-            return AccountDAO.Instance.Login(username, password);
-        }
+        //(bool isSuccess, int role) Login(string username, string password)
+        //{
+        //    return AccountDAO.Instance.Login(username, password);
+        //}
 
         //////////////////////////////////////////////////////
 

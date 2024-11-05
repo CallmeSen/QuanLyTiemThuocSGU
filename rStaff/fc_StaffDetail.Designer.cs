@@ -38,13 +38,11 @@
             this.label_NgayNhanViecInfo = new System.Windows.Forms.Label();
             this.label_SoDienThoaiInfo = new System.Windows.Forms.Label();
             this.label_EmailInfo = new System.Windows.Forms.Label();
-            this.label_NgaySinhInfo = new System.Windows.Forms.Label();
             this.label_GioiTinhInfo = new System.Windows.Forms.Label();
             this.label_IDInfo = new System.Windows.Forms.Label();
             this.label_NgayNhanViec = new System.Windows.Forms.Label();
             this.label_SoDienThoai = new System.Windows.Forms.Label();
             this.label_Email = new System.Windows.Forms.Label();
-            this.label_NgaySinh = new System.Windows.Forms.Label();
             this.label_GioiTinh = new System.Windows.Forms.Label();
             this.label_ID = new System.Windows.Forms.Label();
             this.label_NhanVienName = new System.Windows.Forms.Label();
@@ -67,6 +65,7 @@
             this.button_Edit.TabIndex = 48;
             this.button_Edit.Text = "Edit";
             this.button_Edit.UseVisualStyleBackColor = false;
+            this.button_Edit.Click += new System.EventHandler(this.button_Edit_Click);
             // 
             // button_ResetInsert
             // 
@@ -82,6 +81,7 @@
             this.button_ResetInsert.TabIndex = 47;
             this.button_ResetInsert.Text = "Reset";
             this.button_ResetInsert.UseVisualStyleBackColor = false;
+            this.button_ResetInsert.Click += new System.EventHandler(this.button_ResetInsert_Click);
             // 
             // button_SaveInsert
             // 
@@ -97,6 +97,7 @@
             this.button_SaveInsert.TabIndex = 46;
             this.button_SaveInsert.Text = "Save";
             this.button_SaveInsert.UseVisualStyleBackColor = false;
+            this.button_SaveInsert.Click += new System.EventHandler(this.button_SaveInsert_Click);
             // 
             // guna2CirclePictureBox_Avatar
             // 
@@ -139,7 +140,7 @@
             this.label_NgayNhanViecInfo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label_NgayNhanViecInfo.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_NgayNhanViecInfo.ForeColor = System.Drawing.Color.Black;
-            this.label_NgayNhanViecInfo.Location = new System.Drawing.Point(516, 442);
+            this.label_NgayNhanViecInfo.Location = new System.Drawing.Point(516, 395);
             this.label_NgayNhanViecInfo.Name = "label_NgayNhanViecInfo";
             this.label_NgayNhanViecInfo.Size = new System.Drawing.Size(24, 25);
             this.label_NgayNhanViecInfo.TabIndex = 42;
@@ -151,7 +152,7 @@
             this.label_SoDienThoaiInfo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label_SoDienThoaiInfo.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_SoDienThoaiInfo.ForeColor = System.Drawing.Color.Black;
-            this.label_SoDienThoaiInfo.Location = new System.Drawing.Point(516, 398);
+            this.label_SoDienThoaiInfo.Location = new System.Drawing.Point(516, 351);
             this.label_SoDienThoaiInfo.Name = "label_SoDienThoaiInfo";
             this.label_SoDienThoaiInfo.Size = new System.Drawing.Size(24, 25);
             this.label_SoDienThoaiInfo.TabIndex = 41;
@@ -163,23 +164,11 @@
             this.label_EmailInfo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label_EmailInfo.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_EmailInfo.ForeColor = System.Drawing.Color.Black;
-            this.label_EmailInfo.Location = new System.Drawing.Point(516, 357);
+            this.label_EmailInfo.Location = new System.Drawing.Point(516, 310);
             this.label_EmailInfo.Name = "label_EmailInfo";
             this.label_EmailInfo.Size = new System.Drawing.Size(24, 25);
             this.label_EmailInfo.TabIndex = 40;
             this.label_EmailInfo.Text = "...";
-            // 
-            // label_NgaySinhInfo
-            // 
-            this.label_NgaySinhInfo.AutoSize = true;
-            this.label_NgaySinhInfo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label_NgaySinhInfo.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_NgaySinhInfo.ForeColor = System.Drawing.Color.Black;
-            this.label_NgaySinhInfo.Location = new System.Drawing.Point(516, 313);
-            this.label_NgaySinhInfo.Name = "label_NgaySinhInfo";
-            this.label_NgaySinhInfo.Size = new System.Drawing.Size(24, 25);
-            this.label_NgaySinhInfo.TabIndex = 39;
-            this.label_NgaySinhInfo.Text = "...";
             // 
             // label_GioiTinhInfo
             // 
@@ -211,7 +200,7 @@
             this.label_NgayNhanViec.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label_NgayNhanViec.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_NgayNhanViec.ForeColor = System.Drawing.Color.Black;
-            this.label_NgayNhanViec.Location = new System.Drawing.Point(327, 442);
+            this.label_NgayNhanViec.Location = new System.Drawing.Point(327, 395);
             this.label_NgayNhanViec.Name = "label_NgayNhanViec";
             this.label_NgayNhanViec.Size = new System.Drawing.Size(146, 25);
             this.label_NgayNhanViec.TabIndex = 36;
@@ -223,7 +212,7 @@
             this.label_SoDienThoai.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label_SoDienThoai.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_SoDienThoai.ForeColor = System.Drawing.Color.Black;
-            this.label_SoDienThoai.Location = new System.Drawing.Point(327, 398);
+            this.label_SoDienThoai.Location = new System.Drawing.Point(327, 351);
             this.label_SoDienThoai.Name = "label_SoDienThoai";
             this.label_SoDienThoai.Size = new System.Drawing.Size(127, 25);
             this.label_SoDienThoai.TabIndex = 35;
@@ -235,23 +224,11 @@
             this.label_Email.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label_Email.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_Email.ForeColor = System.Drawing.Color.Black;
-            this.label_Email.Location = new System.Drawing.Point(327, 357);
+            this.label_Email.Location = new System.Drawing.Point(327, 310);
             this.label_Email.Name = "label_Email";
             this.label_Email.Size = new System.Drawing.Size(62, 25);
             this.label_Email.TabIndex = 34;
             this.label_Email.Text = "Email:";
-            // 
-            // label_NgaySinh
-            // 
-            this.label_NgaySinh.AutoSize = true;
-            this.label_NgaySinh.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label_NgaySinh.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_NgaySinh.ForeColor = System.Drawing.Color.Black;
-            this.label_NgaySinh.Location = new System.Drawing.Point(327, 313);
-            this.label_NgaySinh.Name = "label_NgaySinh";
-            this.label_NgaySinh.Size = new System.Drawing.Size(100, 25);
-            this.label_NgaySinh.TabIndex = 33;
-            this.label_NgaySinh.Text = "Ngày sinh:";
             // 
             // label_GioiTinh
             // 
@@ -316,12 +293,12 @@
             this.guna2CirclePictureBox1.TabIndex = 49;
             this.guna2CirclePictureBox1.TabStop = false;
             // 
-            // fcStaffDetail
+            // fc_StaffDetail
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(234)))), ((int)(((byte)(237)))));
-            this.ClientSize = new System.Drawing.Size(730, 511);
+            this.ClientSize = new System.Drawing.Size(713, 512);
             this.Controls.Add(this.guna2CirclePictureBox1);
             this.Controls.Add(this.button_Edit);
             this.Controls.Add(this.button_ResetInsert);
@@ -332,18 +309,16 @@
             this.Controls.Add(this.label_NgayNhanViecInfo);
             this.Controls.Add(this.label_SoDienThoaiInfo);
             this.Controls.Add(this.label_EmailInfo);
-            this.Controls.Add(this.label_NgaySinhInfo);
             this.Controls.Add(this.label_GioiTinhInfo);
             this.Controls.Add(this.label_IDInfo);
             this.Controls.Add(this.label_NgayNhanViec);
             this.Controls.Add(this.label_SoDienThoai);
             this.Controls.Add(this.label_Email);
-            this.Controls.Add(this.label_NgaySinh);
             this.Controls.Add(this.label_GioiTinh);
             this.Controls.Add(this.label_ID);
             this.Controls.Add(this.label_NhanVienName);
             this.Controls.Add(this.textBox_GioiThieu);
-            this.Name = "fcStaffDetail";
+            this.Name = "fc_StaffDetail";
             this.Text = "fcThongTinNhanVien";
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox_Avatar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
@@ -363,13 +338,11 @@
         private System.Windows.Forms.Label label_NgayNhanViecInfo;
         private System.Windows.Forms.Label label_SoDienThoaiInfo;
         private System.Windows.Forms.Label label_EmailInfo;
-        private System.Windows.Forms.Label label_NgaySinhInfo;
         private System.Windows.Forms.Label label_GioiTinhInfo;
         private System.Windows.Forms.Label label_IDInfo;
         private System.Windows.Forms.Label label_NgayNhanViec;
         private System.Windows.Forms.Label label_SoDienThoai;
         private System.Windows.Forms.Label label_Email;
-        private System.Windows.Forms.Label label_NgaySinh;
         private System.Windows.Forms.Label label_GioiTinh;
         private System.Windows.Forms.Label label_ID;
         private System.Windows.Forms.Label label_NhanVienName;

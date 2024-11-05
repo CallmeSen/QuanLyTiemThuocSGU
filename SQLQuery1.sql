@@ -5,7 +5,6 @@ GO
 
 
 
--- Tạo bảng Nhân viên (Employees)
 CREATE TABLE Employees (
     EmployeeID INT PRIMARY KEY IDENTITY(1,1),
     FullName VARCHAR(255) NOT NULL,
@@ -17,7 +16,6 @@ CREATE TABLE Employees (
 );
 GO
 
--- Tạo bảng Tài khoản (Accounts)
 CREATE TABLE Accounts (
     AccountID INT PRIMARY KEY IDENTITY(1,1),
     Username VARCHAR(100) NOT NULL,
@@ -28,7 +26,6 @@ CREATE TABLE Accounts (
 );
 GO
 
--- Tạo bảng Khách hàng (Customers)
 CREATE TABLE Customers (
     CustomerID INT PRIMARY KEY IDENTITY(1,1),
     FullName VARCHAR(255) NOT NULL,
@@ -38,7 +35,6 @@ CREATE TABLE Customers (
 );
 GO
 
--- Tạo bảng Nhà cung cấp (Suppliers)
 CREATE TABLE Suppliers (
     SupplierID INT PRIMARY KEY IDENTITY(1,1),
     SupplierName VARCHAR(255) NOT NULL,
@@ -48,14 +44,12 @@ CREATE TABLE Suppliers (
 );
 GO
 
--- Tạo bảng Loại sản phẩm (ProductCategory)
 CREATE TABLE ProductCategory (
     CategoryID INT PRIMARY KEY IDENTITY(1,1),
     CategoryName VARCHAR(255) NOT NULL
 );
 GO
 
--- Tạo bảng Sản phẩm (Products)
 CREATE TABLE Products (
     ProductID INT PRIMARY KEY IDENTITY(1,1),
     ProductName VARCHAR(255) NOT NULL,
@@ -69,7 +63,6 @@ CREATE TABLE Products (
 );
 GO
 
--- Tạo bảng Đơn hàng (Orders)
 CREATE TABLE Orders (
     OrderID INT PRIMARY KEY IDENTITY(1,1),
     CustomerID INT,
@@ -81,7 +74,6 @@ CREATE TABLE Orders (
 );
 GO
 
--- Tạo bảng Chi tiết đơn hàng (OrderInfo)
 CREATE TABLE OrderInfo (
     OrderInfoID INT PRIMARY KEY IDENTITY(1,1),
     OrderID INT,
@@ -93,7 +85,6 @@ CREATE TABLE OrderInfo (
 );
 GO
 
--- Tạo bảng Lô hàng (Shipments)
 CREATE TABLE Shipments (
     ShipmentID INT PRIMARY KEY IDENTITY(1,1),
     SupplierID INT,
@@ -195,14 +186,6 @@ VALUES
 (2, 5, 200, '2024-10-05', '2024-10-10');
 GO
 
--- tạo stored procedure cho nhân viên
-CREATE PROC USP_GetEmployeeByName
-@username nvarchar(100)
-AS
-BEGIN
-	SELECT * FROM dbo.Employees WHERE FullName = @username
-END
-GO
 -- tạo stored procedure cho login
 CREATE PROC USP_Login
 @username nvarchar(100), @password nvarchar(100)
@@ -211,5 +194,73 @@ BEGIN
 	SELECT * FROM dbo. Accounts WHERE Username = @username AND Password = @password
 END
 GO
+
+-- Stored procedure to retrieve employee details by ID
+CREATE PROC USP_GetEmployeeByID
+    @EmployeeID INT
+AS
+BEGIN
+    SELECT * FROM Employees WHERE EmployeeID = @EmployeeID
+END
+GO
+
+-- Stored procedure to add a new employee
+CREATE PROC USP_AddEmployee
+    @FullName NVARCHAR(255),
+    @Gender CHAR(1),
+    @Phone VARCHAR(15),
+    @Email VARCHAR(255),
+    @Salary DECIMAL(10,2),
+    @HireDate DATE
+AS
+BEGIN
+    INSERT INTO Employees (FullName, Gender, Phone, Email, Salary, HireDate)
+    VALUES (@FullName, @Gender, @Phone, @Email, @Salary, @HireDate)
+END
+GO
+
+-- Stored procedure to update an existing employee's details
+CREATE PROC USP_UpdateEmployee
+    @EmployeeID INT,
+    @FullName NVARCHAR(255),
+    @Gender CHAR(1),
+    @Phone VARCHAR(15),
+    @Email VARCHAR(255),
+    @Salary DECIMAL(10,2),
+    @HireDate DATE
+AS
+BEGIN
+    UPDATE Employees
+    SET FullName = @FullName,
+        Gender = @Gender,
+        Phone = @Phone,
+        Email = @Email,
+        Salary = @Salary,
+        HireDate = @HireDate
+    WHERE EmployeeID = @EmployeeID
+END
+GO
+
+-- Stored procedure to delete an employee by ID
+CREATE PROC USP_DeleteEmployee
+    @EmployeeID INT
+AS
+BEGIN
+    DELETE FROM Employees WHERE EmployeeID = @EmployeeID
+END
+GO
+
+-- Stored procedure to retrieve all employees with a specific role
+CREATE PROC USP_GetEmployeesByRole
+    @Role INT
+AS
+BEGIN
+    SELECT e.EmployeeID, e.FullName, e.Gender, e.Phone, e.Email, e.Salary, e.HireDate
+    FROM Employees e
+    JOIN Accounts a ON e.EmployeeID = a.EmployeeID
+    WHERE a.Role = @Role
+END
+GO
+
 
 --------------------------------------------------------
