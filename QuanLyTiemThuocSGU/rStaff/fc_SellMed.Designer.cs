@@ -41,9 +41,10 @@
             this.btnAddMedicine = new Guna.UI2.WinForms.Guna2Button();
             this.btnRemoveMedicine = new Guna.UI2.WinForms.Guna2Button();
             this.lblSubtotal = new System.Windows.Forms.Label();
-            this.lblTax = new System.Windows.Forms.Label();
             this.lblTotal = new System.Windows.Forms.Label();
             this.btnGenerateBill = new Guna.UI2.WinForms.Guna2Button();
+            this.txbTotal = new System.Windows.Forms.TextBox();
+            this.txbSubTotal = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvMedicineList)).BeginInit();
             this.SuspendLayout();
             // 
@@ -181,29 +182,19 @@
             this.lblSubtotal.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.lblSubtotal.Location = new System.Drawing.Point(557, 402);
             this.lblSubtotal.Name = "lblSubtotal";
-            this.lblSubtotal.Size = new System.Drawing.Size(83, 19);
+            this.lblSubtotal.Size = new System.Drawing.Size(63, 19);
             this.lblSubtotal.TabIndex = 32;
-            this.lblSubtotal.Text = "Subtotal: $0";
-            // 
-            // lblTax
-            // 
-            this.lblTax.AutoSize = true;
-            this.lblTax.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.lblTax.Location = new System.Drawing.Point(557, 432);
-            this.lblTax.Name = "lblTax";
-            this.lblTax.Size = new System.Drawing.Size(50, 19);
-            this.lblTax.TabIndex = 33;
-            this.lblTax.Text = "Tax: $0";
+            this.lblSubtotal.Text = "Subtotal:";
             // 
             // lblTotal
             // 
             this.lblTotal.AutoSize = true;
             this.lblTotal.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
-            this.lblTotal.Location = new System.Drawing.Point(557, 462);
+            this.lblTotal.Location = new System.Drawing.Point(557, 432);
             this.lblTotal.Name = "lblTotal";
-            this.lblTotal.Size = new System.Drawing.Size(66, 19);
+            this.lblTotal.Size = new System.Drawing.Size(46, 19);
             this.lblTotal.TabIndex = 34;
-            this.lblTotal.Text = "Total: $0";
+            this.lblTotal.Text = "Total:";
             // 
             // btnGenerateBill
             // 
@@ -218,18 +209,35 @@
             this.btnGenerateBill.TabIndex = 35;
             this.btnGenerateBill.Text = "In Hóa đơn";
             // 
+            // txbTotal
+            // 
+            this.txbTotal.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txbTotal.Location = new System.Drawing.Point(609, 431);
+            this.txbTotal.Name = "txbTotal";
+            this.txbTotal.Size = new System.Drawing.Size(100, 25);
+            this.txbTotal.TabIndex = 36;
+            // 
+            // txbSubTotal
+            // 
+            this.txbSubTotal.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txbSubTotal.Location = new System.Drawing.Point(626, 402);
+            this.txbSubTotal.Name = "txbSubTotal";
+            this.txbSubTotal.Size = new System.Drawing.Size(100, 25);
+            this.txbSubTotal.TabIndex = 37;
+            // 
             // fc_SellMed
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1026, 508);
+            this.Controls.Add(this.txbSubTotal);
+            this.Controls.Add(this.txbTotal);
             this.Controls.Add(this.txtCustomerName);
             this.Controls.Add(this.txtCustomerContact);
             this.Controls.Add(this.dgvMedicineList);
             this.Controls.Add(this.btnAddMedicine);
             this.Controls.Add(this.btnRemoveMedicine);
             this.Controls.Add(this.lblSubtotal);
-            this.Controls.Add(this.lblTax);
             this.Controls.Add(this.lblTotal);
             this.Controls.Add(this.btnGenerateBill);
             this.Name = "fc_SellMed";
@@ -252,8 +260,9 @@
         private Guna.UI2.WinForms.Guna2Button btnAddMedicine;
         private Guna.UI2.WinForms.Guna2Button btnRemoveMedicine;
         private System.Windows.Forms.Label lblSubtotal;
-        private System.Windows.Forms.Label lblTax;
         private System.Windows.Forms.Label lblTotal;
         private Guna.UI2.WinForms.Guna2Button btnGenerateBill;
+        private System.Windows.Forms.TextBox txbTotal;
+        private System.Windows.Forms.TextBox txbSubTotal;
     }
 }

@@ -342,4 +342,39 @@ BEGIN
 END
 GO
 
+CREATE PROCEDURE USP_AddCategory
+    @CategoryName NVARCHAR(255)
+AS
+BEGIN
+    INSERT INTO ProductCategory (CategoryName)
+    VALUES (@CategoryName);
+END
+GO
+
+CREATE PROCEDURE USP_GetAllCategories
+AS
+BEGIN
+    SELECT * FROM ProductCategory;
+END
+GO
+
+CREATE PROCEDURE USP_UpdateCategory
+    @CategoryID INT,
+    @CategoryName NVARCHAR(255)
+AS
+BEGIN
+    UPDATE ProductCategory
+    SET CategoryName = @CategoryName
+    WHERE CategoryID = @CategoryID;
+END
+GO
+
+CREATE PROCEDURE USP_DeleteCategory
+    @CategoryID INT
+AS
+BEGIN
+    DELETE FROM ProductCategory WHERE CategoryID = @CategoryID;
+END
+GO
+
 --------------------------------------------------------

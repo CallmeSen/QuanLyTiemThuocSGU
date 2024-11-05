@@ -193,15 +193,24 @@
     <Compile Include="BLL\AccountBLL.cs" />
     <Compile Include="BLL\OrderBLL.cs" />
     <Compile Include="BLL\OrderInfoBLL.cs" />
+    <Compile Include="BLL\ProductCategoryBLL.cs" />
+    <Compile Include="BLL\ShipmentBLL.cs" />
     <Compile Include="BLL\StaffInfoBLL.cs" />
+    <Compile Include="BLL\SupplierBLL.cs" />
     <Compile Include="DAO\AccountDAO.cs" />
     <Compile Include="DAO\DataProvider.cs" />
     <Compile Include="DAO\OrderDAO.cs" />
     <Compile Include="DAO\OrderInfoDAO.cs" />
+    <Compile Include="DAO\ProductCategoryDAO.cs" />
+    <Compile Include="DAO\ShipmentDAO.cs" />
     <Compile Include="DAO\StaffInfoDAO.cs" />
+    <Compile Include="DAO\SupplierDAO.cs" />
     <Compile Include="DTO\OrderDTO.cs" />
     <Compile Include="DTO\OrderInfoDTO.cs" />
+    <Compile Include="DTO\ProductCategoryDTO.cs" />
+    <Compile Include="DTO\ShipmentDTO.cs" />
     <Compile Include="DTO\StaffInfoDTO.cs" />
+    <Compile Include="DTO\SupplierDTO.cs" />
     <Compile Include="rAdmin\fAddMed.cs">
       <SubType>Form</SubType>
     </Compile>
