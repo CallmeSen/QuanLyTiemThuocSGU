@@ -101,7 +101,7 @@
             this.panel_Sidebar.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel_Sidebar.Location = new System.Drawing.Point(0, 0);
             this.panel_Sidebar.Name = "panel_Sidebar";
-            this.panel_Sidebar.Size = new System.Drawing.Size(217, 718);
+            this.panel_Sidebar.Size = new System.Drawing.Size(217, 711);
             this.panel_Sidebar.TabIndex = 8;
             // 
             // button_ThongBao
@@ -370,9 +370,10 @@
             // 
             // panel_ChildForm
             // 
+            this.panel_ChildForm.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel_ChildForm.Location = new System.Drawing.Point(217, 109);
             this.panel_ChildForm.Name = "panel_ChildForm";
-            this.panel_ChildForm.Size = new System.Drawing.Size(918, 736);
+            this.panel_ChildForm.Size = new System.Drawing.Size(1056, 602);
             this.panel_ChildForm.TabIndex = 11;
             // 
             // timer_SidebarTransition
@@ -402,7 +403,7 @@
             this.panel_Search.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel_Search.Location = new System.Drawing.Point(217, 59);
             this.panel_Search.Name = "panel_Search";
-            this.panel_Search.Size = new System.Drawing.Size(856, 50);
+            this.panel_Search.Size = new System.Drawing.Size(1056, 50);
             this.panel_Search.TabIndex = 12;
             // 
             // pictureBox_SearchIcon
@@ -448,7 +449,7 @@
             this.panel_Info.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel_Info.Location = new System.Drawing.Point(217, 0);
             this.panel_Info.Name = "panel_Info";
-            this.panel_Info.Size = new System.Drawing.Size(856, 59);
+            this.panel_Info.Size = new System.Drawing.Size(1056, 59);
             this.panel_Info.TabIndex = 13;
             // 
             // label_CurrentFunction
@@ -502,12 +503,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1073, 718);
+            this.ClientSize = new System.Drawing.Size(1273, 711);
+            this.Controls.Add(this.panel_ChildForm);
             this.Controls.Add(this.panel_Search);
             this.Controls.Add(this.panel_Info);
             this.Controls.Add(this.panel_Sidebar);
-            this.Controls.Add(this.panel_ChildForm);
             this.Name = "fStaff";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Employee Detail";
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.panel_Sidebar.ResumeLayout(false);

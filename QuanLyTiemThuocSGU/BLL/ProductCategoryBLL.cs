@@ -29,7 +29,7 @@ namespace QuanLyThuVienSGU_Winform.BLL
             {
                 return ProductCategoryDAO.Instance.AddCategory(categoryName);
             }
-            catch (Exception ex)
+            catch (Exception ex) // kiem loi tuong tu nhu may BLL khac
             {
                 Console.WriteLine($"Error adding category: {ex.Message}");
                 return false;

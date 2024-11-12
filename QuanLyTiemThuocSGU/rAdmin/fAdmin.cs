@@ -124,5 +124,19 @@ namespace QuanLyThuVienSGU_Winform
             label_CurrentFunction.Text = "> Tài khoản > Thông tin nhân viên";
             openChildForm(new fc_StaffDetail(employeeID)); //Fill ChildForm vào panel cố định trong giao diện
         }
+
+        private void button_ThongTinThuoc_Click(object sender, EventArgs e)
+        {
+            label_CurrentPage.Text = "Quản lí thuốc";
+            label_CurrentFunction.Text = "> Quản lí thuốc > Thông tin thuốc";
+            openChildForm(new fc_EditMed()); //Fill ChildForm vào panel cố định trong giao diện
+        }
+
+        private void button_ThongTinNhomThuoc_Click(object sender, EventArgs e)
+        {
+            label_CurrentPage.Text = "Quản lí thuốc";
+            label_CurrentFunction.Text = "> Quản lí thuốc > Thông tin thuốc";
+            openChildForm(new fc_EditStaff()); //Fill ChildForm vào panel cố định trong giao diện
+        }
     }
 }

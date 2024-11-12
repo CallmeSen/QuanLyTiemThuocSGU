@@ -54,8 +54,8 @@
     <Reference Include="Guna.Charts.WinForms, Version=1.0.8.0, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
       <HintPath>packages\Guna.Charts.WinForms.1.0.8\lib\net48\Guna.Charts.WinForms.dll</HintPath>
     </Reference>
-    <Reference Include="Guna.UI2, Version=2.0.4.4, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
-      <HintPath>packages\Guna.UI2.WinForms.2.0.4.4\lib\net48\Guna.UI2.dll</HintPath>
+    <Reference Include="Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.6\lib\net48\Guna.UI2.dll</HintPath>
     </Reference>
     <Reference Include="K4os.Compression.LZ4, Version=1.3.8.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d, processorArchitecture=MSIL">
       <HintPath>packages\K4os.Compression.LZ4.1.3.8\lib\net462\K4os.Compression.LZ4.dll</HintPath>
@@ -193,6 +193,7 @@
     <Compile Include="BLL\AccountBLL.cs" />
     <Compile Include="BLL\OrderBLL.cs" />
     <Compile Include="BLL\OrderInfoBLL.cs" />
+    <Compile Include="BLL\ProductBLL.cs" />
     <Compile Include="BLL\ProductCategoryBLL.cs" />
     <Compile Include="BLL\ShipmentBLL.cs" />
     <Compile Include="BLL\StaffInfoBLL.cs" />
@@ -202,20 +203,19 @@
     <Compile Include="DAO\OrderDAO.cs" />
     <Compile Include="DAO\OrderInfoDAO.cs" />
     <Compile Include="DAO\ProductCategoryDAO.cs" />
+    <Compile Include="DAO\ProductDAO.cs" />
     <Compile Include="DAO\ShipmentDAO.cs" />
     <Compile Include="DAO\StaffInfoDAO.cs" />
     <Compile Include="DAO\SupplierDAO.cs" />
     <Compile Include="DTO\OrderDTO.cs" />
     <Compile Include="DTO\OrderInfoDTO.cs" />
     <Compile Include="DTO\ProductCategoryDTO.cs" />
+    <Compile Include="DTO\ProductDTO.cs" />
     <Compile Include="DTO\ShipmentDTO.cs" />
     <Compile Include="DTO\StaffInfoDTO.cs" />
     <Compile Include="DTO\SupplierDTO.cs" />
-    <Compile Include="rAdmin\fAddMed.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="rAdmin\fAddMed.Designer.cs">
-      <DependentUpon>fAddMed.cs</DependentUpon>
+    <Compile Include="quanlycuahangthuocDataSet.cs">
+      <DependentUpon>quanlycuahangthuocDataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="rAdmin\fAdmin.cs">
       <SubType>Form</SubType>
@@ -223,23 +223,29 @@
     <Compile Include="rAdmin\fAdmin.Designer.cs">
       <DependentUpon>fAdmin.cs</DependentUpon>
     </Compile>
+    <Compile Include="rAdmin\fc_EditMed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rAdmin\fc_EditMed.Designer.cs">
+      <DependentUpon>fc_EditMed.cs</DependentUpon>
+    </Compile>
     <Compile Include="rAdmin\fDashboard.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="rAdmin\fDashboard.Designer.cs">
       <DependentUpon>fDashboard.cs</DependentUpon>
     </Compile>
-    <Compile Include="rAdmin\fEditAccount.cs">
+    <Compile Include="fEditAccount.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="rAdmin\fEditAccount.Designer.cs">
+    <Compile Include="fEditAccount.Designer.cs">
       <DependentUpon>fEditAccount.cs</DependentUpon>
     </Compile>
-    <Compile Include="rAdmin\fc_AddRemoveStaff.cs">
+    <Compile Include="rAdmin\fc_EditStaff.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="rAdmin\fc_AddRemoveStaff.Designer.cs">
-      <DependentUpon>fc_AddRemoveStaff.cs</DependentUpon>
+    <Compile Include="rAdmin\fc_EditStaff.Designer.cs">
+      <DependentUpon>fc_EditStaff.cs</DependentUpon>
     </Compile>
     <Compile Include="rStaff\fc_StaffDetail.cs">
       <SubType>Form</SubType>
@@ -247,11 +253,11 @@
     <Compile Include="rStaff\fc_StaffDetail.Designer.cs">
       <DependentUpon>fc_StaffDetail.cs</DependentUpon>
     </Compile>
-    <Compile Include="rAdmin\fEditMedDetail.cs">
+    <Compile Include="rAdmin\fcAddMed.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="rAdmin\fEditMedDetail.Designer.cs">
-      <DependentUpon>fEditMedDetail.cs</DependentUpon>
+    <Compile Include="rAdmin\fcAddMed.Designer.cs">
+      <DependentUpon>fcAddMed.cs</DependentUpon>
     </Compile>
     <Compile Include="fLandingPage.cs">
       <SubType>Form</SubType>
@@ -265,10 +271,10 @@
     <Compile Include="rAdmin\fListGroup.Designer.cs">
       <DependentUpon>fListGroup.cs</DependentUpon>
     </Compile>
-    <Compile Include="rAdmin\fMedDetail.cs">
+    <Compile Include="fMedDetail.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="rAdmin\fMedDetail.Designer.cs">
+    <Compile Include="fMedDetail.Designer.cs">
       <DependentUpon>fMedDetail.cs</DependentUpon>
     </Compile>
     <Compile Include="rStaff\fc_SellMed.cs">
@@ -289,10 +295,10 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="rAdmin\fListMed.cs">
+    <Compile Include="fListMed.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="rAdmin\fListMed.Designer.cs">
+    <Compile Include="fListMed.Designer.cs">
       <DependentUpon>fListMed.cs</DependentUpon>
     </Compile>
     <Compile Include="Login\fLoading.cs">
@@ -314,26 +320,26 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>quanlycuahangthuocDataSet.xsd</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="rAdmin\fAddMed.resx">
-      <DependentUpon>fAddMed.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="rAdmin\fAdmin.resx">
       <DependentUpon>fAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rAdmin\fc_EditMed.resx">
+      <DependentUpon>fc_EditMed.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="rAdmin\fDashboard.resx">
       <DependentUpon>fDashboard.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="rAdmin\fEditAccount.resx">
+    <EmbeddedResource Include="fEditAccount.resx">
       <DependentUpon>fEditAccount.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="rStaff\fc_StaffDetail.resx">
       <DependentUpon>fc_StaffDetail.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="rAdmin\fc_AddRemoveStaff.resx">
-      <DependentUpon>fc_AddRemoveStaff.cs</DependentUpon>
+    <EmbeddedResource Include="rAdmin\fc_EditStaff.resx">
+      <DependentUpon>fc_EditStaff.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="rAdmin\fEditMedDetail.resx">
-      <DependentUpon>fEditMedDetail.cs</DependentUpon>
+    <EmbeddedResource Include="rAdmin\fcAddMed.resx">
+      <DependentUpon>fcAddMed.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="fLandingPage.resx">
       <DependentUpon>fLandingPage.cs</DependentUpon>
@@ -341,7 +347,7 @@
     <EmbeddedResource Include="rAdmin\fListGroup.resx">
       <DependentUpon>fListGroup.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="rAdmin\fMedDetail.resx">
+    <EmbeddedResource Include="fMedDetail.resx">
       <DependentUpon>fMedDetail.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="rStaff\fc_SellMed.resx">
@@ -353,7 +359,7 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="rAdmin\fListMed.resx">
+    <EmbeddedResource Include="fListMed.resx">
       <DependentUpon>fListMed.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login\fLoading.resx">

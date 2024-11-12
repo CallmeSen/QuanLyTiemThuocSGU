@@ -52,8 +52,8 @@
             this.button_ThongBao = new System.Windows.Forms.Button();
             this.button_ThongKe = new System.Windows.Forms.Button();
             this.panel_ChildQuanLiNhomThuoc = new System.Windows.Forms.Panel();
-            this.button_ChinhSuaNhomThuoc = new System.Windows.Forms.Button();
-            this.button_ThongTinNhomThuoc = new System.Windows.Forms.Button();
+            this.button_ChinhSuaNhanVien = new System.Windows.Forms.Button();
+            this.button_ThongTinNhanVien = new System.Windows.Forms.Button();
             this.timer_QuanLiThuocTransition = new System.Windows.Forms.Timer(this.components);
             this.timer_QuanLiNhomThuocTransition = new System.Windows.Forms.Timer(this.components);
             this.button_TaiKhoanNhanVien = new System.Windows.Forms.Button();
@@ -83,7 +83,7 @@
             this.panel_Search.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel_Search.Location = new System.Drawing.Point(217, 59);
             this.panel_Search.Name = "panel_Search";
-            this.panel_Search.Size = new System.Drawing.Size(891, 50);
+            this.panel_Search.Size = new System.Drawing.Size(1165, 50);
             this.panel_Search.TabIndex = 5;
             // 
             // pictureBox_SearchIcon
@@ -129,7 +129,7 @@
             this.panel_Info.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel_Info.Location = new System.Drawing.Point(217, 0);
             this.panel_Info.Name = "panel_Info";
-            this.panel_Info.Size = new System.Drawing.Size(891, 59);
+            this.panel_Info.Size = new System.Drawing.Size(1165, 59);
             this.panel_Info.TabIndex = 6;
             // 
             // label_CurrentFunction
@@ -273,7 +273,7 @@
             this.button_QuanLiNhomThuoc.Name = "button_QuanLiNhomThuoc";
             this.button_QuanLiNhomThuoc.Size = new System.Drawing.Size(217, 50);
             this.button_QuanLiNhomThuoc.TabIndex = 10;
-            this.button_QuanLiNhomThuoc.Text = "          Quản lí nhóm thuốc";
+            this.button_QuanLiNhomThuoc.Text = "          Quản lí nhân viên";
             this.button_QuanLiNhomThuoc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button_QuanLiNhomThuoc.UseVisualStyleBackColor = true;
             this.button_QuanLiNhomThuoc.Click += new System.EventHandler(this.button_QuanLiNhomThuoc_Click);
@@ -320,6 +320,7 @@
             this.button_ThongTinThuoc.Text = "           > Thông tin thuốc ";
             this.button_ThongTinThuoc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button_ThongTinThuoc.UseVisualStyleBackColor = false;
+            this.button_ThongTinThuoc.Click += new System.EventHandler(this.button_ThongTinThuoc_Click);
             // 
             // timer_TaiKhoanNhanVienTransition
             // 
@@ -364,45 +365,46 @@
             // 
             // panel_ChildQuanLiNhomThuoc
             // 
-            this.panel_ChildQuanLiNhomThuoc.Controls.Add(this.button_ChinhSuaNhomThuoc);
-            this.panel_ChildQuanLiNhomThuoc.Controls.Add(this.button_ThongTinNhomThuoc);
+            this.panel_ChildQuanLiNhomThuoc.Controls.Add(this.button_ChinhSuaNhanVien);
+            this.panel_ChildQuanLiNhomThuoc.Controls.Add(this.button_ThongTinNhanVien);
             this.panel_ChildQuanLiNhomThuoc.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel_ChildQuanLiNhomThuoc.Location = new System.Drawing.Point(0, 509);
             this.panel_ChildQuanLiNhomThuoc.Name = "panel_ChildQuanLiNhomThuoc";
             this.panel_ChildQuanLiNhomThuoc.Size = new System.Drawing.Size(217, 100);
             this.panel_ChildQuanLiNhomThuoc.TabIndex = 12;
             // 
-            // button_ChinhSuaNhomThuoc
+            // button_ChinhSuaNhanVien
             // 
-            this.button_ChinhSuaNhomThuoc.BackColor = System.Drawing.Color.Gainsboro;
-            this.button_ChinhSuaNhomThuoc.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button_ChinhSuaNhomThuoc.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button_ChinhSuaNhomThuoc.FlatAppearance.BorderSize = 0;
-            this.button_ChinhSuaNhomThuoc.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_ChinhSuaNhomThuoc.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_ChinhSuaNhomThuoc.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(40)))), ((int)(((byte)(94)))));
-            this.button_ChinhSuaNhomThuoc.Location = new System.Drawing.Point(0, 50);
-            this.button_ChinhSuaNhomThuoc.Name = "button_ChinhSuaNhomThuoc";
-            this.button_ChinhSuaNhomThuoc.Size = new System.Drawing.Size(217, 50);
-            this.button_ChinhSuaNhomThuoc.TabIndex = 16;
-            this.button_ChinhSuaNhomThuoc.Text = "           > Chỉnh sửa nhóm thuốc\r\n";
-            this.button_ChinhSuaNhomThuoc.UseVisualStyleBackColor = false;
+            this.button_ChinhSuaNhanVien.BackColor = System.Drawing.Color.Gainsboro;
+            this.button_ChinhSuaNhanVien.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button_ChinhSuaNhanVien.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button_ChinhSuaNhanVien.FlatAppearance.BorderSize = 0;
+            this.button_ChinhSuaNhanVien.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_ChinhSuaNhanVien.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_ChinhSuaNhanVien.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(40)))), ((int)(((byte)(94)))));
+            this.button_ChinhSuaNhanVien.Location = new System.Drawing.Point(0, 50);
+            this.button_ChinhSuaNhanVien.Name = "button_ChinhSuaNhanVien";
+            this.button_ChinhSuaNhanVien.Size = new System.Drawing.Size(217, 50);
+            this.button_ChinhSuaNhanVien.TabIndex = 16;
+            this.button_ChinhSuaNhanVien.Text = "          > Chỉnh sửa nhân viên\r\n";
+            this.button_ChinhSuaNhanVien.UseVisualStyleBackColor = false;
             // 
-            // button_ThongTinNhomThuoc
+            // button_ThongTinNhanVien
             // 
-            this.button_ThongTinNhomThuoc.BackColor = System.Drawing.Color.Gainsboro;
-            this.button_ThongTinNhomThuoc.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button_ThongTinNhomThuoc.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button_ThongTinNhomThuoc.FlatAppearance.BorderSize = 0;
-            this.button_ThongTinNhomThuoc.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_ThongTinNhomThuoc.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_ThongTinNhomThuoc.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(40)))), ((int)(((byte)(94)))));
-            this.button_ThongTinNhomThuoc.Location = new System.Drawing.Point(0, 0);
-            this.button_ThongTinNhomThuoc.Name = "button_ThongTinNhomThuoc";
-            this.button_ThongTinNhomThuoc.Size = new System.Drawing.Size(217, 50);
-            this.button_ThongTinNhomThuoc.TabIndex = 15;
-            this.button_ThongTinNhomThuoc.Text = "           > Thông tin nhóm thuốc\r\n";
-            this.button_ThongTinNhomThuoc.UseVisualStyleBackColor = false;
+            this.button_ThongTinNhanVien.BackColor = System.Drawing.Color.Gainsboro;
+            this.button_ThongTinNhanVien.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button_ThongTinNhanVien.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button_ThongTinNhanVien.FlatAppearance.BorderSize = 0;
+            this.button_ThongTinNhanVien.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_ThongTinNhanVien.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_ThongTinNhanVien.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(40)))), ((int)(((byte)(94)))));
+            this.button_ThongTinNhanVien.Location = new System.Drawing.Point(0, 0);
+            this.button_ThongTinNhanVien.Name = "button_ThongTinNhanVien";
+            this.button_ThongTinNhanVien.Size = new System.Drawing.Size(217, 50);
+            this.button_ThongTinNhanVien.TabIndex = 15;
+            this.button_ThongTinNhanVien.Text = "           > Thông tin nhân viên\r\n\r\n";
+            this.button_ThongTinNhanVien.UseVisualStyleBackColor = false;
+            this.button_ThongTinNhanVien.Click += new System.EventHandler(this.button_ThongTinNhomThuoc_Click);
             // 
             // timer_QuanLiThuocTransition
             // 
@@ -493,20 +495,21 @@
             // 
             // panel_ChildForm
             // 
+            this.panel_ChildForm.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel_ChildForm.Location = new System.Drawing.Point(217, 109);
             this.panel_ChildForm.Name = "panel_ChildForm";
-            this.panel_ChildForm.Size = new System.Drawing.Size(891, 678);
+            this.panel_ChildForm.Size = new System.Drawing.Size(1165, 678);
             this.panel_ChildForm.TabIndex = 7;
             // 
             // fAdmin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1108, 787);
+            this.ClientSize = new System.Drawing.Size(1382, 787);
+            this.Controls.Add(this.panel_ChildForm);
             this.Controls.Add(this.panel_Search);
             this.Controls.Add(this.panel_Info);
             this.Controls.Add(this.panel_Sidebar);
-            this.Controls.Add(this.panel_ChildForm);
             this.Name = "fAdmin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "fAdmin";
@@ -550,8 +553,8 @@
         private System.Windows.Forms.Button button_ThongBao;
         private System.Windows.Forms.Button button_ThongKe;
         private System.Windows.Forms.Panel panel_ChildQuanLiNhomThuoc;
-        private System.Windows.Forms.Button button_ChinhSuaNhomThuoc;
-        private System.Windows.Forms.Button button_ThongTinNhomThuoc;
+        private System.Windows.Forms.Button button_ChinhSuaNhanVien;
+        private System.Windows.Forms.Button button_ThongTinNhanVien;
         private System.Windows.Forms.Timer timer_QuanLiThuocTransition;
         private System.Windows.Forms.Timer timer_QuanLiNhomThuocTransition;
         private System.Windows.Forms.Button button_TaiKhoanNhanVien;

@@ -127,7 +127,27 @@ VALUES
 ('Blood Pressure Monitor', 5, 4, 1200000, 15, NULL),
 ('Face Mask (50-pack)', 4, 3, 50000, 300, NULL),
 ('Amoxicillin 250mg', 1, 1, 4000, 150, '2023-12-01'),
-('Fish Oil 1000mg', 3, 2, 130000, 120, '2025-07-20');
+('Fish Oil 1000mg', 3, 2, 130000, 120, '2025-07-20'),
+('Vitamin C 500mg', 3, 2, 90000, 300, '2024-09-15'),
+('Disposable Syringe 10ml', 4, 3, 700, 1000, NULL),
+('Digital Thermometer', 5, 4, 80000, 50, NULL),
+('Ibuprofen 400mg', 2, 1, 3000, 450, '2025-02-10'),
+('Glucometer Test Strips (50-pack)', 5, 4, 55000, 80, '2024-11-30'),
+('Hand Sanitizer 500ml', 4, 3, 25000, 200, NULL),
+('Omeprazole 20mg', 1, 1, 4500, 250, '2024-06-20'),
+('Calcium + Vitamin D Tablets', 3, 2, 125000, 180, '2025-01-15'),
+('Nebulizer Machine', 5, 4, 1500000, 20, NULL),
+('Surgical Gloves (100-pack)', 4, 3, 45000, 600, NULL),
+('Metformin 500mg', 1, 1, 2000, 300, '2025-03-10'),
+('Probiotic Supplement', 3, 2, 160000, 100, '2024-10-05'),
+('Wound Dressing Kit', 4, 3, 35000, 50, NULL),
+('Antacid Suspension', 2, 1, 5500, 400, '2023-11-30'),
+('Omega-3 500mg', 3, 2, 145000, 200, '2025-05-25'),
+('Insulin Syringes', 4, 3, 1200, 750, NULL),
+('Blood Glucose Meter', 5, 4, 1250000, 25, NULL),
+('Surgical Mask N95', 4, 3, 10000, 500, NULL),
+('Iron Supplement', 3, 2, 110000, 150, '2024-12-20'),
+('Vitamin D3 1000 IU', 3, 2, 90000, 180, '2025-08-01');
 GO
 
 -- Chèn dữ liệu giả cho bảng Employees
@@ -198,12 +218,16 @@ GO
 
 -- Stored procedure to retrieve employee details by ID
 CREATE PROC USP_GetEmployeeByID
-    @EmployeeID INT
+    @EmployeeID INT = NULL
 AS
 BEGIN
-    SELECT * FROM Employees WHERE EmployeeID = @EmployeeID
+    IF @EmployeeID IS NULL
+        SELECT * FROM Employees
+    ELSE
+        SELECT * FROM Employees WHERE EmployeeID = @EmployeeID
 END
 GO
+
 
 -- Stored procedure to add a new employee
 CREATE PROC USP_AddEmployee
@@ -342,6 +366,57 @@ BEGIN
 END
 GO
 
+CREATE PROCEDURE USP_AddProduct
+    @ProductName NVARCHAR(255),
+    @CategoryID INT,
+    @SupplierID INT,
+    @Price DECIMAL(10, 2),
+    @QuantityInStock INT,
+    @ExpirationDate DATE
+AS
+BEGIN
+    INSERT INTO Products (ProductName, CategoryID, SupplierID, Price, QuantityInStock, ExpirationDate)
+    VALUES (@ProductName, @CategoryID, @SupplierID, @Price, @QuantityInStock, @ExpirationDate);
+END
+GO
+
+CREATE PROCEDURE USP_GetAllProducts
+AS
+BEGIN
+    SELECT * FROM Products;
+END
+GO
+
+CREATE PROCEDURE USP_UpdateProduct
+    @ProductID INT,
+    @ProductName NVARCHAR(255),
+    @CategoryID INT,
+    @SupplierID INT,
+    @Price DECIMAL(10, 2),
+    @QuantityInStock INT,
+    @ExpirationDate DATE
+AS
+BEGIN
+    UPDATE Products
+    SET ProductName = @ProductName,
+        CategoryID = @CategoryID,
+        SupplierID = @SupplierID,
+        Price = @Price,
+        QuantityInStock = @QuantityInStock,
+        ExpirationDate = @ExpirationDate
+    WHERE ProductID = @ProductID;
+END
+GO
+
+CREATE PROCEDURE USP_DeleteProduct
+    @ProductID INT
+AS
+BEGIN
+    DELETE FROM Products WHERE ProductID = @ProductID;
+END
+GO
+
+
 CREATE PROCEDURE USP_AddCategory
     @CategoryName NVARCHAR(255)
 AS
@@ -374,6 +449,98 @@ CREATE PROCEDURE USP_DeleteCategory
 AS
 BEGIN
     DELETE FROM ProductCategory WHERE CategoryID = @CategoryID;
+END
+GO
+
+
+CREATE PROCEDURE USP_AddShipment
+    @SupplierID INT,
+    @ProductID INT,
+    @Quantity INT,
+    @ShipmentDate DATE,
+    @ArrivalDate DATE
+AS
+BEGIN
+    INSERT INTO Shipments (SupplierID, ProductID, Quantity, ShipmentDate, ArrivalDate)
+    VALUES (@SupplierID, @ProductID, @Quantity, @ShipmentDate, @ArrivalDate);
+END
+GO
+
+CREATE PROCEDURE USP_GetAllShipments
+AS
+BEGIN
+    SELECT * FROM Shipments;
+END
+GO
+
+CREATE PROCEDURE USP_UpdateShipment
+    @ShipmentID INT,
+    @SupplierID INT,
+    @ProductID INT,
+    @Quantity INT,
+    @ShipmentDate DATE,
+    @ArrivalDate DATE
+AS
+BEGIN
+    UPDATE Shipments
+    SET SupplierID = @SupplierID,
+        ProductID = @ProductID,
+        Quantity = @Quantity,
+        ShipmentDate = @ShipmentDate,
+        ArrivalDate = @ArrivalDate
+    WHERE ShipmentID = @ShipmentID;
+END
+GO
+
+CREATE PROCEDURE USP_DeleteShipment
+    @ShipmentID INT
+AS
+BEGIN
+    DELETE FROM Shipments WHERE ShipmentID = @ShipmentID;
+END
+GO
+
+CREATE PROCEDURE USP_AddSupplier
+    @SupplierName NVARCHAR(255),
+    @Phone NVARCHAR(15),
+    @Email NVARCHAR(255),
+    @Address NVARCHAR(255)
+AS
+BEGIN
+    INSERT INTO Suppliers (SupplierName, Phone, Email, Address)
+    VALUES (@SupplierName, @Phone, @Email, @Address);
+END
+GO
+
+CREATE PROCEDURE USP_GetAllSuppliers
+AS
+BEGIN
+    SELECT * FROM Suppliers;
+END
+GO
+
+CREATE PROCEDURE USP_UpdateSupplier
+    @SupplierID INT,
+    @SupplierName NVARCHAR(255),
+    @Phone NVARCHAR(15),
+    @Email NVARCHAR(255),
+    @Address NVARCHAR(255)
+AS
+BEGIN
+    UPDATE Suppliers
+    SET SupplierName = @SupplierName,
+        Phone = @Phone,
+        Email = @Email,
+        Address = @Address
+    WHERE SupplierID = @SupplierID;
+END
+GO
+
+CREATE PROCEDURE USP_DeleteSupplier
+    @SupplierID INT
+AS
+BEGIN
+    DELETE FROM Suppliers WHERE SupplierID = @SupplierID;
 END
 GO
 

@@ -101,7 +101,6 @@ namespace QuanLyThuVienSGU_Winform
         {
             textBox_NhanVienName = ConvertLabelToTextBox(label_NhanVienName);
             textBox_SoDienThoaiInfo = ConvertLabelToTextBox(label_SoDienThoaiInfo);
-            textBox_GioiThieu.Enabled = true;
         }
 
         private void button_SaveInsert_Click(object sender, EventArgs e)
@@ -123,7 +122,6 @@ namespace QuanLyThuVienSGU_Winform
         private void button_ResetInsert_Click(object sender, EventArgs e)
         {
             ApplyChangesToLabels();
-            textBox_GioiThieu.Enabled = false;
             LoadData(employeeID);
         }
 
