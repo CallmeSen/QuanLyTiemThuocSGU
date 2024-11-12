@@ -28,23 +28,23 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.txtCustomerName = new Guna.UI2.WinForms.Guna2TextBox();
             this.txtCustomerContact = new Guna.UI2.WinForms.Guna2TextBox();
-            this.dgvMedicineList = new Guna.UI2.WinForms.Guna2DataGridView();
-            this.btnAddMedicine = new Guna.UI2.WinForms.Guna2Button();
+            this.dgvHoaDonMua = new Guna.UI2.WinForms.Guna2DataGridView();
+            this.btnThemThuoc = new Guna.UI2.WinForms.Guna2Button();
             this.btnRemoveMedicine = new Guna.UI2.WinForms.Guna2Button();
             this.lblTotal = new System.Windows.Forms.Label();
             this.btnGenerateBill = new Guna.UI2.WinForms.Guna2Button();
             this.txbTotal = new System.Windows.Forms.TextBox();
-            this.txbFindMed = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2TextBox3 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2TextBox5 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2TextBox6 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.listView1 = new System.Windows.Forms.ListView();
+            this.txbTimThuoc = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txbIDThuoc = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txbTenThuoc = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txbGiaThuoc = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txbSoLuong = new Guna.UI2.WinForms.Guna2TextBox();
+            this.lsDanhSachThuoc = new System.Windows.Forms.ListView();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -52,8 +52,8 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.guna2TextBox7 = new Guna.UI2.WinForms.Guna2TextBox();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvMedicineList)).BeginInit();
+            this.txbTongGia = new Guna.UI2.WinForms.Guna2TextBox();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvHoaDonMua)).BeginInit();
             this.SuspendLayout();
             // 
             // txtCustomerName
@@ -82,71 +82,71 @@
             this.txtCustomerContact.Size = new System.Drawing.Size(300, 36);
             this.txtCustomerContact.TabIndex = 28;
             // 
-            // dgvMedicineList
+            // dgvHoaDonMua
             // 
-            this.dgvMedicineList.AllowUserToAddRows = false;
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
-            this.dgvMedicineList.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
-            this.dgvMedicineList.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.dgvMedicineList.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvMedicineList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
-            this.dgvMedicineList.ColumnHeadersHeight = 15;
-            this.dgvMedicineList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvMedicineList.DefaultCellStyle = dataGridViewCellStyle6;
-            this.dgvMedicineList.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.dgvMedicineList.Location = new System.Drawing.Point(333, 257);
-            this.dgvMedicineList.Name = "dgvMedicineList";
-            this.dgvMedicineList.RowHeadersVisible = false;
-            this.dgvMedicineList.Size = new System.Drawing.Size(673, 216);
-            this.dgvMedicineList.TabIndex = 29;
-            this.dgvMedicineList.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
-            this.dgvMedicineList.ThemeStyle.AlternatingRowsStyle.Font = null;
-            this.dgvMedicineList.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
-            this.dgvMedicineList.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
-            this.dgvMedicineList.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
-            this.dgvMedicineList.ThemeStyle.BackColor = System.Drawing.Color.White;
-            this.dgvMedicineList.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.dgvMedicineList.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.dgvMedicineList.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            this.dgvMedicineList.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dgvMedicineList.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
-            this.dgvMedicineList.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            this.dgvMedicineList.ThemeStyle.HeaderStyle.Height = 15;
-            this.dgvMedicineList.ThemeStyle.ReadOnly = false;
-            this.dgvMedicineList.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
-            this.dgvMedicineList.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.dgvMedicineList.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dgvMedicineList.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            this.dgvMedicineList.ThemeStyle.RowsStyle.Height = 22;
-            this.dgvMedicineList.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.dgvMedicineList.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.dgvHoaDonMua.AllowUserToAddRows = false;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
+            this.dgvHoaDonMua.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            this.dgvHoaDonMua.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.dgvHoaDonMua.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvHoaDonMua.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            this.dgvHoaDonMua.ColumnHeadersHeight = 15;
+            this.dgvHoaDonMua.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvHoaDonMua.DefaultCellStyle = dataGridViewCellStyle3;
+            this.dgvHoaDonMua.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.dgvHoaDonMua.Location = new System.Drawing.Point(333, 257);
+            this.dgvHoaDonMua.Name = "dgvHoaDonMua";
+            this.dgvHoaDonMua.RowHeadersVisible = false;
+            this.dgvHoaDonMua.Size = new System.Drawing.Size(673, 216);
+            this.dgvHoaDonMua.TabIndex = 29;
+            this.dgvHoaDonMua.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
+            this.dgvHoaDonMua.ThemeStyle.AlternatingRowsStyle.Font = null;
+            this.dgvHoaDonMua.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
+            this.dgvHoaDonMua.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
+            this.dgvHoaDonMua.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
+            this.dgvHoaDonMua.ThemeStyle.BackColor = System.Drawing.Color.White;
+            this.dgvHoaDonMua.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.dgvHoaDonMua.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.dgvHoaDonMua.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
+            this.dgvHoaDonMua.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dgvHoaDonMua.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
+            this.dgvHoaDonMua.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            this.dgvHoaDonMua.ThemeStyle.HeaderStyle.Height = 15;
+            this.dgvHoaDonMua.ThemeStyle.ReadOnly = false;
+            this.dgvHoaDonMua.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
+            this.dgvHoaDonMua.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.dgvHoaDonMua.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dgvHoaDonMua.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.dgvHoaDonMua.ThemeStyle.RowsStyle.Height = 22;
+            this.dgvHoaDonMua.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.dgvHoaDonMua.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             // 
-            // btnAddMedicine
+            // btnThemThuoc
             // 
-            this.btnAddMedicine.BackColor = System.Drawing.Color.Transparent;
-            this.btnAddMedicine.BorderRadius = 8;
-            this.btnAddMedicine.FillColor = System.Drawing.Color.Green;
-            this.btnAddMedicine.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnAddMedicine.ForeColor = System.Drawing.Color.White;
-            this.btnAddMedicine.Location = new System.Drawing.Point(856, 206);
-            this.btnAddMedicine.Name = "btnAddMedicine";
-            this.btnAddMedicine.Size = new System.Drawing.Size(150, 45);
-            this.btnAddMedicine.TabIndex = 30;
-            this.btnAddMedicine.Text = "Thêm Thuốc";
+            this.btnThemThuoc.BackColor = System.Drawing.Color.Transparent;
+            this.btnThemThuoc.BorderRadius = 8;
+            this.btnThemThuoc.FillColor = System.Drawing.Color.Green;
+            this.btnThemThuoc.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnThemThuoc.ForeColor = System.Drawing.Color.White;
+            this.btnThemThuoc.Location = new System.Drawing.Point(856, 206);
+            this.btnThemThuoc.Name = "btnThemThuoc";
+            this.btnThemThuoc.Size = new System.Drawing.Size(150, 45);
+            this.btnThemThuoc.TabIndex = 30;
+            this.btnThemThuoc.Text = "Thêm Thuốc";
             // 
             // btnRemoveMedicine
             // 
@@ -192,79 +192,79 @@
             this.txbTotal.Size = new System.Drawing.Size(258, 25);
             this.txbTotal.TabIndex = 36;
             // 
-            // txbFindMed
+            // txbTimThuoc
             // 
-            this.txbFindMed.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txbFindMed.DefaultText = "";
-            this.txbFindMed.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.txbFindMed.Location = new System.Drawing.Point(12, 35);
-            this.txbFindMed.Name = "txbFindMed";
-            this.txbFindMed.PasswordChar = '\0';
-            this.txbFindMed.PlaceholderText = "Nhập tên thuốc";
-            this.txbFindMed.SelectedText = "";
-            this.txbFindMed.Size = new System.Drawing.Size(300, 36);
-            this.txbFindMed.TabIndex = 37;
+            this.txbTimThuoc.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txbTimThuoc.DefaultText = "";
+            this.txbTimThuoc.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txbTimThuoc.Location = new System.Drawing.Point(12, 35);
+            this.txbTimThuoc.Name = "txbTimThuoc";
+            this.txbTimThuoc.PasswordChar = '\0';
+            this.txbTimThuoc.PlaceholderText = "Nhập tên thuốc";
+            this.txbTimThuoc.SelectedText = "";
+            this.txbTimThuoc.Size = new System.Drawing.Size(300, 36);
+            this.txbTimThuoc.TabIndex = 37;
             // 
-            // guna2TextBox2
+            // txbIDThuoc
             // 
-            this.guna2TextBox2.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox2.DefaultText = "";
-            this.guna2TextBox2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TextBox2.Location = new System.Drawing.Point(368, 35);
-            this.guna2TextBox2.Name = "guna2TextBox2";
-            this.guna2TextBox2.PasswordChar = '\0';
-            this.guna2TextBox2.PlaceholderText = "Enter Customer Contact";
-            this.guna2TextBox2.SelectedText = "";
-            this.guna2TextBox2.Size = new System.Drawing.Size(300, 36);
-            this.guna2TextBox2.TabIndex = 38;
+            this.txbIDThuoc.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txbIDThuoc.DefaultText = "";
+            this.txbIDThuoc.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txbIDThuoc.Location = new System.Drawing.Point(368, 35);
+            this.txbIDThuoc.Name = "txbIDThuoc";
+            this.txbIDThuoc.PasswordChar = '\0';
+            this.txbIDThuoc.PlaceholderText = "Enter Customer Contact";
+            this.txbIDThuoc.SelectedText = "";
+            this.txbIDThuoc.Size = new System.Drawing.Size(300, 36);
+            this.txbIDThuoc.TabIndex = 38;
             // 
-            // guna2TextBox3
+            // txbTenThuoc
             // 
-            this.guna2TextBox3.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox3.DefaultText = "";
-            this.guna2TextBox3.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TextBox3.Location = new System.Drawing.Point(368, 99);
-            this.guna2TextBox3.Name = "guna2TextBox3";
-            this.guna2TextBox3.PasswordChar = '\0';
-            this.guna2TextBox3.PlaceholderText = "Enter Customer Contact";
-            this.guna2TextBox3.SelectedText = "";
-            this.guna2TextBox3.Size = new System.Drawing.Size(300, 36);
-            this.guna2TextBox3.TabIndex = 39;
+            this.txbTenThuoc.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txbTenThuoc.DefaultText = "";
+            this.txbTenThuoc.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txbTenThuoc.Location = new System.Drawing.Point(368, 99);
+            this.txbTenThuoc.Name = "txbTenThuoc";
+            this.txbTenThuoc.PasswordChar = '\0';
+            this.txbTenThuoc.PlaceholderText = "Enter Customer Contact";
+            this.txbTenThuoc.SelectedText = "";
+            this.txbTenThuoc.Size = new System.Drawing.Size(300, 36);
+            this.txbTenThuoc.TabIndex = 39;
             // 
-            // guna2TextBox5
+            // txbGiaThuoc
             // 
-            this.guna2TextBox5.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox5.DefaultText = "";
-            this.guna2TextBox5.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TextBox5.Location = new System.Drawing.Point(706, 35);
-            this.guna2TextBox5.Name = "guna2TextBox5";
-            this.guna2TextBox5.PasswordChar = '\0';
-            this.guna2TextBox5.PlaceholderText = "Enter Customer Contact";
-            this.guna2TextBox5.SelectedText = "";
-            this.guna2TextBox5.Size = new System.Drawing.Size(300, 36);
-            this.guna2TextBox5.TabIndex = 41;
+            this.txbGiaThuoc.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txbGiaThuoc.DefaultText = "";
+            this.txbGiaThuoc.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txbGiaThuoc.Location = new System.Drawing.Point(706, 35);
+            this.txbGiaThuoc.Name = "txbGiaThuoc";
+            this.txbGiaThuoc.PasswordChar = '\0';
+            this.txbGiaThuoc.PlaceholderText = "Enter Customer Contact";
+            this.txbGiaThuoc.SelectedText = "";
+            this.txbGiaThuoc.Size = new System.Drawing.Size(300, 36);
+            this.txbGiaThuoc.TabIndex = 41;
             // 
-            // guna2TextBox6
+            // txbSoLuong
             // 
-            this.guna2TextBox6.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox6.DefaultText = "";
-            this.guna2TextBox6.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TextBox6.Location = new System.Drawing.Point(706, 99);
-            this.guna2TextBox6.Name = "guna2TextBox6";
-            this.guna2TextBox6.PasswordChar = '\0';
-            this.guna2TextBox6.PlaceholderText = "Enter Customer Contact";
-            this.guna2TextBox6.SelectedText = "";
-            this.guna2TextBox6.Size = new System.Drawing.Size(300, 36);
-            this.guna2TextBox6.TabIndex = 42;
+            this.txbSoLuong.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txbSoLuong.DefaultText = "";
+            this.txbSoLuong.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txbSoLuong.Location = new System.Drawing.Point(706, 99);
+            this.txbSoLuong.Name = "txbSoLuong";
+            this.txbSoLuong.PasswordChar = '\0';
+            this.txbSoLuong.PlaceholderText = "Enter Customer Contact";
+            this.txbSoLuong.SelectedText = "";
+            this.txbSoLuong.Size = new System.Drawing.Size(300, 36);
+            this.txbSoLuong.TabIndex = 42;
             // 
-            // listView1
+            // lsDanhSachThuoc
             // 
-            this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(12, 116);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(300, 454);
-            this.listView1.TabIndex = 44;
-            this.listView1.UseCompatibleStateImageBehavior = false;
+            this.lsDanhSachThuoc.HideSelection = false;
+            this.lsDanhSachThuoc.Location = new System.Drawing.Point(12, 116);
+            this.lsDanhSachThuoc.Name = "lsDanhSachThuoc";
+            this.lsDanhSachThuoc.Size = new System.Drawing.Size(300, 454);
+            this.lsDanhSachThuoc.TabIndex = 44;
+            this.lsDanhSachThuoc.UseCompatibleStateImageBehavior = false;
             // 
             // guna2Button1
             // 
@@ -339,18 +339,18 @@
             this.label5.TabIndex = 50;
             this.label5.Text = "Tổng giá";
             // 
-            // guna2TextBox7
+            // txbTongGia
             // 
-            this.guna2TextBox7.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox7.DefaultText = "";
-            this.guna2TextBox7.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TextBox7.Location = new System.Drawing.Point(706, 164);
-            this.guna2TextBox7.Name = "guna2TextBox7";
-            this.guna2TextBox7.PasswordChar = '\0';
-            this.guna2TextBox7.PlaceholderText = "Enter Customer Contact";
-            this.guna2TextBox7.SelectedText = "";
-            this.guna2TextBox7.Size = new System.Drawing.Size(300, 36);
-            this.guna2TextBox7.TabIndex = 43;
+            this.txbTongGia.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txbTongGia.DefaultText = "";
+            this.txbTongGia.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txbTongGia.Location = new System.Drawing.Point(706, 164);
+            this.txbTongGia.Name = "txbTongGia";
+            this.txbTongGia.PasswordChar = '\0';
+            this.txbTongGia.PlaceholderText = "Enter Customer Contact";
+            this.txbTongGia.SelectedText = "";
+            this.txbTongGia.Size = new System.Drawing.Size(300, 36);
+            this.txbTongGia.TabIndex = 43;
             // 
             // fc_SellMed
             // 
@@ -364,25 +364,25 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.guna2Button1);
-            this.Controls.Add(this.listView1);
-            this.Controls.Add(this.guna2TextBox7);
-            this.Controls.Add(this.guna2TextBox6);
-            this.Controls.Add(this.guna2TextBox5);
-            this.Controls.Add(this.guna2TextBox3);
-            this.Controls.Add(this.guna2TextBox2);
-            this.Controls.Add(this.txbFindMed);
+            this.Controls.Add(this.lsDanhSachThuoc);
+            this.Controls.Add(this.txbTongGia);
+            this.Controls.Add(this.txbSoLuong);
+            this.Controls.Add(this.txbGiaThuoc);
+            this.Controls.Add(this.txbTenThuoc);
+            this.Controls.Add(this.txbIDThuoc);
+            this.Controls.Add(this.txbTimThuoc);
             this.Controls.Add(this.txbTotal);
             this.Controls.Add(this.txtCustomerName);
             this.Controls.Add(this.txtCustomerContact);
-            this.Controls.Add(this.dgvMedicineList);
-            this.Controls.Add(this.btnAddMedicine);
+            this.Controls.Add(this.dgvHoaDonMua);
+            this.Controls.Add(this.btnThemThuoc);
             this.Controls.Add(this.btnRemoveMedicine);
             this.Controls.Add(this.lblTotal);
             this.Controls.Add(this.btnGenerateBill);
             this.Name = "fc_SellMed";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "fSellMed";
-            ((System.ComponentModel.ISupportInitialize)(this.dgvMedicineList)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvHoaDonMua)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -392,18 +392,18 @@
 
         private Guna.UI2.WinForms.Guna2TextBox txtCustomerName;
         private Guna.UI2.WinForms.Guna2TextBox txtCustomerContact;
-        private Guna.UI2.WinForms.Guna2DataGridView dgvMedicineList;
-        private Guna.UI2.WinForms.Guna2Button btnAddMedicine;
+        private Guna.UI2.WinForms.Guna2DataGridView dgvHoaDonMua;
+        private Guna.UI2.WinForms.Guna2Button btnThemThuoc;
         private Guna.UI2.WinForms.Guna2Button btnRemoveMedicine;
         private System.Windows.Forms.Label lblTotal;
         private Guna.UI2.WinForms.Guna2Button btnGenerateBill;
         private System.Windows.Forms.TextBox txbTotal;
-        private Guna.UI2.WinForms.Guna2TextBox txbFindMed;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox2;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox3;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox5;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox6;
-        private System.Windows.Forms.ListView listView1;
+        private Guna.UI2.WinForms.Guna2TextBox txbTimThuoc;
+        private Guna.UI2.WinForms.Guna2TextBox txbIDThuoc;
+        private Guna.UI2.WinForms.Guna2TextBox txbTenThuoc;
+        private Guna.UI2.WinForms.Guna2TextBox txbGiaThuoc;
+        private Guna.UI2.WinForms.Guna2TextBox txbSoLuong;
+        private System.Windows.Forms.ListView lsDanhSachThuoc;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
@@ -411,6 +411,6 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label5;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox7;
+        private Guna.UI2.WinForms.Guna2TextBox txbTongGia;
     }
 }

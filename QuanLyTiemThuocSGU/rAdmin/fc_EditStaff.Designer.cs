@@ -37,19 +37,10 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             this.timer_ChinhSuaTaiKhoanTransition = new System.Windows.Forms.Timer(this.components);
             this.pictureBox_Exit = new System.Windows.Forms.PictureBox();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.textBox_SoDienThoaiUpdateInput = new System.Windows.Forms.TextBox();
             this.label_SoDienThoaiUpdateInput = new System.Windows.Forms.Label();
-            this.panel_GioiTinhUpdateInput = new System.Windows.Forms.Panel();
-            this.comboBox_GioiTinhUpdateInput = new System.Windows.Forms.ComboBox();
             this.label_GioiTinh = new System.Windows.Forms.Label();
-            this.panel_ChucVuUpdateInput = new System.Windows.Forms.Panel();
-            this.comboBox_ChucVuUpdateInput = new System.Windows.Forms.ComboBox();
             this.label_ChucVu = new System.Windows.Forms.Label();
-            this.textBox_HoVaTenUpdateInput = new System.Windows.Forms.TextBox();
             this.label_HoVaTenUpdateInput = new System.Windows.Forms.Label();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.textBox_IDUpdateInput = new System.Windows.Forms.TextBox();
             this.button_ResetUpdate = new System.Windows.Forms.Button();
             this.label_IDUpdateInput = new System.Windows.Forms.Label();
             this.button_SaveUpdate = new System.Windows.Forms.Button();
@@ -57,23 +48,12 @@
             this.panel_SearchFunction = new System.Windows.Forms.Panel();
             this.panel_Main = new System.Windows.Forms.Panel();
             this.dataGridView_ChinhSuaTaiKhoan = new System.Windows.Forms.DataGridView();
-            this.panel_PhanTrang = new System.Windows.Forms.Panel();
-            this.button_ReturnLastPage = new System.Windows.Forms.Button();
-            this.button_ReturnFirstPage = new System.Windows.Forms.Button();
-            this.label_Previous = new System.Windows.Forms.Label();
-            this.button_ChangePage3 = new System.Windows.Forms.Button();
-            this.button_ChangePage1 = new System.Windows.Forms.Button();
-            this.label_Next = new System.Windows.Forms.Label();
-            this.button_ChangePage2 = new System.Windows.Forms.Button();
             this.panel_Null3 = new System.Windows.Forms.Panel();
             this.panel_Search = new System.Windows.Forms.Panel();
             this.button_Search = new System.Windows.Forms.Button();
             this.label_ThongTinNhanVien = new System.Windows.Forms.Label();
             this.panel_ChinhSuaTaiKhoan = new System.Windows.Forms.Panel();
-            this.panel_NgayNhanViecInput = new System.Windows.Forms.Panel();
-            this.dateTimePicker_NgayNhanViecInput = new System.Windows.Forms.DateTimePicker();
             this.label_NgayNhanViec = new System.Windows.Forms.Label();
-            this.panel_HoVaTenUpdateInput = new System.Windows.Forms.Panel();
             this.panel_Null1 = new System.Windows.Forms.Panel();
             this.panel_Null2 = new System.Windows.Forms.Panel();
             this.quanlycuahangthuocDataSet = new QuanLyThuVienSGU_Winform.quanlycuahangthuocDataSet();
@@ -81,19 +61,18 @@
             this.employeesTableAdapter = new QuanLyThuVienSGU_Winform.quanlycuahangthuocDataSetTableAdapters.EmployeesTableAdapter();
             this.employeesBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.guna2AnimateWindow2 = new Guna.UI2.WinForms.Guna2AnimateWindow(this.components);
+            this.txbSoDienThoai = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txbHoTen = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txbIDCapNhat = new Guna.UI2.WinForms.Guna2TextBox();
+            this.cbChucVu = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.cbGioiTinh = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.DTP_NgayNhanViec = new Guna.UI2.WinForms.Guna2DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Exit)).BeginInit();
-            this.panel5.SuspendLayout();
-            this.panel_GioiTinhUpdateInput.SuspendLayout();
-            this.panel_ChucVuUpdateInput.SuspendLayout();
-            this.panel4.SuspendLayout();
             this.panel_SearchFunction.SuspendLayout();
             this.panel_Main.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_ChinhSuaTaiKhoan)).BeginInit();
-            this.panel_PhanTrang.SuspendLayout();
             this.panel_Null3.SuspendLayout();
             this.panel_ChinhSuaTaiKhoan.SuspendLayout();
-            this.panel_NgayNhanViecInput.SuspendLayout();
-            this.panel_HoVaTenUpdateInput.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.quanlycuahangthuocDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.employeesBindingSource)).BeginInit();
             this.SuspendLayout();
@@ -114,26 +93,6 @@
             this.pictureBox_Exit.TabIndex = 31;
             this.pictureBox_Exit.TabStop = false;
             // 
-            // panel5
-            // 
-            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(234)))), ((int)(((byte)(237)))));
-            this.panel5.Controls.Add(this.textBox_SoDienThoaiUpdateInput);
-            this.panel5.ForeColor = System.Drawing.SystemColors.Control;
-            this.panel5.Location = new System.Drawing.Point(819, 59);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(232, 45);
-            this.panel5.TabIndex = 21;
-            // 
-            // textBox_SoDienThoaiUpdateInput
-            // 
-            this.textBox_SoDienThoaiUpdateInput.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(234)))), ((int)(((byte)(237)))));
-            this.textBox_SoDienThoaiUpdateInput.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox_SoDienThoaiUpdateInput.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_SoDienThoaiUpdateInput.Location = new System.Drawing.Point(2, 10);
-            this.textBox_SoDienThoaiUpdateInput.Name = "textBox_SoDienThoaiUpdateInput";
-            this.textBox_SoDienThoaiUpdateInput.Size = new System.Drawing.Size(227, 26);
-            this.textBox_SoDienThoaiUpdateInput.TabIndex = 2;
-            // 
             // label_SoDienThoaiUpdateInput
             // 
             this.label_SoDienThoaiUpdateInput.AutoSize = true;
@@ -146,63 +105,17 @@
             this.label_SoDienThoaiUpdateInput.TabIndex = 20;
             this.label_SoDienThoaiUpdateInput.Text = "Số điện thoại *";
             // 
-            // panel_GioiTinhUpdateInput
-            // 
-            this.panel_GioiTinhUpdateInput.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(234)))), ((int)(((byte)(237)))));
-            this.panel_GioiTinhUpdateInput.Controls.Add(this.comboBox_GioiTinhUpdateInput);
-            this.panel_GioiTinhUpdateInput.ForeColor = System.Drawing.SystemColors.Control;
-            this.panel_GioiTinhUpdateInput.Location = new System.Drawing.Point(656, 59);
-            this.panel_GioiTinhUpdateInput.Name = "panel_GioiTinhUpdateInput";
-            this.panel_GioiTinhUpdateInput.Size = new System.Drawing.Size(123, 45);
-            this.panel_GioiTinhUpdateInput.TabIndex = 30;
-            // 
-            // comboBox_GioiTinhUpdateInput
-            // 
-            this.comboBox_GioiTinhUpdateInput.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
-            this.comboBox_GioiTinhUpdateInput.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox_GioiTinhUpdateInput.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(234)))), ((int)(((byte)(237)))));
-            this.comboBox_GioiTinhUpdateInput.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBox_GioiTinhUpdateInput.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox_GioiTinhUpdateInput.FormattingEnabled = true;
-            this.comboBox_GioiTinhUpdateInput.Location = new System.Drawing.Point(2, 6);
-            this.comboBox_GioiTinhUpdateInput.Name = "comboBox_GioiTinhUpdateInput";
-            this.comboBox_GioiTinhUpdateInput.Size = new System.Drawing.Size(118, 33);
-            this.comboBox_GioiTinhUpdateInput.TabIndex = 10;
-            // 
             // label_GioiTinh
             // 
             this.label_GioiTinh.AutoSize = true;
             this.label_GioiTinh.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label_GioiTinh.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_GioiTinh.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_GioiTinh.Location = new System.Drawing.Point(651, 32);
+            this.label_GioiTinh.Location = new System.Drawing.Point(620, 32);
             this.label_GioiTinh.Name = "label_GioiTinh";
             this.label_GioiTinh.Size = new System.Drawing.Size(97, 25);
             this.label_GioiTinh.TabIndex = 29;
             this.label_GioiTinh.Text = "Giới tính *";
-            // 
-            // panel_ChucVuUpdateInput
-            // 
-            this.panel_ChucVuUpdateInput.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(234)))), ((int)(((byte)(237)))));
-            this.panel_ChucVuUpdateInput.Controls.Add(this.comboBox_ChucVuUpdateInput);
-            this.panel_ChucVuUpdateInput.ForeColor = System.Drawing.SystemColors.Control;
-            this.panel_ChucVuUpdateInput.Location = new System.Drawing.Point(466, 59);
-            this.panel_ChucVuUpdateInput.Name = "panel_ChucVuUpdateInput";
-            this.panel_ChucVuUpdateInput.Size = new System.Drawing.Size(150, 45);
-            this.panel_ChucVuUpdateInput.TabIndex = 28;
-            // 
-            // comboBox_ChucVuUpdateInput
-            // 
-            this.comboBox_ChucVuUpdateInput.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
-            this.comboBox_ChucVuUpdateInput.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox_ChucVuUpdateInput.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(234)))), ((int)(((byte)(237)))));
-            this.comboBox_ChucVuUpdateInput.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBox_ChucVuUpdateInput.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox_ChucVuUpdateInput.FormattingEnabled = true;
-            this.comboBox_ChucVuUpdateInput.Location = new System.Drawing.Point(2, 6);
-            this.comboBox_ChucVuUpdateInput.Name = "comboBox_ChucVuUpdateInput";
-            this.comboBox_ChucVuUpdateInput.Size = new System.Drawing.Size(145, 33);
-            this.comboBox_ChucVuUpdateInput.TabIndex = 10;
             // 
             // label_ChucVu
             // 
@@ -210,21 +123,11 @@
             this.label_ChucVu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label_ChucVu.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_ChucVu.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_ChucVu.Location = new System.Drawing.Point(462, 32);
+            this.label_ChucVu.Location = new System.Drawing.Point(401, 32);
             this.label_ChucVu.Name = "label_ChucVu";
             this.label_ChucVu.Size = new System.Drawing.Size(93, 25);
             this.label_ChucVu.TabIndex = 27;
             this.label_ChucVu.Text = "Chức vụ *";
-            // 
-            // textBox_HoVaTenUpdateInput
-            // 
-            this.textBox_HoVaTenUpdateInput.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(234)))), ((int)(((byte)(237)))));
-            this.textBox_HoVaTenUpdateInput.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox_HoVaTenUpdateInput.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_HoVaTenUpdateInput.Location = new System.Drawing.Point(2, 9);
-            this.textBox_HoVaTenUpdateInput.Name = "textBox_HoVaTenUpdateInput";
-            this.textBox_HoVaTenUpdateInput.Size = new System.Drawing.Size(288, 26);
-            this.textBox_HoVaTenUpdateInput.TabIndex = 2;
             // 
             // label_HoVaTenUpdateInput
             // 
@@ -237,28 +140,6 @@
             this.label_HoVaTenUpdateInput.Size = new System.Drawing.Size(105, 25);
             this.label_HoVaTenUpdateInput.TabIndex = 25;
             this.label_HoVaTenUpdateInput.Text = "Họ và tên *";
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(234)))), ((int)(((byte)(237)))));
-            this.panel4.Controls.Add(this.textBox_IDUpdateInput);
-            this.panel4.Enabled = false;
-            this.panel4.ForeColor = System.Drawing.SystemColors.Control;
-            this.panel4.Location = new System.Drawing.Point(16, 59);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(86, 45);
-            this.panel4.TabIndex = 21;
-            // 
-            // textBox_IDUpdateInput
-            // 
-            this.textBox_IDUpdateInput.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(234)))), ((int)(((byte)(237)))));
-            this.textBox_IDUpdateInput.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox_IDUpdateInput.Enabled = false;
-            this.textBox_IDUpdateInput.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_IDUpdateInput.Location = new System.Drawing.Point(2, 9);
-            this.textBox_IDUpdateInput.Name = "textBox_IDUpdateInput";
-            this.textBox_IDUpdateInput.Size = new System.Drawing.Size(81, 26);
-            this.textBox_IDUpdateInput.TabIndex = 2;
             // 
             // button_ResetUpdate
             // 
@@ -330,7 +211,6 @@
             // panel_Main
             // 
             this.panel_Main.Controls.Add(this.dataGridView_ChinhSuaTaiKhoan);
-            this.panel_Main.Controls.Add(this.panel_PhanTrang);
             this.panel_Main.Controls.Add(this.panel_Null3);
             this.panel_Main.Controls.Add(this.panel_ChinhSuaTaiKhoan);
             this.panel_Main.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -394,132 +274,8 @@
             this.dataGridView_ChinhSuaTaiKhoan.RowTemplate.DefaultCellStyle.BackColor = System.Drawing.Color.White;
             this.dataGridView_ChinhSuaTaiKhoan.RowTemplate.Height = 24;
             this.dataGridView_ChinhSuaTaiKhoan.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView_ChinhSuaTaiKhoan.Size = new System.Drawing.Size(1296, 344);
+            this.dataGridView_ChinhSuaTaiKhoan.Size = new System.Drawing.Size(1296, 403);
             this.dataGridView_ChinhSuaTaiKhoan.TabIndex = 0;
-            // 
-            // panel_PhanTrang
-            // 
-            this.panel_PhanTrang.Controls.Add(this.button_ReturnLastPage);
-            this.panel_PhanTrang.Controls.Add(this.button_ReturnFirstPage);
-            this.panel_PhanTrang.Controls.Add(this.label_Previous);
-            this.panel_PhanTrang.Controls.Add(this.button_ChangePage3);
-            this.panel_PhanTrang.Controls.Add(this.button_ChangePage1);
-            this.panel_PhanTrang.Controls.Add(this.label_Next);
-            this.panel_PhanTrang.Controls.Add(this.button_ChangePage2);
-            this.panel_PhanTrang.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel_PhanTrang.Location = new System.Drawing.Point(0, 433);
-            this.panel_PhanTrang.Name = "panel_PhanTrang";
-            this.panel_PhanTrang.Size = new System.Drawing.Size(1296, 59);
-            this.panel_PhanTrang.TabIndex = 1;
-            // 
-            // button_ReturnLastPage
-            // 
-            this.button_ReturnLastPage.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button_ReturnLastPage.BackColor = System.Drawing.Color.White;
-            this.button_ReturnLastPage.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button_ReturnLastPage.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(40)))), ((int)(((byte)(94)))));
-            this.button_ReturnLastPage.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(177)))), ((int)(((byte)(185)))));
-            this.button_ReturnLastPage.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_ReturnLastPage.Font = new System.Drawing.Font("Segoe UI Black", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_ReturnLastPage.ForeColor = System.Drawing.Color.Black;
-            this.button_ReturnLastPage.Location = new System.Drawing.Point(1205, 9);
-            this.button_ReturnLastPage.Name = "button_ReturnLastPage";
-            this.button_ReturnLastPage.Size = new System.Drawing.Size(40, 40);
-            this.button_ReturnLastPage.TabIndex = 19;
-            this.button_ReturnLastPage.Text = ">>";
-            this.button_ReturnLastPage.UseVisualStyleBackColor = false;
-            // 
-            // button_ReturnFirstPage
-            // 
-            this.button_ReturnFirstPage.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button_ReturnFirstPage.BackColor = System.Drawing.Color.White;
-            this.button_ReturnFirstPage.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button_ReturnFirstPage.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(40)))), ((int)(((byte)(94)))));
-            this.button_ReturnFirstPage.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(177)))), ((int)(((byte)(185)))));
-            this.button_ReturnFirstPage.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_ReturnFirstPage.Font = new System.Drawing.Font("Segoe UI Black", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_ReturnFirstPage.ForeColor = System.Drawing.Color.Black;
-            this.button_ReturnFirstPage.Location = new System.Drawing.Point(970, 9);
-            this.button_ReturnFirstPage.Name = "button_ReturnFirstPage";
-            this.button_ReturnFirstPage.Size = new System.Drawing.Size(40, 40);
-            this.button_ReturnFirstPage.TabIndex = 18;
-            this.button_ReturnFirstPage.Text = "<<";
-            this.button_ReturnFirstPage.UseVisualStyleBackColor = false;
-            // 
-            // label_Previous
-            // 
-            this.label_Previous.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.label_Previous.AutoSize = true;
-            this.label_Previous.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label_Previous.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_Previous.Location = new System.Drawing.Point(881, 17);
-            this.label_Previous.Name = "label_Previous";
-            this.label_Previous.Size = new System.Drawing.Size(84, 25);
-            this.label_Previous.TabIndex = 12;
-            this.label_Previous.Text = "Previous";
-            // 
-            // button_ChangePage3
-            // 
-            this.button_ChangePage3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button_ChangePage3.BackColor = System.Drawing.Color.White;
-            this.button_ChangePage3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button_ChangePage3.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(40)))), ((int)(((byte)(94)))));
-            this.button_ChangePage3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(177)))), ((int)(((byte)(185)))));
-            this.button_ChangePage3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_ChangePage3.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_ChangePage3.ForeColor = System.Drawing.Color.Black;
-            this.button_ChangePage3.Location = new System.Drawing.Point(1147, 9);
-            this.button_ChangePage3.Name = "button_ChangePage3";
-            this.button_ChangePage3.Size = new System.Drawing.Size(40, 40);
-            this.button_ChangePage3.TabIndex = 17;
-            this.button_ChangePage3.Text = "3";
-            this.button_ChangePage3.UseVisualStyleBackColor = false;
-            // 
-            // button_ChangePage1
-            // 
-            this.button_ChangePage1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button_ChangePage1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(177)))), ((int)(((byte)(185)))));
-            this.button_ChangePage1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button_ChangePage1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(40)))), ((int)(((byte)(94)))));
-            this.button_ChangePage1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(177)))), ((int)(((byte)(185)))));
-            this.button_ChangePage1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_ChangePage1.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_ChangePage1.ForeColor = System.Drawing.Color.White;
-            this.button_ChangePage1.Location = new System.Drawing.Point(1030, 9);
-            this.button_ChangePage1.Name = "button_ChangePage1";
-            this.button_ChangePage1.Size = new System.Drawing.Size(40, 40);
-            this.button_ChangePage1.TabIndex = 13;
-            this.button_ChangePage1.Text = "1";
-            this.button_ChangePage1.UseVisualStyleBackColor = false;
-            // 
-            // label_Next
-            // 
-            this.label_Next.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.label_Next.AutoSize = true;
-            this.label_Next.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label_Next.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_Next.Location = new System.Drawing.Point(1250, 17);
-            this.label_Next.Name = "label_Next";
-            this.label_Next.Size = new System.Drawing.Size(51, 25);
-            this.label_Next.TabIndex = 16;
-            this.label_Next.Text = "Next";
-            // 
-            // button_ChangePage2
-            // 
-            this.button_ChangePage2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button_ChangePage2.BackColor = System.Drawing.Color.White;
-            this.button_ChangePage2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button_ChangePage2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(40)))), ((int)(((byte)(94)))));
-            this.button_ChangePage2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(177)))), ((int)(((byte)(185)))));
-            this.button_ChangePage2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_ChangePage2.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_ChangePage2.ForeColor = System.Drawing.Color.Black;
-            this.button_ChangePage2.Location = new System.Drawing.Point(1089, 9);
-            this.button_ChangePage2.Name = "button_ChangePage2";
-            this.button_ChangePage2.Size = new System.Drawing.Size(40, 40);
-            this.button_ChangePage2.TabIndex = 14;
-            this.button_ChangePage2.Text = "2";
-            this.button_ChangePage2.UseVisualStyleBackColor = false;
             // 
             // panel_Null3
             // 
@@ -569,18 +325,18 @@
             // 
             // panel_ChinhSuaTaiKhoan
             // 
-            this.panel_ChinhSuaTaiKhoan.Controls.Add(this.panel_NgayNhanViecInput);
+            this.panel_ChinhSuaTaiKhoan.Controls.Add(this.DTP_NgayNhanViec);
+            this.panel_ChinhSuaTaiKhoan.Controls.Add(this.cbGioiTinh);
+            this.panel_ChinhSuaTaiKhoan.Controls.Add(this.txbSoDienThoai);
+            this.panel_ChinhSuaTaiKhoan.Controls.Add(this.txbHoTen);
+            this.panel_ChinhSuaTaiKhoan.Controls.Add(this.txbIDCapNhat);
+            this.panel_ChinhSuaTaiKhoan.Controls.Add(this.cbChucVu);
             this.panel_ChinhSuaTaiKhoan.Controls.Add(this.label_NgayNhanViec);
             this.panel_ChinhSuaTaiKhoan.Controls.Add(this.pictureBox_Exit);
-            this.panel_ChinhSuaTaiKhoan.Controls.Add(this.panel5);
             this.panel_ChinhSuaTaiKhoan.Controls.Add(this.label_SoDienThoaiUpdateInput);
-            this.panel_ChinhSuaTaiKhoan.Controls.Add(this.panel_GioiTinhUpdateInput);
             this.panel_ChinhSuaTaiKhoan.Controls.Add(this.label_GioiTinh);
-            this.panel_ChinhSuaTaiKhoan.Controls.Add(this.panel_ChucVuUpdateInput);
             this.panel_ChinhSuaTaiKhoan.Controls.Add(this.label_ChucVu);
-            this.panel_ChinhSuaTaiKhoan.Controls.Add(this.panel_HoVaTenUpdateInput);
             this.panel_ChinhSuaTaiKhoan.Controls.Add(this.label_HoVaTenUpdateInput);
-            this.panel_ChinhSuaTaiKhoan.Controls.Add(this.panel4);
             this.panel_ChinhSuaTaiKhoan.Controls.Add(this.button_ResetUpdate);
             this.panel_ChinhSuaTaiKhoan.Controls.Add(this.label_IDUpdateInput);
             this.panel_ChinhSuaTaiKhoan.Controls.Add(this.button_SaveUpdate);
@@ -590,29 +346,6 @@
             this.panel_ChinhSuaTaiKhoan.Name = "panel_ChinhSuaTaiKhoan";
             this.panel_ChinhSuaTaiKhoan.Size = new System.Drawing.Size(1296, 195);
             this.panel_ChinhSuaTaiKhoan.TabIndex = 28;
-            // 
-            // panel_NgayNhanViecInput
-            // 
-            this.panel_NgayNhanViecInput.BackColor = System.Drawing.Color.White;
-            this.panel_NgayNhanViecInput.Controls.Add(this.dateTimePicker_NgayNhanViecInput);
-            this.panel_NgayNhanViecInput.ForeColor = System.Drawing.SystemColors.Control;
-            this.panel_NgayNhanViecInput.Location = new System.Drawing.Point(17, 145);
-            this.panel_NgayNhanViecInput.Name = "panel_NgayNhanViecInput";
-            this.panel_NgayNhanViecInput.Size = new System.Drawing.Size(231, 45);
-            this.panel_NgayNhanViecInput.TabIndex = 35;
-            // 
-            // dateTimePicker_NgayNhanViecInput
-            // 
-            this.dateTimePicker_NgayNhanViecInput.CalendarForeColor = System.Drawing.Color.White;
-            this.dateTimePicker_NgayNhanViecInput.CalendarTitleBackColor = System.Drawing.Color.White;
-            this.dateTimePicker_NgayNhanViecInput.CustomFormat = "dd/MM/yyyy";
-            this.dateTimePicker_NgayNhanViecInput.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker_NgayNhanViecInput.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker_NgayNhanViecInput.Location = new System.Drawing.Point(0, 6);
-            this.dateTimePicker_NgayNhanViecInput.Name = "dateTimePicker_NgayNhanViecInput";
-            this.dateTimePicker_NgayNhanViecInput.Size = new System.Drawing.Size(230, 33);
-            this.dateTimePicker_NgayNhanViecInput.TabIndex = 3;
-            this.dateTimePicker_NgayNhanViecInput.Value = new System.DateTime(2024, 3, 26, 0, 0, 0, 0);
             // 
             // label_NgayNhanViec
             // 
@@ -625,16 +358,6 @@
             this.label_NgayNhanViec.Size = new System.Drawing.Size(155, 25);
             this.label_NgayNhanViec.TabIndex = 34;
             this.label_NgayNhanViec.Text = "Ngày nhận việc *";
-            // 
-            // panel_HoVaTenUpdateInput
-            // 
-            this.panel_HoVaTenUpdateInput.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(234)))), ((int)(((byte)(237)))));
-            this.panel_HoVaTenUpdateInput.Controls.Add(this.textBox_HoVaTenUpdateInput);
-            this.panel_HoVaTenUpdateInput.ForeColor = System.Drawing.SystemColors.Control;
-            this.panel_HoVaTenUpdateInput.Location = new System.Drawing.Point(137, 59);
-            this.panel_HoVaTenUpdateInput.Name = "panel_HoVaTenUpdateInput";
-            this.panel_HoVaTenUpdateInput.Size = new System.Drawing.Size(293, 45);
-            this.panel_HoVaTenUpdateInput.TabIndex = 26;
             // 
             // panel_Null1
             // 
@@ -666,6 +389,117 @@
             this.employeesBindingSource.DataMember = "Employees";
             this.employeesBindingSource.DataSource = this.quanlycuahangthuocDataSet;
             // 
+            // txbSoDienThoai
+            // 
+            this.txbSoDienThoai.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(234)))), ((int)(((byte)(237)))));
+            this.txbSoDienThoai.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txbSoDienThoai.DefaultText = "";
+            this.txbSoDienThoai.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txbSoDienThoai.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txbSoDienThoai.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txbSoDienThoai.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txbSoDienThoai.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(234)))), ((int)(((byte)(237)))));
+            this.txbSoDienThoai.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txbSoDienThoai.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txbSoDienThoai.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txbSoDienThoai.Location = new System.Drawing.Point(820, 67);
+            this.txbSoDienThoai.Name = "txbSoDienThoai";
+            this.txbSoDienThoai.PasswordChar = '\0';
+            this.txbSoDienThoai.PlaceholderText = "";
+            this.txbSoDienThoai.SelectedText = "";
+            this.txbSoDienThoai.Size = new System.Drawing.Size(232, 46);
+            this.txbSoDienThoai.TabIndex = 48;
+            // 
+            // txbHoTen
+            // 
+            this.txbHoTen.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(234)))), ((int)(((byte)(237)))));
+            this.txbHoTen.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txbHoTen.DefaultText = "";
+            this.txbHoTen.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txbHoTen.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txbHoTen.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txbHoTen.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txbHoTen.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(234)))), ((int)(((byte)(237)))));
+            this.txbHoTen.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txbHoTen.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.txbHoTen.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txbHoTen.Location = new System.Drawing.Point(135, 67);
+            this.txbHoTen.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txbHoTen.Name = "txbHoTen";
+            this.txbHoTen.PasswordChar = '\0';
+            this.txbHoTen.PlaceholderText = "";
+            this.txbHoTen.SelectedText = "";
+            this.txbHoTen.Size = new System.Drawing.Size(248, 46);
+            this.txbHoTen.TabIndex = 46;
+            // 
+            // txbIDCapNhat
+            // 
+            this.txbIDCapNhat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(234)))), ((int)(((byte)(237)))));
+            this.txbIDCapNhat.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txbIDCapNhat.DefaultText = "";
+            this.txbIDCapNhat.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txbIDCapNhat.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txbIDCapNhat.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txbIDCapNhat.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txbIDCapNhat.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(234)))), ((int)(((byte)(237)))));
+            this.txbIDCapNhat.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txbIDCapNhat.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txbIDCapNhat.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txbIDCapNhat.Location = new System.Drawing.Point(15, 67);
+            this.txbIDCapNhat.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txbIDCapNhat.Name = "txbIDCapNhat";
+            this.txbIDCapNhat.PasswordChar = '\0';
+            this.txbIDCapNhat.PlaceholderText = "";
+            this.txbIDCapNhat.SelectedText = "";
+            this.txbIDCapNhat.Size = new System.Drawing.Size(99, 46);
+            this.txbIDCapNhat.TabIndex = 45;
+            // 
+            // cbChucVu
+            // 
+            this.cbChucVu.BackColor = System.Drawing.Color.Transparent;
+            this.cbChucVu.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cbChucVu.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbChucVu.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(234)))), ((int)(((byte)(237)))));
+            this.cbChucVu.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cbChucVu.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cbChucVu.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.cbChucVu.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.cbChucVu.ItemHeight = 30;
+            this.cbChucVu.Location = new System.Drawing.Point(406, 77);
+            this.cbChucVu.Name = "cbChucVu";
+            this.cbChucVu.Size = new System.Drawing.Size(161, 36);
+            this.cbChucVu.TabIndex = 44;
+            // 
+            // cbGioiTinh
+            // 
+            this.cbGioiTinh.BackColor = System.Drawing.Color.Transparent;
+            this.cbGioiTinh.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cbGioiTinh.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbGioiTinh.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(234)))), ((int)(((byte)(237)))));
+            this.cbGioiTinh.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cbGioiTinh.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cbGioiTinh.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.cbGioiTinh.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.cbGioiTinh.ItemHeight = 30;
+            this.cbGioiTinh.Location = new System.Drawing.Point(625, 77);
+            this.cbGioiTinh.Name = "cbGioiTinh";
+            this.cbGioiTinh.Size = new System.Drawing.Size(158, 36);
+            this.cbGioiTinh.TabIndex = 49;
+            // 
+            // DTP_NgayNhanViec
+            // 
+            this.DTP_NgayNhanViec.Checked = true;
+            this.DTP_NgayNhanViec.FillColor = System.Drawing.Color.White;
+            this.DTP_NgayNhanViec.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DTP_NgayNhanViec.Format = System.Windows.Forms.DateTimePickerFormat.Long;
+            this.DTP_NgayNhanViec.Location = new System.Drawing.Point(18, 147);
+            this.DTP_NgayNhanViec.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
+            this.DTP_NgayNhanViec.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
+            this.DTP_NgayNhanViec.Name = "DTP_NgayNhanViec";
+            this.DTP_NgayNhanViec.Size = new System.Drawing.Size(231, 45);
+            this.DTP_NgayNhanViec.TabIndex = 50;
+            this.DTP_NgayNhanViec.Value = new System.DateTime(2024, 11, 12, 7, 57, 42, 17);
+            // 
             // fc_EditStaff
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -675,24 +509,13 @@
             this.Name = "fc_EditStaff";
             this.Text = "fcThemXoaNhanVien";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Exit)).EndInit();
-            this.panel5.ResumeLayout(false);
-            this.panel5.PerformLayout();
-            this.panel_GioiTinhUpdateInput.ResumeLayout(false);
-            this.panel_ChucVuUpdateInput.ResumeLayout(false);
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
             this.panel_SearchFunction.ResumeLayout(false);
             this.panel_Main.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_ChinhSuaTaiKhoan)).EndInit();
-            this.panel_PhanTrang.ResumeLayout(false);
-            this.panel_PhanTrang.PerformLayout();
             this.panel_Null3.ResumeLayout(false);
             this.panel_Null3.PerformLayout();
             this.panel_ChinhSuaTaiKhoan.ResumeLayout(false);
             this.panel_ChinhSuaTaiKhoan.PerformLayout();
-            this.panel_NgayNhanViecInput.ResumeLayout(false);
-            this.panel_HoVaTenUpdateInput.ResumeLayout(false);
-            this.panel_HoVaTenUpdateInput.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.quanlycuahangthuocDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.employeesBindingSource)).EndInit();
             this.ResumeLayout(false);
@@ -703,19 +526,10 @@
 
         private System.Windows.Forms.Timer timer_ChinhSuaTaiKhoanTransition;
         private System.Windows.Forms.PictureBox pictureBox_Exit;
-        private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.TextBox textBox_SoDienThoaiUpdateInput;
         private System.Windows.Forms.Label label_SoDienThoaiUpdateInput;
-        private System.Windows.Forms.Panel panel_GioiTinhUpdateInput;
-        private System.Windows.Forms.ComboBox comboBox_GioiTinhUpdateInput;
         private System.Windows.Forms.Label label_GioiTinh;
-        private System.Windows.Forms.Panel panel_ChucVuUpdateInput;
-        private System.Windows.Forms.ComboBox comboBox_ChucVuUpdateInput;
         private System.Windows.Forms.Label label_ChucVu;
-        private System.Windows.Forms.TextBox textBox_HoVaTenUpdateInput;
         private System.Windows.Forms.Label label_HoVaTenUpdateInput;
-        private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.TextBox textBox_IDUpdateInput;
         private System.Windows.Forms.Button button_ResetUpdate;
         private System.Windows.Forms.Label label_IDUpdateInput;
         private System.Windows.Forms.Button button_SaveUpdate;
@@ -723,23 +537,12 @@
         private System.Windows.Forms.Panel panel_SearchFunction;
         private System.Windows.Forms.Panel panel_Main;
         private System.Windows.Forms.DataGridView dataGridView_ChinhSuaTaiKhoan;
-        private System.Windows.Forms.Panel panel_PhanTrang;
-        private System.Windows.Forms.Button button_ReturnLastPage;
-        private System.Windows.Forms.Button button_ReturnFirstPage;
-        private System.Windows.Forms.Label label_Previous;
-        private System.Windows.Forms.Button button_ChangePage3;
-        private System.Windows.Forms.Button button_ChangePage1;
-        private System.Windows.Forms.Label label_Next;
-        private System.Windows.Forms.Button button_ChangePage2;
         private System.Windows.Forms.Panel panel_Null3;
         private System.Windows.Forms.Panel panel_Search;
         private System.Windows.Forms.Button button_Search;
         private System.Windows.Forms.Label label_ThongTinNhanVien;
         private System.Windows.Forms.Panel panel_ChinhSuaTaiKhoan;
-        private System.Windows.Forms.Panel panel_NgayNhanViecInput;
-        private System.Windows.Forms.DateTimePicker dateTimePicker_NgayNhanViecInput;
         private System.Windows.Forms.Label label_NgayNhanViec;
-        private System.Windows.Forms.Panel panel_HoVaTenUpdateInput;
         private System.Windows.Forms.Panel panel_Null1;
         private System.Windows.Forms.Panel panel_Null2;
         private Guna.UI2.WinForms.Guna2AnimateWindow guna2AnimateWindow1;
@@ -747,5 +550,11 @@
         private quanlycuahangthuocDataSetTableAdapters.EmployeesTableAdapter employeesTableAdapter;
         private System.Windows.Forms.BindingSource employeesBindingSource;
         private Guna.UI2.WinForms.Guna2AnimateWindow guna2AnimateWindow2;
+        private Guna.UI2.WinForms.Guna2ComboBox cbGioiTinh;
+        private Guna.UI2.WinForms.Guna2TextBox txbSoDienThoai;
+        private Guna.UI2.WinForms.Guna2TextBox txbHoTen;
+        private Guna.UI2.WinForms.Guna2TextBox txbIDCapNhat;
+        private Guna.UI2.WinForms.Guna2ComboBox cbChucVu;
+        private Guna.UI2.WinForms.Guna2DateTimePicker DTP_NgayNhanViec;
     }
 }

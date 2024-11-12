@@ -30,13 +30,13 @@
         {
             this.components = new System.ComponentModel.Container();
             this.guna2AnimateWindow1 = new Guna.UI2.WinForms.Guna2AnimateWindow(this.components);
-            this.dtpNgayHetHan = new Guna.UI2.WinForms.Guna2DateTimePicker();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.dtpNgayNhap = new Guna.UI2.WinForms.Guna2DateTimePicker();
+            this.lbGiaThuoc = new System.Windows.Forms.Label();
+            this.lbSoLuong = new System.Windows.Forms.Label();
+            this.lbNhaCungCap = new System.Windows.Forms.Label();
+            this.lbThuoc = new System.Windows.Forms.Label();
+            this.lbTenThuoc = new System.Windows.Forms.Label();
+            this.lbNgayNhap = new System.Windows.Forms.Label();
             this.txbSoLuong = new Guna.UI2.WinForms.Guna2TextBox();
             this.txbGiaThuoc = new Guna.UI2.WinForms.Guna2TextBox();
             this.txbTenThuoc = new Guna.UI2.WinForms.Guna2TextBox();
@@ -44,83 +44,83 @@
             this.btnThemThuoc = new Guna.UI2.WinForms.Guna2Button();
             this.guna2AnimateWindow2 = new Guna.UI2.WinForms.Guna2AnimateWindow(this.components);
             this.cmbNhaCungCap = new Guna.UI2.WinForms.Guna2ComboBox();
-            this.guna2DateTimePicker1 = new Guna.UI2.WinForms.Guna2DateTimePicker();
-            this.label1 = new System.Windows.Forms.Label();
+            this.dtpNgayHetHan = new Guna.UI2.WinForms.Guna2DateTimePicker();
+            this.lbNgayHetHan = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // dtpNgayHetHan
+            // dtpNgayNhap
             // 
-            this.dtpNgayHetHan.Checked = true;
-            this.dtpNgayHetHan.FillColor = System.Drawing.Color.White;
-            this.dtpNgayHetHan.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.dtpNgayHetHan.Format = System.Windows.Forms.DateTimePickerFormat.Long;
-            this.dtpNgayHetHan.Location = new System.Drawing.Point(15, 158);
-            this.dtpNgayHetHan.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
-            this.dtpNgayHetHan.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
-            this.dtpNgayHetHan.Name = "dtpNgayHetHan";
-            this.dtpNgayHetHan.Size = new System.Drawing.Size(300, 36);
-            this.dtpNgayHetHan.TabIndex = 66;
-            this.dtpNgayHetHan.Value = new System.DateTime(2024, 11, 11, 20, 49, 54, 895);
+            this.dtpNgayNhap.Checked = true;
+            this.dtpNgayNhap.FillColor = System.Drawing.Color.White;
+            this.dtpNgayNhap.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.dtpNgayNhap.Format = System.Windows.Forms.DateTimePickerFormat.Long;
+            this.dtpNgayNhap.Location = new System.Drawing.Point(15, 158);
+            this.dtpNgayNhap.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
+            this.dtpNgayNhap.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
+            this.dtpNgayNhap.Name = "dtpNgayNhap";
+            this.dtpNgayNhap.Size = new System.Drawing.Size(300, 36);
+            this.dtpNgayNhap.TabIndex = 66;
+            this.dtpNgayNhap.Value = new System.DateTime(2024, 11, 11, 20, 49, 54, 895);
             // 
-            // label7
+            // lbGiaThuoc
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(350, 9);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(66, 17);
-            this.label7.TabIndex = 65;
-            this.label7.Text = "Giá thuốc";
+            this.lbGiaThuoc.AutoSize = true;
+            this.lbGiaThuoc.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbGiaThuoc.Location = new System.Drawing.Point(350, 9);
+            this.lbGiaThuoc.Name = "lbGiaThuoc";
+            this.lbGiaThuoc.Size = new System.Drawing.Size(66, 17);
+            this.lbGiaThuoc.TabIndex = 65;
+            this.lbGiaThuoc.Text = "Giá thuốc";
             // 
-            // label6
+            // lbSoLuong
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(350, 73);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(62, 17);
-            this.label6.TabIndex = 64;
-            this.label6.Text = "Số lượng";
+            this.lbSoLuong.AutoSize = true;
+            this.lbSoLuong.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbSoLuong.Location = new System.Drawing.Point(350, 73);
+            this.lbSoLuong.Name = "lbSoLuong";
+            this.lbSoLuong.Size = new System.Drawing.Size(62, 17);
+            this.lbSoLuong.TabIndex = 64;
+            this.lbSoLuong.Text = "Số lượng";
             // 
-            // label5
+            // lbNhaCungCap
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(350, 138);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(92, 17);
-            this.label5.TabIndex = 63;
-            this.label5.Text = "Nhà cung cấp";
+            this.lbNhaCungCap.AutoSize = true;
+            this.lbNhaCungCap.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbNhaCungCap.Location = new System.Drawing.Point(350, 138);
+            this.lbNhaCungCap.Name = "lbNhaCungCap";
+            this.lbNhaCungCap.Size = new System.Drawing.Size(92, 17);
+            this.lbNhaCungCap.TabIndex = 63;
+            this.lbNhaCungCap.Text = "Nhà cung cấp";
             // 
-            // label4
+            // lbThuoc
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(12, 9);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(62, 17);
-            this.label4.TabIndex = 62;
-            this.label4.Text = "ID Thuốc";
+            this.lbThuoc.AutoSize = true;
+            this.lbThuoc.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbThuoc.Location = new System.Drawing.Point(12, 9);
+            this.lbThuoc.Name = "lbThuoc";
+            this.lbThuoc.Size = new System.Drawing.Size(62, 17);
+            this.lbThuoc.TabIndex = 62;
+            this.lbThuoc.Text = "ID Thuốc";
             // 
-            // label3
+            // lbTenThuoc
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(12, 73);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(68, 17);
-            this.label3.TabIndex = 61;
-            this.label3.Text = "Tên thuốc";
+            this.lbTenThuoc.AutoSize = true;
+            this.lbTenThuoc.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbTenThuoc.Location = new System.Drawing.Point(12, 73);
+            this.lbTenThuoc.Name = "lbTenThuoc";
+            this.lbTenThuoc.Size = new System.Drawing.Size(68, 17);
+            this.lbTenThuoc.TabIndex = 61;
+            this.lbTenThuoc.Text = "Tên thuốc";
             // 
-            // label2
+            // lbNgayNhap
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(12, 138);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(75, 17);
-            this.label2.TabIndex = 60;
-            this.label2.Text = "Ngày nhập";
+            this.lbNgayNhap.AutoSize = true;
+            this.lbNgayNhap.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbNgayNhap.Location = new System.Drawing.Point(12, 138);
+            this.lbNgayNhap.Name = "lbNgayNhap";
+            this.lbNgayNhap.Size = new System.Drawing.Size(75, 17);
+            this.lbNgayNhap.TabIndex = 60;
+            this.lbNgayNhap.Text = "Ngày nhập";
             // 
             // txbSoLuong
             // 
@@ -204,45 +204,45 @@
             this.cmbNhaCungCap.Size = new System.Drawing.Size(300, 36);
             this.cmbNhaCungCap.TabIndex = 67;
             // 
-            // guna2DateTimePicker1
+            // dtpNgayHetHan
             // 
-            this.guna2DateTimePicker1.Checked = true;
-            this.guna2DateTimePicker1.FillColor = System.Drawing.Color.White;
-            this.guna2DateTimePicker1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Long;
-            this.guna2DateTimePicker1.Location = new System.Drawing.Point(15, 227);
-            this.guna2DateTimePicker1.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
-            this.guna2DateTimePicker1.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
-            this.guna2DateTimePicker1.Name = "guna2DateTimePicker1";
-            this.guna2DateTimePicker1.Size = new System.Drawing.Size(300, 36);
-            this.guna2DateTimePicker1.TabIndex = 69;
-            this.guna2DateTimePicker1.Value = new System.DateTime(2024, 11, 11, 20, 49, 54, 895);
+            this.dtpNgayHetHan.Checked = true;
+            this.dtpNgayHetHan.FillColor = System.Drawing.Color.White;
+            this.dtpNgayHetHan.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.dtpNgayHetHan.Format = System.Windows.Forms.DateTimePickerFormat.Long;
+            this.dtpNgayHetHan.Location = new System.Drawing.Point(15, 227);
+            this.dtpNgayHetHan.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
+            this.dtpNgayHetHan.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
+            this.dtpNgayHetHan.Name = "dtpNgayHetHan";
+            this.dtpNgayHetHan.Size = new System.Drawing.Size(300, 36);
+            this.dtpNgayHetHan.TabIndex = 69;
+            this.dtpNgayHetHan.Value = new System.DateTime(2024, 11, 11, 20, 49, 54, 895);
             // 
-            // label1
+            // lbNgayHetHan
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 207);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(91, 17);
-            this.label1.TabIndex = 68;
-            this.label1.Text = "Ngày hết hạn";
+            this.lbNgayHetHan.AutoSize = true;
+            this.lbNgayHetHan.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbNgayHetHan.Location = new System.Drawing.Point(12, 207);
+            this.lbNgayHetHan.Name = "lbNgayHetHan";
+            this.lbNgayHetHan.Size = new System.Drawing.Size(91, 17);
+            this.lbNgayHetHan.TabIndex = 68;
+            this.lbNgayHetHan.Text = "Ngày hết hạn";
             // 
             // fcAddMed
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(679, 364);
-            this.Controls.Add(this.guna2DateTimePicker1);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.cmbNhaCungCap);
             this.Controls.Add(this.dtpNgayHetHan);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.lbNgayHetHan);
+            this.Controls.Add(this.cmbNhaCungCap);
+            this.Controls.Add(this.dtpNgayNhap);
+            this.Controls.Add(this.lbGiaThuoc);
+            this.Controls.Add(this.lbSoLuong);
+            this.Controls.Add(this.lbNhaCungCap);
+            this.Controls.Add(this.lbThuoc);
+            this.Controls.Add(this.lbTenThuoc);
+            this.Controls.Add(this.lbNgayNhap);
             this.Controls.Add(this.txbSoLuong);
             this.Controls.Add(this.txbGiaThuoc);
             this.Controls.Add(this.txbTenThuoc);
@@ -257,13 +257,13 @@
 
         #endregion
         private Guna.UI2.WinForms.Guna2AnimateWindow guna2AnimateWindow1;
-        private Guna.UI2.WinForms.Guna2DateTimePicker dtpNgayHetHan;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
+        private Guna.UI2.WinForms.Guna2DateTimePicker dtpNgayNhap;
+        private System.Windows.Forms.Label lbGiaThuoc;
+        private System.Windows.Forms.Label lbSoLuong;
+        private System.Windows.Forms.Label lbNhaCungCap;
+        private System.Windows.Forms.Label lbThuoc;
+        private System.Windows.Forms.Label lbTenThuoc;
+        private System.Windows.Forms.Label lbNgayNhap;
         private Guna.UI2.WinForms.Guna2TextBox txbSoLuong;
         private Guna.UI2.WinForms.Guna2TextBox txbGiaThuoc;
         private Guna.UI2.WinForms.Guna2TextBox txbTenThuoc;
@@ -271,7 +271,7 @@
         private Guna.UI2.WinForms.Guna2Button btnThemThuoc;
         private Guna.UI2.WinForms.Guna2AnimateWindow guna2AnimateWindow2;
         private Guna.UI2.WinForms.Guna2ComboBox cmbNhaCungCap;
-        private Guna.UI2.WinForms.Guna2DateTimePicker guna2DateTimePicker1;
-        private System.Windows.Forms.Label label1;
+        private Guna.UI2.WinForms.Guna2DateTimePicker dtpNgayHetHan;
+        private System.Windows.Forms.Label lbNgayHetHan;
     }
 }

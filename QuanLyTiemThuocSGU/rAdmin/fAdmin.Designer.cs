@@ -44,12 +44,11 @@
             this.panel_ChildTaiKhoanNhanVien = new System.Windows.Forms.Panel();
             this.button_ChinhSuaTaiKhoan = new System.Windows.Forms.Button();
             this.button_Thongtin = new System.Windows.Forms.Button();
-            this.button_QuanLiNhomThuoc = new System.Windows.Forms.Button();
+            this.button_QuanLiNhanVien = new System.Windows.Forms.Button();
             this.panel_ChildQuanLiThuoc = new System.Windows.Forms.Panel();
             this.button_ChinhSuaThuoc = new System.Windows.Forms.Button();
             this.button_ThongTinThuoc = new System.Windows.Forms.Button();
             this.timer_TaiKhoanNhanVienTransition = new System.Windows.Forms.Timer(this.components);
-            this.button_ThongBao = new System.Windows.Forms.Button();
             this.button_ThongKe = new System.Windows.Forms.Button();
             this.panel_ChildQuanLiNhomThuoc = new System.Windows.Forms.Panel();
             this.button_ChinhSuaNhanVien = new System.Windows.Forms.Button();
@@ -260,23 +259,23 @@
             this.button_Thongtin.UseVisualStyleBackColor = false;
             this.button_Thongtin.Click += new System.EventHandler(this.button_Thongtin_Click);
             // 
-            // button_QuanLiNhomThuoc
+            // button_QuanLiNhanVien
             // 
-            this.button_QuanLiNhomThuoc.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button_QuanLiNhomThuoc.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button_QuanLiNhomThuoc.FlatAppearance.BorderSize = 0;
-            this.button_QuanLiNhomThuoc.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_QuanLiNhomThuoc.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_QuanLiNhomThuoc.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(177)))), ((int)(((byte)(185)))));
-            this.button_QuanLiNhomThuoc.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button_QuanLiNhomThuoc.Location = new System.Drawing.Point(0, 459);
-            this.button_QuanLiNhomThuoc.Name = "button_QuanLiNhomThuoc";
-            this.button_QuanLiNhomThuoc.Size = new System.Drawing.Size(217, 50);
-            this.button_QuanLiNhomThuoc.TabIndex = 10;
-            this.button_QuanLiNhomThuoc.Text = "          Quản lí nhân viên";
-            this.button_QuanLiNhomThuoc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button_QuanLiNhomThuoc.UseVisualStyleBackColor = true;
-            this.button_QuanLiNhomThuoc.Click += new System.EventHandler(this.button_QuanLiNhomThuoc_Click);
+            this.button_QuanLiNhanVien.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button_QuanLiNhanVien.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button_QuanLiNhanVien.FlatAppearance.BorderSize = 0;
+            this.button_QuanLiNhanVien.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_QuanLiNhanVien.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_QuanLiNhanVien.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(177)))), ((int)(((byte)(185)))));
+            this.button_QuanLiNhanVien.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button_QuanLiNhanVien.Location = new System.Drawing.Point(0, 459);
+            this.button_QuanLiNhanVien.Name = "button_QuanLiNhanVien";
+            this.button_QuanLiNhanVien.Size = new System.Drawing.Size(217, 50);
+            this.button_QuanLiNhanVien.TabIndex = 10;
+            this.button_QuanLiNhanVien.Text = "          Quản lí nhân viên";
+            this.button_QuanLiNhanVien.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button_QuanLiNhanVien.UseVisualStyleBackColor = true;
+            this.button_QuanLiNhanVien.Click += new System.EventHandler(this.button_QuanLiNhomThuoc_Click);
             // 
             // panel_ChildQuanLiThuoc
             // 
@@ -326,24 +325,6 @@
             // 
             this.timer_TaiKhoanNhanVienTransition.Interval = 10;
             this.timer_TaiKhoanNhanVienTransition.Tick += new System.EventHandler(this.timer_TaiKhoanNhanVienTransition_Tick);
-            // 
-            // button_ThongBao
-            // 
-            this.button_ThongBao.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button_ThongBao.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button_ThongBao.FlatAppearance.BorderSize = 0;
-            this.button_ThongBao.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_ThongBao.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_ThongBao.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(177)))), ((int)(((byte)(185)))));
-            this.button_ThongBao.Image = ((System.Drawing.Image)(resources.GetObject("button_ThongBao.Image")));
-            this.button_ThongBao.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button_ThongBao.Location = new System.Drawing.Point(0, 659);
-            this.button_ThongBao.Name = "button_ThongBao";
-            this.button_ThongBao.Size = new System.Drawing.Size(217, 50);
-            this.button_ThongBao.TabIndex = 13;
-            this.button_ThongBao.Text = "          Thông báo";
-            this.button_ThongBao.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button_ThongBao.UseVisualStyleBackColor = true;
             // 
             // button_ThongKe
             // 
@@ -402,7 +383,7 @@
             this.button_ThongTinNhanVien.Name = "button_ThongTinNhanVien";
             this.button_ThongTinNhanVien.Size = new System.Drawing.Size(217, 50);
             this.button_ThongTinNhanVien.TabIndex = 15;
-            this.button_ThongTinNhanVien.Text = "           > Thông tin nhân viên\r\n\r\n";
+            this.button_ThongTinNhanVien.Text = "          > Thông tin nhân viên";
             this.button_ThongTinNhanVien.UseVisualStyleBackColor = false;
             this.button_ThongTinNhanVien.Click += new System.EventHandler(this.button_ThongTinNhomThuoc_Click);
             // 
@@ -477,10 +458,9 @@
             // 
             // panel_Sidebar
             // 
-            this.panel_Sidebar.Controls.Add(this.button_ThongBao);
             this.panel_Sidebar.Controls.Add(this.button_ThongKe);
             this.panel_Sidebar.Controls.Add(this.panel_ChildQuanLiNhomThuoc);
-            this.panel_Sidebar.Controls.Add(this.button_QuanLiNhomThuoc);
+            this.panel_Sidebar.Controls.Add(this.button_QuanLiNhanVien);
             this.panel_Sidebar.Controls.Add(this.panel_ChildQuanLiThuoc);
             this.panel_Sidebar.Controls.Add(this.button_QuanLiThuoc);
             this.panel_Sidebar.Controls.Add(this.button_XepLichLamViec);
@@ -545,12 +525,11 @@
         private System.Windows.Forms.Panel panel_ChildTaiKhoanNhanVien;
         private System.Windows.Forms.Button button_ChinhSuaTaiKhoan;
         private System.Windows.Forms.Button button_Thongtin;
-        private System.Windows.Forms.Button button_QuanLiNhomThuoc;
+        private System.Windows.Forms.Button button_QuanLiNhanVien;
         private System.Windows.Forms.Panel panel_ChildQuanLiThuoc;
         private System.Windows.Forms.Button button_ChinhSuaThuoc;
         private System.Windows.Forms.Button button_ThongTinThuoc;
         private System.Windows.Forms.Timer timer_TaiKhoanNhanVienTransition;
-        private System.Windows.Forms.Button button_ThongBao;
         private System.Windows.Forms.Button button_ThongKe;
         private System.Windows.Forms.Panel panel_ChildQuanLiNhomThuoc;
         private System.Windows.Forms.Button button_ChinhSuaNhanVien;
