@@ -14,22 +14,14 @@ namespace QuanLyThuVienSGU_Winform
         #region Variables
         private TextBox textBox_NhanVienName;
         private TextBox textBox_SoDienThoaiInfo;
+        private TextBox textBox_Email;
         private Label label_NhanVienNameAfter;
         private Label label_SoDienThoaiAfter;
+        private Label label_EmailAfter;
         private int employeeID;
         private StaffInfoBLL staffInfoBLL = new StaffInfoBLL();
         //
         #endregion
-        public fc_StaffDetail(int employeeID, string role)
-        {
-            InitializeComponent();
-            if (role == "Staff")
-            {
-                ToggleEditButtons(false);
-            }
-            this.employeeID = employeeID;
-            LoadData(employeeID);
-        }
         public fc_StaffDetail(int employeeID)
         {
             InitializeComponent();
@@ -51,13 +43,6 @@ namespace QuanLyThuVienSGU_Winform
             }
         }
         #region Functions
-
-        private void ToggleEditButtons(bool visibility)
-        {
-            button_Edit.Visible = visibility;
-            button_SaveInsert.Visible = visibility;
-            button_ResetInsert.Visible = visibility;
-        }
 
         private TextBox ConvertLabelToTextBox(Label label)
         {
@@ -101,6 +86,7 @@ namespace QuanLyThuVienSGU_Winform
         {
             textBox_NhanVienName = ConvertLabelToTextBox(label_NhanVienName);
             textBox_SoDienThoaiInfo = ConvertLabelToTextBox(label_SoDienThoaiInfo);
+            textBox_Email = ConvertLabelToTextBox(label_EmailInfo);
         }
 
         private void button_SaveInsert_Click(object sender, EventArgs e)

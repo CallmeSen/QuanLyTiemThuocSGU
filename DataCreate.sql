@@ -288,6 +288,50 @@ BEGIN
     WHERE e.Role = @Role
 END
 GO
+-- hiện tại chỉ xài getAllCustomer thôi chưa có hành động thêm xóa sửa KH
+CREATE PROCEDURE USP_AddCustomer
+    @FullName NVARCHAR(255),
+    @Phone NVARCHAR(15),
+    @Email NVARCHAR(255),
+    @Address NVARCHAR(255)
+AS
+BEGIN
+    INSERT INTO Customers (FullName, Phone, Email, Address)
+    VALUES (@FullName, @Phone, @Email, @Address);
+END
+GO
+
+CREATE PROCEDURE USP_GetAllCustomers
+AS
+BEGIN
+    SELECT * FROM Customers;
+END
+GO
+
+CREATE PROCEDURE USP_UpdateCustomer
+    @CustomerID INT,
+    @FullName NVARCHAR(255),
+    @Phone NVARCHAR(15),
+    @Email NVARCHAR(255),
+    @Address NVARCHAR(255)
+AS
+BEGIN
+    UPDATE Customers
+    SET FullName = @FullName,
+        Phone = @Phone,
+        Email = @Email,
+        Address = @Address
+    WHERE CustomerID = @CustomerID;
+END
+GO
+
+CREATE PROCEDURE USP_DeleteCustomer
+    @CustomerID INT
+AS
+BEGIN
+    DELETE FROM Customers WHERE CustomerID = @CustomerID;
+END
+GO
 
 CREATE PROCEDURE USP_CreateOrder
     @CustomerID INT,
@@ -387,6 +431,16 @@ BEGIN
 END
 GO
 
+CREATE PROCEDURE USP_GetProductIDByName
+    @ProductName NVARCHAR(255)
+AS
+BEGIN
+    SELECT ProductID
+    FROM Products
+    WHERE ProductName = @ProductName
+END
+
+
 CREATE PROCEDURE USP_UpdateProduct
     @ProductID INT,
     @ProductName NVARCHAR(255),
@@ -416,6 +470,16 @@ BEGIN
 END
 GO
 
+CREATE PROCEDURE USP_GetCategoryByProductID
+    @ProductID INT
+AS
+BEGIN
+    SELECT CategoryName
+    FROM ProductCategory
+    INNER JOIN Products ON ProductCategory.CategoryID = Products.CategoryID
+    WHERE Products.ProductID = @ProductID;
+END
+GO
 
 CREATE PROCEDURE USP_AddCategory
     @CategoryName NVARCHAR(255)
@@ -449,54 +513,6 @@ CREATE PROCEDURE USP_DeleteCategory
 AS
 BEGIN
     DELETE FROM ProductCategory WHERE CategoryID = @CategoryID;
-END
-GO
-
-
-CREATE PROCEDURE USP_AddShipment
-    @SupplierID INT,
-    @ProductID INT,
-    @Quantity INT,
-    @ShipmentDate DATE,
-    @ArrivalDate DATE
-AS
-BEGIN
-    INSERT INTO Shipments (SupplierID, ProductID, Quantity, ShipmentDate, ArrivalDate)
-    VALUES (@SupplierID, @ProductID, @Quantity, @ShipmentDate, @ArrivalDate);
-END
-GO
-
-CREATE PROCEDURE USP_GetAllShipments
-AS
-BEGIN
-    SELECT * FROM Shipments;
-END
-GO
-
-CREATE PROCEDURE USP_UpdateShipment
-    @ShipmentID INT,
-    @SupplierID INT,
-    @ProductID INT,
-    @Quantity INT,
-    @ShipmentDate DATE,
-    @ArrivalDate DATE
-AS
-BEGIN
-    UPDATE Shipments
-    SET SupplierID = @SupplierID,
-        ProductID = @ProductID,
-        Quantity = @Quantity,
-        ShipmentDate = @ShipmentDate,
-        ArrivalDate = @ArrivalDate
-    WHERE ShipmentID = @ShipmentID;
-END
-GO
-
-CREATE PROCEDURE USP_DeleteShipment
-    @ShipmentID INT
-AS
-BEGIN
-    DELETE FROM Shipments WHERE ShipmentID = @ShipmentID;
 END
 GO
 
@@ -544,4 +560,46 @@ BEGIN
 END
 GO
 
+--hàm tìm kiếm gần đúng
+CREATE FUNCTION [dbo].[fuConvertToUnsign1](@strInput NVARCHAR(4000)) 
+	RETURNS NVARCHAR(4000)
+AS
+BEGIN
+	IF @strInput IS NULL 
+		RETURN @strInput 
+		IF @strInput = '' 
+			RETURN @strInput 
+		DECLARE @RT NVARCHAR(4000) 
+		DECLARE @SIGN_CHARS NCHAR(136) 
+		DECLARE @UNSIGN_CHARS NCHAR (136)
+
+SET @SIGN_CHARS = N'ăâđêôơưàảãạáằẳẵặắầẩẫậấèẻẽẹéềểễệế ìỉĩịíòỏõọóồổỗộốờởỡợớùủũụúừửữựứỳỷỹỵý ĂÂĐÊÔƠƯÀẢÃẠÁẰẲẴẶẮẦẨẪẬẤÈẺẼẸÉỀỂỄỆẾÌỈĨỊÍ ÒỎÕỌÓỒỔỖỘỐỜỞỠỢỚÙỦŨỤÚỪỬỮỰỨỲỶỸỴÝ' + NCHAR(272)+ NCHAR(208) 
+SET @UNSIGN_CHARS = N'aadeoouaaaaaaaaaaaaaaaeeeeeeeeee iiiiiooooooooooooooouuuuuuuuuuyyyyy AADEOOUAAAAAAAAAAAAAAAEEEEEEEEEEIIIII OOOOOOOOOOOOOOOUUUUUUUUUUYYYYYDD' DECLARE @COUNTER int DECLARE @COUNTER1 int 
+
+SET @COUNTER = 1 
+WHILE(@COUNTER <= LEN(@strInput))
+BEGIN
+
+SET @COUNTER1 = 1 
+WHILE(@COUNTER1 <= LEN(@SIGN_CHARS)+ 1)
+BEGIN
+	IF UNICODE(
+    SUBSTRING(@SIGN_CHARS, @COUNTER1, 1)) = UNICODE(SUBSTRING(@strInput, @COUNTER, 1))
+BEGIN 
+IF @COUNTER = 1 
+SET 
+@strInput = SUBSTRING(@UNSIGN_CHARS, @COUNTER1, 1) + SUBSTRING(@strInput, @COUNTER + 1, LEN(@strInput)-1)
+ELSE 
+SET @strInput = SUBSTRING(@strInput, 1, @COUNTER -1) + SUBSTRING(@UNSIGN_CHARS, @COUNTER1, 1) + SUBSTRING(@strInput, @COUNTER + 1, LEN(@strInput)- @COUNTER)
+BREAK
+END
+
+SET @COUNTER1 = @COUNTER1 + 1
+END 
+SET @COUNTER = @COUNTER + 1
+END
+
+SET @strInput = replace(@strInput, ' ', '-') 
+	RETURN @strInput
+END
 --------------------------------------------------------

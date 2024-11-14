@@ -234,3 +234,4 @@ E:\GitHub\QuanLyTiemThuocSGU_Winform\QuanLyTiemThuocSGU\obj\Debug\QuanLyThuVienS
 E:\GitHub\QuanLyTiemThuocSGU_Winform\QuanLyTiemThuocSGU\obj\Debug\QuanLyThuVienSGU_Winform.fc_EditMed.resources
 E:\GitHub\QuanLyTiemThuocSGU_Winform\QuanLyTiemThuocSGU\obj\Debug\QuanLyThuVienSGU_Winform.fc_EditStaff.resources
 E:\GitHub\QuanLyTiemThuocSGU_Winform\QuanLyTiemThuocSGU\obj\Debug\QuanLyThuVienSGU_Winform.fcAddMed.resources
+E:\GitHub\QuanLyTiemThuocSGU_Winform\QuanLyTiemThuocSGU\bin\Debug\Guna.Charts.WinForms.xml

@@ -511,6 +511,7 @@
             this.Name = "fStaff";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Employee Detail";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.panel_Sidebar.ResumeLayout(false);
             this.panel_ChildQuanLiNhomThuoc.ResumeLayout(false);

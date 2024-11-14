@@ -126,7 +126,7 @@ namespace QuanLyThuVienSGU_Winform
         {
             label_CurrentPage.Text = "Hóa Đơn Khách Hàng";
             label_CurrentFunction.Text = "> Bán Thuốc";
-            openChildForm(new fc_SellMed()); //Fill ChildForm vào panel cố định trong giao diện
+            openChildForm(new fc_SellMed(employeeID)); //Fill ChildForm vào panel cố định trong giao diện
         }
 
         #endregion

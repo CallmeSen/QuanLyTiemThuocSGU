@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -26,6 +27,17 @@ namespace QuanLyThuVienSGU_Winform.DTO
             Price = price;
             QuantityInStock = quantityInStock;
             ExpirationDate = expirationDate;
+        }
+
+        public ProductDTO(DataRow row)
+        {
+            ProductID = Convert.ToInt32(row["ProductID"]);
+            ProductName = row["ProductName"].ToString();
+            CategoryID = Convert.ToInt32(row["CategoryID"]);
+            SupplierID = Convert.ToInt32(row["SupplierID"]);
+            Price = Convert.ToDecimal(row["Price"]);
+            QuantityInStock = Convert.ToInt32(row["QuantityInStock"]);
+            ExpirationDate = row["ExpirationDate"] == DBNull.Value ? (DateTime?)null : Convert.ToDateTime(row["ExpirationDate"]);
         }
 
         public ProductDTO() { }

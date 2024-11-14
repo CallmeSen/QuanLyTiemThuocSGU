@@ -191,6 +191,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BLL\AccountBLL.cs" />
+    <Compile Include="BLL\CustomerBLL.cs" />
     <Compile Include="BLL\OrderBLL.cs" />
     <Compile Include="BLL\OrderInfoBLL.cs" />
     <Compile Include="BLL\ProductBLL.cs" />
@@ -199,6 +200,7 @@
     <Compile Include="BLL\StaffInfoBLL.cs" />
     <Compile Include="BLL\SupplierBLL.cs" />
     <Compile Include="DAO\AccountDAO.cs" />
+    <Compile Include="DAO\CustomerDAO.cs" />
     <Compile Include="DAO\DataProvider.cs" />
     <Compile Include="DAO\OrderDAO.cs" />
     <Compile Include="DAO\OrderInfoDAO.cs" />
@@ -207,6 +209,7 @@
     <Compile Include="DAO\ShipmentDAO.cs" />
     <Compile Include="DAO\StaffInfoDAO.cs" />
     <Compile Include="DAO\SupplierDAO.cs" />
+    <Compile Include="DTO\CustomerDTO.cs" />
     <Compile Include="DTO\OrderDTO.cs" />
     <Compile Include="DTO\OrderInfoDTO.cs" />
     <Compile Include="DTO\ProductCategoryDTO.cs" />
@@ -214,7 +217,9 @@
     <Compile Include="DTO\ShipmentDTO.cs" />
     <Compile Include="DTO\StaffInfoDTO.cs" />
     <Compile Include="DTO\SupplierDTO.cs" />
-    <Compile Include="quanlycuahangthuocDataSet.cs">
+    <Compile Include="quanlycuahangthuocDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
       <DependentUpon>quanlycuahangthuocDataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="rAdmin\fAdmin.cs">
@@ -315,11 +320,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="quanlycuahangthuocDataSet.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>quanlycuahangthuocDataSet.xsd</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="rAdmin\fAdmin.resx">
       <DependentUpon>fAdmin.cs</DependentUpon>
     </EmbeddedResource>

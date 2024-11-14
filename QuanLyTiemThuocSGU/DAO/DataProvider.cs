@@ -102,8 +102,9 @@ namespace QuanLyThuVienSGU_Winform.DAO
                     int i = 0;
                     foreach (string item in listPara)
                     {
-                        if (item.Contains('@'))
+                        if (item.Contains('@')/* && i < parameter.Length*/)
                         {
+                            //string paramName = item.TrimEnd(',', ')');
                             command.Parameters.AddWithValue(item, parameter[i]);
                             i++;
                         }

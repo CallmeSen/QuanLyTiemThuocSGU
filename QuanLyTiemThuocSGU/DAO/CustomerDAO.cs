@@ -1,0 +1,94 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Data;
+using QuanLyThuVienSGU_Winform.DTO;
+
+namespace QuanLyThuVienSGU_Winform.DAO
+{
+    public class CustomerDAO
+    {
+        private static CustomerDAO instance;
+        public static CustomerDAO Instance
+        {
+            get
+            {
+                if (instance == null) instance = new CustomerDAO();
+                return instance;
+            }
+            private set => instance = value;
+        }
+
+        private CustomerDAO() { }
+
+        public List<CustomerDTO> SearchCustomerByPhone(string phone)
+        {
+            List<CustomerDTO> list = new List<CustomerDTO>();
+            string query = "SELECT * FROM Customers WHERE Phone LIKE @phone";
+
+            DataTable data = DataProvider.Instance.ExecuteQuery(query, new object[] { "%" + phone + "%" });
+
+            foreach (DataRow row in data.Rows)
+            {
+                CustomerDTO customer = new CustomerDTO(row);
+                list.Add(customer);
+            }
+
+            return list;
+        }
+
+        // Thêm khách hàng mới
+        public bool AddCustomer(string fullName, string phone, string email, string address)
+        {
+            string query = "EXEC USP_AddCustomer @FullName, @Phone, @Email, @Address";
+            int result = DataProvider.Instance.ExecuteNonQuery(query, new object[] { fullName, phone, email, address });
+            return result > 0;
+        }
+
+        // Lấy danh sách tất cả khách hàng
+        public List<CustomerDTO> GetAllCustomers()
+        {
+            List<CustomerDTO> customers = new List<CustomerDTO>();
+            string query = "EXEC USP_GetAllCustomers";
+            DataTable data = DataProvider.Instance.ExecuteQuery(query);
+
+            foreach (DataRow row in data.Rows)
+            {
+                customers.Add(MapDataRowToCustomer(row));
+            }
+            return customers;
+        }
+
+        // Cập nhật thông tin khách hàng
+        public bool UpdateCustomer(int customerID, string fullName, string phone, string email, string address)
+        {
+            string query = "EXEC USP_UpdateCustomer @CustomerID, @FullName, @Phone, @Email, @Address";
+            int result = DataProvider.Instance.ExecuteNonQuery(query, new object[] { customerID, fullName, phone, email, address });
+            return result > 0;
+        }
+
+        // Xóa khách hàng
+        public bool DeleteCustomer(int customerID)
+        {
+            string query = "EXEC USP_DeleteCustomer @CustomerID";
+            int result = DataProvider.Instance.ExecuteNonQuery(query, new object[] { customerID });
+            return result > 0;
+        }
+
+        // Chuyển đổi DataRow thành CustomerDTO
+        private CustomerDTO MapDataRowToCustomer(DataRow row)
+        {
+            return new CustomerDTO
+            {
+                CustomerID = Convert.ToInt32(row["CustomerID"]),
+                FullName = row["FullName"].ToString(),
+                Phone = row["Phone"].ToString(),
+                Email = row["Email"].ToString(),
+                Address = row["Address"].ToString()
+            };
+        }
+    }
+}
+

@@ -24,6 +24,41 @@ namespace QuanLyThuVienSGU_Winform.DAO
 
         // Private constructor for singleton pattern
         private ProductDAO() { }
+        public List<ProductDTO> SearchProductByName(string name)
+        {
+            List<ProductDTO> list = new List<ProductDTO>();
+            string query = string.Format("SELECT * FROM dbo.Products WHERE dbo.fuConvertToUnsign1(ProductName) LIKE N'%' + dbo.fuConvertToUnsign1(N'{0}') + '%'", name);
+            DataTable data = DataProvider.Instance.ExecuteQuery(query);
+
+            foreach (DataRow row in data.Rows)
+            {
+                ProductDTO product = new ProductDTO(row);
+                list.Add(product);
+            }
+
+            return list;
+        }
+
+        public int GetProductIDByName(string productName)
+        {
+            string query = "EXEC USP_GetProductIDByName @ProductName";
+            object result = DataProvider.Instance.ExecuteScalar(query, new object[] { productName });
+
+            return result != null ? Convert.ToInt32(result) : -1; // Return -1 if the product is not found
+        }
+
+
+        public string GetCategoryByProductId(int productId)
+        {
+            string query = "EXEC USP_GetCategoryByProductID @productId";
+            DataTable result = DataProvider.Instance.ExecuteQuery(query, new object[] { productId });
+
+            if (result.Rows.Count > 0)
+            {
+                return result.Rows[0]["CategoryName"].ToString();
+            }
+            return string.Empty; // Return empty if no category found
+        }
 
         // Method to add a new product
         public bool AddProduct(string productName, int categoryID, int supplierID, decimal price, int quantityInStock, DateTime? expirationDate)

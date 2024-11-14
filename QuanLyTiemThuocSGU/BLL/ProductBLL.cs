@@ -25,6 +25,15 @@ namespace QuanLyThuVienSGU_Winform.BLL
         // Private constructor for singleton pattern
         private ProductBLL() { }
 
+        public List<ProductDTO> SearchProductByName(string name)
+        {
+            return ProductDAO.Instance.SearchProductByName(name);
+        }
+        public string GetCategoryByProductId(int productId)
+        {
+            return ProductDAO.Instance.GetCategoryByProductId(productId);
+        }
+
         // Method to add a new product
         public bool AddProduct(string productName, int categoryID, int supplierID, decimal price, int quantityInStock, DateTime? expirationDate)
         {
