@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Data;
+using System.Web.Security;
 using QuanLyThuVienSGU_Winform.DTO;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 
 namespace QuanLyThuVienSGU_Winform.DAO
 {
@@ -43,28 +45,38 @@ namespace QuanLyThuVienSGU_Winform.DAO
             }
         }
 
-        // Method to update employee details
-        public void UpdateStaff(StaffInfoDTO staff)
+        public bool AddStaff(string FullName, string Gender, string Role, string Phone, String Email, decimal Salary, DateTime HireDate)
+        {
+            string query = "EXEC USP_AddEmployee @FullName , @Gender , @Role , @Phone , @Email , @Salary , @HireDate ";
+            object[] parameters = { FullName, Gender, Role, Phone, Email, Salary, HireDate };
+            int result = DataProvider.Instance.ExecuteNonQuery(query, parameters);
+            return result > 0; // Returns true if the query executed successfully
+        }
+
+        public bool DeleteStaff(int employeeID)
         {
             try
             {
-                string query = "EXEC USP_UpdateEmployee @EmployeeID, @FullName, @Gender, @Role, @Phone, @Email, @Salary, @HireDate";
-                DataProvider.Instance.ExecuteNonQuery(query, new object[]
-                {
-                    staff.EmployeeID,
-                    staff.FullName,
-                    staff.Gender,
-                    staff.Role,
-                    staff.Phone,
-                    staff.Email,
-                    staff.Salary,
-                    staff.HireDate
-                });
+                string query = "EXEC USP_DeleteEmployee @EmployeeID";
+                int result = DataProvider.Instance.ExecuteNonQuery(query, new object[] { employeeID });
+
+                return result > 0; // Returns true if rows were affected
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Error updating employee: {ex.Message}");
+                Console.WriteLine($"Error deleting staff: {ex.Message}");
+                return false;
             }
+        }
+
+
+        // Method to update employee details
+        public bool UpdateStaff(int employeeID, string fullName, string gender, string role, string phone, string email, decimal salary, DateTime hireDate)
+        {
+            string query = "EXEC USP_UpdateEmployee @EmployeeID , @FullName , @Gender , @Role , @Phone , @Email , @Salary , @HireDate ";
+            object[] parameters = { employeeID, fullName, gender, role, phone, email, salary, hireDate };
+            int result = DataProvider.Instance.ExecuteNonQuery(query, parameters);
+            return result > 0;
         }
 
         // Private helper method to map DataRow to StaffInfo object

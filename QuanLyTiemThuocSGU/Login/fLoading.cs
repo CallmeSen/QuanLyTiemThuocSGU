@@ -31,7 +31,7 @@ namespace QuanLyThuVienSGU_Winform
                 loginForm.Show();
                 //fc_SellMed f = new fc_SellMed();
                 //f.Show();
-                //fcAddMed f = new fcAddMed();
+                //fc_AddMed f = new fc_AddMed();
                 //f.Show();
                 this.Hide();
 

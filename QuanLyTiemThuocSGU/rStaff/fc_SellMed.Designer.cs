@@ -57,6 +57,7 @@
             this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.lsDanhSachKhachHang = new System.Windows.Forms.ListView();
+            this.columnHeader10 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.lsHoaDonMua = new System.Windows.Forms.ListView();
@@ -65,7 +66,6 @@
             this.columnHeader8 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader9 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.btnFindPN = new Guna.UI2.WinForms.Guna2Button();
-            this.columnHeader10 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.SuspendLayout();
             // 
             // txtCustomerName
@@ -77,7 +77,6 @@
             this.txtCustomerName.Name = "txtCustomerName";
             this.txtCustomerName.PasswordChar = '\0';
             this.txtCustomerName.PlaceholderText = "Tên khách hàng";
-            this.txtCustomerName.ReadOnly = true;
             this.txtCustomerName.SelectedText = "";
             this.txtCustomerName.Size = new System.Drawing.Size(265, 36);
             this.txtCustomerName.TabIndex = 27;
@@ -91,7 +90,6 @@
             this.txtCustomerContact.Name = "txtCustomerContact";
             this.txtCustomerContact.PasswordChar = '\0';
             this.txtCustomerContact.PlaceholderText = "SĐT khách hàng";
-            this.txtCustomerContact.ReadOnly = true;
             this.txtCustomerContact.SelectedText = "";
             this.txtCustomerContact.Size = new System.Drawing.Size(265, 36);
             this.txtCustomerContact.TabIndex = 28;
@@ -401,6 +399,11 @@
             this.lsDanhSachKhachHang.View = System.Windows.Forms.View.Details;
             this.lsDanhSachKhachHang.SelectedIndexChanged += new System.EventHandler(this.lsDanhSachKhachHang_SelectedIndexChanged);
             // 
+            // columnHeader10
+            // 
+            this.columnHeader10.Text = "ID";
+            this.columnHeader10.Width = 30;
+            // 
             // columnHeader4
             // 
             this.columnHeader4.Text = "Họ tên";
@@ -457,11 +460,6 @@
             this.btnFindPN.Size = new System.Drawing.Size(105, 31);
             this.btnFindPN.TabIndex = 80;
             this.btnFindPN.Text = "Tìm";
-            // 
-            // columnHeader10
-            // 
-            this.columnHeader10.Text = "ID";
-            this.columnHeader10.Width = 30;
             // 
             // fc_SellMed
             // 

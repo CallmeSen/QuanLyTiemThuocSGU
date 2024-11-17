@@ -17,9 +17,9 @@ namespace QuanLyThuVienSGU_Winform.BLL
             return staffInfoDAO.GetStaffByID(employeeID);
         }
 
-        public void UpdateStaffDetails(StaffInfoDTO staffInfo)
+        public bool UpdateStaffDetails(StaffInfoDTO staffInfo)
         {
-            staffInfoDAO.UpdateStaff(staffInfo);
+            return staffInfoDAO.UpdateStaff(staffInfo.EmployeeID, staffInfo.FullName, staffInfo.Gender, staffInfo.Role, staffInfo.Phone, staffInfo.Email, staffInfo.Salary, staffInfo.HireDate);
         }
     }
 }

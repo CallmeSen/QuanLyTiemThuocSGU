@@ -50,7 +50,7 @@ namespace QuanLyThuVienSGU_Winform.DAO
 
         public string GetCategoryByProductId(int productId)
         {
-            string query = "EXEC USP_GetCategoryByProductID @productId";
+            string query = "EXEC USP_GetCategoryByProductID @productId ";
             DataTable result = DataProvider.Instance.ExecuteQuery(query, new object[] { productId });
 
             if (result.Rows.Count > 0)
@@ -63,7 +63,7 @@ namespace QuanLyThuVienSGU_Winform.DAO
         // Method to add a new product
         public bool AddProduct(string productName, int categoryID, int supplierID, decimal price, int quantityInStock, DateTime? expirationDate)
         {
-            string query = "EXEC USP_AddProduct @ProductName, @CategoryID, @SupplierID, @Price, @QuantityInStock, @ExpirationDate";
+            string query = "EXEC USP_AddProduct @ProductName , @CategoryID , @SupplierID , @Price , @QuantityInStock , @ExpirationDate ";
             object[] parameters = { productName, categoryID, supplierID, price, quantityInStock, expirationDate };
             int result = DataProvider.Instance.ExecuteNonQuery(query, parameters);
             return result > 0;
@@ -86,7 +86,7 @@ namespace QuanLyThuVienSGU_Winform.DAO
         // Method to update a product
         public bool UpdateProduct(int productID, string productName, int categoryID, int supplierID, decimal price, int quantityInStock, DateTime? expirationDate)
         {
-            string query = "EXEC USP_UpdateProduct @ProductID, @ProductName, @CategoryID, @SupplierID, @Price, @QuantityInStock, @ExpirationDate";
+            string query = "EXEC USP_UpdateProduct @ProductID , @ProductName , @CategoryID , @SupplierID , @Price , @QuantityInStock , @ExpirationDate ";
             object[] parameters = { productID, productName, categoryID, supplierID, price, quantityInStock, expirationDate };
             int result = DataProvider.Instance.ExecuteNonQuery(query, parameters);
             return result > 0;

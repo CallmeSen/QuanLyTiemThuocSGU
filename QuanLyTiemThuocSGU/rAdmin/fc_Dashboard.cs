@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace QuanLyThuVienSGU_Winform
 {
-    public partial class fDashboard : Form
+    public partial class fc_Dashboard : Form
     {
-        public fDashboard()
+        public fc_Dashboard()
         {
             InitializeComponent();
         }

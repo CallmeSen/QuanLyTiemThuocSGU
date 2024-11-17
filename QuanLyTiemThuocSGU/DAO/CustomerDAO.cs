@@ -40,11 +40,19 @@ namespace QuanLyThuVienSGU_Winform.DAO
         }
 
         // Thêm khách hàng mới
-        public bool AddCustomer(string fullName, string phone, string email, string address)
+        public int AddCustomer(string fullName, string phone, string email, string address)
         {
-            string query = "EXEC USP_AddCustomer @FullName, @Phone, @Email, @Address";
-            int result = DataProvider.Instance.ExecuteNonQuery(query, new object[] { fullName, phone, email, address });
-            return result > 0;
+            string query = "EXEC USP_AddCustomer @FullName , @Phone , @Email , @Address";
+
+            // Use ExecuteScalar to get the newly added CustomerID
+            object result = DataProvider.Instance.ExecuteScalar(query, new object[] { fullName, phone, email, address });
+
+            if (result != null && int.TryParse(result.ToString(), out int customerID))
+            {
+                return customerID; // Return the CustomerID
+            }
+
+            return -1; // Return -1 if insertion failed
         }
 
         // Lấy danh sách tất cả khách hàng

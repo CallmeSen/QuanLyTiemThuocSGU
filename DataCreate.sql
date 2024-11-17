@@ -7,20 +7,20 @@ GO
 
 CREATE TABLE Employees (
     EmployeeID INT PRIMARY KEY IDENTITY(1,1),
-    FullName VARCHAR(255) NOT NULL,
-	Gender CHAR(1),
-	Role VARCHAR(50),
-    Phone VARCHAR(15),
-    Email VARCHAR(255),
-    Salary DECIMAL(10,2),
+    FullName NVARCHAR(255) NOT NULL,
+    Gender CHAR(1),
+    Role NVARCHAR(50),
+    Phone NVARCHAR(15),
+    Email NVARCHAR(255),
+    Salary DECIMAL(18,2),
     HireDate DATE
 );
 GO
 
 CREATE TABLE Accounts (
     AccountID INT PRIMARY KEY IDENTITY(1,1),
-    Username VARCHAR(100) NOT NULL,
-    Password VARCHAR(100) NOT NULL,
+    Username NVARCHAR(100) NOT NULL,
+    Password NVARCHAR(100) NOT NULL,
     Role INT,
     EmployeeID INT,
     FOREIGN KEY (EmployeeID) REFERENCES Employees(EmployeeID)
@@ -29,31 +29,31 @@ GO
 
 CREATE TABLE Customers (
     CustomerID INT PRIMARY KEY IDENTITY(1,1),
-    FullName VARCHAR(255) NOT NULL,
-    Phone VARCHAR(15),
-    Email VARCHAR(255),
-    Address VARCHAR(255)
+    FullName NVARCHAR(255) NOT NULL,
+    Phone NVARCHAR(15),
+    Email NVARCHAR(255),
+    Address NVARCHAR(255)
 );
 GO
 
 CREATE TABLE Suppliers (
     SupplierID INT PRIMARY KEY IDENTITY(1,1),
-    SupplierName VARCHAR(255) NOT NULL,
-    Phone VARCHAR(15),
-    Email VARCHAR(255),
-    Address VARCHAR(255)
+    SupplierName NVARCHAR(255) NOT NULL,
+    Phone NVARCHAR(15),
+    Email NVARCHAR(255),
+    Address NVARCHAR(255)
 );
 GO
 
 CREATE TABLE ProductCategory (
     CategoryID INT PRIMARY KEY IDENTITY(1,1),
-    CategoryName VARCHAR(255) NOT NULL
+    CategoryName NVARCHAR(255) NOT NULL
 );
 GO
 
 CREATE TABLE Products (
     ProductID INT PRIMARY KEY IDENTITY(1,1),
-    ProductName VARCHAR(255) NOT NULL,
+    ProductName NVARCHAR(255) NOT NULL,
     CategoryID INT,
     SupplierID INT,
     Price DECIMAL(10,2) NOT NULL,
@@ -86,17 +86,6 @@ CREATE TABLE OrderInfo (
 );
 GO
 
-CREATE TABLE Shipments (
-    ShipmentID INT PRIMARY KEY IDENTITY(1,1),
-    SupplierID INT,
-    ProductID INT,
-    Quantity INT NOT NULL,
-    ShipmentDate DATE NOT NULL,
-    ArrivalDate DATE NOT NULL,
-    FOREIGN KEY (SupplierID) REFERENCES Suppliers(SupplierID),
-    FOREIGN KEY (ProductID) REFERENCES Products(ProductID)
-);
-GO
 
 -- Thêm dữ liệu vào các bảng
 
@@ -153,28 +142,50 @@ GO
 -- Chèn dữ liệu giả cho bảng Employees
 INSERT INTO Employees (FullName, Gender, Role, Phone, Email, Salary, HireDate)
 VALUES 
-('Tran Quang Huy', 'M', 'Staff', '0901234567', 'huytq@pharmacy.com', 8500000, '2021-05-01'),
-('Nguyen Thi Lan', 'F', 'Admin', '0902345678', 'lannn@pharmacy.com', 9200000, '2020-11-15'),
-('Le Van Khoa', 'M', 'Staff', '0903456789', 'khoalv@pharmacy.com', 7500000, '2022-02-10'),
-('Pham Minh Anh', 'F', 'Admin', '0904567890', 'anhtp@pharmacy.com', 6800000, '2023-03-20');
+(N'Trần Quang Huy', 'M', 'Staff', '0901234567', 'huytq@pharmacy.com', 8500000, '2021-05-01'),
+(N'Nguyễn Thị Lan', 'F', 'Admin', '0902345678', 'lannn@pharmacy.com', 9200000, '2020-11-15'),
+(N'Lê Văn Khoa', 'M', 'Staff', '0903456789', 'khoalv@pharmacy.com', 7500000, '2022-02-10'),
+(N'Phạm Minh Anh', 'F', 'Admin', '0904567890', 'anhtp@pharmacy.com', 6800000, '2023-03-20'),
+(N'Phạm Văn Thanh', 'M', N'Admin', '0905671234', 'thanhpv@pharmacy.com', 15000000, '2019-09-10'),
+(N'Bùi Thị Mai', 'F', N'Staff', '0906781234', 'maibt@pharmacy.com', 8000000, '2022-01-25'),
+(N'Trần Minh Tuấn', 'M', N'Staff', '0907891234', 'tuantm@pharmacy.com', 12000000, '2021-07-15'),
+(N'Nguyễn Văn Dương', 'M', N'Staff', '0908901234', 'duongnv@pharmacy.com', 7000000, '2023-06-18');
 GO
 
 -- Chèn dữ liệu giả cho bảng Accounts
 INSERT INTO Accounts (Username, Password, Role, EmployeeID)
 VALUES 
-('staff', '123456', 0, 1),
-('admin', '123456', 1, 2),
-('khoa_le', 'khoa_password789', 0, 3),
-('minh_anh', 'anh_password321', 1, 4);
+(N'staff', '123456', 0, 1),
+(N'admin', '123456', 1, 2),
+(N'khoa_le', 'khoa_password789', 0, 3),
+(N'minh_anh', 'anh_password321', 1, 4),
+(N'thanh_pham', 'thanh_password123', 1, 5),
+(N'mai_bui', 'mai_password456', 0, 6),
+(N'minh_tuan', 'tuan_password789', 0, 7),
+(N'duong_nguyen', 'duong_password321', 0, 8);
 GO
 
 -- Chèn dữ liệu giả cho bảng Customers
 INSERT INTO Customers (FullName, Phone, Email, Address)
 VALUES 
-('Pham Hoang Nam', '0986543210', 'namph@gmail.com', '21 Ton Duc Thang, Ha Noi'),
-('Nguyen Minh Chau', '0978654321', 'chaunm@hotmail.com', '32 Dien Bien Phu, Da Nang'),
-('Le Thi Hoa', '0967451234', 'hoale@yahoo.com', '90 Ly Thuong Kiet, Ho Chi Minh City'),
-('Vuong Quoc Bao', '0945123789', 'bao.vuong@zmail.com', '15 Hang Bai, Ha Noi');
+(N'Phạm Hoàng Nam', '0986543210', 'namph@gmail.com', N'21 Tôn Đức Thắng, Hà Nội'),
+(N'Nguyễn Minh Châu', '0978654321', 'chaunm@hotmail.com', N'32 Điện Biên Phủ, Đà Nẵng'),
+(N'Lê Thị Hoa', '0967451234', 'hoale@yahoo.com', N'90 Lý Thường Kiệt, TP Hồ Chí Minh'),
+(N'Vương Quốc Bảo', '0945123789', 'bao.vuong@zmail.com', N'15 Hàng Bài, Hà Nội'),
+(N'Trần Thị Bích', '0981234567', 'bich.tran@gmail.com', N'12 Hàng Khay, Hà Nội'),
+(N'Hoàng Văn Phúc', '0972345678', 'phuc.hoang@hotmail.com', N'23 Hai Bà Trưng, Hà Nội'),
+(N'Nguyễn Thị Hoa', '0963456789', 'hoa.nguyen@yahoo.com', N'45 Lê Lợi, Đà Nẵng'),
+(N'Đỗ Thị Mai', '0954567890', '', N'78 Bạch Đằng, TP Hồ Chí Minh'),
+(N'Lê Thanh Sơn', '0945678901', '', ''),
+(N'Vũ Minh Hằng', '0936789012', '', N'34 Phạm Văn Đồng, TP Hồ Chí Minh'),
+(N'Phạm Văn Bảo', '0927890123', 'bao.pham@hotmail.com', ''),
+(N'Nguyễn Thị Lan Anh', '0918901234', 'lananh.nguyen@zmail.com', N'56 Nguyễn Trãi, Hà Nội'),
+(N'Bùi Thị Mai', '0902345678', '', ''),
+(N'Lê Văn Hoàng', '0903456789', '', ''),
+(N'Trần Quốc Bảo', '0904567890', '', N'45 Nguyễn Huệ, Đà Nẵng'),
+(N'Nguyễn Thanh Phong', '0915678901', '', ''),
+(N'Phạm Minh Đức', '0926789012', '', N'12 Lý Tự Trọng, Hà Nội'),
+(N'Võ Anh Tuấn', '0937890123', '', '');
 GO
 
 -- Chèn dữ liệu giả cho bảng Orders
@@ -197,15 +208,6 @@ VALUES
 (4, 5, 5, 4000);
 GO
 
--- Chèn dữ liệu giả cho bảng Shipments
-INSERT INTO Shipments (SupplierID, ProductID, Quantity, ShipmentDate, ArrivalDate)
-VALUES 
-(1, 1, 1000, '2024-08-25', '2024-08-30'),
-(2, 2, 300, '2024-07-01', '2024-07-05'),
-(4, 3, 25, '2024-09-10', '2024-09-15'),
-(3, 4, 500, '2024-09-20', '2024-09-25'),
-(2, 5, 200, '2024-10-05', '2024-10-10');
-GO
 
 -- tạo stored procedure cho login
 CREATE PROC USP_Login
@@ -236,12 +238,12 @@ CREATE PROC USP_AddEmployee
 	@Role VARCHAR(50),
     @Phone VARCHAR(15),
     @Email VARCHAR(255),
-    @Salary DECIMAL(10,2),
+    @Salary DECIMAL(18,2),
     @HireDate DATE
 AS
 BEGIN
-    INSERT INTO Employees (FullName, Gender, Phone, Email, Salary, HireDate)
-    VALUES (@FullName, @Gender, @Phone, @Email, @Salary, @HireDate)
+    INSERT INTO Employees (FullName, Gender, Role, Phone, Email, Salary, HireDate)
+    VALUES (@FullName, @Gender, @Role, @Phone, @Email, @Salary, @HireDate)
 END
 GO
 
@@ -253,7 +255,7 @@ CREATE PROC USP_UpdateEmployee
 	@Role VARCHAR(50),
     @Phone VARCHAR(15),
     @Email VARCHAR(255),
-    @Salary DECIMAL(10,2),
+    @Salary DECIMAL(18,2),
     @HireDate DATE
 AS
 BEGIN
@@ -280,7 +282,7 @@ GO
 
 -- Stored procedure to retrieve all employees with a specific role
 CREATE PROC USP_GetEmployeesByRole
-    @Role VARCHAR(50) -- Adjust size to match the Role column size in Employees
+    @Role VARCHAR(50) 
 AS
 BEGIN
     SELECT e.EmployeeID, e.FullName, e.Gender, e.Role, e.Phone, e.Email, e.Salary, e.HireDate
@@ -288,7 +290,7 @@ BEGIN
     WHERE e.Role = @Role
 END
 GO
--- hiện tại chỉ xài getAllCustomer thôi chưa có hành động thêm xóa sửa KH
+
 CREATE PROCEDURE USP_AddCustomer
     @FullName NVARCHAR(255),
     @Phone NVARCHAR(15),
@@ -298,6 +300,7 @@ AS
 BEGIN
     INSERT INTO Customers (FullName, Phone, Email, Address)
     VALUES (@FullName, @Phone, @Email, @Address);
+	 SELECT SCOPE_IDENTITY();
 END
 GO
 
@@ -439,6 +442,7 @@ BEGIN
     FROM Products
     WHERE ProductName = @ProductName
 END
+GO
 
 
 CREATE PROCEDURE USP_UpdateProduct

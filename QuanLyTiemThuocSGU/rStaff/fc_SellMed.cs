@@ -13,11 +13,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using QuanLyThuVienSGU_Winform.DAO;
+using System.Data.SqlClient;
 
 namespace QuanLyThuVienSGU_Winform
 {
     public partial class fc_SellMed : Form
     {
+        private int orderID;
         private int CurrentEmployeeID;
         private PrintDocument printDocument = new PrintDocument();
         public fc_SellMed(int employeeID)
@@ -35,9 +37,8 @@ namespace QuanLyThuVienSGU_Winform
                 // Assuming CustomerID is stored in the first column
                 return int.Parse(lsDanhSachKhachHang.SelectedItems[0].SubItems[0].Text);
             }
-            //else
+            else
             {
-                MessageBox.Show("Please select a customer.");
                 return -1; // Return -1 or handle this case appropriately
             }
         }
@@ -117,33 +118,11 @@ namespace QuanLyThuVienSGU_Winform
             txbTotal.Text = finalTotal.ToString("#,##0") + " ₫"; // Display as currency
         }
 
-        private void PrintDocument_PrintPage(object sender, PrintPageEventArgs e)
+        private string GetEmployeeName(int employeeID)
         {
-            int yPos = 100;
-            int leftMargin = e.MarginBounds.Left;
-            Font printFont = new Font("Arial", 12);
-
-            e.Graphics.DrawString("Hóa Đơn Khách Hàng", new Font("Arial", 18, FontStyle.Bold), Brushes.Black, leftMargin, yPos);
-            yPos += 40;
-
-            e.Graphics.DrawString("Họ Tên: " + txtCustomerName.Text, printFont, Brushes.Black, leftMargin, yPos);
-            yPos += 25;
-            e.Graphics.DrawString("Số Điện Thoại: " + txtCustomerContact.Text, printFont, Brushes.Black, leftMargin, yPos);
-            yPos += 40;
-
-            e.Graphics.DrawString("Chi Tiết Đơn Hàng:", printFont, Brushes.Black, leftMargin, yPos);
-            yPos += 25;
-
-            foreach (ListViewItem item in lsHoaDonMua.Items)
-            {
-                string itemText = $"{item.SubItems[0].Text} - Số lượng: {item.SubItems[1].Text} - Giá: {item.SubItems[3].Text}";
-                e.Graphics.DrawString(itemText, printFont, Brushes.Black, leftMargin, yPos);
-                yPos += 25;
-            }
-
-            yPos += 20;
-
-            e.Graphics.DrawString("Tổng Cộng: " + txbTotal.Text, new Font("Arial", 14, FontStyle.Bold), Brushes.Black, leftMargin, yPos);
+            StaffInfoBLL staffInfoBLL = new StaffInfoBLL();
+            StaffInfoDTO employeeDetails = staffInfoBLL.GetStaffDetails(employeeID);
+            return employeeDetails != null ? employeeDetails.FullName : "Unknown Employee";
         }
 
         public int InsertOrder(int customerID, int employeeID, decimal totalAmount)
@@ -152,8 +131,8 @@ namespace QuanLyThuVienSGU_Winform
                            "OUTPUT INSERTED.OrderID " +
                            "VALUES ( @CustomerID , @EmployeeID , GETDATE() , @TotalAmount )";
 
-            // Execute the query and return the generated OrderID
             return (int)DataProvider.Instance.ExecuteScalar(query, new object[] { customerID, employeeID, totalAmount });
+
         }
 
         public void InsertOrderInfo(int orderID, int productID, int quantity, decimal priceAtPurchase)
@@ -164,6 +143,110 @@ namespace QuanLyThuVienSGU_Winform
             DataProvider.Instance.ExecuteNonQuery(query, new object[] { orderID, productID, quantity, priceAtPurchase });
         }
 
+
+        public int GetLatestOrderID()
+        {
+            string query = "SELECT TOP 1 OrderID FROM Orders ORDER BY OrderID DESC";
+            object result = DataProvider.Instance.ExecuteScalar(query);
+
+            return result != null ? Convert.ToInt32(result) : -1; // Return -1 if no orders exist
+        }
+
+        private void PrintDocument_PrintPage(object sender, PrintPageEventArgs e)
+        {
+            int employeeID = CurrentEmployeeID;
+            string employeeName = GetEmployeeName(employeeID);
+            int latestOrderID = GetLatestOrderID();
+
+            int yPos = 100;
+            int leftMargin = e.MarginBounds.Left;
+            Font headerFont = new Font("Arial", 18, FontStyle.Bold);
+            Font boldFont = new Font("Arial", 12, FontStyle.Bold);
+            Font regularFont = new Font("Arial", 12);
+            Font tableFont = new Font("Arial", 12);
+
+            // Header title centered
+            string headerTitle = "HÓA ĐƠN BÁN LẺ";
+            SizeF titleSize = e.Graphics.MeasureString(headerTitle, headerFont);
+            e.Graphics.DrawString(headerTitle, headerFont, Brushes.Black, (e.PageBounds.Width - titleSize.Width) / 2, yPos);
+            yPos += 40;
+
+            // Order information
+            e.Graphics.DrawString($"Ngày: {DateTime.Now:dd/MM/yyyy}", regularFont, Brushes.Black, leftMargin, yPos);
+            yPos += 25;
+            e.Graphics.DrawString($"Đơn hàng: {latestOrderID + 1}", boldFont, Brushes.Black, leftMargin, yPos);
+            yPos += 25;
+            e.Graphics.DrawString($"NV: {employeeID} – {employeeName}", regularFont, Brushes.Black, leftMargin, yPos);
+            yPos += 25;
+            e.Graphics.DrawString("KH: " + txtCustomerName.Text, regularFont, Brushes.Black, leftMargin, yPos);
+            yPos += 25;
+            e.Graphics.DrawString("ĐT: " + txtCustomerContact.Text, regularFont, Brushes.Black, leftMargin, yPos);
+            yPos += 40;
+
+            // Define table columns and row settings
+            int tableStartX = leftMargin;
+            int colWidthName = 250;
+            int colWidthQuantity = 60;
+            int colWidthPrice = 120;
+            int colWidthTotal = 140;
+
+            // Draw header row with centered text
+            e.Graphics.DrawRectangle(Pens.Black, tableStartX, yPos, colWidthName, 25);
+            e.Graphics.DrawString("Tên sản phẩm", boldFont, Brushes.Black,
+                tableStartX + (colWidthName / 2) - (e.Graphics.MeasureString("Tên sản phẩm", boldFont).Width / 2), yPos + 5);
+
+            e.Graphics.DrawRectangle(Pens.Black, tableStartX + colWidthName, yPos, colWidthQuantity, 25);
+            e.Graphics.DrawString("SL", boldFont, Brushes.Black,
+                tableStartX + colWidthName + (colWidthQuantity / 2) - (e.Graphics.MeasureString("SL", boldFont).Width / 2), yPos + 5);
+
+            e.Graphics.DrawRectangle(Pens.Black, tableStartX + colWidthName + colWidthQuantity, yPos, colWidthPrice, 25);
+            e.Graphics.DrawString("Đơn giá", boldFont, Brushes.Black,
+                tableStartX + colWidthName + colWidthQuantity + (colWidthPrice / 2) - (e.Graphics.MeasureString("Đơn giá", boldFont).Width / 2), yPos + 5);
+
+            e.Graphics.DrawRectangle(Pens.Black, tableStartX + colWidthName + colWidthQuantity + colWidthPrice, yPos, colWidthTotal, 25);
+            e.Graphics.DrawString("Thành tiền", boldFont, Brushes.Black,
+                tableStartX + colWidthName + colWidthQuantity + colWidthPrice + (colWidthTotal / 2) - (e.Graphics.MeasureString("Thành tiền", boldFont).Width / 2), yPos + 5);
+
+            yPos += 25;
+
+            // Table rows for each product with borders around each cell
+            decimal finalTotal = 0;
+            foreach (ListViewItem item in lsHoaDonMua.Items)
+            {
+                string productName = item.SubItems[0].Text;
+                string quantity = item.SubItems[1].Text;
+                string price = item.SubItems[2].Text;
+                string total = item.SubItems[3].Text;
+
+                // Draw each cell with borders
+                e.Graphics.DrawRectangle(Pens.Black, tableStartX, yPos, colWidthName, 25);
+                e.Graphics.DrawString(productName, tableFont, Brushes.Black, tableStartX + 5, yPos + 5);
+
+                e.Graphics.DrawRectangle(Pens.Black, tableStartX + colWidthName, yPos, colWidthQuantity, 25);
+                e.Graphics.DrawString(quantity, tableFont, Brushes.Black,
+                    tableStartX + colWidthName + (colWidthQuantity / 2) - (e.Graphics.MeasureString(quantity, tableFont).Width / 2), yPos + 5);
+
+                e.Graphics.DrawRectangle(Pens.Black, tableStartX + colWidthName + colWidthQuantity, yPos, colWidthPrice, 25);
+                e.Graphics.DrawString(price, tableFont, Brushes.Black,
+                    tableStartX + colWidthName + colWidthQuantity + (colWidthPrice / 2) - (e.Graphics.MeasureString(price, tableFont).Width / 2), yPos + 5);
+
+                e.Graphics.DrawRectangle(Pens.Black, tableStartX + colWidthName + colWidthQuantity + colWidthPrice, yPos, colWidthTotal, 25);
+                e.Graphics.DrawString(total, tableFont, Brushes.Black,
+                    tableStartX + colWidthName + colWidthQuantity + colWidthPrice + colWidthTotal - e.Graphics.MeasureString(total, tableFont).Width - 5, yPos + 5);
+
+                finalTotal += decimal.Parse(total.Replace(",", "").Replace("₫", "").Trim());
+                yPos += 25;
+            }
+
+            // Draw the final total row with the same border layout and alignment
+            e.Graphics.DrawRectangle(Pens.Black, tableStartX, yPos, colWidthName + colWidthQuantity + colWidthPrice, 25);
+            e.Graphics.DrawString("Tổng tiền", boldFont, Brushes.Black,
+                tableStartX + colWidthName + colWidthQuantity + colWidthPrice - e.Graphics.MeasureString("Tổng tiền", boldFont).Width - 5, yPos + 5);
+
+            e.Graphics.DrawRectangle(Pens.Black, tableStartX + colWidthName + colWidthQuantity + colWidthPrice, yPos, colWidthTotal, 25);
+            e.Graphics.DrawString(finalTotal.ToString("#,##0") + " ₫", boldFont, Brushes.Black,
+                tableStartX + colWidthName + colWidthQuantity + colWidthPrice + colWidthTotal - e.Graphics.MeasureString(finalTotal.ToString("#,##0") + " ₫", boldFont).Width - 5, yPos + 5);
+        }
 
         private void txbTimThuoc_TextChanged(object sender, EventArgs e)
         {
@@ -294,10 +377,29 @@ namespace QuanLyThuVienSGU_Winform
             printDialog.Document = printDocument;
             int customerID = GetSelectedCustomerID();
 
-            if (customerID == -1){
+            if (customerID == -1 && !string.IsNullOrEmpty(txtCustomerName.Text) && !string.IsNullOrEmpty(txtCustomerContact.Text))
+            {
+                string customerName = txtCustomerName.Text.Trim();
+                string customerPhone = txtCustomerContact.Text.Trim();
+                string customerEmail = string.Empty; // Can fetch from input if required
+                string customerAddress = string.Empty; // Can fetch from input if required
+
+                // Add the new customer and get the generated CustomerID
+                customerID = CustomerBLL.Instance.AddCustomer(customerName, customerPhone, customerEmail, customerAddress);
+                if (customerID == -1)
+                {
+                    MessageBox.Show("Failed to add new customer.");
+                    return;
+                }
+            }
+
+            // If no customer is selected or added, stop the process
+            if (customerID == -1)
+            {
+                MessageBox.Show("Please select or enter a valid customer.");
                 return;
             }
-            else //(printDialog.ShowDialog() == DialogResult.OK)
+            else if (printDialog.ShowDialog() == DialogResult.OK)
             {
                 printDocument.Print();
             }
@@ -306,7 +408,7 @@ namespace QuanLyThuVienSGU_Winform
             decimal totalAmount = UpdateTotalAmount();
 
             // Insert order and get the generated OrderID
-            int orderID = InsertOrder(customerID, employeeID, totalAmount);
+            orderID = InsertOrder(customerID, employeeID, totalAmount);
 
             foreach (ListViewItem item in lsHoaDonMua.Items)
             {
@@ -328,7 +430,6 @@ namespace QuanLyThuVienSGU_Winform
                 // Insert OrderInfo record for this item
                 InsertOrderInfo(orderID, productID, quantity, priceAtPurchase);
             }
-
         }
     }
 }

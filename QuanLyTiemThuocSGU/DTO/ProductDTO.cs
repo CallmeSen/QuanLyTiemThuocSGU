@@ -17,17 +17,7 @@ namespace QuanLyThuVienSGU_Winform.DTO
         public int QuantityInStock { get; set; }
         public DateTime? ExpirationDate { get; set; }
 
-        // Optional constructor and ToString method for easier debugging
-        public ProductDTO(int productID, string productName, int categoryID, int supplierID, decimal price, int quantityInStock, DateTime? expirationDate)
-        {
-            ProductID = productID;
-            ProductName = productName;
-            CategoryID = categoryID;
-            SupplierID = supplierID;
-            Price = price;
-            QuantityInStock = quantityInStock;
-            ExpirationDate = expirationDate;
-        }
+        public ProductDTO() { }
 
         public ProductDTO(DataRow row)
         {
@@ -40,7 +30,6 @@ namespace QuanLyThuVienSGU_Winform.DTO
             ExpirationDate = row["ExpirationDate"] == DBNull.Value ? (DateTime?)null : Convert.ToDateTime(row["ExpirationDate"]);
         }
 
-        public ProductDTO() { }
 
         public override string ToString()
         {

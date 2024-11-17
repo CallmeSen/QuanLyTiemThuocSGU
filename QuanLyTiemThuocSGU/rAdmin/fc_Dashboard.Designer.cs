@@ -1,6 +1,6 @@
 ﻿namespace QuanLyThuVienSGU_Winform
 {
-    partial class fDashboard
+    partial class fc_Dashboard
     {
         /// <summary>
         /// Required designer variable.

@@ -28,7 +28,7 @@ namespace QuanLyThuVienSGU_Winform.BLL
         }
 
         // Thêm khách hàng mới
-        public bool AddCustomer(string fullName, string phone, string email, string address)
+        public int AddCustomer(string fullName, string phone, string email, string address)
         {
             try
             {
@@ -37,9 +37,10 @@ namespace QuanLyThuVienSGU_Winform.BLL
             catch (Exception ex)
             {
                 Console.WriteLine($"Error adding customer: {ex.Message}");
-                return false;
+                return -1;
             }
         }
+
 
         // Lấy danh sách khách hàng
         public List<CustomerDTO> GetAllCustomers()

@@ -228,17 +228,23 @@
     <Compile Include="rAdmin\fAdmin.Designer.cs">
       <DependentUpon>fAdmin.cs</DependentUpon>
     </Compile>
+    <Compile Include="rAdmin\fc_AddStaff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rAdmin\fc_AddStaff.Designer.cs">
+      <DependentUpon>fc_AddStaff.cs</DependentUpon>
+    </Compile>
     <Compile Include="rAdmin\fc_EditMed.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="rAdmin\fc_EditMed.Designer.cs">
       <DependentUpon>fc_EditMed.cs</DependentUpon>
     </Compile>
-    <Compile Include="rAdmin\fDashboard.cs">
+    <Compile Include="rAdmin\fc_Dashboard.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="rAdmin\fDashboard.Designer.cs">
-      <DependentUpon>fDashboard.cs</DependentUpon>
+    <Compile Include="rAdmin\fc_Dashboard.Designer.cs">
+      <DependentUpon>fc_Dashboard.cs</DependentUpon>
     </Compile>
     <Compile Include="fEditAccount.cs">
       <SubType>Form</SubType>
@@ -258,11 +264,11 @@
     <Compile Include="rStaff\fc_StaffDetail.Designer.cs">
       <DependentUpon>fc_StaffDetail.cs</DependentUpon>
     </Compile>
-    <Compile Include="rAdmin\fcAddMed.cs">
+    <Compile Include="rAdmin\fc_AddMed.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="rAdmin\fcAddMed.Designer.cs">
-      <DependentUpon>fcAddMed.cs</DependentUpon>
+    <Compile Include="rAdmin\fc_AddMed.Designer.cs">
+      <DependentUpon>fc_AddMed.cs</DependentUpon>
     </Compile>
     <Compile Include="fLandingPage.cs">
       <SubType>Form</SubType>
@@ -323,11 +329,14 @@
     <EmbeddedResource Include="rAdmin\fAdmin.resx">
       <DependentUpon>fAdmin.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="rAdmin\fc_AddStaff.resx">
+      <DependentUpon>fc_AddStaff.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="rAdmin\fc_EditMed.resx">
       <DependentUpon>fc_EditMed.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="rAdmin\fDashboard.resx">
-      <DependentUpon>fDashboard.cs</DependentUpon>
+    <EmbeddedResource Include="rAdmin\fc_Dashboard.resx">
+      <DependentUpon>fc_Dashboard.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="fEditAccount.resx">
       <DependentUpon>fEditAccount.cs</DependentUpon>
@@ -338,8 +347,8 @@
     <EmbeddedResource Include="rAdmin\fc_EditStaff.resx">
       <DependentUpon>fc_EditStaff.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="rAdmin\fcAddMed.resx">
-      <DependentUpon>fcAddMed.cs</DependentUpon>
+    <EmbeddedResource Include="rAdmin\fc_AddMed.resx">
+      <DependentUpon>fc_AddMed.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="fLandingPage.resx">
       <DependentUpon>fLandingPage.cs</DependentUpon>

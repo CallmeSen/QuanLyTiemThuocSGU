@@ -13,6 +13,7 @@ namespace QuanLyThuVienSGU_Winform
     public partial class fAdmin : Form
     {
         int employeeID;
+        int medicineID;
         bool menuExpandTaiKhoanNhanVien = false; //Biến hiển thị độ mở rộng của button con
         bool menuExpandQuanLiThuoc = false; //Biến hiển thị độ mở rộng của button con
         bool menuExpandQuanLiNhomThuoc = false; //Biến hiển thị độ mở rộng của button con
@@ -137,6 +138,13 @@ namespace QuanLyThuVienSGU_Winform
             label_CurrentPage.Text = "Quản lí thuốc";
             label_CurrentFunction.Text = "> Quản lí thuốc > Thông tin thuốc";
             openChildForm(new fc_EditStaff()); //Fill ChildForm vào panel cố định trong giao diện
+        }
+
+        private void btnThongKe_Click(object sender, EventArgs e)
+        {
+            fc_Dashboard f = new fc_Dashboard();
+            f.Show();
+
         }
     }
 }
