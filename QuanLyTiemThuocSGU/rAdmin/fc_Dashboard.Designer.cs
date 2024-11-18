@@ -28,9 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             Guna.Charts.WinForms.ChartFont chartFont1 = new Guna.Charts.WinForms.ChartFont();
             Guna.Charts.WinForms.ChartFont chartFont2 = new Guna.Charts.WinForms.ChartFont();
             Guna.Charts.WinForms.ChartFont chartFont3 = new Guna.Charts.WinForms.ChartFont();
@@ -47,7 +44,6 @@
             Guna.Charts.WinForms.Tick tick3 = new Guna.Charts.WinForms.Tick();
             Guna.Charts.WinForms.ChartFont chartFont8 = new Guna.Charts.WinForms.ChartFont();
             this.dtpDenNgay = new Guna.UI2.WinForms.Guna2DateTimePicker();
-            this.dgvThongKe = new Guna.UI2.WinForms.Guna2DataGridView();
             this.cbLoc = new Guna.UI2.WinForms.Guna2ComboBox();
             this.dtpTuNgay = new Guna.UI2.WinForms.Guna2DateTimePicker();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -56,7 +52,12 @@
             this.btkThongKe = new Guna.Charts.WinForms.GunaChart();
             this.btnXacNhan = new Guna.UI2.WinForms.Guna2Button();
             this.btnInThongKe = new Guna.UI2.WinForms.Guna2Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvThongKe)).BeginInit();
+            this.lsvThongKe = new System.Windows.Forms.ListView();
+            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.SuspendLayout();
             // 
             // dtpDenNgay
@@ -65,63 +66,13 @@
             this.dtpDenNgay.FillColor = System.Drawing.Color.White;
             this.dtpDenNgay.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.dtpDenNgay.Format = System.Windows.Forms.DateTimePickerFormat.Long;
-            this.dtpDenNgay.Location = new System.Drawing.Point(263, 44);
+            this.dtpDenNgay.Location = new System.Drawing.Point(366, 44);
             this.dtpDenNgay.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.dtpDenNgay.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.dtpDenNgay.Name = "dtpDenNgay";
             this.dtpDenNgay.Size = new System.Drawing.Size(231, 36);
             this.dtpDenNgay.TabIndex = 26;
-            this.dtpDenNgay.Value = new System.DateTime(2024, 10, 15, 8, 57, 9, 420);
-            // 
-            // dgvThongKe
-            // 
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            this.dgvThongKe.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvThongKe.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            this.dgvThongKe.ColumnHeadersHeight = 4;
-            this.dgvThongKe.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvThongKe.DefaultCellStyle = dataGridViewCellStyle3;
-            this.dgvThongKe.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.dgvThongKe.Location = new System.Drawing.Point(486, 100);
-            this.dgvThongKe.Name = "dgvThongKe";
-            this.dgvThongKe.RowHeadersVisible = false;
-            this.dgvThongKe.Size = new System.Drawing.Size(475, 401);
-            this.dgvThongKe.TabIndex = 24;
-            this.dgvThongKe.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
-            this.dgvThongKe.ThemeStyle.AlternatingRowsStyle.Font = null;
-            this.dgvThongKe.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
-            this.dgvThongKe.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
-            this.dgvThongKe.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
-            this.dgvThongKe.ThemeStyle.BackColor = System.Drawing.Color.White;
-            this.dgvThongKe.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.dgvThongKe.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.dgvThongKe.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.dgvThongKe.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dgvThongKe.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
-            this.dgvThongKe.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            this.dgvThongKe.ThemeStyle.HeaderStyle.Height = 4;
-            this.dgvThongKe.ThemeStyle.ReadOnly = false;
-            this.dgvThongKe.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
-            this.dgvThongKe.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.dgvThongKe.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dgvThongKe.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            this.dgvThongKe.ThemeStyle.RowsStyle.Height = 22;
-            this.dgvThongKe.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.dgvThongKe.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.dtpDenNgay.Value = new System.DateTime(2024, 11, 18, 0, 0, 0, 0);
             // 
             // cbLoc
             // 
@@ -135,7 +86,7 @@
             this.cbLoc.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.cbLoc.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.cbLoc.ItemHeight = 30;
-            this.cbLoc.Location = new System.Drawing.Point(821, 44);
+            this.cbLoc.Location = new System.Drawing.Point(1070, 44);
             this.cbLoc.Name = "cbLoc";
             this.cbLoc.Size = new System.Drawing.Size(140, 36);
             this.cbLoc.TabIndex = 21;
@@ -152,7 +103,7 @@
             this.dtpTuNgay.Name = "dtpTuNgay";
             this.dtpTuNgay.Size = new System.Drawing.Size(231, 36);
             this.dtpTuNgay.TabIndex = 20;
-            this.dtpTuNgay.Value = new System.DateTime(2024, 10, 15, 8, 57, 9, 420);
+            this.dtpTuNgay.Value = new System.DateTime(2024, 11, 18, 19, 7, 6, 0);
             // 
             // guna2HtmlLabel1
             // 
@@ -168,7 +119,7 @@
             // 
             this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel2.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(264, 20);
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(367, 20);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
             this.guna2HtmlLabel2.Size = new System.Drawing.Size(73, 22);
             this.guna2HtmlLabel2.TabIndex = 28;
@@ -178,7 +129,7 @@
             // 
             this.lbLoc.BackColor = System.Drawing.Color.Transparent;
             this.lbLoc.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbLoc.Location = new System.Drawing.Point(821, 16);
+            this.lbLoc.Location = new System.Drawing.Point(1070, 16);
             this.lbLoc.Name = "lbLoc";
             this.lbLoc.Size = new System.Drawing.Size(30, 22);
             this.lbLoc.TabIndex = 29;
@@ -190,7 +141,7 @@
             this.btkThongKe.Legend.LabelFont = chartFont1;
             this.btkThongKe.Location = new System.Drawing.Point(12, 100);
             this.btkThongKe.Name = "btkThongKe";
-            this.btkThongKe.Size = new System.Drawing.Size(458, 401);
+            this.btkThongKe.Size = new System.Drawing.Size(667, 401);
             this.btkThongKe.TabIndex = 30;
             chartFont2.FontName = "Arial";
             chartFont2.Size = 12;
@@ -227,7 +178,7 @@
             this.btnXacNhan.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnXacNhan.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnXacNhan.ForeColor = System.Drawing.Color.White;
-            this.btnXacNhan.Location = new System.Drawing.Point(514, 44);
+            this.btnXacNhan.Location = new System.Drawing.Point(785, 44);
             this.btnXacNhan.Name = "btnXacNhan";
             this.btnXacNhan.Size = new System.Drawing.Size(121, 36);
             this.btnXacNhan.TabIndex = 31;
@@ -242,17 +193,59 @@
             this.btnInThongKe.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnInThongKe.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnInThongKe.ForeColor = System.Drawing.Color.White;
-            this.btnInThongKe.Location = new System.Drawing.Point(641, 44);
+            this.btnInThongKe.Location = new System.Drawing.Point(925, 44);
             this.btnInThongKe.Name = "btnInThongKe";
             this.btnInThongKe.Size = new System.Drawing.Size(121, 36);
             this.btnInThongKe.TabIndex = 32;
             this.btnInThongKe.Text = "In thống kê ";
             // 
-            // fDashboard
+            // lsvThongKe
+            // 
+            this.lsvThongKe.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader1,
+            this.columnHeader2,
+            this.columnHeader3,
+            this.columnHeader4,
+            this.columnHeader5});
+            this.lsvThongKe.HideSelection = false;
+            this.lsvThongKe.Location = new System.Drawing.Point(685, 100);
+            this.lsvThongKe.Name = "lsvThongKe";
+            this.lsvThongKe.Size = new System.Drawing.Size(537, 401);
+            this.lsvThongKe.TabIndex = 33;
+            this.lsvThongKe.UseCompatibleStateImageBehavior = false;
+            this.lsvThongKe.View = System.Windows.Forms.View.Details;
+            // 
+            // columnHeader1
+            // 
+            this.columnHeader1.Text = "Order ID";
+            this.columnHeader1.Width = 58;
+            // 
+            // columnHeader2
+            // 
+            this.columnHeader2.Text = "Order Date";
+            this.columnHeader2.Width = 150;
+            // 
+            // columnHeader3
+            // 
+            this.columnHeader3.Text = "Customer Name";
+            this.columnHeader3.Width = 150;
+            // 
+            // columnHeader4
+            // 
+            this.columnHeader4.Text = "Employee Name";
+            this.columnHeader4.Width = 150;
+            // 
+            // columnHeader5
+            // 
+            this.columnHeader5.Text = "Total Amount";
+            this.columnHeader5.Width = 161;
+            // 
+            // fc_Dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(973, 513);
+            this.ClientSize = new System.Drawing.Size(1233, 513);
+            this.Controls.Add(this.lsvThongKe);
             this.Controls.Add(this.btnInThongKe);
             this.Controls.Add(this.btnXacNhan);
             this.Controls.Add(this.btkThongKe);
@@ -260,12 +253,10 @@
             this.Controls.Add(this.guna2HtmlLabel2);
             this.Controls.Add(this.guna2HtmlLabel1);
             this.Controls.Add(this.dtpDenNgay);
-            this.Controls.Add(this.dgvThongKe);
             this.Controls.Add(this.cbLoc);
             this.Controls.Add(this.dtpTuNgay);
-            this.Name = "fDashboard";
+            this.Name = "fc_Dashboard";
             this.Text = "fDashboard";
-            ((System.ComponentModel.ISupportInitialize)(this.dgvThongKe)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -274,7 +265,6 @@
         #endregion
 
         private Guna.UI2.WinForms.Guna2DateTimePicker dtpDenNgay;
-        private Guna.UI2.WinForms.Guna2DataGridView dgvThongKe;
         private Guna.UI2.WinForms.Guna2ComboBox cbLoc;
         private Guna.UI2.WinForms.Guna2DateTimePicker dtpTuNgay;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
@@ -283,5 +273,11 @@
         private Guna.Charts.WinForms.GunaChart btkThongKe;
         private Guna.UI2.WinForms.Guna2Button btnXacNhan;
         private Guna.UI2.WinForms.Guna2Button btnInThongKe;
+        private System.Windows.Forms.ListView lsvThongKe;
+        private System.Windows.Forms.ColumnHeader columnHeader1;
+        private System.Windows.Forms.ColumnHeader columnHeader2;
+        private System.Windows.Forms.ColumnHeader columnHeader3;
+        private System.Windows.Forms.ColumnHeader columnHeader4;
+        private System.Windows.Forms.ColumnHeader columnHeader5;
     }
 }

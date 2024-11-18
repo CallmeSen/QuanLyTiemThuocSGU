@@ -110,6 +110,11 @@ namespace QuanLyThuVienSGU_Winform.BLL
                 return new List<OrderDTO>();
             }
         }
+
+        public DataTable GetOrdersByDateRange(DateTime startDate, DateTime endDate)
+        {
+            return OrderDAO.Instance.GetOrdersByDateRange(startDate, endDate);
+        }
     }
 }
 

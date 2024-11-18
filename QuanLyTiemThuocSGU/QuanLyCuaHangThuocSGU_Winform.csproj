@@ -258,6 +258,12 @@
     <Compile Include="rAdmin\fc_EditStaff.Designer.cs">
       <DependentUpon>fc_EditStaff.cs</DependentUpon>
     </Compile>
+    <Compile Include="rStaff\fc_ExpiredMed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rStaff\fc_ExpiredMed.Designer.cs">
+      <DependentUpon>fc_ExpiredMed.cs</DependentUpon>
+    </Compile>
     <Compile Include="rStaff\fc_StaffDetail.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -340,6 +346,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="fEditAccount.resx">
       <DependentUpon>fEditAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rStaff\fc_ExpiredMed.resx">
+      <DependentUpon>fc_ExpiredMed.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="rStaff\fc_StaffDetail.resx">
       <DependentUpon>fc_StaffDetail.cs</DependentUpon>

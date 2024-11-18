@@ -1,4 +1,5 @@
-﻿using System;
+﻿using QuanLyThuVienSGU_Winform.rStaff;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -122,14 +123,30 @@ namespace QuanLyThuVienSGU_Winform
             openChildForm(new fc_StaffDetail(employeeID)); //Fill ChildForm vào panel cố định trong giao diện
         }
 
-        private void button_XepLichLamViec_Click(object sender, EventArgs e)
+        private void button_BanThuoc_Click(object sender, EventArgs e)
         {
             label_CurrentPage.Text = "Hóa Đơn Khách Hàng";
             label_CurrentFunction.Text = "> Bán Thuốc";
             openChildForm(new fc_SellMed(employeeID)); //Fill ChildForm vào panel cố định trong giao diện
         }
 
+        private void btnThuocHetHan_Click(object sender, EventArgs e)
+        {
+            label_CurrentPage.Text = "Danh sách hết hạn sử dụng thuốc";
+            openChildForm(new fc_ExpiredMed());
+        }
+
+        private void btnThongKe_Click(object sender, EventArgs e)
+        {
+            label_CurrentPage.Text = "Thống kê";
+            openChildForm(new fc_Dashboard());
+        }
         #endregion
 
+        private void button_ChinhSuaTaiKhoan_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Chỉ có admin mới có quyền chỉnh sửa tài khoản.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            return;
+        }
     }
 }

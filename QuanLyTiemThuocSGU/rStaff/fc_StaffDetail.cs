@@ -15,9 +15,13 @@ namespace QuanLyThuVienSGU_Winform
         private TextBox textBox_NhanVienName;
         private TextBox textBox_SoDienThoaiInfo;
         private TextBox textBox_Email;
+        private TextBox textBox_GioiTinhInfo;
+        private TextBox textBox_ChucVuInfo;
         private Label label_NhanVienNameAfter;
         private Label label_SoDienThoaiAfter;
         private Label label_EmailAfter;
+        private Label label_GioiTinhAfter;
+        private Label label_ChucVuAfter;
         private int employeeID;
         private StaffInfoBLL staffInfoBLL = new StaffInfoBLL();
         //
@@ -68,7 +72,7 @@ namespace QuanLyThuVienSGU_Winform
                 Text = textBox.Text,
                 Font = textBox.Font,
                 ForeColor = textBox.ForeColor,
-                BackColor = Color.White,
+                BackColor = Color.Transparent,
                 Location = textBox.Location,
                 Size = textBox.Size
             };
@@ -80,14 +84,17 @@ namespace QuanLyThuVienSGU_Winform
 
         #endregion
 
-        #region Event Handlers
+        #region Events
 
         private void button_Edit_Click(object sender, EventArgs e)
         {
             textBox_NhanVienName = ConvertLabelToTextBox(label_NhanVienName);
             textBox_SoDienThoaiInfo = ConvertLabelToTextBox(label_SoDienThoaiInfo);
             textBox_Email = ConvertLabelToTextBox(label_EmailInfo);
+            textBox_GioiTinhInfo = ConvertLabelToTextBox(label_GioiTinhInfo); 
+            textBox_ChucVuInfo = ConvertLabelToTextBox(label_ChucVuInfo);    
         }
+
 
         private void button_SaveInsert_Click(object sender, EventArgs e)
         {

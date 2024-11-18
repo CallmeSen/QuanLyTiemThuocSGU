@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using QuanLyThuVienSGU_Winform.rStaff;
 
 namespace QuanLyThuVienSGU_Winform
 {
@@ -91,9 +92,9 @@ namespace QuanLyThuVienSGU_Winform
             MenuExpand_Transition(ref menuExpandQuanLiThuoc, panel_ChildQuanLiThuoc, timer_QuanLiThuocTransition);
         }
 
-        private void timer_QuanLiNhomThuocTransition_Tick(object sender, EventArgs e)
+        private void timer_QuanLiNhanVienTransition_Tick(object sender, EventArgs e)
         {
-            MenuExpand_Transition(ref menuExpandQuanLiNhomThuoc, panel_ChildQuanLiNhomThuoc, timer_QuanLiNhomThuocTransition);
+            MenuExpand_Transition(ref menuExpandQuanLiNhomThuoc, panel_ChildQuanLiNhomThuoc, timer_QuanLiNhanVienTransition);
         }
 
         private void button_TaiKhoanNhanVien_Click(object sender, EventArgs e)
@@ -110,10 +111,10 @@ namespace QuanLyThuVienSGU_Winform
             label_CurrentFunction.Text = "";
         }
 
-        private void button_QuanLiNhomThuoc_Click(object sender, EventArgs e)
+        private void button_QuanLiNhanVien_Click(object sender, EventArgs e)
         {
-            StartTimer(timer_QuanLiNhomThuocTransition);
-            label_CurrentPage.Text = "Quản lí nhóm thuốc";
+            StartTimer(timer_QuanLiNhanVienTransition);
+            label_CurrentPage.Text = "Quản lí nhân viên";
             label_CurrentFunction.Text = "";
         }
 
@@ -130,21 +131,26 @@ namespace QuanLyThuVienSGU_Winform
         {
             label_CurrentPage.Text = "Quản lí thuốc";
             label_CurrentFunction.Text = "> Quản lí thuốc > Thông tin thuốc";
-            openChildForm(new fc_EditMed()); //Fill ChildForm vào panel cố định trong giao diện
+            openChildForm(new fc_EditMed());
         }
 
-        private void button_ThongTinNhomThuoc_Click(object sender, EventArgs e)
+        private void button_ThongTinNhanVien_Click(object sender, EventArgs e)
         {
-            label_CurrentPage.Text = "Quản lí thuốc";
-            label_CurrentFunction.Text = "> Quản lí thuốc > Thông tin thuốc";
-            openChildForm(new fc_EditStaff()); //Fill ChildForm vào panel cố định trong giao diện
+            label_CurrentPage.Text = "Quản lí nhân viên";
+            label_CurrentFunction.Text = "> Quản lí nhân viên > Thông tin nhân viên";
+            openChildForm(new fc_EditStaff());
         }
 
         private void btnThongKe_Click(object sender, EventArgs e)
         {
-            fc_Dashboard f = new fc_Dashboard();
-            f.Show();
+            label_CurrentPage.Text = "Thống kê";
+            openChildForm(new fc_Dashboard());
+        }
 
+        private void btnThuocHetHan_Click(object sender, EventArgs e)
+        {
+            label_CurrentPage.Text = "Danh sách hết hạn sử dụng thuốc";
+            openChildForm(new fc_ExpiredMed());
         }
     }
 }

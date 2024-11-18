@@ -77,6 +77,13 @@ namespace QuanLyThuVienSGU_Winform.DAO
                 TotalAmount = Convert.ToDecimal(row["TotalAmount"])
             };
         }
+
+        public DataTable GetOrdersByDateRange(DateTime startDate, DateTime endDate)
+        {
+            string query = "EXEC USP_GetOrdersByDateRange @StartDate , @EndDate ";
+            object[] parameters = { startDate, endDate };
+            return DataProvider.Instance.ExecuteQuery(query, parameters);
+        }
     }
 }
 
