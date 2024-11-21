@@ -74,6 +74,12 @@ namespace QuanLyThuVienSGU_Winform.DAO
                     {
                         if (item.Contains('@'))
                         {
+                            if (parameter[i] is DateTime dateTimeValue)
+                            {
+                                // Ensure valid SQL DateTime range
+                                if (dateTimeValue < (DateTime)System.Data.SqlTypes.SqlDateTime.MinValue.Value)
+                                    parameter[i] = System.Data.SqlTypes.SqlDateTime.MinValue.Value;
+                            }
                             command.Parameters.AddWithValue(item, parameter[i]);
                             i++;
                         }

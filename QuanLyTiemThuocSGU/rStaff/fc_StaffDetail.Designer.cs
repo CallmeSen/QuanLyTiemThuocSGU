@@ -29,9 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fc_StaffDetail));
-            this.button_Edit = new System.Windows.Forms.Button();
-            this.button_ResetInsert = new System.Windows.Forms.Button();
-            this.button_SaveInsert = new System.Windows.Forms.Button();
             this.guna2CirclePictureBox_Avatar = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.label_ChucVuInfo = new System.Windows.Forms.Label();
             this.label_ChucVu = new System.Windows.Forms.Label();
@@ -51,60 +48,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // button_Edit
-            // 
-            this.button_Edit.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button_Edit.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(95)))), ((int)(((byte)(105)))));
-            this.button_Edit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_Edit.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_Edit.ForeColor = System.Drawing.Color.Black;
-            this.button_Edit.Location = new System.Drawing.Point(98, 269);
-            this.button_Edit.Name = "button_Edit";
-            this.button_Edit.Size = new System.Drawing.Size(80, 41);
-            this.button_Edit.TabIndex = 48;
-            this.button_Edit.Text = "Edit";
-            this.button_Edit.UseVisualStyleBackColor = false;
-            this.button_Edit.Click += new System.EventHandler(this.button_Edit_Click);
-            // 
-            // button_ResetInsert
-            // 
-            this.button_ResetInsert.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(95)))), ((int)(((byte)(105)))));
-            this.button_ResetInsert.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button_ResetInsert.FlatAppearance.BorderSize = 0;
-            this.button_ResetInsert.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_ResetInsert.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_ResetInsert.ForeColor = System.Drawing.Color.White;
-            this.button_ResetInsert.Location = new System.Drawing.Point(193, 426);
-            this.button_ResetInsert.Name = "button_ResetInsert";
-            this.button_ResetInsert.Size = new System.Drawing.Size(80, 41);
-            this.button_ResetInsert.TabIndex = 47;
-            this.button_ResetInsert.Text = "Reset";
-            this.button_ResetInsert.UseVisualStyleBackColor = false;
-            this.button_ResetInsert.Click += new System.EventHandler(this.button_ResetInsert_Click);
-            // 
-            // button_SaveInsert
-            // 
-            this.button_SaveInsert.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(111)))), ((int)(((byte)(51)))));
-            this.button_SaveInsert.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button_SaveInsert.FlatAppearance.BorderSize = 0;
-            this.button_SaveInsert.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_SaveInsert.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_SaveInsert.ForeColor = System.Drawing.Color.White;
-            this.button_SaveInsert.Location = new System.Drawing.Point(98, 426);
-            this.button_SaveInsert.Name = "button_SaveInsert";
-            this.button_SaveInsert.Size = new System.Drawing.Size(80, 41);
-            this.button_SaveInsert.TabIndex = 46;
-            this.button_SaveInsert.Text = "Save";
-            this.button_SaveInsert.UseVisualStyleBackColor = false;
-            this.button_SaveInsert.Click += new System.EventHandler(this.button_SaveInsert_Click);
-            // 
             // guna2CirclePictureBox_Avatar
             // 
             this.guna2CirclePictureBox_Avatar.ImageRotate = 0F;
-            this.guna2CirclePictureBox_Avatar.Location = new System.Drawing.Point(98, 49);
+            this.guna2CirclePictureBox_Avatar.Location = new System.Drawing.Point(261, 117);
+            this.guna2CirclePictureBox_Avatar.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.guna2CirclePictureBox_Avatar.Name = "guna2CirclePictureBox_Avatar";
             this.guna2CirclePictureBox_Avatar.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox_Avatar.Size = new System.Drawing.Size(175, 175);
+            this.guna2CirclePictureBox_Avatar.Size = new System.Drawing.Size(467, 417);
             this.guna2CirclePictureBox_Avatar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2CirclePictureBox_Avatar.TabIndex = 45;
             this.guna2CirclePictureBox_Avatar.TabStop = false;
@@ -115,9 +66,10 @@
             this.label_ChucVuInfo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label_ChucVuInfo.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_ChucVuInfo.ForeColor = System.Drawing.Color.Black;
-            this.label_ChucVuInfo.Location = new System.Drawing.Point(516, 196);
+            this.label_ChucVuInfo.Location = new System.Drawing.Point(1376, 467);
+            this.label_ChucVuInfo.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.label_ChucVuInfo.Name = "label_ChucVuInfo";
-            this.label_ChucVuInfo.Size = new System.Drawing.Size(24, 25);
+            this.label_ChucVuInfo.Size = new System.Drawing.Size(58, 65);
             this.label_ChucVuInfo.TabIndex = 44;
             this.label_ChucVuInfo.Text = "...";
             // 
@@ -127,9 +79,10 @@
             this.label_ChucVu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label_ChucVu.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_ChucVu.ForeColor = System.Drawing.Color.Black;
-            this.label_ChucVu.Location = new System.Drawing.Point(327, 196);
+            this.label_ChucVu.Location = new System.Drawing.Point(872, 467);
+            this.label_ChucVu.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.label_ChucVu.Name = "label_ChucVu";
-            this.label_ChucVu.Size = new System.Drawing.Size(84, 25);
+            this.label_ChucVu.Size = new System.Drawing.Size(208, 65);
             this.label_ChucVu.TabIndex = 43;
             this.label_ChucVu.Text = "Chức vụ:";
             // 
@@ -139,9 +92,10 @@
             this.label_NgayNhanViecInfo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label_NgayNhanViecInfo.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_NgayNhanViecInfo.ForeColor = System.Drawing.Color.Black;
-            this.label_NgayNhanViecInfo.Location = new System.Drawing.Point(516, 322);
+            this.label_NgayNhanViecInfo.Location = new System.Drawing.Point(1376, 768);
+            this.label_NgayNhanViecInfo.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.label_NgayNhanViecInfo.Name = "label_NgayNhanViecInfo";
-            this.label_NgayNhanViecInfo.Size = new System.Drawing.Size(24, 25);
+            this.label_NgayNhanViecInfo.Size = new System.Drawing.Size(58, 65);
             this.label_NgayNhanViecInfo.TabIndex = 42;
             this.label_NgayNhanViecInfo.Text = "...";
             // 
@@ -151,9 +105,10 @@
             this.label_SoDienThoaiInfo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label_SoDienThoaiInfo.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_SoDienThoaiInfo.ForeColor = System.Drawing.Color.Black;
-            this.label_SoDienThoaiInfo.Location = new System.Drawing.Point(516, 278);
+            this.label_SoDienThoaiInfo.Location = new System.Drawing.Point(1376, 663);
+            this.label_SoDienThoaiInfo.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.label_SoDienThoaiInfo.Name = "label_SoDienThoaiInfo";
-            this.label_SoDienThoaiInfo.Size = new System.Drawing.Size(24, 25);
+            this.label_SoDienThoaiInfo.Size = new System.Drawing.Size(58, 65);
             this.label_SoDienThoaiInfo.TabIndex = 41;
             this.label_SoDienThoaiInfo.Text = "...";
             // 
@@ -163,9 +118,10 @@
             this.label_EmailInfo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label_EmailInfo.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_EmailInfo.ForeColor = System.Drawing.Color.Black;
-            this.label_EmailInfo.Location = new System.Drawing.Point(516, 237);
+            this.label_EmailInfo.Location = new System.Drawing.Point(1376, 565);
+            this.label_EmailInfo.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.label_EmailInfo.Name = "label_EmailInfo";
-            this.label_EmailInfo.Size = new System.Drawing.Size(24, 25);
+            this.label_EmailInfo.Size = new System.Drawing.Size(58, 65);
             this.label_EmailInfo.TabIndex = 40;
             this.label_EmailInfo.Text = "...";
             // 
@@ -175,9 +131,10 @@
             this.label_GioiTinhInfo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label_GioiTinhInfo.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_GioiTinhInfo.ForeColor = System.Drawing.Color.Black;
-            this.label_GioiTinhInfo.Location = new System.Drawing.Point(516, 154);
+            this.label_GioiTinhInfo.Location = new System.Drawing.Point(1376, 367);
+            this.label_GioiTinhInfo.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.label_GioiTinhInfo.Name = "label_GioiTinhInfo";
-            this.label_GioiTinhInfo.Size = new System.Drawing.Size(24, 25);
+            this.label_GioiTinhInfo.Size = new System.Drawing.Size(58, 65);
             this.label_GioiTinhInfo.TabIndex = 38;
             this.label_GioiTinhInfo.Text = "...";
             // 
@@ -187,9 +144,10 @@
             this.label_IDInfo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label_IDInfo.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_IDInfo.ForeColor = System.Drawing.Color.Black;
-            this.label_IDInfo.Location = new System.Drawing.Point(516, 115);
+            this.label_IDInfo.Location = new System.Drawing.Point(1376, 274);
+            this.label_IDInfo.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.label_IDInfo.Name = "label_IDInfo";
-            this.label_IDInfo.Size = new System.Drawing.Size(24, 25);
+            this.label_IDInfo.Size = new System.Drawing.Size(58, 65);
             this.label_IDInfo.TabIndex = 37;
             this.label_IDInfo.Text = "...";
             // 
@@ -199,9 +157,10 @@
             this.label_NgayNhanViec.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label_NgayNhanViec.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_NgayNhanViec.ForeColor = System.Drawing.Color.Black;
-            this.label_NgayNhanViec.Location = new System.Drawing.Point(327, 322);
+            this.label_NgayNhanViec.Location = new System.Drawing.Point(872, 768);
+            this.label_NgayNhanViec.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.label_NgayNhanViec.Name = "label_NgayNhanViec";
-            this.label_NgayNhanViec.Size = new System.Drawing.Size(146, 25);
+            this.label_NgayNhanViec.Size = new System.Drawing.Size(362, 65);
             this.label_NgayNhanViec.TabIndex = 36;
             this.label_NgayNhanViec.Text = "Ngày nhận việc:";
             // 
@@ -211,9 +170,10 @@
             this.label_SoDienThoai.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label_SoDienThoai.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_SoDienThoai.ForeColor = System.Drawing.Color.Black;
-            this.label_SoDienThoai.Location = new System.Drawing.Point(327, 278);
+            this.label_SoDienThoai.Location = new System.Drawing.Point(872, 663);
+            this.label_SoDienThoai.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.label_SoDienThoai.Name = "label_SoDienThoai";
-            this.label_SoDienThoai.Size = new System.Drawing.Size(127, 25);
+            this.label_SoDienThoai.Size = new System.Drawing.Size(317, 65);
             this.label_SoDienThoai.TabIndex = 35;
             this.label_SoDienThoai.Text = "Số điện thoại:";
             // 
@@ -223,9 +183,10 @@
             this.label_Email.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label_Email.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_Email.ForeColor = System.Drawing.Color.Black;
-            this.label_Email.Location = new System.Drawing.Point(327, 237);
+            this.label_Email.Location = new System.Drawing.Point(872, 565);
+            this.label_Email.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.label_Email.Name = "label_Email";
-            this.label_Email.Size = new System.Drawing.Size(62, 25);
+            this.label_Email.Size = new System.Drawing.Size(151, 65);
             this.label_Email.TabIndex = 34;
             this.label_Email.Text = "Email:";
             // 
@@ -235,9 +196,10 @@
             this.label_GioiTinh.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label_GioiTinh.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_GioiTinh.ForeColor = System.Drawing.Color.Black;
-            this.label_GioiTinh.Location = new System.Drawing.Point(327, 154);
+            this.label_GioiTinh.Location = new System.Drawing.Point(872, 367);
+            this.label_GioiTinh.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.label_GioiTinh.Name = "label_GioiTinh";
-            this.label_GioiTinh.Size = new System.Drawing.Size(88, 25);
+            this.label_GioiTinh.Size = new System.Drawing.Size(219, 65);
             this.label_GioiTinh.TabIndex = 32;
             this.label_GioiTinh.Text = "Giới tính:";
             // 
@@ -247,9 +209,10 @@
             this.label_ID.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label_ID.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_ID.ForeColor = System.Drawing.Color.Black;
-            this.label_ID.Location = new System.Drawing.Point(327, 115);
+            this.label_ID.Location = new System.Drawing.Point(872, 274);
+            this.label_ID.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.label_ID.Name = "label_ID";
-            this.label_ID.Size = new System.Drawing.Size(34, 25);
+            this.label_ID.Size = new System.Drawing.Size(85, 65);
             this.label_ID.TabIndex = 31;
             this.label_ID.Text = "ID:";
             // 
@@ -259,9 +222,10 @@
             this.label_NhanVienName.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label_NhanVienName.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_NhanVienName.ForeColor = System.Drawing.Color.MediumBlue;
-            this.label_NhanVienName.Location = new System.Drawing.Point(327, 49);
+            this.label_NhanVienName.Location = new System.Drawing.Point(872, 117);
+            this.label_NhanVienName.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.label_NhanVienName.Name = "label_NhanVienName";
-            this.label_NhanVienName.Size = new System.Drawing.Size(173, 25);
+            this.label_NhanVienName.Size = new System.Drawing.Size(435, 65);
             this.label_NhanVienName.TabIndex = 30;
             this.label_NhanVienName.Text = "Huỳnh Thanh Tuấn";
             this.label_NhanVienName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -270,24 +234,22 @@
             // 
             this.guna2CirclePictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2CirclePictureBox1.Image")));
             this.guna2CirclePictureBox1.ImageRotate = 0F;
-            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(12, 10);
+            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(32, 24);
+            this.guna2CirclePictureBox1.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
             this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(64, 64);
+            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(171, 153);
             this.guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2CirclePictureBox1.TabIndex = 49;
             this.guna2CirclePictureBox1.TabStop = false;
             // 
             // fc_StaffDetail
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(234)))), ((int)(((byte)(237)))));
-            this.ClientSize = new System.Drawing.Size(713, 512);
+            this.ClientSize = new System.Drawing.Size(1901, 1221);
             this.Controls.Add(this.guna2CirclePictureBox1);
-            this.Controls.Add(this.button_Edit);
-            this.Controls.Add(this.button_ResetInsert);
-            this.Controls.Add(this.button_SaveInsert);
             this.Controls.Add(this.guna2CirclePictureBox_Avatar);
             this.Controls.Add(this.label_ChucVuInfo);
             this.Controls.Add(this.label_ChucVu);
@@ -302,6 +264,7 @@
             this.Controls.Add(this.label_GioiTinh);
             this.Controls.Add(this.label_ID);
             this.Controls.Add(this.label_NhanVienName);
+            this.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.Name = "fc_StaffDetail";
             this.Text = "fcThongTinNhanVien";
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox_Avatar)).EndInit();
@@ -312,10 +275,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Button button_Edit;
-        private System.Windows.Forms.Button button_ResetInsert;
-        private System.Windows.Forms.Button button_SaveInsert;
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox_Avatar;
         private System.Windows.Forms.Label label_ChucVuInfo;
         private System.Windows.Forms.Label label_ChucVu;

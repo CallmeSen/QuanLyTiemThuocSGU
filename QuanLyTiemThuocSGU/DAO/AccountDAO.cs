@@ -35,7 +35,6 @@ namespace QuanLyThuVienSGU_Winform.DAO
                 return (true, role, employeeID);
             }
             return (false, -1, -1);
-            //, new object[] { username, password }
         }
     }
 }

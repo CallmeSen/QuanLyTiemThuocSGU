@@ -161,8 +161,8 @@ namespace QuanLyThuVienSGU_Winform
                 {
                     int employeeID = int.Parse(txbIDCapNhat.Text);
                     string fullName = txbHoTen.Text;
-                    string gender = cbGioiTinh.SelectedItem.ToString();
-                    string role = cbChucVu.SelectedItem.ToString();
+                    string gender = cbGioiTinh.SelectedValue.ToString();
+                    string role = cbChucVu.SelectedValue.ToString();
                     string phone = txbSoDienThoai.Text;
                     string email = txbEmail.Text;
                     decimal salary = decimal.Parse(txbLuong.Text);

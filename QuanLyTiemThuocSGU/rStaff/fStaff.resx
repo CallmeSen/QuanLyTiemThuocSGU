@@ -921,13 +921,13 @@
     <value>105, 17</value>
   </metadata>
   <metadata name="timer_QuanLiNhomThuocTransition.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>282, 17</value>
+    <value>255, 124</value>
   </metadata>
   <metadata name="timer_QuanLiThuocTransition.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>496, 17</value>
+    <value>872, 23</value>
   </metadata>
   <metadata name="timer_TaiKhoanNhanVienTransition.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>697, 17</value>
+    <value>911, 102</value>
   </metadata>
   <data name="pictureBox_SearchIcon.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -942,4 +942,7 @@
         y9/8rCQS71Agmz9jINThAAAAAElFTkSuQmCC
 </value>
   </data>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>296</value>
+  </metadata>
 </root>

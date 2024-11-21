@@ -15,15 +15,17 @@ namespace QuanLyThuVienSGU_Winform
     {
         int employeeID;
         int medicineID;
+        int role;
         bool menuExpandTaiKhoanNhanVien = false; //Biến hiển thị độ mở rộng của button con
         bool menuExpandQuanLiThuoc = false; //Biến hiển thị độ mở rộng của button con
         bool menuExpandQuanLiNhomThuoc = false; //Biến hiển thị độ mở rộng của button con
         private Form activeForm = null;
 
-        public fAdmin(int employeeID)
+        public fAdmin(int employeeID, int role)
         {
             InitializeComponent();
             this.employeeID = employeeID;
+            this.role = role;
             panel_ChildTaiKhoanNhanVien.Height = 0; //Mặc định button con của TKNV có height = 0
             panel_ChildQuanLiThuoc.Height = 0; //Mặc định button con của QLS có height = 0
             panel_ChildQuanLiNhomThuoc.Height = 0; //Mặc định button con của QLDG có height = 0
@@ -124,7 +126,7 @@ namespace QuanLyThuVienSGU_Winform
         {
             label_CurrentPage.Text = "Thông tin nhân viên";
             label_CurrentFunction.Text = "> Tài khoản > Thông tin nhân viên";
-            openChildForm(new fc_StaffDetail(employeeID)); //Fill ChildForm vào panel cố định trong giao diện
+            openChildForm(new fc_StaffDetail(employeeID, role)); //Fill ChildForm vào panel cố định trong giao diện
         }
 
         private void button_ThongTinThuoc_Click(object sender, EventArgs e)

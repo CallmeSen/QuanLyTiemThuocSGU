@@ -337,23 +337,23 @@ GO
 -- Stored procedure to update an existing employee's details
 CREATE PROC USP_UpdateEmployee
     @EmployeeID INT,
-    @FullName NVARCHAR(255),
-    @Gender CHAR(1),
-	@Role VARCHAR(50),
-    @Phone VARCHAR(15),
-    @Email VARCHAR(255),
-    @Salary DECIMAL(18,2),
-    @HireDate DATE
+    @FullName NVARCHAR(255) = NULL,
+    @Gender CHAR(1) = NULL,
+    @Role VARCHAR(50) = NULL,
+    @Phone VARCHAR(15) = NULL,
+    @Email VARCHAR(255) = NULL,
+    @Salary DECIMAL(18,2) = NULL,
+    @HireDate DATE = NULL
 AS
 BEGIN
     UPDATE Employees
-    SET FullName = @FullName,
-        Gender = @Gender,
-		Role = @Role,
-        Phone = @Phone,
-        Email = @Email,
-        Salary = @Salary,
-        HireDate = @HireDate
+    SET FullName = COALESCE(@FullName, FullName),
+        Gender = COALESCE(@Gender, Gender),
+        Role = COALESCE(@Role, Role),
+        Phone = COALESCE(@Phone, Phone),
+        Email = COALESCE(@Email, Email),
+        Salary = COALESCE(@Salary, Salary),
+        HireDate = COALESCE(@HireDate, HireDate)
     WHERE EmployeeID = @EmployeeID
 END
 GO

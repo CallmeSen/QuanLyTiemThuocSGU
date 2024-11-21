@@ -14,17 +14,19 @@ namespace QuanLyThuVienSGU_Winform
     public partial class fStaff : Form
     {
         int employeeID;
+        int role;
         bool menuExpandTaiKhoanNhanVien = false; //Biến hiển thị độ mở rộng của button con
         bool menuExpandQuanLiThuoc = false; //Biến hiển thị độ mở rộng của button con
         bool menuExpandQuanLiNhomThuoc = false; //Biến hiển thị độ mở rộng của button con
         private Form activeForm = null;
-        public fStaff(int employeeID)
+        public fStaff(int employeeID, int role)
         {
             InitializeComponent();
             this.employeeID = employeeID;
-            panel_ChildTaiKhoanNhanVien.Height = 0; //Mặc định button con của TKNV có height = 0
+            this.role = role;
+            //panel_ChildTaiKhoanNhanVien.Height = 0; //Mặc định button con của TKNV có height = 0
             panel_ChildQuanLiThuoc.Height = 0; //Mặc định button con của QLS có height = 0
-            panel_ChildQuanLiNhomThuoc.Height = 0; //Mặc định button con của QLDG có height = 0
+            //panel_ChildQuanLiNhomThuoc.Height = 0; //Mặc định button con của QLDG có height = 0
         }
 
         #region Functions
@@ -80,27 +82,27 @@ namespace QuanLyThuVienSGU_Winform
 
         //Events
         #region Events
-        private void timer_TaiKhoanNhanVienTransition_Tick(object sender, EventArgs e)
-        {
-            MenuExpand_Transition(ref menuExpandTaiKhoanNhanVien, panel_ChildTaiKhoanNhanVien, timer_TaiKhoanNhanVienTransition);
-        }
+        //private void timer_TaiKhoanNhanVienTransition_Tick(object sender, EventArgs e)
+        //{
+        //    MenuExpand_Transition(ref menuExpandTaiKhoanNhanVien, panel_ChildTaiKhoanNhanVien, timer_TaiKhoanNhanVienTransition);
+        //}
 
         private void timer_QuanLiThuocTransition_Tick(object sender, EventArgs e)
         {
             MenuExpand_Transition(ref menuExpandQuanLiThuoc, panel_ChildQuanLiThuoc, timer_QuanLiThuocTransition);
         }
 
-        private void timer_QuanLiNhomThuocTransition_Tick(object sender, EventArgs e)
-        {
-            MenuExpand_Transition(ref menuExpandQuanLiNhomThuoc, panel_ChildQuanLiNhomThuoc, timer_QuanLiNhomThuocTransition);
-        }
+        //private void timer_QuanLiNhomThuocTransition_Tick(object sender, EventArgs e)
+        //{
+        //    MenuExpand_Transition(ref menuExpandQuanLiNhomThuoc, panel_ChildQuanLiNhomThuoc, timer_QuanLiNhomThuocTransition);
+        //}
 
-        private void button_TaiKhoanNhanVien_Click(object sender, EventArgs e)
-        {
-            StartTimer(timer_TaiKhoanNhanVienTransition);
-            label_CurrentPage.Text = "Tài khoản nhân viên";
-            label_CurrentFunction.Text = "";
-        }
+        //private void button_TaiKhoanNhanVien_Click(object sender, EventArgs e)
+        //{
+        //    StartTimer(timer_TaiKhoanNhanVienTransition);
+        //    label_CurrentPage.Text = "Tài khoản nhân viên";
+        //    label_CurrentFunction.Text = "";
+        //}
 
         private void button_QuanLiThuoc_Click(object sender, EventArgs e)
         {
@@ -109,18 +111,18 @@ namespace QuanLyThuVienSGU_Winform
             label_CurrentFunction.Text = "";
         }
 
-        private void button_QuanLiNhomThuoc_Click(object sender, EventArgs e)
-        {
-            StartTimer(timer_QuanLiNhomThuocTransition);
-            label_CurrentPage.Text = "Quản lí nhóm thuốc";
-            label_CurrentFunction.Text = "";
-        }
+        //private void button_QuanLiNhomThuoc_Click(object sender, EventArgs e)
+        //{
+        //    StartTimer(timer_QuanLiNhomThuocTransition);
+        //    label_CurrentPage.Text = "Quản lí nhóm thuốc";
+        //    label_CurrentFunction.Text = "";
+        //}
 
         private void button_Thongtin_Click(object sender, EventArgs e)
         {
             label_CurrentPage.Text = "Thông tin nhân viên";
             label_CurrentFunction.Text = "> Tài khoản > Thông tin nhân viên";
-            openChildForm(new fc_StaffDetail(employeeID)); //Fill ChildForm vào panel cố định trong giao diện
+            openChildForm(new fc_StaffDetail(employeeID, role)); //Fill ChildForm vào panel cố định trong giao diện
         }
 
         private void button_BanThuoc_Click(object sender, EventArgs e)

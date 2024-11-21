@@ -52,13 +52,13 @@ namespace QuanLyThuVienSGU_Winform
             {
                 if (role == 1)
                 {
-                    fAdmin lForm = new fAdmin(employeeID);
+                    fAdmin lForm = new fAdmin(employeeID, role);
                     lForm.Show();
                     this.Hide();
                 }
                 else if (role == 0)
                 {
-                    fStaff lForm = new fStaff(employeeID);
+                    fStaff lForm = new fStaff(employeeID, role);
                     lForm.Show();
                     this.Hide();
                 }
