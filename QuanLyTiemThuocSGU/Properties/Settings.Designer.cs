@@ -26,8 +26,9 @@ namespace QuanLyThuVienSGU_Winform.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-7VUB332\\SQLEXPRESS;Initial Catalog=quanlycuahangthuoc;Integra" +
-            "ted Security=True;Encrypt=True;TrustServerCertificate=True")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=localhost,1433;Initial Catalog=quanlycuahangthuoc;Persist Security In" +
+            "fo=True;User ID=sa;Password=Thanhtuan@123;Encrypt=True;TrustServerCertificate=Tr" +
+            "ue")]
         public string quanlycuahangthuocConnectionString {
             get {
                 return ((string)(this["quanlycuahangthuocConnectionString"]));

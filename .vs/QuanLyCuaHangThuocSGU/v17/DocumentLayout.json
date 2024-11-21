@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\radmin\\fadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\quanlycuahangthuocDataSet.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QuanLyTiemThuocSGU\\quanlycuahangthuocDataSet.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|e:\\github\\quanlytiemthuocsgu_winform\\quanlytiemthuocsgu\\radmin\\fadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\radmin\\fadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|e:\\github\\quanlytiemthuocsgu_winform\\quanlytiemthuocsgu\\radmin\\fadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\radmin\\fadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\radmin\\fadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -47,11 +51,11 @@
       "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\dao\\customerdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|e:\\github\\quanlytiemthuocsgu_winform\\quanlytiemthuocsgu\\dao\\dataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\dao\\dataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\dao\\dataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|e:\\github\\quanlytiemthuocsgu_winform\\quanlytiemthuocsgu\\login\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\login\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\login\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -147,9 +151,6 @@
       "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\radmin\\fc_editmed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|QuanLyCuaHangThuocSGU_Winform||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -172,10 +173,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\quanlycuahangthuocdataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
-      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\quanlycuahangthuocdataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\dto\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -249,7 +246,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 40,
+          "SelectedChildIndex": 29,
           "Children": [
             {
               "$type": "Bookmark",
@@ -265,7 +262,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "DataProvider.cs",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\DAO\\DataProvider.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\DAO\\DataProvider.cs",
@@ -273,12 +270,11 @@
               "RelativeToolTip": "QuanLyTiemThuocSGU\\DAO\\DataProvider.cs",
               "ViewState": "AgIAADoAAAAAAAAAAAAmwFgAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T01:07:02.197Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T01:07:02.197Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "fLogin.cs",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\Login\\fLogin.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\Login\\fLogin.cs",
@@ -286,12 +282,11 @@
               "RelativeToolTip": "QuanLyTiemThuocSGU\\Login\\fLogin.cs",
               "ViewState": "AgIAACoAAAAAAAAAAAAuwDcAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T01:06:19.04Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T01:06:19.04Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "ProductDTO.cs",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\DTO\\ProductDTO.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\DTO\\ProductDTO.cs",
@@ -299,12 +294,11 @@
               "RelativeToolTip": "QuanLyTiemThuocSGU\\DTO\\ProductDTO.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T14:39:07.536Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T14:39:07.536Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "fc_ExpiredMed.cs",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rStaff\\fc_ExpiredMed.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rStaff\\fc_ExpiredMed.cs",
@@ -316,7 +310,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "fc_ExpiredMed.Designer.cs",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rStaff\\fc_ExpiredMed.Designer.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rStaff\\fc_ExpiredMed.Designer.cs",
@@ -328,7 +322,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "fc_ExpiredMed.cs [Design]",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rStaff\\fc_ExpiredMed.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rStaff\\fc_ExpiredMed.cs",
@@ -339,7 +333,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "OrderDAO.cs",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\DAO\\OrderDAO.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\DAO\\OrderDAO.cs",
@@ -351,7 +345,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "OrderBLL.cs",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\BLL\\OrderBLL.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\BLL\\OrderBLL.cs",
@@ -363,7 +357,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "fc_AddMed.cs",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fc_AddMed.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rAdmin\\fc_AddMed.cs",
@@ -375,7 +369,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "fc_EditMed.cs",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fc_EditMed.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rAdmin\\fc_EditMed.cs",
@@ -387,7 +381,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "fc_AddStaff.cs",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fc_AddStaff.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rAdmin\\fc_AddStaff.cs",
@@ -395,12 +389,11 @@
               "RelativeToolTip": "QuanLyTiemThuocSGU\\rAdmin\\fc_AddStaff.cs",
               "ViewState": "AgIAAEMAAAAAAAAAAAAkwFwAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T16:44:58.142Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-16T16:44:58.142Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "fc_EditStaff.cs",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fc_EditStaff.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rAdmin\\fc_EditStaff.cs",
@@ -408,12 +401,11 @@
               "RelativeToolTip": "QuanLyTiemThuocSGU\\rAdmin\\fc_EditStaff.cs",
               "ViewState": "AgIAAI8AAAAAAAAAAAAmwKQAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T00:46:32.565Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T00:46:32.565Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "fc_AddStaff.Designer.cs",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fc_AddStaff.Designer.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rAdmin\\fc_AddStaff.Designer.cs",
@@ -421,24 +413,22 @@
               "RelativeToolTip": "QuanLyTiemThuocSGU\\rAdmin\\fc_AddStaff.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T16:34:05.932Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-16T16:34:05.932Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "fc_AddStaff.cs [Design]",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fc_AddStaff.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rAdmin\\fc_AddStaff.cs",
               "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fc_AddStaff.cs [Design]",
               "RelativeToolTip": "QuanLyTiemThuocSGU\\rAdmin\\fc_AddStaff.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T16:34:00.052Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-16T16:34:00.052Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "StaffInfoBLL.cs",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\BLL\\StaffInfoBLL.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\BLL\\StaffInfoBLL.cs",
@@ -450,7 +440,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "StaffInfoDAO.cs",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\DAO\\StaffInfoDAO.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\DAO\\StaffInfoDAO.cs",
@@ -458,12 +448,11 @@
               "RelativeToolTip": "QuanLyTiemThuocSGU\\DAO\\StaffInfoDAO.cs",
               "ViewState": "AgIAAD0AAAAAAAAAAAAswEsAAACGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T17:16:44.319Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T17:16:44.319Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "ProductDAO.cs",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\DAO\\ProductDAO.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\DAO\\ProductDAO.cs",
@@ -475,7 +464,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "fc_AddMed.cs [Design]",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fc_AddMed.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rAdmin\\fc_AddMed.cs",
@@ -486,18 +475,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "QuanLyCuaHangThuocSGU_Winform",
-              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj",
-              "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj",
-              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj",
-              "RelativeToolTip": "QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-11-16T11:47:09.576Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "fc_SellMed.cs [Design]",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rStaff\\fc_SellMed.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rStaff\\fc_SellMed.cs",
@@ -508,7 +486,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "fc_SellMed.cs",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rStaff\\fc_SellMed.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rStaff\\fc_SellMed.cs",
@@ -520,7 +498,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "fEditAccount.cs [Design]",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\fEditAccount.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\fEditAccount.cs",
@@ -553,7 +531,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "fMedDetail.cs [Design]",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\fMedDetail.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\fMedDetail.cs",
@@ -587,18 +565,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 0,
               "Title": "quanlycuahangthuocDataSet.xsd",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\quanlycuahangthuocDataSet.xsd",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\quanlycuahangthuocDataSet.xsd",
               "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\quanlycuahangthuocDataSet.xsd",
               "RelativeToolTip": "QuanLyTiemThuocSGU\\quanlycuahangthuocDataSet.xsd",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
-              "WhenOpened": "2024-11-14T00:44:15.096Z"
+              "WhenOpened": "2024-11-14T00:44:15.096Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "ProductBLL.cs",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\BLL\\ProductBLL.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\BLL\\ProductBLL.cs",
@@ -622,7 +601,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "CustomerDAO.cs",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\DAO\\CustomerDAO.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\DAO\\CustomerDAO.cs",
@@ -630,12 +609,11 @@
               "RelativeToolTip": "QuanLyTiemThuocSGU\\DAO\\CustomerDAO.cs",
               "ViewState": "AgIAAEEAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T14:31:59.794Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T14:31:59.794Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 43,
               "Title": "CustomerDTO.cs",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\DTO\\CustomerDTO.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\DTO\\CustomerDTO.cs",
@@ -647,7 +625,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "fcAddMed.cs",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fcAddMed.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rAdmin\\fcAddMed.cs",
@@ -658,7 +636,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "fc_Dashboard.cs",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fc_Dashboard.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rAdmin\\fc_Dashboard.cs",
@@ -681,7 +659,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "fc_Dashboard.cs [Design]",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fc_Dashboard.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rAdmin\\fc_Dashboard.cs",
@@ -692,7 +670,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "fAdmin.cs",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fAdmin.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rAdmin\\fAdmin.cs",
@@ -705,7 +683,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "fAdmin.cs [Design]",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fAdmin.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rAdmin\\fAdmin.cs",
@@ -717,7 +695,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "fStaff.Designer.cs",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rStaff\\fStaff.Designer.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rStaff\\fStaff.Designer.cs",
@@ -725,12 +703,11 @@
               "RelativeToolTip": "QuanLyTiemThuocSGU\\rStaff\\fStaff.Designer.cs",
               "ViewState": "AgIAAO4AAAAAAAAAAAAuwHgAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T02:39:48.758Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T02:39:48.758Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 48,
               "Title": "fc_EditStaff.Designer.cs",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fc_EditStaff.Designer.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rAdmin\\fc_EditStaff.Designer.cs",
@@ -738,12 +715,11 @@
               "RelativeToolTip": "QuanLyTiemThuocSGU\\rAdmin\\fc_EditStaff.Designer.cs",
               "ViewState": "AgIAAEACAAAAAAAAAAApwFACAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T02:00:26.315Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T02:00:26.315Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 47,
               "Title": "fc_EditMed.Designer.cs",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fc_EditMed.Designer.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rAdmin\\fc_EditMed.Designer.cs",
@@ -755,7 +731,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "fc_EditMed.cs [Design]",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fc_EditMed.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rAdmin\\fc_EditMed.cs",
@@ -766,31 +742,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "fc_EditStaff.cs [Design]",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fc_EditStaff.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rAdmin\\fc_EditStaff.cs",
               "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fc_EditStaff.cs [Design]",
               "RelativeToolTip": "QuanLyTiemThuocSGU\\rAdmin\\fc_EditStaff.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T13:53:28.502Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-11T13:53:28.502Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "fc_StaffDetail.cs [Design]",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rStaff\\fc_StaffDetail.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rStaff\\fc_StaffDetail.cs",
               "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rStaff\\fc_StaffDetail.cs [Design]",
               "RelativeToolTip": "QuanLyTiemThuocSGU\\rStaff\\fc_StaffDetail.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T13:59:11.642Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-05T13:59:11.642Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "fc_StaffDetail.cs",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rStaff\\fc_StaffDetail.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rStaff\\fc_StaffDetail.cs",
@@ -798,12 +772,11 @@
               "RelativeToolTip": "QuanLyTiemThuocSGU\\rStaff\\fc_StaffDetail.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T01:15:38.521Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T01:15:38.521Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 58,
               "Title": "fcAddMed.cs [Design]",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fcAddMed.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rAdmin\\fcAddMed.cs",
@@ -814,7 +787,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 44,
               "Title": "fLoading.cs",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\Login\\fLoading.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\Login\\fLoading.cs",
@@ -826,7 +799,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 45,
               "Title": "fLoading.cs [Design]",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\Login\\fLoading.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\Login\\fLoading.cs",
@@ -837,7 +810,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 49,
               "Title": "ShipmentDTO.cs",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\DTO\\ShipmentDTO.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\DTO\\ShipmentDTO.cs",
@@ -849,7 +822,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 56,
               "Title": "ShipmentDAO.cs",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\DAO\\ShipmentDAO.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\DAO\\ShipmentDAO.cs",
@@ -861,7 +834,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 51,
               "Title": "ProductCategoryDAO.cs",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\DAO\\ProductCategoryDAO.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\DAO\\ProductCategoryDAO.cs",
@@ -873,7 +846,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 50,
               "Title": "ProductCategoryBLL.cs",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\BLL\\ProductCategoryBLL.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\BLL\\ProductCategoryBLL.cs",
@@ -885,7 +858,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 55,
               "Title": "ShipmentBLL.cs",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\BLL\\ShipmentBLL.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\BLL\\ShipmentBLL.cs",
@@ -897,7 +870,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 54,
               "Title": "SupplierDAO.cs",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\DAO\\SupplierDAO.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\DAO\\SupplierDAO.cs",
@@ -909,7 +882,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 52,
               "Title": "SupplierDTO.cs",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\DTO\\SupplierDTO.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\DTO\\SupplierDTO.cs",
@@ -921,7 +894,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 53,
               "Title": "SupplierBLL.cs",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\BLL\\SupplierBLL.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\BLL\\SupplierBLL.cs",
@@ -933,7 +906,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 57,
               "Title": "ProductCategoryDTO.cs",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\DTO\\ProductCategoryDTO.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\DTO\\ProductCategoryDTO.cs",
@@ -945,19 +918,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "fStaff.cs [Design]",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rStaff\\fStaff.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rStaff\\fStaff.cs",
               "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rStaff\\fStaff.cs [Design]",
               "RelativeToolTip": "QuanLyTiemThuocSGU\\rStaff\\fStaff.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T13:59:26.16Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-05T13:59:26.16Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "fStaff.cs",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rStaff\\fStaff.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rStaff\\fStaff.cs",
@@ -965,20 +937,18 @@
               "RelativeToolTip": "QuanLyTiemThuocSGU\\rStaff\\fStaff.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAUwGgAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T02:32:59.494Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T02:32:59.494Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 46,
               "Title": "fLogin.cs [Design]",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\Login\\fLogin.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\Login\\fLogin.cs",
               "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\Login\\fLogin.cs [Design]",
               "RelativeToolTip": "QuanLyTiemThuocSGU\\Login\\fLogin.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T13:58:57.377Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-05T13:58:57.377Z"
             }
           ]
         }
