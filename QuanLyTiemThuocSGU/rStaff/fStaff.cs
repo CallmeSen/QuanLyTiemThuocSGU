@@ -1,4 +1,5 @@
-﻿using QuanLyThuVienSGU_Winform.rStaff;
+﻿using QuanLyThuVienSGU_Winform.rAdmin;
+using QuanLyThuVienSGU_Winform.rStaff;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -149,6 +150,12 @@ namespace QuanLyThuVienSGU_Winform
         {
             MessageBox.Show("Chỉ có admin mới có quyền chỉnh sửa tài khoản.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             return;
+        }
+
+        private void button_QuanLiNhomThuoc_Click(object sender, EventArgs e)
+        {
+            label_CurrentPage.Text = "Danh sách quản lý khách hàng";
+            openChildForm(new fc_EditCustomer());
         }
     }
 }

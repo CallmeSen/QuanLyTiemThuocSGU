@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Data;
 using System.Web.Security;
 using QuanLyThuVienSGU_Winform.DTO;
@@ -93,6 +94,21 @@ namespace QuanLyThuVienSGU_Winform.DAO
                 Salary = Convert.ToDecimal(row["Salary"]),
                 HireDate = Convert.ToDateTime(row["HireDate"])
             };
+        }
+
+        public List<StaffInfoDTO> SearchProductByName(string name)
+        {
+            List<StaffInfoDTO> list = new List<StaffInfoDTO>();
+            string query = string.Format("SELECT * FROM dbo.Employees WHERE dbo.fuConvertToUnsign1(FullName) LIKE N'%' + dbo.fuConvertToUnsign1(N'{0}') + '%'", name);
+            DataTable data = DataProvider.Instance.ExecuteQuery(query);
+
+            foreach (DataRow row in data.Rows)
+            {
+                StaffInfoDTO product = new StaffInfoDTO(row);
+                list.Add(product);
+            }
+
+            return list;
         }
     }
 }

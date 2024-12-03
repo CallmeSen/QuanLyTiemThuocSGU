@@ -22,6 +22,12 @@ namespace QuanLyThuVienSGU_Winform.BLL
         }
 
         private CustomerBLL() { }
+
+        public List<CustomerDTO> SearchCustomerByName(string name)
+        {
+            return CustomerDAO.Instance.SearchCustomerByName(name);
+        }
+
         public List<CustomerDTO> SearchCustomerByPhone(string phone)
         {
             return CustomerDAO.Instance.SearchCustomerByPhone(phone);

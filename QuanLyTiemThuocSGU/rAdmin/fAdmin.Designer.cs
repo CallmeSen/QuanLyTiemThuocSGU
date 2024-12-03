@@ -80,17 +80,19 @@
             this.panel_Search.Controls.Add(this.label_Search);
             this.panel_Search.Controls.Add(this.textBox_Search);
             this.panel_Search.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel_Search.Location = new System.Drawing.Point(217, 59);
+            this.panel_Search.Location = new System.Drawing.Point(579, 141);
+            this.panel_Search.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.panel_Search.Name = "panel_Search";
-            this.panel_Search.Size = new System.Drawing.Size(1132, 50);
+            this.panel_Search.Size = new System.Drawing.Size(3018, 119);
             this.panel_Search.TabIndex = 5;
             // 
             // pictureBox_SearchIcon
             // 
             this.pictureBox_SearchIcon.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox_SearchIcon.Image")));
-            this.pictureBox_SearchIcon.Location = new System.Drawing.Point(27, 14);
+            this.pictureBox_SearchIcon.Location = new System.Drawing.Point(72, 33);
+            this.pictureBox_SearchIcon.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.pictureBox_SearchIcon.Name = "pictureBox_SearchIcon";
-            this.pictureBox_SearchIcon.Size = new System.Drawing.Size(30, 27);
+            this.pictureBox_SearchIcon.Size = new System.Drawing.Size(80, 64);
             this.pictureBox_SearchIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox_SearchIcon.TabIndex = 2;
             this.pictureBox_SearchIcon.TabStop = false;
@@ -103,9 +105,10 @@
             this.label_Search.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_Search.ForeColor = System.Drawing.Color.Gray;
             this.label_Search.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label_Search.Location = new System.Drawing.Point(62, 19);
+            this.label_Search.Location = new System.Drawing.Point(165, 45);
+            this.label_Search.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.label_Search.Name = "label_Search";
-            this.label_Search.Size = new System.Drawing.Size(60, 20);
+            this.label_Search.Size = new System.Drawing.Size(147, 46);
             this.label_Search.TabIndex = 1;
             this.label_Search.Text = "Search";
             // 
@@ -114,9 +117,10 @@
             this.textBox_Search.BackColor = System.Drawing.SystemColors.Window;
             this.textBox_Search.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox_Search.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_Search.Location = new System.Drawing.Point(60, 15);
+            this.textBox_Search.Location = new System.Drawing.Point(160, 36);
+            this.textBox_Search.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.textBox_Search.Name = "textBox_Search";
-            this.textBox_Search.Size = new System.Drawing.Size(338, 26);
+            this.textBox_Search.Size = new System.Drawing.Size(901, 64);
             this.textBox_Search.TabIndex = 0;
             // 
             // panel_Info
@@ -126,9 +130,10 @@
             this.panel_Info.Controls.Add(this.label_DecorLine);
             this.panel_Info.Controls.Add(this.label_Home);
             this.panel_Info.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel_Info.Location = new System.Drawing.Point(217, 0);
+            this.panel_Info.Location = new System.Drawing.Point(579, 0);
+            this.panel_Info.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.panel_Info.Name = "panel_Info";
-            this.panel_Info.Size = new System.Drawing.Size(1132, 59);
+            this.panel_Info.Size = new System.Drawing.Size(3018, 141);
             this.panel_Info.TabIndex = 6;
             // 
             // label_CurrentFunction
@@ -137,9 +142,10 @@
             this.label_CurrentFunction.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label_CurrentFunction.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_CurrentFunction.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(111)))), ((int)(((byte)(51)))));
-            this.label_CurrentFunction.Location = new System.Drawing.Point(69, 29);
+            this.label_CurrentFunction.Location = new System.Drawing.Point(184, 69);
+            this.label_CurrentFunction.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.label_CurrentFunction.Name = "label_CurrentFunction";
-            this.label_CurrentFunction.Size = new System.Drawing.Size(0, 21);
+            this.label_CurrentFunction.Size = new System.Drawing.Size(0, 54);
             this.label_CurrentFunction.TabIndex = 3;
             this.label_CurrentFunction.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
@@ -149,9 +155,10 @@
             this.label_CurrentPage.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label_CurrentPage.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_CurrentPage.ForeColor = System.Drawing.Color.Black;
-            this.label_CurrentPage.Location = new System.Drawing.Point(19, 1);
+            this.label_CurrentPage.Location = new System.Drawing.Point(51, 2);
+            this.label_CurrentPage.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.label_CurrentPage.Name = "label_CurrentPage";
-            this.label_CurrentPage.Size = new System.Drawing.Size(61, 25);
+            this.label_CurrentPage.Size = new System.Drawing.Size(156, 65);
             this.label_CurrentPage.TabIndex = 0;
             this.label_CurrentPage.Text = "Pages";
             // 
@@ -160,9 +167,10 @@
             this.label_DecorLine.AutoSize = true;
             this.label_DecorLine.Font = new System.Drawing.Font("Gill Sans Ultra Bold Condensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_DecorLine.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(40)))), ((int)(((byte)(94)))));
-            this.label_DecorLine.Location = new System.Drawing.Point(18, 2);
+            this.label_DecorLine.Location = new System.Drawing.Point(48, 5);
+            this.label_DecorLine.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.label_DecorLine.Name = "label_DecorLine";
-            this.label_DecorLine.Size = new System.Drawing.Size(62, 29);
+            this.label_DecorLine.Size = new System.Drawing.Size(158, 73);
             this.label_DecorLine.TabIndex = 2;
             this.label_DecorLine.Text = "_______";
             // 
@@ -172,9 +180,10 @@
             this.label_Home.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label_Home.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_Home.ForeColor = System.Drawing.Color.Black;
-            this.label_Home.Location = new System.Drawing.Point(19, 29);
+            this.label_Home.Location = new System.Drawing.Point(51, 69);
+            this.label_Home.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.label_Home.Name = "label_Home";
-            this.label_Home.Size = new System.Drawing.Size(56, 21);
+            this.label_Home.Size = new System.Drawing.Size(140, 54);
             this.label_Home.TabIndex = 1;
             this.label_Home.Text = "Home ";
             // 
@@ -200,17 +209,19 @@
             this.panel_LogoUeh.Controls.Add(this.guna2CirclePictureBox1);
             this.panel_LogoUeh.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel_LogoUeh.Location = new System.Drawing.Point(0, 0);
+            this.panel_LogoUeh.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.panel_LogoUeh.Name = "panel_LogoUeh";
-            this.panel_LogoUeh.Size = new System.Drawing.Size(217, 109);
+            this.panel_LogoUeh.Size = new System.Drawing.Size(579, 260);
             this.panel_LogoUeh.TabIndex = 1;
             // 
             // guna2PictureBox1
             // 
             this.guna2PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox1.Image")));
             this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(61, 38);
+            this.guna2PictureBox1.Location = new System.Drawing.Point(163, 91);
+            this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(150, 51);
+            this.guna2PictureBox1.Size = new System.Drawing.Size(400, 122);
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox1.TabIndex = 0;
             this.guna2PictureBox1.TabStop = false;
@@ -220,10 +231,11 @@
             this.guna2CirclePictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.guna2CirclePictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2CirclePictureBox1.Image")));
             this.guna2CirclePictureBox1.ImageRotate = 0F;
-            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(3, 25);
+            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(8, 60);
+            this.guna2CirclePictureBox1.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
             this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(64, 64);
+            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(171, 153);
             this.guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2CirclePictureBox1.TabIndex = 0;
             this.guna2CirclePictureBox1.TabStop = false;
@@ -246,8 +258,9 @@
             this.panel_Sidebar.Controls.Add(this.panel_LogoUeh);
             this.panel_Sidebar.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel_Sidebar.Location = new System.Drawing.Point(0, 0);
+            this.panel_Sidebar.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.panel_Sidebar.Name = "panel_Sidebar";
-            this.panel_Sidebar.Size = new System.Drawing.Size(217, 845);
+            this.panel_Sidebar.Size = new System.Drawing.Size(579, 2015);
             this.panel_Sidebar.TabIndex = 4;
             // 
             // btnThongKe
@@ -260,9 +273,10 @@
             this.btnThongKe.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(177)))), ((int)(((byte)(185)))));
             this.btnThongKe.Image = ((System.Drawing.Image)(resources.GetObject("btnThongKe.Image")));
             this.btnThongKe.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnThongKe.Location = new System.Drawing.Point(0, 609);
+            this.btnThongKe.Location = new System.Drawing.Point(0, 1450);
+            this.btnThongKe.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.btnThongKe.Name = "btnThongKe";
-            this.btnThongKe.Size = new System.Drawing.Size(217, 50);
+            this.btnThongKe.Size = new System.Drawing.Size(579, 119);
             this.btnThongKe.TabIndex = 22;
             this.btnThongKe.Text = "          Thống kê";
             this.btnThongKe.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -274,9 +288,10 @@
             this.panel_ChildQuanLiNhomThuoc.Controls.Add(this.button_ChinhSuaNhanVien);
             this.panel_ChildQuanLiNhomThuoc.Controls.Add(this.button_ThongTinNhanVien);
             this.panel_ChildQuanLiNhomThuoc.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel_ChildQuanLiNhomThuoc.Location = new System.Drawing.Point(0, 509);
+            this.panel_ChildQuanLiNhomThuoc.Location = new System.Drawing.Point(0, 1212);
+            this.panel_ChildQuanLiNhomThuoc.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.panel_ChildQuanLiNhomThuoc.Name = "panel_ChildQuanLiNhomThuoc";
-            this.panel_ChildQuanLiNhomThuoc.Size = new System.Drawing.Size(217, 100);
+            this.panel_ChildQuanLiNhomThuoc.Size = new System.Drawing.Size(579, 238);
             this.panel_ChildQuanLiNhomThuoc.TabIndex = 21;
             // 
             // button_ChinhSuaNhanVien
@@ -288,12 +303,14 @@
             this.button_ChinhSuaNhanVien.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_ChinhSuaNhanVien.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_ChinhSuaNhanVien.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(40)))), ((int)(((byte)(94)))));
-            this.button_ChinhSuaNhanVien.Location = new System.Drawing.Point(0, 50);
+            this.button_ChinhSuaNhanVien.Location = new System.Drawing.Point(0, 119);
+            this.button_ChinhSuaNhanVien.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.button_ChinhSuaNhanVien.Name = "button_ChinhSuaNhanVien";
-            this.button_ChinhSuaNhanVien.Size = new System.Drawing.Size(217, 50);
+            this.button_ChinhSuaNhanVien.Size = new System.Drawing.Size(579, 119);
             this.button_ChinhSuaNhanVien.TabIndex = 16;
             this.button_ChinhSuaNhanVien.Text = "          > Chỉnh sửa nhân viên\r\n";
             this.button_ChinhSuaNhanVien.UseVisualStyleBackColor = false;
+            this.button_ChinhSuaNhanVien.Click += new System.EventHandler(this.button_ChinhSuaNhanVien_Click);
             // 
             // button_ThongTinNhanVien
             // 
@@ -305,8 +322,9 @@
             this.button_ThongTinNhanVien.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_ThongTinNhanVien.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(40)))), ((int)(((byte)(94)))));
             this.button_ThongTinNhanVien.Location = new System.Drawing.Point(0, 0);
+            this.button_ThongTinNhanVien.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.button_ThongTinNhanVien.Name = "button_ThongTinNhanVien";
-            this.button_ThongTinNhanVien.Size = new System.Drawing.Size(217, 50);
+            this.button_ThongTinNhanVien.Size = new System.Drawing.Size(579, 119);
             this.button_ThongTinNhanVien.TabIndex = 15;
             this.button_ThongTinNhanVien.Text = "          > Thông tin nhân viên";
             this.button_ThongTinNhanVien.UseVisualStyleBackColor = false;
@@ -321,9 +339,10 @@
             this.button_QuanLiNhanVien.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_QuanLiNhanVien.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(177)))), ((int)(((byte)(185)))));
             this.button_QuanLiNhanVien.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button_QuanLiNhanVien.Location = new System.Drawing.Point(0, 459);
+            this.button_QuanLiNhanVien.Location = new System.Drawing.Point(0, 1093);
+            this.button_QuanLiNhanVien.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.button_QuanLiNhanVien.Name = "button_QuanLiNhanVien";
-            this.button_QuanLiNhanVien.Size = new System.Drawing.Size(217, 50);
+            this.button_QuanLiNhanVien.Size = new System.Drawing.Size(579, 119);
             this.button_QuanLiNhanVien.TabIndex = 20;
             this.button_QuanLiNhanVien.Text = "          Quản lí nhân viên";
             this.button_QuanLiNhanVien.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -335,9 +354,10 @@
             this.panel_ChildQuanLiThuoc.Controls.Add(this.button_ChinhSuaThuoc);
             this.panel_ChildQuanLiThuoc.Controls.Add(this.button_ThongTinThuoc);
             this.panel_ChildQuanLiThuoc.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel_ChildQuanLiThuoc.Location = new System.Drawing.Point(0, 359);
+            this.panel_ChildQuanLiThuoc.Location = new System.Drawing.Point(0, 855);
+            this.panel_ChildQuanLiThuoc.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.panel_ChildQuanLiThuoc.Name = "panel_ChildQuanLiThuoc";
-            this.panel_ChildQuanLiThuoc.Size = new System.Drawing.Size(217, 100);
+            this.panel_ChildQuanLiThuoc.Size = new System.Drawing.Size(579, 238);
             this.panel_ChildQuanLiThuoc.TabIndex = 19;
             // 
             // button_ChinhSuaThuoc
@@ -348,13 +368,15 @@
             this.button_ChinhSuaThuoc.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_ChinhSuaThuoc.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_ChinhSuaThuoc.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(40)))), ((int)(((byte)(94)))));
-            this.button_ChinhSuaThuoc.Location = new System.Drawing.Point(0, 50);
+            this.button_ChinhSuaThuoc.Location = new System.Drawing.Point(0, 119);
+            this.button_ChinhSuaThuoc.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.button_ChinhSuaThuoc.Name = "button_ChinhSuaThuoc";
-            this.button_ChinhSuaThuoc.Size = new System.Drawing.Size(217, 50);
+            this.button_ChinhSuaThuoc.Size = new System.Drawing.Size(579, 119);
             this.button_ChinhSuaThuoc.TabIndex = 1;
             this.button_ChinhSuaThuoc.Text = "           > Thông tin loại thuốc\r\n";
             this.button_ChinhSuaThuoc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button_ChinhSuaThuoc.UseVisualStyleBackColor = false;
+            this.button_ChinhSuaThuoc.Click += new System.EventHandler(this.button_ChinhSuaThuoc_Click);
             // 
             // button_ThongTinThuoc
             // 
@@ -366,8 +388,9 @@
             this.button_ThongTinThuoc.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_ThongTinThuoc.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(40)))), ((int)(((byte)(94)))));
             this.button_ThongTinThuoc.Location = new System.Drawing.Point(0, 0);
+            this.button_ThongTinThuoc.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.button_ThongTinThuoc.Name = "button_ThongTinThuoc";
-            this.button_ThongTinThuoc.Size = new System.Drawing.Size(217, 50);
+            this.button_ThongTinThuoc.Size = new System.Drawing.Size(579, 119);
             this.button_ThongTinThuoc.TabIndex = 0;
             this.button_ThongTinThuoc.Text = "           > Thông tin thuốc ";
             this.button_ThongTinThuoc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -383,9 +406,10 @@
             this.button_QuanLiThuoc.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_QuanLiThuoc.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(177)))), ((int)(((byte)(185)))));
             this.button_QuanLiThuoc.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button_QuanLiThuoc.Location = new System.Drawing.Point(0, 309);
+            this.button_QuanLiThuoc.Location = new System.Drawing.Point(0, 736);
+            this.button_QuanLiThuoc.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.button_QuanLiThuoc.Name = "button_QuanLiThuoc";
-            this.button_QuanLiThuoc.Size = new System.Drawing.Size(217, 50);
+            this.button_QuanLiThuoc.Size = new System.Drawing.Size(579, 119);
             this.button_QuanLiThuoc.TabIndex = 18;
             this.button_QuanLiThuoc.Text = "           Quản lý thuốc";
             this.button_QuanLiThuoc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -397,9 +421,10 @@
             this.panel_ChildTaiKhoanNhanVien.Controls.Add(this.button_ChinhSuaTaiKhoan);
             this.panel_ChildTaiKhoanNhanVien.Controls.Add(this.button_Thongtin);
             this.panel_ChildTaiKhoanNhanVien.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel_ChildTaiKhoanNhanVien.Location = new System.Drawing.Point(0, 209);
+            this.panel_ChildTaiKhoanNhanVien.Location = new System.Drawing.Point(0, 498);
+            this.panel_ChildTaiKhoanNhanVien.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.panel_ChildTaiKhoanNhanVien.Name = "panel_ChildTaiKhoanNhanVien";
-            this.panel_ChildTaiKhoanNhanVien.Size = new System.Drawing.Size(217, 100);
+            this.panel_ChildTaiKhoanNhanVien.Size = new System.Drawing.Size(579, 238);
             this.panel_ChildTaiKhoanNhanVien.TabIndex = 17;
             // 
             // button_ChinhSuaTaiKhoan
@@ -411,9 +436,10 @@
             this.button_ChinhSuaTaiKhoan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_ChinhSuaTaiKhoan.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_ChinhSuaTaiKhoan.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(40)))), ((int)(((byte)(94)))));
-            this.button_ChinhSuaTaiKhoan.Location = new System.Drawing.Point(0, 50);
+            this.button_ChinhSuaTaiKhoan.Location = new System.Drawing.Point(0, 119);
+            this.button_ChinhSuaTaiKhoan.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.button_ChinhSuaTaiKhoan.Name = "button_ChinhSuaTaiKhoan";
-            this.button_ChinhSuaTaiKhoan.Size = new System.Drawing.Size(217, 50);
+            this.button_ChinhSuaTaiKhoan.Size = new System.Drawing.Size(579, 119);
             this.button_ChinhSuaTaiKhoan.TabIndex = 1;
             this.button_ChinhSuaTaiKhoan.Text = "           > Chỉnh sửa tài khoản";
             this.button_ChinhSuaTaiKhoan.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -429,8 +455,9 @@
             this.button_Thongtin.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_Thongtin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(40)))), ((int)(((byte)(94)))));
             this.button_Thongtin.Location = new System.Drawing.Point(0, 0);
+            this.button_Thongtin.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.button_Thongtin.Name = "button_Thongtin";
-            this.button_Thongtin.Size = new System.Drawing.Size(217, 50);
+            this.button_Thongtin.Size = new System.Drawing.Size(579, 119);
             this.button_Thongtin.TabIndex = 0;
             this.button_Thongtin.Text = "           > Thông tin";
             this.button_Thongtin.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -447,9 +474,10 @@
             this.button_TaiKhoanNhanVien.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(177)))), ((int)(((byte)(185)))));
             this.button_TaiKhoanNhanVien.Image = ((System.Drawing.Image)(resources.GetObject("button_TaiKhoanNhanVien.Image")));
             this.button_TaiKhoanNhanVien.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button_TaiKhoanNhanVien.Location = new System.Drawing.Point(0, 159);
+            this.button_TaiKhoanNhanVien.Location = new System.Drawing.Point(0, 379);
+            this.button_TaiKhoanNhanVien.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.button_TaiKhoanNhanVien.Name = "button_TaiKhoanNhanVien";
-            this.button_TaiKhoanNhanVien.Size = new System.Drawing.Size(217, 50);
+            this.button_TaiKhoanNhanVien.Size = new System.Drawing.Size(579, 119);
             this.button_TaiKhoanNhanVien.TabIndex = 16;
             this.button_TaiKhoanNhanVien.Text = "          Tài khoản nhân viên";
             this.button_TaiKhoanNhanVien.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -465,9 +493,10 @@
             this.btnThuocHetHan.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThuocHetHan.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(177)))), ((int)(((byte)(185)))));
             this.btnThuocHetHan.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnThuocHetHan.Location = new System.Drawing.Point(0, 109);
+            this.btnThuocHetHan.Location = new System.Drawing.Point(0, 260);
+            this.btnThuocHetHan.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.btnThuocHetHan.Name = "btnThuocHetHan";
-            this.btnThuocHetHan.Size = new System.Drawing.Size(217, 50);
+            this.btnThuocHetHan.Size = new System.Drawing.Size(579, 119);
             this.btnThuocHetHan.TabIndex = 15;
             this.btnThuocHetHan.Text = "          Thuốc Hết Hạn ";
             this.btnThuocHetHan.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -477,20 +506,22 @@
             // panel_ChildForm
             // 
             this.panel_ChildForm.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel_ChildForm.Location = new System.Drawing.Point(217, 109);
+            this.panel_ChildForm.Location = new System.Drawing.Point(579, 260);
+            this.panel_ChildForm.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.panel_ChildForm.Name = "panel_ChildForm";
-            this.panel_ChildForm.Size = new System.Drawing.Size(1132, 736);
+            this.panel_ChildForm.Size = new System.Drawing.Size(3018, 1755);
             this.panel_ChildForm.TabIndex = 7;
             // 
             // fAdmin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1349, 845);
+            this.ClientSize = new System.Drawing.Size(3597, 2015);
             this.Controls.Add(this.panel_ChildForm);
             this.Controls.Add(this.panel_Search);
             this.Controls.Add(this.panel_Info);
             this.Controls.Add(this.panel_Sidebar);
+            this.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.Name = "fAdmin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "fAdmin";

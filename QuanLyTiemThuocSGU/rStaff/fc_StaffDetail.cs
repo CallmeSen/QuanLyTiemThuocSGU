@@ -19,8 +19,7 @@ namespace QuanLyThuVienSGU_Winform
         private Label label_ChucVuAfter;
         private int employeeID;
         private int role;
-        private StaffInfoBLL staffInfoBLL = new StaffInfoBLL();
-        //
+        private StaffInfoBLL staffInfoBLL = StaffInfoBLL.Instance;
         #endregion
 
         public fc_StaffDetail(int employeeID, int role)
@@ -43,7 +42,7 @@ namespace QuanLyThuVienSGU_Winform
                 label_ChucVuInfo.Text = staff.Role;
                 label_SoDienThoaiInfo.Text = staff.Phone;
                 label_EmailInfo.Text = staff.Email;
-                label_NgayNhanViecInfo.Text = staff.HireDate.ToString("dd/MM/yyyy");
+                label_NgayNhanViecInfo.Text = staff.HireDate.HasValue ? staff.HireDate.Value.ToString("dd/MM/yyyy") : "N/A";
             }
         }
         #endregion

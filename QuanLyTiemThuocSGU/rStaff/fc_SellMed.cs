@@ -120,7 +120,7 @@ namespace QuanLyThuVienSGU_Winform
 
         private string GetEmployeeName(int employeeID)
         {
-            StaffInfoBLL staffInfoBLL = new StaffInfoBLL();
+            StaffInfoBLL staffInfoBLL = StaffInfoBLL.Instance;
             StaffInfoDTO employeeDetails = staffInfoBLL.GetStaffDetails(employeeID);
             return employeeDetails != null ? employeeDetails.FullName : "Unknown Employee";
         }

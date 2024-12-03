@@ -237,3 +237,9 @@ E:\GitHub\QuanLyTiemThuocSGU_Winform\QuanLyTiemThuocSGU\obj\Debug\QuanLyThuVienS
 E:\GitHub\QuanLyTiemThuocSGU_Winform\QuanLyTiemThuocSGU\obj\Debug\QuanLyThuVienSGU_Winform.rAdmin.fc_AddStaff.resources
 E:\GitHub\QuanLyTiemThuocSGU_Winform\QuanLyTiemThuocSGU\obj\Debug\QuanLyThuVienSGU_Winform.fc_Dashboard.resources
 E:\GitHub\QuanLyTiemThuocSGU_Winform\QuanLyTiemThuocSGU\obj\Debug\QuanLyThuVienSGU_Winform.rStaff.fc_ExpiredMed.resources
+E:\GitHub\QuanLyTiemThuocSGU_Winform\QuanLyTiemThuocSGU\obj\Debug\QuanLyThuVienSGU_Winform.rAdmin.fc_AddCategory.resources
+E:\GitHub\QuanLyTiemThuocSGU_Winform\QuanLyTiemThuocSGU\obj\Debug\QuanLyThuVienSGU_Winform.rAdmin.fc_AddCustomer.resources
+E:\GitHub\QuanLyTiemThuocSGU_Winform\QuanLyTiemThuocSGU\obj\Debug\QuanLyThuVienSGU_Winform.rAdmin.fc_Addsupplier.resources
+E:\GitHub\QuanLyTiemThuocSGU_Winform\QuanLyTiemThuocSGU\obj\Debug\QuanLyThuVienSGU_Winform.rAdmin.fc_EditCategory.resources
+E:\GitHub\QuanLyTiemThuocSGU_Winform\QuanLyTiemThuocSGU\obj\Debug\QuanLyThuVienSGU_Winform.rAdmin.fc_EditCustomer.resources
+E:\GitHub\QuanLyTiemThuocSGU_Winform\QuanLyTiemThuocSGU\obj\Debug\QuanLyThuVienSGU_Winform.rAdmin.fc_EditSupplier.resources

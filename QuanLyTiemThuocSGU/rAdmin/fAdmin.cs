@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using QuanLyThuVienSGU_Winform.rAdmin;
 using QuanLyThuVienSGU_Winform.rStaff;
 
 namespace QuanLyThuVienSGU_Winform
@@ -153,6 +154,18 @@ namespace QuanLyThuVienSGU_Winform
         {
             label_CurrentPage.Text = "Danh sách hết hạn sử dụng thuốc";
             openChildForm(new fc_ExpiredMed());
+        }
+
+        private void button_ChinhSuaThuoc_Click(object sender, EventArgs e)
+        {
+            label_CurrentPage.Text = "Danh sách hết hạn sử dụng thuốc";
+            openChildForm(new fc_EditCategory());
+        }
+
+        private void button_ChinhSuaNhanVien_Click(object sender, EventArgs e)
+        {
+            label_CurrentPage.Text = "Danh sách hết hạn sử dụng thuốc";
+            openChildForm(new fc_EditCustomer());
         }
     }
 }

@@ -228,11 +228,41 @@
     <Compile Include="rAdmin\fAdmin.Designer.cs">
       <DependentUpon>fAdmin.cs</DependentUpon>
     </Compile>
+    <Compile Include="rAdmin\fc_AddCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rAdmin\fc_AddCategory.Designer.cs">
+      <DependentUpon>fc_AddCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rAdmin\fc_AddCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rAdmin\fc_AddCustomer.Designer.cs">
+      <DependentUpon>fc_AddCustomer.cs</DependentUpon>
+    </Compile>
     <Compile Include="rAdmin\fc_AddStaff.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="rAdmin\fc_AddStaff.Designer.cs">
       <DependentUpon>fc_AddStaff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rAdmin\fc_Addsupplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rAdmin\fc_Addsupplier.Designer.cs">
+      <DependentUpon>fc_Addsupplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rAdmin\fc_EditCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rAdmin\fc_EditCategory.Designer.cs">
+      <DependentUpon>fc_EditCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rAdmin\fc_EditCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rAdmin\fc_EditCustomer.Designer.cs">
+      <DependentUpon>fc_EditCustomer.cs</DependentUpon>
     </Compile>
     <Compile Include="rAdmin\fc_EditMed.cs">
       <SubType>Form</SubType>
@@ -257,6 +287,12 @@
     </Compile>
     <Compile Include="rAdmin\fc_EditStaff.Designer.cs">
       <DependentUpon>fc_EditStaff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rAdmin\fc_EditSupplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rAdmin\fc_EditSupplier.Designer.cs">
+      <DependentUpon>fc_EditSupplier.cs</DependentUpon>
     </Compile>
     <Compile Include="rStaff\fc_ExpiredMed.cs">
       <SubType>Form</SubType>
@@ -335,8 +371,23 @@
     <EmbeddedResource Include="rAdmin\fAdmin.resx">
       <DependentUpon>fAdmin.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="rAdmin\fc_AddCategory.resx">
+      <DependentUpon>fc_AddCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rAdmin\fc_AddCustomer.resx">
+      <DependentUpon>fc_AddCustomer.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="rAdmin\fc_AddStaff.resx">
       <DependentUpon>fc_AddStaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rAdmin\fc_Addsupplier.resx">
+      <DependentUpon>fc_Addsupplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rAdmin\fc_EditCategory.resx">
+      <DependentUpon>fc_EditCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rAdmin\fc_EditCustomer.resx">
+      <DependentUpon>fc_EditCustomer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="rAdmin\fc_EditMed.resx">
       <DependentUpon>fc_EditMed.cs</DependentUpon>
@@ -346,6 +397,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="fEditAccount.resx">
       <DependentUpon>fEditAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rAdmin\fc_EditSupplier.resx">
+      <DependentUpon>fc_EditSupplier.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="rStaff\fc_ExpiredMed.resx">
       <DependentUpon>fc_ExpiredMed.cs</DependentUpon>

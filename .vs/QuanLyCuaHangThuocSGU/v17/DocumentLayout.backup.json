@@ -3,68 +3,179 @@
   "WorkspaceRootPath": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\radmin\\fadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\radmin\\fadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\radmin\\fc_editcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\radmin\\fc_editcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|e:\\github\\quanlytiemthuocsgu_winform\\quanlytiemthuocsgu\\radmin\\fadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\radmin\\fadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\radmin\\fc_editmed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\radmin\\fc_editmed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\rstaff\\fstaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\rstaff\\fstaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|e:\\github\\quanlytiemthuocsgu_winform\\quanlytiemthuocsgu\\radmin\\fc_addcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\radmin\\fc_addcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\rstaff\\fstaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\rstaff\\fstaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|e:\\github\\quanlytiemthuocsgu_winform\\quanlytiemthuocsgu\\radmin\\fc_editcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\radmin\\fc_editcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\rstaff\\fc_staffdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\rstaff\\fc_staffdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|e:\\github\\quanlytiemthuocsgu_winform\\quanlytiemthuocsgu\\radmin\\fc_addcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\radmin\\fc_addcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\rstaff\\fstaff.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\rstaff\\fstaff.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\radmin\\fc_editstaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\radmin\\fc_editstaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\radmin\\fc_editstaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\radmin\\fc_editstaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\radmin\\fc_editcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\radmin\\fc_editcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\radmin\\fc_addstaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\radmin\\fc_addstaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|e:\\github\\quanlytiemthuocsgu_winform\\quanlytiemthuocsgu\\bll\\customerbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\bll\\customerbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\rstaff\\fc_staffdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\rstaff\\fc_staffdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\dao\\staffinfodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\dao\\staffinfodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|e:\\github\\quanlytiemthuocsgu_winform\\quanlytiemthuocsgu\\dto\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\dto\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\dao\\customerdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\dao\\customerdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|e:\\github\\quanlytiemthuocsgu_winform\\quanlytiemthuocsgu\\dao\\dataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\dao\\productdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\dao\\productdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|e:\\github\\quanlytiemthuocsgu_winform\\quanlytiemthuocsgu\\radmin\\fc_editsupplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\radmin\\fc_editsupplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|e:\\github\\quanlytiemthuocsgu_winform\\quanlytiemthuocsgu\\radmin\\fc_editmed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\radmin\\fc_editmed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\radmin\\fadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\radmin\\fadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|e:\\github\\quanlytiemthuocsgu_winform\\quanlytiemthuocsgu\\rstaff\\fstaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\rstaff\\fstaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|e:\\github\\quanlytiemthuocsgu_winform\\quanlytiemthuocsgu\\rstaff\\fstaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\rstaff\\fstaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\radmin\\fadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\radmin\\fadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|e:\\github\\quanlytiemthuocsgu_winform\\quanlytiemthuocsgu\\radmin\\fc_editsupplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\radmin\\fc_editsupplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\radmin\\fc_editcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\radmin\\fc_editcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\radmin\\fc_addcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\radmin\\fc_addcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\dao\\dataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\dao\\dataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|e:\\github\\quanlytiemthuocsgu_winform\\quanlytiemthuocsgu\\login\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\login\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Tuan Huynh\\Downloads\\rAdmin\\fc_AddCategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\radmin\\fadmin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\radmin\\fadmin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\dao\\productcategorydao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\dao\\productcategorydao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\dao\\supplierdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\dao\\supplierdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\dao\\staffinfodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\dao\\staffinfodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\dao\\accountdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\dao\\accountdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\radmin\\fc_editstaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\radmin\\fc_editstaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\flandingpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\flandingpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\rstaff\\fc_sellmed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\rstaff\\fc_sellmed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\rstaff\\fc_staffdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\rstaff\\fc_staffdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\bll\\productbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\bll\\productbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\bll\\staffinfobll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\bll\\staffinfobll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\rstaff\\fc_expiredmed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\rstaff\\fc_expiredmed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\rstaff\\fc_expiredmed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\rstaff\\fc_expiredmed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\dto\\staffinfodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\dto\\staffinfodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\rstaff\\fc_expiredmed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\rstaff\\fc_expiredmed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\bll\\orderbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\bll\\orderbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\rstaff\\fc_sellmed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\rstaff\\fc_sellmed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\radmin\\fc_addstaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\radmin\\fc_addstaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\radmin\\fc_addmed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\radmin\\fc_addmed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\radmin\\fc_addmed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\radmin\\fc_addmed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\radmin\\fc_addstaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\radmin\\fc_addstaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\login\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\login\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\rstaff\\fc_expiredmed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\rstaff\\fc_expiredmed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\rstaff\\fc_expiredmed.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -75,171 +186,20 @@
       "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\radmin\\fc_addstaff.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\radmin\\fc_addstaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\radmin\\fc_addstaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\radmin\\fc_addmed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\radmin\\fc_addmed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\dao\\productdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\dao\\productdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\feditaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\feditaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\radmin\\fc_dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\radmin\\fc_dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\radmin\\fc_dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\radmin\\fc_dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\dao\\orderdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\dao\\orderdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\bll\\orderbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\bll\\orderbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\radmin\\fc_addmed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\radmin\\fc_addmed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\radmin\\fc_editmed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\radmin\\fc_editmed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\radmin\\fc_editstaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\radmin\\fc_editstaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\rstaff\\fc_sellmed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\rstaff\\fc_sellmed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\fmeddetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\fmeddetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\bll\\staffinfobll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\bll\\staffinfobll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\rstaff\\fc_sellmed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\rstaff\\fc_sellmed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fcAddMed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QuanLyTiemThuocSGU\\rAdmin\\fcAddMed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\bll\\productbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\bll\\productbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\radmin\\fc_editmed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\radmin\\fc_editmed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|QuanLyCuaHangThuocSGU_Winform||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\bll\\customerbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\bll\\customerbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\flandingpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\flandingpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\flistgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\flistgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\flistmed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\flistmed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\quanlycuahangthuocdataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
-      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\quanlycuahangthuocdataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\dto\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\dto\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\login\\floading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\login\\floading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\login\\floading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\login\\floading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\login\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\login\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\radmin\\fc_editmed.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\radmin\\fc_editmed.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\radmin\\fc_editstaff.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\radmin\\fc_editstaff.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\dto\\shipmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\dto\\shipmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\bll\\productcategorybll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\bll\\productcategorybll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\dao\\productcategorydao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\dao\\productcategorydao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\dto\\supplierdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\dto\\supplierdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\bll\\supplierbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\bll\\supplierbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\dao\\supplierdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\dao\\supplierdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\bll\\shipmentbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\bll\\shipmentbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\dao\\shipmentdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\dao\\shipmentdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\dto\\productcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\dto\\productcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\radmin\\fcaddmed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:quanlytiemthuocsgu\\radmin\\fcaddmed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -249,7 +209,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 40,
+          "SelectedChildIndex": 16,
           "Children": [
             {
               "$type": "Bookmark",
@@ -265,20 +225,377 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "fc_AddCustomer.cs",
+              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fc_AddCustomer.cs",
+              "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rAdmin\\fc_AddCustomer.cs",
+              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fc_AddCustomer.cs",
+              "RelativeToolTip": "QuanLyTiemThuocSGU\\rAdmin\\fc_AddCustomer.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAIAwwDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T14:52:07.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CustomerBLL.cs",
+              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\BLL\\CustomerBLL.cs",
+              "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\BLL\\CustomerBLL.cs",
+              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\BLL\\CustomerBLL.cs",
+              "RelativeToolTip": "QuanLyTiemThuocSGU\\BLL\\CustomerBLL.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA5wBkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T14:25:19.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CustomerDTO.cs",
+              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\DTO\\CustomerDTO.cs",
+              "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\DTO\\CustomerDTO.cs",
+              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\DTO\\CustomerDTO.cs",
+              "RelativeToolTip": "QuanLyTiemThuocSGU\\DTO\\CustomerDTO.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T14:21:40.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "fc_EditSupplier.cs [Design]",
+              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fc_EditSupplier.cs",
+              "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rAdmin\\fc_EditSupplier.cs",
+              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fc_EditSupplier.cs [Design]",
+              "RelativeToolTip": "QuanLyTiemThuocSGU\\rAdmin\\fc_EditSupplier.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T14:10:11.592Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "fc_EditMed.cs [Design]",
+              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fc_EditMed.cs",
+              "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rAdmin\\fc_EditMed.cs",
+              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fc_EditMed.cs [Design]",
+              "RelativeToolTip": "QuanLyTiemThuocSGU\\rAdmin\\fc_EditMed.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T14:10:09.075Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "fc_EditCustomer.cs [Design]",
+              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fc_EditCustomer.cs",
+              "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rAdmin\\fc_EditCustomer.cs",
+              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fc_EditCustomer.cs [Design]",
+              "RelativeToolTip": "QuanLyTiemThuocSGU\\rAdmin\\fc_EditCustomer.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T14:05:45.675Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "fc_AddCustomer.cs [Design]",
+              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fc_AddCustomer.cs",
+              "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rAdmin\\fc_AddCustomer.cs",
+              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fc_AddCustomer.cs [Design]",
+              "RelativeToolTip": "QuanLyTiemThuocSGU\\rAdmin\\fc_AddCustomer.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T14:05:19.895Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "fStaff.cs",
+              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rStaff\\fStaff.cs",
+              "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rStaff\\fStaff.cs",
+              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rStaff\\fStaff.cs",
+              "RelativeToolTip": "QuanLyTiemThuocSGU\\rStaff\\fStaff.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAwJwAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T13:23:43.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "fStaff.cs [Design]",
+              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rStaff\\fStaff.cs",
+              "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rStaff\\fStaff.cs",
+              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rStaff\\fStaff.cs [Design]",
+              "RelativeToolTip": "QuanLyTiemThuocSGU\\rStaff\\fStaff.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T13:22:51.716Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "fc_EditSupplier.cs",
+              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fc_EditSupplier.cs",
+              "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rAdmin\\fc_EditSupplier.cs",
+              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fc_EditSupplier.cs",
+              "RelativeToolTip": "QuanLyTiemThuocSGU\\rAdmin\\fc_EditSupplier.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T11:51:35.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "fc_EditCategory.cs [Design]",
+              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fc_EditCategory.cs",
+              "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rAdmin\\fc_EditCategory.cs",
+              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fc_EditCategory.cs [Design]",
+              "RelativeToolTip": "QuanLyTiemThuocSGU\\rAdmin\\fc_EditCategory.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T11:14:41.308Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "fAdmin.cs",
+              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fAdmin.cs",
+              "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rAdmin\\fAdmin.cs",
+              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fAdmin.cs",
+              "RelativeToolTip": "QuanLyTiemThuocSGU\\rAdmin\\fAdmin.cs",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAiwKYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T11:14:27.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "fAdmin.cs [Design]",
+              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fAdmin.cs",
+              "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rAdmin\\fAdmin.cs",
+              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fAdmin.cs [Design]",
+              "RelativeToolTip": "QuanLyTiemThuocSGU\\rAdmin\\fAdmin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T11:14:21.947Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "fc_EditCustomer.cs",
+              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fc_EditCustomer.cs",
+              "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rAdmin\\fc_EditCustomer.cs",
+              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fc_EditCustomer.cs",
+              "RelativeToolTip": "QuanLyTiemThuocSGU\\rAdmin\\fc_EditCustomer.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAD4vxkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T11:01:18.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "fc_EditMed.cs",
+              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fc_EditMed.cs",
+              "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rAdmin\\fc_EditMed.cs",
+              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fc_EditMed.cs",
+              "RelativeToolTip": "QuanLyTiemThuocSGU\\rAdmin\\fc_EditMed.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAawBsAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T13:55:45.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "fc_EditCategory.cs",
+              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fc_EditCategory.cs",
+              "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rAdmin\\fc_EditCategory.cs",
+              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fc_EditCategory.cs",
+              "RelativeToolTip": "QuanLyTiemThuocSGU\\rAdmin\\fc_EditCategory.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAIAxwBYAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T11:00:31.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "fc_AddCategory.cs",
+              "DocumentMoniker": "C:\\Users\\Tuan Huynh\\Downloads\\rAdmin\\fc_AddCategory.cs",
+              "ToolTip": "C:\\Users\\Tuan Huynh\\Downloads\\rAdmin\\fc_AddCategory.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T10:51:51.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "fc_AddCategory.cs",
+              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fc_AddCategory.cs",
+              "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rAdmin\\fc_AddCategory.cs",
+              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fc_AddCategory.cs",
+              "RelativeToolTip": "QuanLyTiemThuocSGU\\rAdmin\\fc_AddCategory.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAkwDAAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T10:50:55.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "fAdmin.Designer.cs",
+              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fAdmin.Designer.cs",
+              "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rAdmin\\fAdmin.Designer.cs",
+              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fAdmin.Designer.cs",
+              "RelativeToolTip": "QuanLyTiemThuocSGU\\rAdmin\\fAdmin.Designer.cs",
+              "ViewState": "AgIAALIBAAAAAAAAAAAuwEMCAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T10:42:24.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ProductCategoryDAO.cs",
+              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\DAO\\ProductCategoryDAO.cs",
+              "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\DAO\\ProductCategoryDAO.cs",
+              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\DAO\\ProductCategoryDAO.cs",
+              "RelativeToolTip": "QuanLyTiemThuocSGU\\DAO\\ProductCategoryDAO.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T16:12:01.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "SupplierDAO.cs",
+              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\DAO\\SupplierDAO.cs",
+              "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\DAO\\SupplierDAO.cs",
+              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\DAO\\SupplierDAO.cs",
+              "RelativeToolTip": "QuanLyTiemThuocSGU\\DAO\\SupplierDAO.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAUwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T16:11:44.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AccountDAO.cs",
+              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\DAO\\AccountDAO.cs",
+              "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\DAO\\AccountDAO.cs",
+              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\DAO\\AccountDAO.cs",
+              "RelativeToolTip": "QuanLyTiemThuocSGU\\DAO\\AccountDAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T16:11:37.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CustomerDAO.cs",
+              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\DAO\\CustomerDAO.cs",
+              "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\DAO\\CustomerDAO.cs",
+              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\DAO\\CustomerDAO.cs",
+              "RelativeToolTip": "QuanLyTiemThuocSGU\\DAO\\CustomerDAO.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA5wBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T16:11:30.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "fc_EditStaff.cs [Design]",
+              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fc_EditStaff.cs",
+              "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rAdmin\\fc_EditStaff.cs",
+              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fc_EditStaff.cs [Design]",
+              "RelativeToolTip": "QuanLyTiemThuocSGU\\rAdmin\\fc_EditStaff.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T00:56:28.855Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "fc_SellMed.cs",
+              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rStaff\\fc_SellMed.cs",
+              "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rStaff\\fc_SellMed.cs",
+              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rStaff\\fc_SellMed.cs",
+              "RelativeToolTip": "QuanLyTiemThuocSGU\\rStaff\\fc_SellMed.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAnwHoAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T02:07:40.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductDAO.cs",
+              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\DAO\\ProductDAO.cs",
+              "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\DAO\\ProductDAO.cs",
+              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\DAO\\ProductDAO.cs",
+              "RelativeToolTip": "QuanLyTiemThuocSGU\\DAO\\ProductDAO.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAywBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T15:26:38.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "StaffInfoDAO.cs",
+              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\DAO\\StaffInfoDAO.cs",
+              "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\DAO\\StaffInfoDAO.cs",
+              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\DAO\\StaffInfoDAO.cs",
+              "RelativeToolTip": "QuanLyTiemThuocSGU\\DAO\\StaffInfoDAO.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAxwBAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T17:16:44.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ProductDTO.cs",
+              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\DTO\\ProductDTO.cs",
+              "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\DTO\\ProductDTO.cs",
+              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\DTO\\ProductDTO.cs",
+              "RelativeToolTip": "QuanLyTiemThuocSGU\\DTO\\ProductDTO.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T14:39:07.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "StaffInfoDTO.cs",
+              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\DTO\\StaffInfoDTO.cs",
+              "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\DTO\\StaffInfoDTO.cs",
+              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\DTO\\StaffInfoDTO.cs",
+              "RelativeToolTip": "QuanLyTiemThuocSGU\\DTO\\StaffInfoDTO.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T01:12:57.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "DataProvider.cs",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\DAO\\DataProvider.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\DAO\\DataProvider.cs",
               "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\DAO\\DataProvider.cs",
               "RelativeToolTip": "QuanLyTiemThuocSGU\\DAO\\DataProvider.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAmwFgAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAA2wDUAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T01:07:02.197Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T01:07:02.197Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 42,
               "Title": "fLogin.cs",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\Login\\fLogin.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\Login\\fLogin.cs",
@@ -286,25 +603,11 @@
               "RelativeToolTip": "QuanLyTiemThuocSGU\\Login\\fLogin.cs",
               "ViewState": "AgIAACoAAAAAAAAAAAAuwDcAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T01:06:19.04Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T01:06:19.04Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ProductDTO.cs",
-              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\DTO\\ProductDTO.cs",
-              "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\DTO\\ProductDTO.cs",
-              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\DTO\\ProductDTO.cs",
-              "RelativeToolTip": "QuanLyTiemThuocSGU\\DTO\\ProductDTO.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T14:39:07.536Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 33,
               "Title": "fc_ExpiredMed.cs",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rStaff\\fc_ExpiredMed.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rStaff\\fc_ExpiredMed.cs",
@@ -316,7 +619,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 44,
               "Title": "fc_ExpiredMed.Designer.cs",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rStaff\\fc_ExpiredMed.Designer.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rStaff\\fc_ExpiredMed.Designer.cs",
@@ -328,7 +631,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 43,
               "Title": "fc_ExpiredMed.cs [Design]",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rStaff\\fc_ExpiredMed.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rStaff\\fc_ExpiredMed.cs",
@@ -339,7 +642,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 47,
               "Title": "OrderDAO.cs",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\DAO\\OrderDAO.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\DAO\\OrderDAO.cs",
@@ -351,7 +654,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 36,
               "Title": "OrderBLL.cs",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\BLL\\OrderBLL.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\BLL\\OrderBLL.cs",
@@ -363,31 +666,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 39,
               "Title": "fc_AddMed.cs",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fc_AddMed.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rAdmin\\fc_AddMed.cs",
               "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fc_AddMed.cs",
               "RelativeToolTip": "QuanLyTiemThuocSGU\\rAdmin\\fc_AddMed.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAkwBoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-16T16:51:40.228Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "fc_EditMed.cs",
-              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fc_EditMed.cs",
-              "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rAdmin\\fc_EditMed.cs",
-              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fc_EditMed.cs",
-              "RelativeToolTip": "QuanLyTiemThuocSGU\\rAdmin\\fc_EditMed.cs",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAuwGUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T13:55:45.806Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 41,
               "Title": "fc_AddStaff.cs",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fc_AddStaff.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rAdmin\\fc_AddStaff.cs",
@@ -395,25 +686,24 @@
               "RelativeToolTip": "QuanLyTiemThuocSGU\\rAdmin\\fc_AddStaff.cs",
               "ViewState": "AgIAAEMAAAAAAAAAAAAkwFwAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T16:44:58.142Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-16T16:44:58.142Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 27,
               "Title": "fc_EditStaff.cs",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fc_EditStaff.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rAdmin\\fc_EditStaff.cs",
               "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fc_EditStaff.cs",
               "RelativeToolTip": "QuanLyTiemThuocSGU\\rAdmin\\fc_EditStaff.cs",
-              "ViewState": "AgIAAI8AAAAAAAAAAAAmwKQAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAL4AAAAAAAAAAAAqwNcAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-12T00:46:32.565Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 45,
               "Title": "fc_AddStaff.Designer.cs",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fc_AddStaff.Designer.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rAdmin\\fc_AddStaff.Designer.cs",
@@ -421,61 +711,34 @@
               "RelativeToolTip": "QuanLyTiemThuocSGU\\rAdmin\\fc_AddStaff.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T16:34:05.932Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-16T16:34:05.932Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 38,
               "Title": "fc_AddStaff.cs [Design]",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fc_AddStaff.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rAdmin\\fc_AddStaff.cs",
               "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fc_AddStaff.cs [Design]",
               "RelativeToolTip": "QuanLyTiemThuocSGU\\rAdmin\\fc_AddStaff.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T16:34:00.052Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-16T16:34:00.052Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "StaffInfoBLL.cs",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\BLL\\StaffInfoBLL.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\BLL\\StaffInfoBLL.cs",
               "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\BLL\\StaffInfoBLL.cs",
               "RelativeToolTip": "QuanLyTiemThuocSGU\\BLL\\StaffInfoBLL.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAlwBYAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-16T16:25:56.506Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "StaffInfoDAO.cs",
-              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\DAO\\StaffInfoDAO.cs",
-              "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\DAO\\StaffInfoDAO.cs",
-              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\DAO\\StaffInfoDAO.cs",
-              "RelativeToolTip": "QuanLyTiemThuocSGU\\DAO\\StaffInfoDAO.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAswEsAAACGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T17:16:44.319Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "ProductDAO.cs",
-              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\DAO\\ProductDAO.cs",
-              "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\DAO\\ProductDAO.cs",
-              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\DAO\\ProductDAO.cs",
-              "RelativeToolTip": "QuanLyTiemThuocSGU\\DAO\\ProductDAO.cs",
-              "ViewState": "AgIAAHIAAAAAAAAAAADwv3QAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T15:26:38.376Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 40,
               "Title": "fc_AddMed.cs [Design]",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fc_AddMed.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rAdmin\\fc_AddMed.cs",
@@ -486,18 +749,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "QuanLyCuaHangThuocSGU_Winform",
-              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj",
-              "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj",
-              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj",
-              "RelativeToolTip": "QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-11-16T11:47:09.576Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 37,
               "Title": "fc_SellMed.cs [Design]",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rStaff\\fc_SellMed.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rStaff\\fc_SellMed.cs",
@@ -508,19 +760,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "fc_SellMed.cs",
-              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rStaff\\fc_SellMed.cs",
-              "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rStaff\\fc_SellMed.cs",
-              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rStaff\\fc_SellMed.cs",
-              "RelativeToolTip": "QuanLyTiemThuocSGU\\rStaff\\fc_SellMed.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAIAwwCgAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T02:07:40.864Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 46,
               "Title": "fEditAccount.cs [Design]",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\fEditAccount.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\fEditAccount.cs",
@@ -531,7 +771,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 28,
               "Title": "fLandingPage.cs [Design]",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\fLandingPage.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\fLandingPage.cs",
@@ -542,7 +782,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 49,
               "Title": "fListMed.cs [Design]",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\fListMed.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\fListMed.cs",
@@ -553,7 +793,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 48,
               "Title": "fMedDetail.cs [Design]",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\fMedDetail.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\fMedDetail.cs",
@@ -564,421 +804,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\Form1.cs",
-              "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\Form1.cs",
-              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\Form1.cs [Design]",
-              "RelativeToolTip": "QuanLyTiemThuocSGU\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T00:47:04.653Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\Program.cs",
-              "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\Program.cs",
-              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\Program.cs",
-              "RelativeToolTip": "QuanLyTiemThuocSGU\\Program.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAQwBIAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T00:46:18.443Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "quanlycuahangthuocDataSet.xsd",
-              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\quanlycuahangthuocDataSet.xsd",
-              "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\quanlycuahangthuocDataSet.xsd",
-              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\quanlycuahangthuocDataSet.xsd",
-              "RelativeToolTip": "QuanLyTiemThuocSGU\\quanlycuahangthuocDataSet.xsd",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
-              "WhenOpened": "2024-11-14T00:44:15.096Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 31,
               "Title": "ProductBLL.cs",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\BLL\\ProductBLL.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\BLL\\ProductBLL.cs",
               "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\BLL\\ProductBLL.cs",
               "RelativeToolTip": "QuanLyTiemThuocSGU\\BLL\\ProductBLL.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAiwCEAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAswBsAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-13T15:29:05.382Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "CustomerBLL.cs",
-              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\BLL\\CustomerBLL.cs",
-              "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\BLL\\CustomerBLL.cs",
-              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\BLL\\CustomerBLL.cs",
-              "RelativeToolTip": "QuanLyTiemThuocSGU\\BLL\\CustomerBLL.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAvwCYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T14:32:20.148Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CustomerDAO.cs",
-              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\DAO\\CustomerDAO.cs",
-              "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\DAO\\CustomerDAO.cs",
-              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\DAO\\CustomerDAO.cs",
-              "RelativeToolTip": "QuanLyTiemThuocSGU\\DAO\\CustomerDAO.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T14:31:59.794Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "CustomerDTO.cs",
-              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\DTO\\CustomerDTO.cs",
-              "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\DTO\\CustomerDTO.cs",
-              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\DTO\\CustomerDTO.cs",
-              "RelativeToolTip": "QuanLyTiemThuocSGU\\DTO\\CustomerDTO.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAA1wCIAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T14:31:41.962Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "fcAddMed.cs",
-              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fcAddMed.cs",
-              "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rAdmin\\fcAddMed.cs",
-              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fcAddMed.cs",
-              "RelativeToolTip": "QuanLyTiemThuocSGU\\rAdmin\\fcAddMed.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T11:17:52.704Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "fc_Dashboard.cs",
-              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fc_Dashboard.cs",
-              "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rAdmin\\fc_Dashboard.cs",
-              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fc_Dashboard.cs",
-              "RelativeToolTip": "QuanLyTiemThuocSGU\\rAdmin\\fc_Dashboard.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAwwE8AAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T03:44:11.341Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "fListGroup.cs [Design]",
-              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\fListGroup.cs",
-              "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\fListGroup.cs",
-              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\fListGroup.cs [Design]",
-              "RelativeToolTip": "QuanLyTiemThuocSGU\\fListGroup.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T03:20:27.725Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "fc_Dashboard.cs [Design]",
-              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fc_Dashboard.cs",
-              "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rAdmin\\fc_Dashboard.cs",
-              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fc_Dashboard.cs [Design]",
-              "RelativeToolTip": "QuanLyTiemThuocSGU\\rAdmin\\fc_Dashboard.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T03:20:26.176Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "fAdmin.cs",
-              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fAdmin.cs",
-              "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rAdmin\\fAdmin.cs",
-              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fAdmin.cs",
-              "RelativeToolTip": "QuanLyTiemThuocSGU\\rAdmin\\fAdmin.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T14:47:15.007Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "fAdmin.cs [Design]",
-              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fAdmin.cs",
-              "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rAdmin\\fAdmin.cs",
-              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fAdmin.cs [Design]",
-              "RelativeToolTip": "QuanLyTiemThuocSGU\\rAdmin\\fAdmin.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T14:47:04.88Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "fStaff.Designer.cs",
-              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rStaff\\fStaff.Designer.cs",
-              "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rStaff\\fStaff.Designer.cs",
-              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rStaff\\fStaff.Designer.cs",
-              "RelativeToolTip": "QuanLyTiemThuocSGU\\rStaff\\fStaff.Designer.cs",
-              "ViewState": "AgIAAO4AAAAAAAAAAAAuwHgAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T02:39:48.758Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "fc_EditStaff.Designer.cs",
-              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fc_EditStaff.Designer.cs",
-              "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rAdmin\\fc_EditStaff.Designer.cs",
-              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fc_EditStaff.Designer.cs",
-              "RelativeToolTip": "QuanLyTiemThuocSGU\\rAdmin\\fc_EditStaff.Designer.cs",
-              "ViewState": "AgIAAEACAAAAAAAAAAApwFACAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T02:00:26.315Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "fc_EditMed.Designer.cs",
-              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fc_EditMed.Designer.cs",
-              "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rAdmin\\fc_EditMed.Designer.cs",
-              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fc_EditMed.Designer.cs",
-              "RelativeToolTip": "QuanLyTiemThuocSGU\\rAdmin\\fc_EditMed.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T14:26:43.324Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "fc_EditMed.cs [Design]",
-              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fc_EditMed.cs",
-              "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rAdmin\\fc_EditMed.cs",
-              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fc_EditMed.cs [Design]",
-              "RelativeToolTip": "QuanLyTiemThuocSGU\\rAdmin\\fc_EditMed.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T13:55:34.3Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "fc_EditStaff.cs [Design]",
-              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fc_EditStaff.cs",
-              "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rAdmin\\fc_EditStaff.cs",
-              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fc_EditStaff.cs [Design]",
-              "RelativeToolTip": "QuanLyTiemThuocSGU\\rAdmin\\fc_EditStaff.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T13:53:28.502Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "fc_StaffDetail.cs [Design]",
-              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rStaff\\fc_StaffDetail.cs",
-              "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rStaff\\fc_StaffDetail.cs",
-              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rStaff\\fc_StaffDetail.cs [Design]",
-              "RelativeToolTip": "QuanLyTiemThuocSGU\\rStaff\\fc_StaffDetail.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T13:59:11.642Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 30,
               "Title": "fc_StaffDetail.cs",
               "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rStaff\\fc_StaffDetail.cs",
               "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rStaff\\fc_StaffDetail.cs",
               "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rStaff\\fc_StaffDetail.cs",
               "RelativeToolTip": "QuanLyTiemThuocSGU\\rStaff\\fc_StaffDetail.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T01:15:38.521Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 59,
-              "Title": "fcAddMed.cs [Design]",
-              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fcAddMed.cs",
-              "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rAdmin\\fcAddMed.cs",
-              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fcAddMed.cs [Design]",
-              "RelativeToolTip": "QuanLyTiemThuocSGU\\rAdmin\\fcAddMed.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T03:27:39.868Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "fLoading.cs",
-              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\Login\\fLoading.cs",
-              "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\Login\\fLoading.cs",
-              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\Login\\fLoading.cs",
-              "RelativeToolTip": "QuanLyTiemThuocSGU\\Login\\fLoading.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAAwB4AAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T04:10:23.68Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "fLoading.cs [Design]",
-              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\Login\\fLoading.cs",
-              "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\Login\\fLoading.cs",
-              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\Login\\fLoading.cs [Design]",
-              "RelativeToolTip": "QuanLyTiemThuocSGU\\Login\\fLoading.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T04:10:20.868Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "ShipmentDTO.cs",
-              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\DTO\\ShipmentDTO.cs",
-              "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\DTO\\ShipmentDTO.cs",
-              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\DTO\\ShipmentDTO.cs",
-              "RelativeToolTip": "QuanLyTiemThuocSGU\\DTO\\ShipmentDTO.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAA0wAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T14:40:49.3Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 57,
-              "Title": "ShipmentDAO.cs",
-              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\DAO\\ShipmentDAO.cs",
-              "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\DAO\\ShipmentDAO.cs",
-              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\DAO\\ShipmentDAO.cs",
-              "RelativeToolTip": "QuanLyTiemThuocSGU\\DAO\\ShipmentDAO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T14:40:11.104Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "ProductCategoryDAO.cs",
-              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\DAO\\ProductCategoryDAO.cs",
-              "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\DAO\\ProductCategoryDAO.cs",
-              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\DAO\\ProductCategoryDAO.cs",
-              "RelativeToolTip": "QuanLyTiemThuocSGU\\DAO\\ProductCategoryDAO.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAtwCEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T14:32:21.118Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "ProductCategoryBLL.cs",
-              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\BLL\\ProductCategoryBLL.cs",
-              "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\BLL\\ProductCategoryBLL.cs",
-              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\BLL\\ProductCategoryBLL.cs",
-              "RelativeToolTip": "QuanLyTiemThuocSGU\\BLL\\ProductCategoryBLL.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T14:35:04.187Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 56,
-              "Title": "ShipmentBLL.cs",
-              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\BLL\\ShipmentBLL.cs",
-              "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\BLL\\ShipmentBLL.cs",
-              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\BLL\\ShipmentBLL.cs",
-              "RelativeToolTip": "QuanLyTiemThuocSGU\\BLL\\ShipmentBLL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T14:43:29.657Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 55,
-              "Title": "SupplierDAO.cs",
-              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\DAO\\SupplierDAO.cs",
-              "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\DAO\\SupplierDAO.cs",
-              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\DAO\\SupplierDAO.cs",
-              "RelativeToolTip": "QuanLyTiemThuocSGU\\DAO\\SupplierDAO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T14:48:46.34Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 53,
-              "Title": "SupplierDTO.cs",
-              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\DTO\\SupplierDTO.cs",
-              "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\DTO\\SupplierDTO.cs",
-              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\DTO\\SupplierDTO.cs",
-              "RelativeToolTip": "QuanLyTiemThuocSGU\\DTO\\SupplierDTO.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAQwBAAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T14:49:02.921Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 54,
-              "Title": "SupplierBLL.cs",
-              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\BLL\\SupplierBLL.cs",
-              "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\BLL\\SupplierBLL.cs",
-              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\BLL\\SupplierBLL.cs",
-              "RelativeToolTip": "QuanLyTiemThuocSGU\\BLL\\SupplierBLL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T14:51:10.329Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 58,
-              "Title": "ProductCategoryDTO.cs",
-              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\DTO\\ProductCategoryDTO.cs",
-              "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\DTO\\ProductCategoryDTO.cs",
-              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\DTO\\ProductCategoryDTO.cs",
-              "RelativeToolTip": "QuanLyTiemThuocSGU\\DTO\\ProductCategoryDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T14:34:22.312Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "fStaff.cs [Design]",
-              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rStaff\\fStaff.cs",
-              "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rStaff\\fStaff.cs",
-              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rStaff\\fStaff.cs [Design]",
-              "RelativeToolTip": "QuanLyTiemThuocSGU\\rStaff\\fStaff.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T13:59:26.16Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "fStaff.cs",
-              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rStaff\\fStaff.cs",
-              "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rStaff\\fStaff.cs",
-              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rStaff\\fStaff.cs",
-              "RelativeToolTip": "QuanLyTiemThuocSGU\\rStaff\\fStaff.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAUwGgAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T02:32:59.494Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "fLogin.cs [Design]",
-              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\Login\\fLogin.cs",
-              "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\Login\\fLogin.cs",
-              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\Login\\fLogin.cs [Design]",
-              "RelativeToolTip": "QuanLyTiemThuocSGU\\Login\\fLogin.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T13:58:57.377Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-12T01:15:38.521Z"
             }
           ]
         }

@@ -23,6 +23,24 @@ namespace QuanLyThuVienSGU_Winform.DAO
 
         private CustomerDAO() { }
 
+        public List<CustomerDTO> SearchCustomerByName(string name)
+        {
+            List<CustomerDTO> list = new List<CustomerDTO>();
+            string query = string.Format(
+                "SELECT * FROM dbo.Customers WHERE dbo.fuConvertToUnsign1(FullName) LIKE N'%' + dbo.fuConvertToUnsign1(N'{0}') + '%'",
+                name
+            );
+            DataTable data = DataProvider.Instance.ExecuteQuery(query);
+
+            foreach (DataRow row in data.Rows)
+            {
+                CustomerDTO customer = new CustomerDTO(row);
+                list.Add(customer);
+            }
+
+            return list;
+        }
+
         public List<CustomerDTO> SearchCustomerByPhone(string phone)
         {
             List<CustomerDTO> list = new List<CustomerDTO>();

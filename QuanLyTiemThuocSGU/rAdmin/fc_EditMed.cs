@@ -1,4 +1,6 @@
-﻿using QuanLyThuVienSGU_Winform.DAO;
+﻿using QuanLyThuVienSGU_Winform.BLL;
+using QuanLyThuVienSGU_Winform.DAO;
+using QuanLyThuVienSGU_Winform.DTO;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -103,9 +105,29 @@ namespace QuanLyThuVienSGU_Winform
         {
             LoadMedList(); // Reload the DataGridView
         }
+
+        private void SearchMedicine()
+        {
+            string searchName = txbSearch.Text.Trim();
+            List<ProductDTO> medicines = ProductBLL.Instance.SearchProductByName(searchName);
+
+            dataGridView_ChinhSuaThuoc.DataSource = null;
+
+            foreach (var medicine in medicines)
+            {
+                dataGridView_ChinhSuaThuoc.DataSource = medicines;
+            }
+        }
+
         #endregion
 
         #region Events
+
+        private void txbSearch_TextChanged(object sender, EventArgs e)
+        {
+            SearchMedicine();
+        }
+
         private void btnAdd_Click(object sender, EventArgs e)
         {
             fc_AddMed f = new fc_AddMed();

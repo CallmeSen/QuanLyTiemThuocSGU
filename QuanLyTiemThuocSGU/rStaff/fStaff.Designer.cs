@@ -34,7 +34,7 @@
             this.panel_Sidebar = new System.Windows.Forms.Panel();
             this.button_ThuocHetHan = new System.Windows.Forms.Button();
             this.button_ThongKe = new System.Windows.Forms.Button();
-            this.button_QuanLiNhomThuoc = new System.Windows.Forms.Button();
+            this.button_QuanLiKhachHang = new System.Windows.Forms.Button();
             this.panel_ChildQuanLiThuoc = new System.Windows.Forms.Panel();
             this.button_ChinhSuaThuoc = new System.Windows.Forms.Button();
             this.button_ThongTinThuoc = new System.Windows.Forms.Button();
@@ -83,7 +83,7 @@
             // 
             this.panel_Sidebar.Controls.Add(this.button_ThuocHetHan);
             this.panel_Sidebar.Controls.Add(this.button_ThongKe);
-            this.panel_Sidebar.Controls.Add(this.button_QuanLiNhomThuoc);
+            this.panel_Sidebar.Controls.Add(this.button_QuanLiKhachHang);
             this.panel_Sidebar.Controls.Add(this.panel_ChildQuanLiThuoc);
             this.panel_Sidebar.Controls.Add(this.button_QuanLiThuoc);
             this.panel_Sidebar.Controls.Add(this.button_BanThuoc);
@@ -134,23 +134,24 @@
             this.button_ThongKe.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button_ThongKe.UseVisualStyleBackColor = true;
             // 
-            // button_QuanLiNhomThuoc
+            // button_QuanLiKhachHang
             // 
-            this.button_QuanLiNhomThuoc.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button_QuanLiNhomThuoc.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button_QuanLiNhomThuoc.FlatAppearance.BorderSize = 0;
-            this.button_QuanLiNhomThuoc.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_QuanLiNhomThuoc.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_QuanLiNhomThuoc.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(177)))), ((int)(((byte)(185)))));
-            this.button_QuanLiNhomThuoc.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button_QuanLiNhomThuoc.Location = new System.Drawing.Point(0, 855);
-            this.button_QuanLiNhomThuoc.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
-            this.button_QuanLiNhomThuoc.Name = "button_QuanLiNhomThuoc";
-            this.button_QuanLiNhomThuoc.Size = new System.Drawing.Size(579, 119);
-            this.button_QuanLiNhomThuoc.TabIndex = 10;
-            this.button_QuanLiNhomThuoc.Text = "          Quản lí nhóm thuốc";
-            this.button_QuanLiNhomThuoc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button_QuanLiNhomThuoc.UseVisualStyleBackColor = true;
+            this.button_QuanLiKhachHang.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button_QuanLiKhachHang.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button_QuanLiKhachHang.FlatAppearance.BorderSize = 0;
+            this.button_QuanLiKhachHang.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_QuanLiKhachHang.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_QuanLiKhachHang.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(177)))), ((int)(((byte)(185)))));
+            this.button_QuanLiKhachHang.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button_QuanLiKhachHang.Location = new System.Drawing.Point(0, 855);
+            this.button_QuanLiKhachHang.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.button_QuanLiKhachHang.Name = "button_QuanLiKhachHang";
+            this.button_QuanLiKhachHang.Size = new System.Drawing.Size(579, 119);
+            this.button_QuanLiKhachHang.TabIndex = 10;
+            this.button_QuanLiKhachHang.Text = "          Quản lí khách hàng";
+            this.button_QuanLiKhachHang.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button_QuanLiKhachHang.UseVisualStyleBackColor = true;
+            this.button_QuanLiKhachHang.Click += new System.EventHandler(this.button_QuanLiNhomThuoc_Click);
             // 
             // panel_ChildQuanLiThuoc
             // 
@@ -176,7 +177,7 @@
             this.button_ChinhSuaThuoc.Name = "button_ChinhSuaThuoc";
             this.button_ChinhSuaThuoc.Size = new System.Drawing.Size(579, 119);
             this.button_ChinhSuaThuoc.TabIndex = 1;
-            this.button_ChinhSuaThuoc.Text = "           > Chỉnh sửa thuốc\r\n";
+            this.button_ChinhSuaThuoc.Text = "          Quản lí nhóm thuốc";
             this.button_ChinhSuaThuoc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button_ChinhSuaThuoc.UseVisualStyleBackColor = false;
             // 
@@ -454,7 +455,7 @@
 
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
         private System.Windows.Forms.Panel panel_Sidebar;
-        private System.Windows.Forms.Button button_QuanLiNhomThuoc;
+        private System.Windows.Forms.Button button_QuanLiKhachHang;
         private System.Windows.Forms.Panel panel_ChildQuanLiThuoc;
         private System.Windows.Forms.Button button_ChinhSuaThuoc;
         private System.Windows.Forms.Button button_ThongTinThuoc;

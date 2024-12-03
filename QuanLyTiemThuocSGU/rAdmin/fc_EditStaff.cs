@@ -1,4 +1,5 @@
-﻿using QuanLyThuVienSGU_Winform.DAO;
+﻿using QuanLyThuVienSGU_Winform.BLL;
+using QuanLyThuVienSGU_Winform.DAO;
 using QuanLyThuVienSGU_Winform.DTO;
 using QuanLyThuVienSGU_Winform.rAdmin;
 using System;
@@ -100,9 +101,24 @@ namespace QuanLyThuVienSGU_Winform
         {
             LoadEmployeeList(); // Reload the DataGridView
         }
+
+        private void SearchEmployees()
+        {
+            string searchName = txbSearch.Text.Trim();
+            List<StaffInfoDTO> employees = StaffInfoBLL.Instance.SearchProductByName(searchName);
+
+            dataGridView_ChinhSuaTaiKhoan.DataSource = null;
+
+            foreach (var medicine in employees)
+            {
+                dataGridView_ChinhSuaTaiKhoan.DataSource = employees;
+            }
+        }
+
         #endregion
 
         #region Events
+
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
@@ -195,6 +211,10 @@ namespace QuanLyThuVienSGU_Winform
 
         #endregion
 
+        private void txbSearch_TextChanged(object sender, EventArgs e)
+        {
+            SearchEmployees();
+        }
     }
 }
 
