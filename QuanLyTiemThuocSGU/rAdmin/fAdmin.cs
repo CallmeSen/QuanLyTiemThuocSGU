@@ -27,7 +27,6 @@ namespace QuanLyThuVienSGU_Winform
             InitializeComponent();
             this.employeeID = employeeID;
             this.role = role;
-            panel_ChildTaiKhoanNhanVien.Height = 0; //Mặc định button con của TKNV có height = 0
             panel_ChildQuanLiThuoc.Height = 0; //Mặc định button con của QLS có height = 0
             panel_ChildQuanLiNhomThuoc.Height = 0; //Mặc định button con của QLDG có height = 0
         }
@@ -83,12 +82,7 @@ namespace QuanLyThuVienSGU_Winform
         }
         #endregion
 
-        //Events
         #region Events
-        private void timer_TaiKhoanNhanVienTransition_Tick(object sender, EventArgs e)
-        {
-            MenuExpand_Transition(ref menuExpandTaiKhoanNhanVien, panel_ChildTaiKhoanNhanVien, timer_TaiKhoanNhanVienTransition);
-        }
 
         private void timer_QuanLiThuocTransition_Tick(object sender, EventArgs e)
         {
@@ -102,9 +96,9 @@ namespace QuanLyThuVienSGU_Winform
 
         private void button_TaiKhoanNhanVien_Click(object sender, EventArgs e)
         {
-            StartTimer(timer_TaiKhoanNhanVienTransition);
-            label_CurrentPage.Text = "Tài khoản nhân viên";
-            label_CurrentFunction.Text = "";
+            label_CurrentPage.Text = "Thông tin nhân viên";
+            label_CurrentFunction.Text = "> Tài khoản > Thông tin nhân viên";
+            openChildForm(new fc_StaffDetail(employeeID, role));
         }
 
         private void button_QuanLiThuoc_Click(object sender, EventArgs e)
@@ -121,14 +115,17 @@ namespace QuanLyThuVienSGU_Winform
             label_CurrentFunction.Text = "";
         }
 
-        #endregion
+        //private void button_Thongtin_Click(object sender, EventArgs e)
+        //{
+        //    label_CurrentPage.Text = "Thông tin nhân viên";
+        //    label_CurrentFunction.Text = "> Tài khoản > Thông tin nhân viên";
+        //    openChildForm(new fc_StaffDetail(employeeID, role));
+        //}
 
-        private void button_Thongtin_Click(object sender, EventArgs e)
-        {
-            label_CurrentPage.Text = "Thông tin nhân viên";
-            label_CurrentFunction.Text = "> Tài khoản > Thông tin nhân viên";
-            openChildForm(new fc_StaffDetail(employeeID, role)); //Fill ChildForm vào panel cố định trong giao diện
-        }
+        //private void button_ChinhSuaTaiKhoan_Click(object sender, EventArgs e)
+        //{
+        //    MessageBox.Show("Chức năng đang được phát triển", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        //}
 
         private void button_ThongTinThuoc_Click(object sender, EventArgs e)
         {
@@ -137,11 +134,25 @@ namespace QuanLyThuVienSGU_Winform
             openChildForm(new fc_EditMed());
         }
 
+        private void button_ThongTinLoaiThuoc_Click(object sender, EventArgs e)
+        {
+            label_CurrentPage.Text = "Quản lí loại thuốc";
+            label_CurrentFunction.Text = "> Quản lí loại thuốc > Thông tin loại thuốc";
+            openChildForm(new fc_EditCategory());
+        }
+
         private void button_ThongTinNhanVien_Click(object sender, EventArgs e)
         {
             label_CurrentPage.Text = "Quản lí nhân viên";
             label_CurrentFunction.Text = "> Quản lí nhân viên > Thông tin nhân viên";
             openChildForm(new fc_EditStaff());
+        }
+
+        private void button_ChinhSuaNhaCungCap_Click(object sender, EventArgs e)
+        {
+            label_CurrentPage.Text = "Quản lí nhà cung cấp";
+            label_CurrentFunction.Text = "> Quản lí nhà cung cấp > Thông tin nhà cung cấp";
+            openChildForm(new fc_EditSupplier());
         }
 
         private void btnThongKe_Click(object sender, EventArgs e)
@@ -156,16 +167,11 @@ namespace QuanLyThuVienSGU_Winform
             openChildForm(new fc_ExpiredMed());
         }
 
-        private void button_ChinhSuaThuoc_Click(object sender, EventArgs e)
+        private void button_QuanLiKhachHang_Click(object sender, EventArgs e)
         {
-            label_CurrentPage.Text = "Danh sách hết hạn sử dụng thuốc";
-            openChildForm(new fc_EditCategory());
-        }
-
-        private void button_ChinhSuaNhanVien_Click(object sender, EventArgs e)
-        {
-            label_CurrentPage.Text = "Danh sách hết hạn sử dụng thuốc";
+            label_CurrentPage.Text = "Danh sách quản lý khách hàng";
             openChildForm(new fc_EditCustomer());
         }
+        #endregion
     }
 }

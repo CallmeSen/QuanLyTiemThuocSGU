@@ -41,11 +41,9 @@ namespace QuanLyThuVienSGU_Winform
 
         void LoadEmployeeList()
         {
-            string query = "EXEC dbo.USP_GetEmployeeByID";
-
+            List<StaffInfoDTO> employees = StaffInfoDAO.Instance.GetAllEmployees();
             dataGridView_ChinhSuaTaiKhoan.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;// chỉnh sửa kích thước của các cột
-            dataGridView_ChinhSuaTaiKhoan.DataSource = DataProvider.Instance.ExecuteQuery(query);
-
+            dataGridView_ChinhSuaTaiKhoan.DataSource = employees;
         }
 
         private void LoadGenderComboBox()

@@ -18,6 +18,7 @@ namespace QuanLyThuVienSGU_Winform
         #region Variables
         int employeeID; 
         #endregion
+
         public fLogin()
         {
             InitializeComponent();
@@ -25,20 +26,15 @@ namespace QuanLyThuVienSGU_Winform
 
         #region events
 
-        private void guna2Button1_Click(object sender, EventArgs e)
+        private void fLogin_KeyDown(object sender, KeyEventArgs e)
         {
-            DialogResult result = MessageBox.Show("Bạn có muốn thoát?", "Xác nhận", MessageBoxButtons.YesNo);
-            if (result == DialogResult.Yes)
+            if (e.KeyCode == Keys.Enter)
             {
-                Application.Exit();
+                loginBtn_Click(sender, e); // Gọi trực tiếp hàm đăng nhập
+                e.Handled = true; // Ngăn sự kiện mặc định
+                e.SuppressKeyPress = true; // Ngăn Enter thực hiện hành động khác
             }
-            else if (result == DialogResult.No)
-            {
-            }
-
         }
-
-        //////////////////////////////////////////////////////
 
         private void loginBtn_Click(object sender, EventArgs e)
         {
@@ -70,16 +66,6 @@ namespace QuanLyThuVienSGU_Winform
             
         }
 
-        //BLL
-
-
-        //(bool isSuccess, int role) Login(string username, string password)
-        //{
-        //    return AccountDAO.Instance.Login(username, password);
-        //}
-
-        //////////////////////////////////////////////////////
-
         private void ShowPassword_CheckedChanged(object sender, EventArgs e)
         {
             if (ShowPassword.Checked)
@@ -92,10 +78,17 @@ namespace QuanLyThuVienSGU_Winform
             }
         }
 
-        //////////////////////////////////////////////////////
-
-
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Bạn có muốn thoát?", "Xác nhận", MessageBoxButtons.YesNo);
+            if (result == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+        }
         #endregion
+
+
 
     }
 }

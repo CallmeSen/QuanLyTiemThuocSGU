@@ -16,15 +16,6 @@ namespace QuanLyThuVienSGU_Winform.DTO
         public string Address { get; set; }
 
         // Constructor
-        public CustomerDTO(int customerID, string fullName, string phone, string email, string address)
-        {
-            CustomerID = customerID;
-            FullName = fullName;
-            Phone = phone;
-            Email = email;
-            Address = address;
-        }
-
         public CustomerDTO(DataRow row)
         {
             CustomerID = Convert.ToInt32(row["CustomerID"]);

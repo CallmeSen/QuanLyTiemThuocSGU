@@ -80,5 +80,11 @@ namespace QuanLyThuVienSGU_Winform.BLL
                 return false;
             }
         }
+
+        public List<SupplierDTO> SearchSupplierByName(string name)
+        {
+            return SupplierDAO.Instance.SearchSupplierByName(name);
+        }
+
     }
 }

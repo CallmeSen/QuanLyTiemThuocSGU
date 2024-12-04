@@ -213,15 +213,9 @@ E:\GitHub\QuanLyTiemThuocSGU_Winform\QuanLyTiemThuocSGU\bin\Debug\zh-Hans\Micros
 E:\GitHub\QuanLyTiemThuocSGU_Winform\QuanLyTiemThuocSGU\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
 E:\GitHub\QuanLyTiemThuocSGU_Winform\QuanLyTiemThuocSGU\obj\Debug\QuanLyCuaHangThuocSGU_Winform.csproj.AssemblyReference.cache
 E:\GitHub\QuanLyTiemThuocSGU_Winform\QuanLyTiemThuocSGU\obj\Debug\QuanLyThuVienSGU_Winform.fAdmin.resources
-E:\GitHub\QuanLyTiemThuocSGU_Winform\QuanLyTiemThuocSGU\obj\Debug\QuanLyThuVienSGU_Winform.fEditAccount.resources
 E:\GitHub\QuanLyTiemThuocSGU_Winform\QuanLyTiemThuocSGU\obj\Debug\QuanLyThuVienSGU_Winform.fc_StaffDetail.resources
-E:\GitHub\QuanLyTiemThuocSGU_Winform\QuanLyTiemThuocSGU\obj\Debug\QuanLyThuVienSGU_Winform.fLandingPage.resources
-E:\GitHub\QuanLyTiemThuocSGU_Winform\QuanLyTiemThuocSGU\obj\Debug\QuanLyThuVienSGU_Winform.fListGroup.resources
-E:\GitHub\QuanLyTiemThuocSGU_Winform\QuanLyTiemThuocSGU\obj\Debug\QuanLyThuVienSGU_Winform.fMedDetail.resources
 E:\GitHub\QuanLyTiemThuocSGU_Winform\QuanLyTiemThuocSGU\obj\Debug\QuanLyThuVienSGU_Winform.fc_SellMed.resources
 E:\GitHub\QuanLyTiemThuocSGU_Winform\QuanLyTiemThuocSGU\obj\Debug\QuanLyThuVienSGU_Winform.fStaff.resources
-E:\GitHub\QuanLyTiemThuocSGU_Winform\QuanLyTiemThuocSGU\obj\Debug\QuanLyThuVienSGU_Winform.Form1.resources
-E:\GitHub\QuanLyTiemThuocSGU_Winform\QuanLyTiemThuocSGU\obj\Debug\QuanLyThuVienSGU_Winform.fListMed.resources
 E:\GitHub\QuanLyTiemThuocSGU_Winform\QuanLyTiemThuocSGU\obj\Debug\QuanLyThuVienSGU_Winform.fLoading.resources
 E:\GitHub\QuanLyTiemThuocSGU_Winform\QuanLyTiemThuocSGU\obj\Debug\QuanLyThuVienSGU_Winform.fLogin.resources
 E:\GitHub\QuanLyTiemThuocSGU_Winform\QuanLyTiemThuocSGU\obj\Debug\QuanLyThuVienSGU_Winform.Properties.Resources.resources

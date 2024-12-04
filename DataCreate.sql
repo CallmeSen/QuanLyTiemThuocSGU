@@ -317,6 +317,13 @@ BEGIN
 END
 GO
 
+-- Stored procedure to retrieve employee details
+CREATE PROCEDURE USP_GetAllEmployees
+AS
+BEGIN
+    SELECT * FROM Employees
+END
+GO
 
 -- Stored procedure to add a new employee
 CREATE PROC USP_AddEmployee

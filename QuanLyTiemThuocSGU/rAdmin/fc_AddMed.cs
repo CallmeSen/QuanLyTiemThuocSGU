@@ -14,43 +14,43 @@ namespace QuanLyThuVienSGU_Winform
 {
     public partial class fc_AddMed : Form
     {
-        public event EventHandler MedicineAdded;
+        public event Action MedicineAdded;
         private List<string> supplierList;
+
         public fc_AddMed()
         {
             InitializeComponent();
             LoadSuppliers();
             LoadProductCategories();
+        }
 
-        }
-     
-        private void OnMedicineAdded()
-        {
-            MedicineAdded?.Invoke(this, EventArgs.Empty);
-        }
+        #region Functions  
 
         private void LoadSuppliers()
         {
-            string query = "EXEC USP_GetAllSuppliers"; // Replace with your stored procedure
+            string query = "EXEC USP_GetAllSuppliers";
             DataTable suppliers = DataProvider.Instance.ExecuteQuery(query);
 
             cmbNhaCungCap.DataSource = suppliers;
-            cmbNhaCungCap.DisplayMember = "SupplierName"; // Column to display
-            cmbNhaCungCap.ValueMember = "SupplierID"; // Column to use as value
-            cmbNhaCungCap.SelectedIndex = -1; // Clear selection initially
+            cmbNhaCungCap.DisplayMember = "SupplierName";
+            cmbNhaCungCap.ValueMember = "SupplierID";
+            cmbNhaCungCap.SelectedIndex = -1; 
         }
 
         // Load product category data into cmbNhomThuoc
         private void LoadProductCategories()
         {
-            string query = "EXEC USP_GetAllCategories"; // Replace with your stored procedure
+            string query = "EXEC USP_GetAllCategories";
             DataTable categories = DataProvider.Instance.ExecuteQuery(query);
 
             cmbNhomThuoc.DataSource = categories;
-            cmbNhomThuoc.DisplayMember = "CategoryName"; // Column to display
-            cmbNhomThuoc.ValueMember = "CategoryID"; // Column to use as value
-            cmbNhomThuoc.SelectedIndex = -1; // Clear selection initially
+            cmbNhomThuoc.DisplayMember = "CategoryName";
+            cmbNhomThuoc.ValueMember = "CategoryID";
+            cmbNhomThuoc.SelectedIndex = -1;
         }
+        #endregion
+
+        #region Events
         private void btnThemThuoc_Click(object sender, EventArgs e)
         {
             try
@@ -82,13 +82,12 @@ namespace QuanLyThuVienSGU_Winform
                     return;
                 }
 
-                // Call DAO method to add the product
                 bool isSuccess = ProductDAO.Instance.AddProduct(productName, categoryID, supplierID, price, quantityInStock, expirationDate);
 
                 if (isSuccess)
                 {
                     MessageBox.Show("Thêm thuốc thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    OnMedicineAdded();
+                    MedicineAdded?.Invoke();
                     this.Close(); // Close the form after successful addition
                 }
                 else
@@ -101,6 +100,6 @@ namespace QuanLyThuVienSGU_Winform
                 MessageBox.Show($"Đã xảy ra lỗi: {ex.Message}", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-
+        #endregion
     }
 }

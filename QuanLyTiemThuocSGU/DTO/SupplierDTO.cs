@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,14 +16,15 @@ namespace QuanLyThuVienSGU_Winform.DTO
         public string Address { get; set; }
 
         // Constructor and ToString method for debugging
-        public SupplierDTO(int supplierID, string supplierName, string phone, string email, string address)
+        public SupplierDTO(DataRow row)
         {
-            SupplierID = supplierID;
-            SupplierName = supplierName;
-            Phone = phone;
-            Email = email;
-            Address = address;
+            SupplierID = Convert.ToInt32(row["SupplierID"]);
+            SupplierName = row["SupplierName"].ToString();
+            Phone = row["Phone"]?.ToString();
+            Email = row["Email"]?.ToString();
+            Address = row["Address"]?.ToString();
         }
+
 
         public SupplierDTO() { }
 

@@ -20,19 +20,18 @@ namespace QuanLyThuVienSGU_Winform
         public fc_EditMed()
         {
             InitializeComponent();
-            LoadSuppliers(); // Load data for cbNhaCungCap
-            LoadCategories(); // Load data for cbNhomThuoc
-            LoadMedList(); // Load products into the DataGridView
-
-            // Automatically populate controls with the first row's data
+            LoadSuppliers();
+            LoadCategories();
+            LoadMedList();
             if (dataGridView_ChinhSuaThuoc.Rows.Count > 0)
             {
                 DataGridViewRow selectedRow = dataGridView_ChinhSuaThuoc.Rows[0];
-                PopulateDetails(selectedRow); // Pass the first row index
+                PopulateDetails(selectedRow);
             }
         }
 
         #region Functions
+
         private void DataGridView_ChinhSuaThuoc_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             // Ensure the selected row index is valid
@@ -44,30 +43,25 @@ namespace QuanLyThuVienSGU_Winform
         }
         private void LoadCategories()
         {
-            string query = "EXEC USP_GetAllCategories"; // Replace with your stored procedure or query
-            DataTable categories = DataProvider.Instance.ExecuteQuery(query);
-
+            List<ProductCategoryDTO> categories = ProductCategoryBLL.Instance.GetAllCategories();
             cbNhomThuoc.DataSource = categories;
-            cbNhomThuoc.DisplayMember = "CategoryName"; // Replace with your category name column
-            cbNhomThuoc.ValueMember = "CategoryID"; // Replace with your category ID column
+            cbNhomThuoc.DisplayMember = "CategoryName"; 
+            cbNhomThuoc.ValueMember = "CategoryID"; 
         }
 
         private void LoadSuppliers()
         {
-            string query = "EXEC USP_GetAllSuppliers"; // Replace with your stored procedure or query
-            DataTable suppliers = DataProvider.Instance.ExecuteQuery(query);
-
+            List<SupplierDTO> suppliers = SupplierBLL.Instance.GetAllSuppliers();
             cbNhaCungCap.DataSource = suppliers;
-            cbNhaCungCap.DisplayMember = "SupplierName"; // Replace with your supplier name column
-            cbNhaCungCap.ValueMember = "SupplierID"; // Replace with your supplier ID column
+            cbNhaCungCap.DisplayMember = "SupplierName"; 
+            cbNhaCungCap.ValueMember = "SupplierID"; 
         }
 
-        void LoadMedList()
+        private void LoadMedList()
         {
+            List<ProductDTO> products = ProductBLL.Instance.GetAllProducts();
             dataGridView_ChinhSuaThuoc.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
-
-            string query = "EXEC USP_GetAllProducts";
-            dataGridView_ChinhSuaThuoc.DataSource = DataProvider.Instance.ExecuteQuery(query);
+            dataGridView_ChinhSuaThuoc.DataSource = products;
         }
 
         private void PopulateDetails(DataGridViewRow selectedRow)
@@ -101,11 +95,6 @@ namespace QuanLyThuVienSGU_Winform
             }
         }
 
-        private void AddMedForm_MedicineAdded(object sender, EventArgs e)
-        {
-            LoadMedList(); // Reload the DataGridView
-        }
-
         private void SearchMedicine()
         {
             string searchName = txbSearch.Text.Trim();
@@ -131,7 +120,7 @@ namespace QuanLyThuVienSGU_Winform
         private void btnAdd_Click(object sender, EventArgs e)
         {
             fc_AddMed f = new fc_AddMed();
-            f.MedicineAdded += AddMedForm_MedicineAdded;
+            f.MedicineAdded += LoadMedList;
             f.ShowDialog();
         }
         private void btnSave_Click(object sender, EventArgs e)

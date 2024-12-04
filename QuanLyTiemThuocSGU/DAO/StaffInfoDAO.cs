@@ -26,6 +26,21 @@ namespace QuanLyThuVienSGU_Winform.DAO
 
         private StaffInfoDAO() { }
 
+        public List<StaffInfoDTO> GetAllEmployees()
+        {
+            List<StaffInfoDTO> staffList = new List<StaffInfoDTO>();
+            string query = "EXEC USP_GetAllEmployees"; // Call the stored procedure
+            DataTable data = DataProvider.Instance.ExecuteQuery(query);
+
+            foreach (DataRow row in data.Rows)
+            {
+                StaffInfoDTO staff = MapDataRowToStaffInfo(row);
+                staffList.Add(staff);
+            }
+
+            return staffList;
+        }
+
         public StaffInfoDTO GetStaffByID(int employeeID)
         {
             try

@@ -90,9 +90,16 @@ namespace QuanLyThuVienSGU_Winform.DAO
         // Cập nhật thông tin khách hàng
         public bool UpdateCustomer(int customerID, string fullName, string phone, string email, string address)
         {
-            string query = "EXEC USP_UpdateCustomer @CustomerID, @FullName, @Phone, @Email, @Address";
-            int result = DataProvider.Instance.ExecuteNonQuery(query, new object[] { customerID, fullName, phone, email, address });
-            return result > 0;
+            string query = "EXEC USP_UpdateCustomer @CustomerID , @FullName , @Phone , @Email , @Address";
+            int result = DataProvider.Instance.ExecuteNonQuery(query, new object[] {
+                customerID,
+                (object)fullName ?? DBNull.Value,
+                (object)phone ?? DBNull.Value,
+                (object)email ?? DBNull.Value,
+                (object)address ?? DBNull.Value
+            });
+
+            return result > 0; // Return true if at least one row is affected
         }
 
         // Xóa khách hàng

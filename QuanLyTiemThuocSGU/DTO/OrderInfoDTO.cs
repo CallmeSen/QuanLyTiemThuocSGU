@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,14 +16,15 @@ namespace QuanLyThuVienSGU_Winform.DTO
         public decimal PriceAtPurchase { get; set; }
 
         // Optional: Constructor and ToString() method for debugging
-        public OrderInfoDTO(int orderInfoID, int orderID, int productID, int quantity, decimal priceAtPurchase)
+        public OrderInfoDTO(DataRow row)
         {
-            OrderInfoID = orderInfoID;
-            OrderID = orderID;
-            ProductID = productID;
-            Quantity = quantity;
-            PriceAtPurchase = priceAtPurchase;
+            OrderInfoID = Convert.ToInt32(row["OrderInfoID"]);
+            OrderID = Convert.ToInt32(row["OrderID"]);
+            ProductID = Convert.ToInt32(row["ProductID"]);
+            Quantity = Convert.ToInt32(row["Quantity"]);
+            PriceAtPurchase = row["PriceAtPurchase"] == DBNull.Value ? 0 : Convert.ToDecimal(row["PriceAtPurchase"]);
         }
+
 
         public OrderInfoDTO() { }
 

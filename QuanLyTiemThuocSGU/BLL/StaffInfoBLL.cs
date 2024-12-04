@@ -28,6 +28,11 @@ namespace QuanLyThuVienSGU_Winform.BLL
 
         private StaffInfoDAO staffInfoDAO = StaffInfoDAO.Instance;
 
+        public List<StaffInfoDTO> GetAllEmployees()
+        {
+            return StaffInfoDAO.Instance.GetAllEmployees();
+        }
+
         public StaffInfoDTO GetStaffDetails(int employeeID)
         {
             return staffInfoDAO.GetStaffByID(employeeID);

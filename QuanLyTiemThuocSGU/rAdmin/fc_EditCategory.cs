@@ -1,4 +1,6 @@
-﻿using QuanLyThuVienSGU_Winform.DAO;
+﻿using QuanLyThuVienSGU_Winform.BLL;
+using QuanLyThuVienSGU_Winform.DAO;
+using QuanLyThuVienSGU_Winform.DTO;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -16,49 +18,56 @@ namespace QuanLyThuVienSGU_Winform.rAdmin
         public fc_EditCategory()
         {
             InitializeComponent();
+            LoadCategoryList();
+            if (dataGridView_ChinhSuaTaiKhoan.Rows.Count > 0)
+            {
+                DataGridViewRow selectedRow = dataGridView_ChinhSuaTaiKhoan.Rows[0];
+                PopulateDetails(selectedRow);
+            }
         }
 
-        void LoadCategoryList()
+        #region Functions
+
+        private void LoadCategoryList()
         {
-            string query = "EXEC dbo.USP_GetCategoryByID ";
-
-            dataGridView_ChinhSuaTaiKhoan.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
-            dataGridView_ChinhSuaTaiKhoan.DataSource = DataProvider.Instance.ExecuteQuery(query);
-
+            try
+            {
+                List<ProductCategoryDTO> categories = ProductCategoryBLL.Instance.GetAllCategories();
+                dataGridView_ChinhSuaTaiKhoan.DataSource = categories;
+                dataGridView_ChinhSuaTaiKhoan.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
+                dataGridView_ChinhSuaTaiKhoan.Refresh();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error loading categories: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
+
+        private void PopulateDetails(DataGridViewRow selectedRow)
+        {
+            if (selectedRow != null)
+            {
+                txbIDCapNhat.Text = selectedRow.Cells["CategoryID"].Value?.ToString() ?? string.Empty;
+                txbTenNhomThuoc.Text = selectedRow.Cells["CategoryName"].Value?.ToString() ?? string.Empty;
+            }
+        }
+        #endregion
+
+        #region Events
 
         private void dataGridView_ChinhSuaTaiKhoan_Cell_Click(object sender, DataGridViewCellEventArgs e)
         {
             if (e.RowIndex >= 0)
             {
                 DataGridViewRow selectedRow = dataGridView_ChinhSuaTaiKhoan.Rows[e.RowIndex];
-                CategoryDetail(selectedRow);
+                PopulateDetails(selectedRow);
             }
         }
-
-        private void CategoryDetail(DataGridViewRow selectedRow)
-        {
-            // Populate details into the controls
-            txbIDCapNhat.Text = selectedRow.Cells["EmployeeID"].Value?.ToString();
-            txbHoTen.Text = selectedRow.Cells["FullName"].Value?.ToString();
-
-        }
-
-
-        private void AddStaffForm_StaffAdded(object sender, EventArgs e)
-        {
-            LoadCategoryList(); // Reload the DataGridView
-        }
-
-
-        #region Events
-
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
             fc_AddCategory f = new fc_AddCategory();
-
-            f.ShowDialog();
+            f.Show();
         }
 
         private void btnUpdate_Click(object sender, EventArgs e)
@@ -67,11 +76,8 @@ namespace QuanLyThuVienSGU_Winform.rAdmin
             {
                 if (dataGridView_ChinhSuaTaiKhoan.SelectedRows.Count > 0)
                 {
-
-
-
                     int ID = int.Parse(txbIDCapNhat.Text);
-                    string name = txbHoTen.Text;
+                    string name = txbTenNhomThuoc.Text;
                 
 
 
@@ -80,17 +86,17 @@ namespace QuanLyThuVienSGU_Winform.rAdmin
 
                     if (isUpdated)
                     {
-                        MessageBox.Show("Cập nhật nhân viên thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        MessageBox.Show("Cập nhật tên nhóm thuốc thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         LoadCategoryList(); 
                     }
                     else
                     {
-                        MessageBox.Show("Cập nhật nhân viên thất bại. Vui lòng thử lại.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MessageBox.Show("Cập nhật tên nhóm thuốc thất bại. Vui lòng thử lại.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                 }
                 else
                 {
-                    MessageBox.Show("Vui lòng chọn một nhân viên để cập nhật.", "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    MessageBox.Show("Vui lòng chọn một tên nhóm thuốc để cập nhật.", "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
             }
             catch (Exception ex)
@@ -109,7 +115,7 @@ namespace QuanLyThuVienSGU_Winform.rAdmin
                     int CategoryID = Convert.ToInt32(selectedRow.Cells["CategoryID"].Value);
 
                     DialogResult dialogResult = MessageBox.Show(
-                        "Bạn có chắc chắn muốn xóa nhân viên này?",
+                        "Bạn có chắc chắn muốn xóa tên nhóm thuốc này?",
                         "Xác nhận xóa",
                         MessageBoxButtons.YesNo,
                         MessageBoxIcon.Warning
@@ -121,18 +127,18 @@ namespace QuanLyThuVienSGU_Winform.rAdmin
 
                         if (isDeleted)
                         {
-                            MessageBox.Show("Xóa nhân viên thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            MessageBox.Show("Xóa tên nhóm thuốc thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                             LoadCategoryList(); // Refresh DataGridView
                         }
                         else
                         {
-                            MessageBox.Show("Xóa nhân viên thất bại. Vui lòng thử lại.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            MessageBox.Show("Xóa tên nhóm thuốc thất bại. Vui lòng thử lại.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         }
                     }
                 }
                 else
                 {
-                    MessageBox.Show("Vui lòng chọn một nhân viên để xóa.", "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    MessageBox.Show("Vui lòng chọn một tên nhóm thuốc để xóa.", "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
             }
             catch (Exception ex)
@@ -141,11 +147,5 @@ namespace QuanLyThuVienSGU_Winform.rAdmin
             }
         }
         #endregion
-
-        private void btnAdd_Click_1(object sender, EventArgs e)
-        {
-            fc_AddCategory f = new fc_AddCategory();
-            f.Show();
-        }
     }
 }

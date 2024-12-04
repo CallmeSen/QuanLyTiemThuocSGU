@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fc_EditMed));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             this.pictureBox_Exit = new System.Windows.Forms.PictureBox();
             this.lbSoLuong = new System.Windows.Forms.Label();
             this.label_NhaCungCap = new System.Windows.Forms.Label();
@@ -46,7 +46,6 @@
             this.dataGridView_ChinhSuaThuoc = new System.Windows.Forms.DataGridView();
             this.panel_Null3 = new System.Windows.Forms.Panel();
             this.txbSearch = new Guna.UI2.WinForms.Guna2TextBox();
-            this.button_Search = new System.Windows.Forms.Button();
             this.label_ThongTinThuoc = new System.Windows.Forms.Label();
             this.panel_ChinhSuaThuoc = new System.Windows.Forms.Panel();
             this.btnAdd = new System.Windows.Forms.Button();
@@ -63,14 +62,12 @@
             this.label_NgayHetHan = new System.Windows.Forms.Label();
             this.panel_Null1 = new System.Windows.Forms.Panel();
             this.panel_Null2 = new System.Windows.Forms.Panel();
-            this.quanlycuahangthuocDataSet = new QuanLyThuVienSGU_Winform.quanlycuahangthuocDataSet();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Exit)).BeginInit();
             this.panel_SearchFunction.SuspendLayout();
             this.panel_Main.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_ChinhSuaThuoc)).BeginInit();
             this.panel_Null3.SuspendLayout();
             this.panel_ChinhSuaThuoc.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.quanlycuahangthuocDataSet)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox_Exit
@@ -78,7 +75,7 @@
             this.pictureBox_Exit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox_Exit.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox_Exit.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox_Exit.Image")));
-            this.pictureBox_Exit.Location = new System.Drawing.Point(1315, 0);
+            this.pictureBox_Exit.Location = new System.Drawing.Point(1185, 0);
             this.pictureBox_Exit.Name = "pictureBox_Exit";
             this.pictureBox_Exit.Size = new System.Drawing.Size(41, 41);
             this.pictureBox_Exit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -171,7 +168,7 @@
             this.panel_SearchFunction.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel_SearchFunction.Location = new System.Drawing.Point(0, 0);
             this.panel_SearchFunction.Name = "panel_SearchFunction";
-            this.panel_SearchFunction.Size = new System.Drawing.Size(1409, 566);
+            this.panel_SearchFunction.Size = new System.Drawing.Size(1279, 510);
             this.panel_SearchFunction.TabIndex = 3;
             // 
             // panel_Main
@@ -182,7 +179,7 @@
             this.panel_Main.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel_Main.Location = new System.Drawing.Point(31, 0);
             this.panel_Main.Name = "panel_Main";
-            this.panel_Main.Size = new System.Drawing.Size(1356, 566);
+            this.panel_Main.Size = new System.Drawing.Size(1226, 510);
             this.panel_Main.TabIndex = 20;
             // 
             // dataGridView_ChinhSuaThuoc
@@ -191,29 +188,29 @@
             this.dataGridView_ChinhSuaThuoc.AllowUserToDeleteRows = false;
             this.dataGridView_ChinhSuaThuoc.AllowUserToResizeColumns = false;
             this.dataGridView_ChinhSuaThuoc.AllowUserToResizeRows = false;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
-            this.dataGridView_ChinhSuaThuoc.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
+            this.dataGridView_ChinhSuaThuoc.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridView_ChinhSuaThuoc.BackgroundColor = System.Drawing.Color.White;
             this.dataGridView_ChinhSuaThuoc.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle7.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle7.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(40)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView_ChinhSuaThuoc.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(40)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView_ChinhSuaThuoc.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dataGridView_ChinhSuaThuoc.ColumnHeadersHeight = 40;
             this.dataGridView_ChinhSuaThuoc.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.dataGridView_ChinhSuaThuoc.Cursor = System.Windows.Forms.Cursors.Hand;
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle8.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView_ChinhSuaThuoc.DefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView_ChinhSuaThuoc.DefaultCellStyle = dataGridViewCellStyle3;
             this.dataGridView_ChinhSuaThuoc.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView_ChinhSuaThuoc.EnableHeadersVisualStyles = false;
             this.dataGridView_ChinhSuaThuoc.GridColor = System.Drawing.Color.White;
@@ -221,38 +218,37 @@
             this.dataGridView_ChinhSuaThuoc.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dataGridView_ChinhSuaThuoc.Name = "dataGridView_ChinhSuaThuoc";
             this.dataGridView_ChinhSuaThuoc.ReadOnly = true;
-            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle9.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle9.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView_ChinhSuaThuoc.RowHeadersDefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView_ChinhSuaThuoc.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.dataGridView_ChinhSuaThuoc.RowHeadersVisible = false;
             this.dataGridView_ChinhSuaThuoc.RowHeadersWidth = 100;
             this.dataGridView_ChinhSuaThuoc.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
-            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle10.BackColor = System.Drawing.Color.DimGray;
-            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(177)))), ((int)(((byte)(185)))));
-            this.dataGridView_ChinhSuaThuoc.RowsDefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.DimGray;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(177)))), ((int)(((byte)(185)))));
+            this.dataGridView_ChinhSuaThuoc.RowsDefaultCellStyle = dataGridViewCellStyle5;
             this.dataGridView_ChinhSuaThuoc.RowTemplate.DefaultCellStyle.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             this.dataGridView_ChinhSuaThuoc.RowTemplate.DefaultCellStyle.BackColor = System.Drawing.Color.White;
             this.dataGridView_ChinhSuaThuoc.RowTemplate.Height = 24;
             this.dataGridView_ChinhSuaThuoc.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView_ChinhSuaThuoc.Size = new System.Drawing.Size(1356, 276);
+            this.dataGridView_ChinhSuaThuoc.Size = new System.Drawing.Size(1226, 220);
             this.dataGridView_ChinhSuaThuoc.TabIndex = 0;
             this.dataGridView_ChinhSuaThuoc.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataGridView_ChinhSuaThuoc_CellClick);
             // 
             // panel_Null3
             // 
             this.panel_Null3.Controls.Add(this.txbSearch);
-            this.panel_Null3.Controls.Add(this.button_Search);
             this.panel_Null3.Controls.Add(this.label_ThongTinThuoc);
             this.panel_Null3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel_Null3.Location = new System.Drawing.Point(0, 0);
             this.panel_Null3.Name = "panel_Null3";
-            this.panel_Null3.Size = new System.Drawing.Size(1356, 89);
+            this.panel_Null3.Size = new System.Drawing.Size(1226, 89);
             this.panel_Null3.TabIndex = 0;
             // 
             // txbSearch
@@ -278,22 +274,6 @@
             this.txbSearch.Size = new System.Drawing.Size(480, 40);
             this.txbSearch.TabIndex = 10;
             this.txbSearch.TextChanged += new System.EventHandler(this.txbSearch_TextChanged);
-            // 
-            // button_Search
-            // 
-            this.button_Search.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button_Search.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(177)))), ((int)(((byte)(185)))));
-            this.button_Search.FlatAppearance.BorderSize = 0;
-            this.button_Search.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_Search.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_Search.ForeColor = System.Drawing.Color.White;
-            this.button_Search.Location = new System.Drawing.Point(1201, 40);
-            this.button_Search.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.button_Search.Name = "button_Search";
-            this.button_Search.Size = new System.Drawing.Size(155, 39);
-            this.button_Search.TabIndex = 4;
-            this.button_Search.Text = "SEARCH";
-            this.button_Search.UseVisualStyleBackColor = false;
             // 
             // label_ThongTinThuoc
             // 
@@ -328,9 +308,9 @@
             this.panel_ChinhSuaThuoc.Controls.Add(this.btnSave);
             this.panel_ChinhSuaThuoc.Controls.Add(this.label_ChinhSuaThongTinNhanVien);
             this.panel_ChinhSuaThuoc.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel_ChinhSuaThuoc.Location = new System.Drawing.Point(0, 365);
+            this.panel_ChinhSuaThuoc.Location = new System.Drawing.Point(0, 309);
             this.panel_ChinhSuaThuoc.Name = "panel_ChinhSuaThuoc";
-            this.panel_ChinhSuaThuoc.Size = new System.Drawing.Size(1356, 201);
+            this.panel_ChinhSuaThuoc.Size = new System.Drawing.Size(1226, 201);
             this.panel_ChinhSuaThuoc.TabIndex = 28;
             // 
             // btnAdd
@@ -541,27 +521,22 @@
             this.panel_Null1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel_Null1.Location = new System.Drawing.Point(0, 0);
             this.panel_Null1.Name = "panel_Null1";
-            this.panel_Null1.Size = new System.Drawing.Size(31, 566);
+            this.panel_Null1.Size = new System.Drawing.Size(31, 510);
             this.panel_Null1.TabIndex = 18;
             // 
             // panel_Null2
             // 
             this.panel_Null2.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel_Null2.Location = new System.Drawing.Point(1387, 0);
+            this.panel_Null2.Location = new System.Drawing.Point(1257, 0);
             this.panel_Null2.Name = "panel_Null2";
-            this.panel_Null2.Size = new System.Drawing.Size(22, 566);
+            this.panel_Null2.Size = new System.Drawing.Size(22, 510);
             this.panel_Null2.TabIndex = 19;
-            // 
-            // quanlycuahangthuocDataSet
-            // 
-            this.quanlycuahangthuocDataSet.DataSetName = "quanlycuahangthuocDataSet";
-            this.quanlycuahangthuocDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // fc_EditMed
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1409, 566);
+            this.ClientSize = new System.Drawing.Size(1279, 510);
             this.Controls.Add(this.panel_SearchFunction);
             this.Name = "fc_EditMed";
             this.Text = "fcThemXoaThuoc";
@@ -573,7 +548,6 @@
             this.panel_Null3.PerformLayout();
             this.panel_ChinhSuaThuoc.ResumeLayout(false);
             this.panel_ChinhSuaThuoc.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.quanlycuahangthuocDataSet)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -590,13 +564,11 @@
         private System.Windows.Forms.Panel panel_Main;
         private System.Windows.Forms.DataGridView dataGridView_ChinhSuaThuoc;
         private System.Windows.Forms.Panel panel_Null3;
-        private System.Windows.Forms.Button button_Search;
         private System.Windows.Forms.Label label_ThongTinThuoc;
         private System.Windows.Forms.Panel panel_ChinhSuaThuoc;
         private System.Windows.Forms.Label label_NgayHetHan;
         private System.Windows.Forms.Panel panel_Null1;
         private System.Windows.Forms.Panel panel_Null2;
-        private quanlycuahangthuocDataSet quanlycuahangthuocDataSet;
         private Guna.UI2.WinForms.Guna2TextBox txbSearch;
         private Guna.UI2.WinForms.Guna2TextBox txbIDCapNhat;
         private Guna.UI2.WinForms.Guna2ComboBox cbNhaCungCap;

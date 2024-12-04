@@ -1,13 +1,13 @@
 ﻿using QuanLyThuVienSGU_Winform.rAdmin;
 using QuanLyThuVienSGU_Winform.rStaff;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+//using System.Collections.Generic;
+//using System.ComponentModel;
+//using System.Data;
+//using System.Drawing;
+//using System.Linq;
+//using System.Text;
+//using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace QuanLyThuVienSGU_Winform
@@ -25,9 +25,7 @@ namespace QuanLyThuVienSGU_Winform
             InitializeComponent();
             this.employeeID = employeeID;
             this.role = role;
-            //panel_ChildTaiKhoanNhanVien.Height = 0; //Mặc định button con của TKNV có height = 0
-            panel_ChildQuanLiThuoc.Height = 0; //Mặc định button con của QLS có height = 0
-            //panel_ChildQuanLiNhomThuoc.Height = 0; //Mặc định button con của QLDG có height = 0
+            panel_ChildQuanLiThuoc.Height = 0; //Mặc định button con của QLT có height = 0
         }
 
         #region Functions
@@ -83,27 +81,11 @@ namespace QuanLyThuVienSGU_Winform
 
         //Events
         #region Events
-        //private void timer_TaiKhoanNhanVienTransition_Tick(object sender, EventArgs e)
-        //{
-        //    MenuExpand_Transition(ref menuExpandTaiKhoanNhanVien, panel_ChildTaiKhoanNhanVien, timer_TaiKhoanNhanVienTransition);
-        //}
 
         private void timer_QuanLiThuocTransition_Tick(object sender, EventArgs e)
         {
             MenuExpand_Transition(ref menuExpandQuanLiThuoc, panel_ChildQuanLiThuoc, timer_QuanLiThuocTransition);
         }
-
-        //private void timer_QuanLiNhomThuocTransition_Tick(object sender, EventArgs e)
-        //{
-        //    MenuExpand_Transition(ref menuExpandQuanLiNhomThuoc, panel_ChildQuanLiNhomThuoc, timer_QuanLiNhomThuocTransition);
-        //}
-
-        //private void button_TaiKhoanNhanVien_Click(object sender, EventArgs e)
-        //{
-        //    StartTimer(timer_TaiKhoanNhanVienTransition);
-        //    label_CurrentPage.Text = "Tài khoản nhân viên";
-        //    label_CurrentFunction.Text = "";
-        //}
 
         private void button_QuanLiThuoc_Click(object sender, EventArgs e)
         {
@@ -111,13 +93,6 @@ namespace QuanLyThuVienSGU_Winform
             label_CurrentPage.Text = "Quản lí thuốc";
             label_CurrentFunction.Text = "";
         }
-
-        //private void button_QuanLiNhomThuoc_Click(object sender, EventArgs e)
-        //{
-        //    StartTimer(timer_QuanLiNhomThuocTransition);
-        //    label_CurrentPage.Text = "Quản lí nhóm thuốc";
-        //    label_CurrentFunction.Text = "";
-        //}
 
         private void button_Thongtin_Click(object sender, EventArgs e)
         {
@@ -139,23 +114,11 @@ namespace QuanLyThuVienSGU_Winform
             openChildForm(new fc_ExpiredMed());
         }
 
-        private void btnThongKe_Click(object sender, EventArgs e)
-        {
-            label_CurrentPage.Text = "Thống kê";
-            openChildForm(new fc_Dashboard());
-        }
-        #endregion
-
-        private void button_ChinhSuaTaiKhoan_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Chỉ có admin mới có quyền chỉnh sửa tài khoản.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-            return;
-        }
-
-        private void button_QuanLiNhomThuoc_Click(object sender, EventArgs e)
+        private void button_QuanLiKhachHang_Click(object sender, EventArgs e)
         {
             label_CurrentPage.Text = "Danh sách quản lý khách hàng";
             openChildForm(new fc_EditCustomer());
         }
+        #endregion
     }
 }

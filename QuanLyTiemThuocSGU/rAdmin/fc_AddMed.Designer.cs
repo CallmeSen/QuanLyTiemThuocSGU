@@ -28,8 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.guna2AnimateWindow1 = new Guna.UI2.WinForms.Guna2AnimateWindow(this.components);
             this.lbGiaThuoc = new System.Windows.Forms.Label();
             this.lbNhomThuoc = new System.Windows.Forms.Label();
             this.lbNhaCungCap = new System.Windows.Forms.Label();
@@ -37,7 +35,6 @@
             this.txbGiaThuoc = new Guna.UI2.WinForms.Guna2TextBox();
             this.txbTenThuoc = new Guna.UI2.WinForms.Guna2TextBox();
             this.btnThemThuoc = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2AnimateWindow2 = new Guna.UI2.WinForms.Guna2AnimateWindow(this.components);
             this.dtpNgayHetHan = new Guna.UI2.WinForms.Guna2DateTimePicker();
             this.lbNgayHetHan = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -181,7 +178,7 @@
             this.cmbNhaCungCap.Font = new System.Drawing.Font("Segoe UI", 11.1F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbNhaCungCap.FormattingEnabled = true;
             this.cmbNhaCungCap.Location = new System.Drawing.Point(16, 162);
-            this.cmbNhaCungCap.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.cmbNhaCungCap.Margin = new System.Windows.Forms.Padding(1);
             this.cmbNhaCungCap.Name = "cmbNhaCungCap";
             this.cmbNhaCungCap.Size = new System.Drawing.Size(302, 28);
             this.cmbNhaCungCap.TabIndex = 72;
@@ -191,7 +188,7 @@
             this.cmbNhomThuoc.Font = new System.Drawing.Font("Segoe UI", 11.1F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbNhomThuoc.FormattingEnabled = true;
             this.cmbNhomThuoc.Location = new System.Drawing.Point(353, 166);
-            this.cmbNhomThuoc.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.cmbNhomThuoc.Margin = new System.Windows.Forms.Padding(1);
             this.cmbNhomThuoc.Name = "cmbNhomThuoc";
             this.cmbNhomThuoc.Size = new System.Drawing.Size(302, 28);
             this.cmbNhomThuoc.TabIndex = 73;
@@ -223,7 +220,6 @@
         }
 
         #endregion
-        private Guna.UI2.WinForms.Guna2AnimateWindow guna2AnimateWindow1;
         private System.Windows.Forms.Label lbGiaThuoc;
         private System.Windows.Forms.Label lbNhomThuoc;
         private System.Windows.Forms.Label lbNhaCungCap;
@@ -231,7 +227,6 @@
         private Guna.UI2.WinForms.Guna2TextBox txbGiaThuoc;
         private Guna.UI2.WinForms.Guna2TextBox txbTenThuoc;
         private Guna.UI2.WinForms.Guna2Button btnThemThuoc;
-        private Guna.UI2.WinForms.Guna2AnimateWindow guna2AnimateWindow2;
         private Guna.UI2.WinForms.Guna2DateTimePicker dtpNgayHetHan;
         private System.Windows.Forms.Label lbNgayHetHan;
         private System.Windows.Forms.Label label1;

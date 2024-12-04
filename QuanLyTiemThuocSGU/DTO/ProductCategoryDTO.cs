@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,11 +12,11 @@ namespace QuanLyThuVienSGU_Winform.DTO
         public int CategoryID { get; set; }
         public string CategoryName { get; set; }
 
-        // Optional constructor
-        public ProductCategoryDTO(int categoryID, string categoryName)
+        //Constructor
+        public ProductCategoryDTO(DataRow row)
         {
-            CategoryID = categoryID;
-            CategoryName = categoryName;
+            CategoryID = Convert.ToInt32(row["CategoryID"]);
+            CategoryName = row["CategoryName"].ToString();
         }
 
         public ProductCategoryDTO() { }

@@ -28,7 +28,7 @@ namespace QuanLyThuVienSGU_Winform.DAO
         // Method to add a new supplier
         public bool AddSupplier(string supplierName, string phone, string email, string address)
         {
-            string query = "EXEC USP_AddSupplier @SupplierName, @Phone, @Email, @Address";
+            string query = "EXEC USP_AddSupplier @SupplierName , @Phone , @Email , @Address";
             object[] parameters = { supplierName, phone, email, address };
             int result = DataProvider.Instance.ExecuteNonQuery(query, parameters);
             return result > 0;
@@ -51,7 +51,7 @@ namespace QuanLyThuVienSGU_Winform.DAO
         // Method to update a supplier's details
         public bool UpdateSupplier(int supplierID, string supplierName, string phone, string email, string address)
         {
-            string query = "EXEC USP_UpdateSupplier @SupplierID, @SupplierName, @Phone, @Email, @Address";
+            string query = "EXEC USP_UpdateSupplier @SupplierID , @SupplierName , @Phone , @Email , @Address";
             object[] parameters = { supplierID, supplierName, phone, email, address };
             int result = DataProvider.Instance.ExecuteNonQuery(query, parameters);
             return result > 0;
@@ -77,6 +77,21 @@ namespace QuanLyThuVienSGU_Winform.DAO
                 Address = row["Address"].ToString()
             };
         }
+
+        public List<SupplierDTO> SearchSupplierByName(string name)
+        {
+            List<SupplierDTO> suppliers = new List<SupplierDTO>();
+            string query = $"SELECT * FROM dbo.Suppliers WHERE dbo.fuConvertToUnsign1(SupplierName) LIKE N'%' + dbo.fuConvertToUnsign1(N'{name}') + '%'";
+            DataTable data = DataProvider.Instance.ExecuteQuery(query);
+
+            foreach (DataRow row in data.Rows)
+            {
+                suppliers.Add(new SupplierDTO(row));
+            }
+
+            return suppliers;
+        }
+
     }
 }
 

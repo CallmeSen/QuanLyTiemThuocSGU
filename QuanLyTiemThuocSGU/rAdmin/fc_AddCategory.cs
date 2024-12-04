@@ -19,31 +19,24 @@ namespace QuanLyThuVienSGU_Winform.rAdmin
             InitializeComponent();
         }
 
-        private void lbKhachhang_Click(object sender, EventArgs e)
+        #region Events
+        private void btnThemCategory_Click(object sender, EventArgs e)
         {
             try
             {
                 // Get values from input fields
-                int id = Convert.ToInt32(txbCategoryId.Text);
                 string CategoryName = txbCategoryName.Text;
-
-
 
 
                 if (string.IsNullOrWhiteSpace(CategoryName))
                 {
-                    MessageBox.Show("Tên khách hàng không được để trống.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("Tên nhóm thuốc được để trống.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
                 }
 
-
-
                 ProductCategoryDTO newCustomer = new ProductCategoryDTO
                 {
-                    CategoryID = id,
                     CategoryName = CategoryName,
-                 
-
                 };
 
                 bool isAdded = ProductCategoryDAO.Instance.AddCategory(CategoryName);
@@ -51,22 +44,19 @@ namespace QuanLyThuVienSGU_Winform.rAdmin
                 // Kiểm tra kết quả
                 if (isAdded == true)
                 {
-                    MessageBox.Show("Thêm nhân viên thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("Thêm tên nhóm thuốc thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     this.Close(); // Đóng form sau khi thêm thành công
                 }
                 else
                 {
-                    MessageBox.Show("Thêm nhân viên thất bại. Vui lòng thử lại.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("Thêm tên nhóm thuốc. Vui lòng thử lại.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
-
-
-
             }
             catch (Exception ex)
             {
                 MessageBox.Show($"Đã xảy ra lỗi: {ex.Message}", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-
         }
+        #endregion
     }
 }

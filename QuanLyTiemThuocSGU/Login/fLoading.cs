@@ -25,14 +25,8 @@ namespace QuanLyThuVienSGU_Winform
             if (panel1.Width > 585)
             {
                 timer1.Stop();
-                //fc_EditMed f = new fc_EditMed();
-                //f.Show();
                 fLogin loginForm = new fLogin();
                 loginForm.Show();
-                //fc_SellMed f = new fc_SellMed();
-                //f.Show();
-                //fc_AddMed f = new fc_AddMed();
-                //f.Show();
                 this.Hide();
 
             }
