@@ -1,24 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|e:\\github\\quanlytiemthuocsgu_winform\\quanlytiemthuocsgu\\login\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\login\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|e:\\github\\quanlytiemthuocsgu_winform\\quanlytiemthuocsgu\\radmin\\fadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\radmin\\fadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|e:\\github\\quanlytiemthuocsgu_winform\\quanlytiemthuocsgu\\rstaff\\fstaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\rstaff\\fstaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\quanlytiemthuocsgu\\login\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F280B3C-6053-4627-B9B5-3CF45DC6D76F}|QuanLyTiemThuocSGU\\QuanLyCuaHangThuocSGU_Winform.csproj|solutionrelative:quanlytiemthuocsgu\\login\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -26,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -39,55 +22,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "fStaff.cs [Design]",
-              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rStaff\\fStaff.cs",
-              "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rStaff\\fStaff.cs",
-              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rStaff\\fStaff.cs [Design]",
-              "RelativeToolTip": "QuanLyTiemThuocSGU\\rStaff\\fStaff.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T11:29:47.165Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "fAdmin.cs [Design]",
-              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fAdmin.cs",
-              "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\rAdmin\\fAdmin.cs",
-              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\rAdmin\\fAdmin.cs [Design]",
-              "RelativeToolTip": "QuanLyTiemThuocSGU\\rAdmin\\fAdmin.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T11:28:38.832Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "fLogin.cs [Design]",
-              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\Login\\fLogin.cs",
-              "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\Login\\fLogin.cs",
-              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\Login\\fLogin.cs [Design]",
-              "RelativeToolTip": "QuanLyTiemThuocSGU\\Login\\fLogin.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T11:16:51.73Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "fLogin.cs",
-              "DocumentMoniker": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\Login\\fLogin.cs",
-              "RelativeDocumentMoniker": "QuanLyTiemThuocSGU\\Login\\fLogin.cs",
-              "ToolTip": "E:\\GitHub\\QuanLyTiemThuocSGU_Winform\\QuanLyTiemThuocSGU\\Login\\fLogin.cs",
-              "RelativeToolTip": "QuanLyTiemThuocSGU\\Login\\fLogin.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAIAwwBoAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T02:36:34.969Z",
-              "EditorCaption": ""
             }
           ]
         }

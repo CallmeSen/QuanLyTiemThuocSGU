@@ -1,4 +1,4 @@
-﻿using QuanLyThuVienSGU_Winform.DAO;
+﻿using QuanLyThuVienSGU_Winform.DAO; 
 using QuanLyThuVienSGU_Winform.DTO;
 using System;
 using System.Collections.Generic;
@@ -14,6 +14,8 @@ namespace QuanLyThuVienSGU_Winform.rAdmin
 {
     public partial class fc_AddCategory : Form
     {
+        public event Action CategoryAdded;
+
         public fc_AddCategory()
         {
             InitializeComponent();
@@ -45,6 +47,7 @@ namespace QuanLyThuVienSGU_Winform.rAdmin
                 if (isAdded == true)
                 {
                     MessageBox.Show("Thêm tên nhóm thuốc thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    CategoryAdded?.Invoke();
                     this.Close(); // Đóng form sau khi thêm thành công
                 }
                 else

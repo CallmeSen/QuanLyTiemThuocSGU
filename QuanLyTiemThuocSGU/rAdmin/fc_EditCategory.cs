@@ -1,4 +1,4 @@
-﻿using QuanLyThuVienSGU_Winform.BLL;
+﻿using QuanLyThuVienSGU_Winform.BLL; 
 using QuanLyThuVienSGU_Winform.DAO;
 using QuanLyThuVienSGU_Winform.DTO;
 using System;
@@ -67,6 +67,7 @@ namespace QuanLyThuVienSGU_Winform.rAdmin
         private void btnAdd_Click(object sender, EventArgs e)
         {
             fc_AddCategory f = new fc_AddCategory();
+            f.CategoryAdded += LoadCategoryList;
             f.Show();
         }
 

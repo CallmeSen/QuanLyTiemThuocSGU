@@ -1,4 +1,4 @@
-﻿using System;
+﻿using System; 
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -17,7 +17,6 @@ namespace QuanLyThuVienSGU_Winform
         {
             InitializeComponent();
         }
-
 
         private void timer1_Tick(object sender, EventArgs e)
         {

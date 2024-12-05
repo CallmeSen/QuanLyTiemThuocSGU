@@ -1,4 +1,4 @@
-﻿using QuanLyThuVienSGU_Winform.BLL;
+﻿using QuanLyThuVienSGU_Winform.BLL; 
 using QuanLyThuVienSGU_Winform.DAO;
 using System;
 using System.Collections.Generic;
@@ -14,7 +14,6 @@ namespace QuanLyThuVienSGU_Winform
 {
     public partial class fLogin : Form
     {
-        //Variables
         #region Variables
         int employeeID; 
         #endregion
@@ -24,21 +23,10 @@ namespace QuanLyThuVienSGU_Winform
             InitializeComponent();
         }
 
-        #region events
-
-        private void fLogin_KeyDown(object sender, KeyEventArgs e)
-        {
-            if (e.KeyCode == Keys.Enter)
-            {
-                loginBtn_Click(sender, e); // Gọi trực tiếp hàm đăng nhập
-                e.Handled = true; // Ngăn sự kiện mặc định
-                e.SuppressKeyPress = true; // Ngăn Enter thực hiện hành động khác
-            }
-        }
+        #region Events
 
         private void loginBtn_Click(object sender, EventArgs e)
         {
-
             string username = txbUsername.Text;
             string password = txbPassword.Text;
             AccountBLL accountBLL = new AccountBLL(); //Dùng để gọi hàm Login từ BLL
@@ -87,8 +75,5 @@ namespace QuanLyThuVienSGU_Winform
             }
         }
         #endregion
-
-
-
     }
 }

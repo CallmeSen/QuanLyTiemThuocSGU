@@ -1,13 +1,13 @@
-﻿using QuanLyThuVienSGU_Winform.rAdmin;
+﻿using QuanLyThuVienSGU_Winform.rAdmin; 
 using QuanLyThuVienSGU_Winform.rStaff;
 using System;
-//using System.Collections.Generic;
-//using System.ComponentModel;
-//using System.Data;
-//using System.Drawing;
-//using System.Linq;
-//using System.Text;
-//using System.Threading.Tasks;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace QuanLyThuVienSGU_Winform
@@ -118,6 +118,25 @@ namespace QuanLyThuVienSGU_Winform
         {
             label_CurrentPage.Text = "Danh sách quản lý khách hàng";
             openChildForm(new fc_EditCustomer());
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Bạn có muốn đăng xuất?", "Xác nhận", MessageBoxButtons.YesNo);
+            if (result == DialogResult.Yes)
+            {
+                fLogin f = new fLogin();
+                f.Show();
+            }
+        }
+
+        private void fStaff_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Bạn có muốn thoát?", "Xác nhận", MessageBoxButtons.YesNo);
+            if (result == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
         }
         #endregion
     }

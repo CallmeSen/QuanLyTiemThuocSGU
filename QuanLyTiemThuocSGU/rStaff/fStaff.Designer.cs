@@ -49,11 +49,11 @@
             this.timer_QuanLiThuocTransition = new System.Windows.Forms.Timer(this.components);
             this.timer_TaiKhoanNhanVienTransition = new System.Windows.Forms.Timer(this.components);
             this.panel_Info = new System.Windows.Forms.Panel();
+            this.btnExit = new Guna.UI2.WinForms.Guna2Button();
             this.label_CurrentFunction = new System.Windows.Forms.Label();
             this.label_CurrentPage = new System.Windows.Forms.Label();
             this.label_DecorLine = new System.Windows.Forms.Label();
             this.label_Home = new System.Windows.Forms.Label();
-            this.btnExit = new Guna.UI2.WinForms.Guna2Button();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.panel_Sidebar.SuspendLayout();
             this.panel_ChildQuanLiThuoc.SuspendLayout();
@@ -304,6 +304,23 @@
             this.panel_Info.Size = new System.Drawing.Size(1323, 109);
             this.panel_Info.TabIndex = 13;
             // 
+            // btnExit
+            // 
+            this.btnExit.BorderColor = System.Drawing.Color.Transparent;
+            this.btnExit.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnExit.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnExit.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnExit.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnExit.FillColor = System.Drawing.Color.Transparent;
+            this.btnExit.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.btnExit.ForeColor = System.Drawing.Color.Transparent;
+            this.btnExit.Image = ((System.Drawing.Image)(resources.GetObject("btnExit.Image")));
+            this.btnExit.Location = new System.Drawing.Point(1283, 3);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(37, 32);
+            this.btnExit.TabIndex = 14;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
+            // 
             // label_CurrentFunction
             // 
             this.label_CurrentFunction.AutoSize = true;
@@ -351,22 +368,6 @@
             this.label_Home.TabIndex = 1;
             this.label_Home.Text = "Home ";
             // 
-            // btnExit
-            // 
-            this.btnExit.BorderColor = System.Drawing.Color.Transparent;
-            this.btnExit.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnExit.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnExit.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnExit.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnExit.FillColor = System.Drawing.Color.Transparent;
-            this.btnExit.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.btnExit.ForeColor = System.Drawing.Color.Transparent;
-            this.btnExit.Image = ((System.Drawing.Image)(resources.GetObject("btnExit.Image")));
-            this.btnExit.Location = new System.Drawing.Point(1283, 3);
-            this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(37, 32);
-            this.btnExit.TabIndex = 14;
-            // 
             // fStaff
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -379,6 +380,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Employee Detail";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.fStaff_FormClosed);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.panel_Sidebar.ResumeLayout(false);
             this.panel_ChildQuanLiThuoc.ResumeLayout(false);

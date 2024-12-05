@@ -31,6 +31,7 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fAdmin));
             this.panel_Info = new System.Windows.Forms.Panel();
+            this.btnExit = new Guna.UI2.WinForms.Guna2Button();
             this.label_CurrentFunction = new System.Windows.Forms.Label();
             this.label_CurrentPage = new System.Windows.Forms.Label();
             this.label_DecorLine = new System.Windows.Forms.Label();
@@ -55,7 +56,6 @@
             this.button_TaiKhoanNhanVien = new System.Windows.Forms.Button();
             this.btnThuocHetHan = new System.Windows.Forms.Button();
             this.panel_ChildForm = new System.Windows.Forms.Panel();
-            this.btnExit = new Guna.UI2.WinForms.Guna2Button();
             this.panel_Info.SuspendLayout();
             this.panel_LogoUeh.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
@@ -77,6 +77,23 @@
             this.panel_Info.Name = "panel_Info";
             this.panel_Info.Size = new System.Drawing.Size(1323, 109);
             this.panel_Info.TabIndex = 6;
+            // 
+            // btnExit
+            // 
+            this.btnExit.BorderColor = System.Drawing.Color.Transparent;
+            this.btnExit.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnExit.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnExit.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnExit.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnExit.FillColor = System.Drawing.Color.Transparent;
+            this.btnExit.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.btnExit.ForeColor = System.Drawing.Color.Transparent;
+            this.btnExit.Image = ((System.Drawing.Image)(resources.GetObject("btnExit.Image")));
+            this.btnExit.Location = new System.Drawing.Point(1283, 3);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(37, 32);
+            this.btnExit.TabIndex = 8;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // label_CurrentFunction
             // 
@@ -400,22 +417,6 @@
             this.panel_ChildForm.Size = new System.Drawing.Size(1323, 651);
             this.panel_ChildForm.TabIndex = 7;
             // 
-            // btnExit
-            // 
-            this.btnExit.BorderColor = System.Drawing.Color.Transparent;
-            this.btnExit.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnExit.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnExit.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnExit.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnExit.FillColor = System.Drawing.Color.Transparent;
-            this.btnExit.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.btnExit.ForeColor = System.Drawing.Color.Transparent;
-            this.btnExit.Image = ((System.Drawing.Image)(resources.GetObject("btnExit.Image")));
-            this.btnExit.Location = new System.Drawing.Point(1283, 3);
-            this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(37, 32);
-            this.btnExit.TabIndex = 8;
-            // 
             // fAdmin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -428,6 +429,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "fAdmin";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.fAdmin_FormClosed);
             this.panel_Info.ResumeLayout(false);
             this.panel_Info.PerformLayout();
             this.panel_LogoUeh.ResumeLayout(false);
