@@ -28,21 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
-            Guna.Charts.WinForms.ChartFont chartFont49 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.ChartFont chartFont50 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.ChartFont chartFont51 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.ChartFont chartFont52 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.Grid grid19 = new Guna.Charts.WinForms.Grid();
-            Guna.Charts.WinForms.Tick tick19 = new Guna.Charts.WinForms.Tick();
-            Guna.Charts.WinForms.ChartFont chartFont53 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.Grid grid20 = new Guna.Charts.WinForms.Grid();
-            Guna.Charts.WinForms.Tick tick20 = new Guna.Charts.WinForms.Tick();
-            Guna.Charts.WinForms.ChartFont chartFont54 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.Grid grid21 = new Guna.Charts.WinForms.Grid();
-            Guna.Charts.WinForms.PointLabel pointLabel7 = new Guna.Charts.WinForms.PointLabel();
-            Guna.Charts.WinForms.ChartFont chartFont55 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.Tick tick21 = new Guna.Charts.WinForms.Tick();
-            Guna.Charts.WinForms.ChartFont chartFont56 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.ChartFont chartFont9 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.ChartFont chartFont10 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.ChartFont chartFont11 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.ChartFont chartFont12 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.Grid grid4 = new Guna.Charts.WinForms.Grid();
+            Guna.Charts.WinForms.Tick tick4 = new Guna.Charts.WinForms.Tick();
+            Guna.Charts.WinForms.ChartFont chartFont13 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.Grid grid5 = new Guna.Charts.WinForms.Grid();
+            Guna.Charts.WinForms.Tick tick5 = new Guna.Charts.WinForms.Tick();
+            Guna.Charts.WinForms.ChartFont chartFont14 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.Grid grid6 = new Guna.Charts.WinForms.Grid();
+            Guna.Charts.WinForms.PointLabel pointLabel2 = new Guna.Charts.WinForms.PointLabel();
+            Guna.Charts.WinForms.ChartFont chartFont15 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.Tick tick6 = new Guna.Charts.WinForms.Tick();
+            Guna.Charts.WinForms.ChartFont chartFont16 = new Guna.Charts.WinForms.ChartFont();
             this.dtpDenNgay = new Guna.UI2.WinForms.Guna2DateTimePicker();
             this.dtpTuNgay = new Guna.UI2.WinForms.Guna2DateTimePicker();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -64,11 +64,12 @@
             this.dtpDenNgay.FillColor = System.Drawing.Color.White;
             this.dtpDenNgay.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.dtpDenNgay.Format = System.Windows.Forms.DateTimePickerFormat.Long;
-            this.dtpDenNgay.Location = new System.Drawing.Point(366, 44);
+            this.dtpDenNgay.Location = new System.Drawing.Point(488, 54);
+            this.dtpDenNgay.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dtpDenNgay.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.dtpDenNgay.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.dtpDenNgay.Name = "dtpDenNgay";
-            this.dtpDenNgay.Size = new System.Drawing.Size(231, 36);
+            this.dtpDenNgay.Size = new System.Drawing.Size(308, 44);
             this.dtpDenNgay.TabIndex = 26;
             this.dtpDenNgay.Value = new System.DateTime(2024, 11, 18, 0, 0, 0, 0);
             // 
@@ -78,11 +79,12 @@
             this.dtpTuNgay.FillColor = System.Drawing.Color.White;
             this.dtpTuNgay.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.dtpTuNgay.Format = System.Windows.Forms.DateTimePickerFormat.Long;
-            this.dtpTuNgay.Location = new System.Drawing.Point(12, 44);
+            this.dtpTuNgay.Location = new System.Drawing.Point(16, 54);
+            this.dtpTuNgay.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dtpTuNgay.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.dtpTuNgay.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.dtpTuNgay.Name = "dtpTuNgay";
-            this.dtpTuNgay.Size = new System.Drawing.Size(231, 36);
+            this.dtpTuNgay.Size = new System.Drawing.Size(308, 44);
             this.dtpTuNgay.TabIndex = 20;
             this.dtpTuNgay.Value = new System.DateTime(2024, 11, 18, 19, 7, 6, 0);
             // 
@@ -90,9 +92,10 @@
             // 
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel1.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(13, 16);
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(17, 20);
+            this.guna2HtmlLabel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(62, 22);
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(77, 27);
             this.guna2HtmlLabel1.TabIndex = 27;
             this.guna2HtmlLabel1.Text = "Từ ngày:";
             // 
@@ -100,45 +103,47 @@
             // 
             this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel2.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(367, 20);
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(489, 25);
+            this.guna2HtmlLabel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(73, 22);
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(90, 27);
             this.guna2HtmlLabel2.TabIndex = 28;
             this.guna2HtmlLabel2.Text = "Đến ngày:";
             // 
             // btkThongKe
             // 
-            chartFont49.FontName = "Arial";
-            this.btkThongKe.Legend.LabelFont = chartFont49;
-            this.btkThongKe.Location = new System.Drawing.Point(12, 100);
+            chartFont9.FontName = "Arial";
+            this.btkThongKe.Legend.LabelFont = chartFont9;
+            this.btkThongKe.Location = new System.Drawing.Point(16, 123);
+            this.btkThongKe.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btkThongKe.Name = "btkThongKe";
-            this.btkThongKe.Size = new System.Drawing.Size(667, 401);
+            this.btkThongKe.Size = new System.Drawing.Size(889, 494);
             this.btkThongKe.TabIndex = 30;
-            chartFont50.FontName = "Arial";
-            chartFont50.Size = 12;
-            chartFont50.Style = Guna.Charts.WinForms.ChartFontStyle.Bold;
-            this.btkThongKe.Title.Font = chartFont50;
-            chartFont51.FontName = "Arial";
-            this.btkThongKe.Tooltips.BodyFont = chartFont51;
-            chartFont52.FontName = "Arial";
-            chartFont52.Size = 9;
-            chartFont52.Style = Guna.Charts.WinForms.ChartFontStyle.Bold;
-            this.btkThongKe.Tooltips.TitleFont = chartFont52;
-            this.btkThongKe.XAxes.GridLines = grid19;
-            chartFont53.FontName = "Arial";
-            tick19.Font = chartFont53;
-            this.btkThongKe.XAxes.Ticks = tick19;
-            this.btkThongKe.YAxes.GridLines = grid20;
-            chartFont54.FontName = "Arial";
-            tick20.Font = chartFont54;
-            this.btkThongKe.YAxes.Ticks = tick20;
-            this.btkThongKe.ZAxes.GridLines = grid21;
-            chartFont55.FontName = "Arial";
-            pointLabel7.Font = chartFont55;
-            this.btkThongKe.ZAxes.PointLabels = pointLabel7;
-            chartFont56.FontName = "Arial";
-            tick21.Font = chartFont56;
-            this.btkThongKe.ZAxes.Ticks = tick21;
+            chartFont10.FontName = "Arial";
+            chartFont10.Size = 12;
+            chartFont10.Style = Guna.Charts.WinForms.ChartFontStyle.Bold;
+            this.btkThongKe.Title.Font = chartFont10;
+            chartFont11.FontName = "Arial";
+            this.btkThongKe.Tooltips.BodyFont = chartFont11;
+            chartFont12.FontName = "Arial";
+            chartFont12.Size = 9;
+            chartFont12.Style = Guna.Charts.WinForms.ChartFontStyle.Bold;
+            this.btkThongKe.Tooltips.TitleFont = chartFont12;
+            this.btkThongKe.XAxes.GridLines = grid4;
+            chartFont13.FontName = "Arial";
+            tick4.Font = chartFont13;
+            this.btkThongKe.XAxes.Ticks = tick4;
+            this.btkThongKe.YAxes.GridLines = grid5;
+            chartFont14.FontName = "Arial";
+            tick5.Font = chartFont14;
+            this.btkThongKe.YAxes.Ticks = tick5;
+            this.btkThongKe.ZAxes.GridLines = grid6;
+            chartFont15.FontName = "Arial";
+            pointLabel2.Font = chartFont15;
+            this.btkThongKe.ZAxes.PointLabels = pointLabel2;
+            chartFont16.FontName = "Arial";
+            tick6.Font = chartFont16;
+            this.btkThongKe.ZAxes.Ticks = tick6;
             // 
             // btnXacNhan
             // 
@@ -149,9 +154,10 @@
             this.btnXacNhan.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnXacNhan.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnXacNhan.ForeColor = System.Drawing.Color.White;
-            this.btnXacNhan.Location = new System.Drawing.Point(1024, 34);
+            this.btnXacNhan.Location = new System.Drawing.Point(1365, 42);
+            this.btnXacNhan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnXacNhan.Name = "btnXacNhan";
-            this.btnXacNhan.Size = new System.Drawing.Size(140, 46);
+            this.btnXacNhan.Size = new System.Drawing.Size(187, 57);
             this.btnXacNhan.TabIndex = 31;
             this.btnXacNhan.Text = "Xác nhận";
             this.btnXacNhan.Click += new System.EventHandler(this.BtnXacNhan_Click);
@@ -165,9 +171,10 @@
             this.btnInThongKe.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnInThongKe.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnInThongKe.ForeColor = System.Drawing.Color.White;
-            this.btnInThongKe.Location = new System.Drawing.Point(1184, 34);
+            this.btnInThongKe.Location = new System.Drawing.Point(1560, 42);
+            this.btnInThongKe.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnInThongKe.Name = "btnInThongKe";
-            this.btnInThongKe.Size = new System.Drawing.Size(140, 46);
+            this.btnInThongKe.Size = new System.Drawing.Size(187, 57);
             this.btnInThongKe.TabIndex = 32;
             this.btnInThongKe.Text = "In thống kê ";
             this.btnInThongKe.Click += new System.EventHandler(this.BtnInThongKe_Click);
@@ -181,9 +188,10 @@
             this.columnHeader4,
             this.columnHeader5});
             this.lsvThongKe.HideSelection = false;
-            this.lsvThongKe.Location = new System.Drawing.Point(695, 100);
+            this.lsvThongKe.Location = new System.Drawing.Point(927, 123);
+            this.lsvThongKe.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.lsvThongKe.Name = "lsvThongKe";
-            this.lsvThongKe.Size = new System.Drawing.Size(629, 401);
+            this.lsvThongKe.Size = new System.Drawing.Size(820, 493);
             this.lsvThongKe.TabIndex = 33;
             this.lsvThongKe.UseCompatibleStateImageBehavior = false;
             this.lsvThongKe.View = System.Windows.Forms.View.Details;
@@ -215,9 +223,9 @@
             // 
             // fc_Dashboard
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1391, 542);
+            this.ClientSize = new System.Drawing.Size(1855, 667);
             this.Controls.Add(this.lsvThongKe);
             this.Controls.Add(this.btnInThongKe);
             this.Controls.Add(this.btnXacNhan);
@@ -226,6 +234,7 @@
             this.Controls.Add(this.guna2HtmlLabel1);
             this.Controls.Add(this.dtpDenNgay);
             this.Controls.Add(this.dtpTuNgay);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "fc_Dashboard";
             this.Text = "fDashboard";
             this.ResumeLayout(false);

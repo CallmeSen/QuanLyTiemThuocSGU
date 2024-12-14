@@ -1,5 +1,6 @@
 ﻿using System; 
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -89,6 +90,33 @@ namespace QuanLyThuVienSGU_Winform.BLL
                 return false;
             }
         }
+
+        //Method to retrieve the expired medicines
+        public List<ProductDTO> GetExpiredMedicines()
+        {
+            try
+            {
+                List<ProductDTO> expiredMedicines = new List<ProductDTO>();
+
+                foreach (ProductDTO product in ProductDAO.Instance.GetExpiredMedicines())
+                {
+                    expiredMedicines.Add(product);
+                }
+
+                return expiredMedicines;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error retrieving : {ex.Message}");
+                return new List<ProductDTO>();
+            }
+        }
+
+        public List<ProductDTO> GetLowStockMedicines(int threshold)
+        {
+            return ProductDAO.Instance.GetLowStockMedicines(threshold);
+        }
+
     }
 }
 

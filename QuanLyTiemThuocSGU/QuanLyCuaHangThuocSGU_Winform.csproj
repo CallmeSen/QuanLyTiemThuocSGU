@@ -288,10 +288,10 @@
     <Compile Include="rAdmin\fc_EditSupplier.Designer.cs">
       <DependentUpon>fc_EditSupplier.cs</DependentUpon>
     </Compile>
-    <Compile Include="rStaff\fc_ExpiredMed.cs">
+    <Compile Include="rAdmin\fc_ExpiredMed.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="rStaff\fc_ExpiredMed.Designer.cs">
+    <Compile Include="rAdmin\fc_ExpiredMed.Designer.cs">
       <DependentUpon>fc_ExpiredMed.cs</DependentUpon>
     </Compile>
     <Compile Include="rStaff\fc_StaffDetail.cs">
@@ -362,7 +362,7 @@
     <EmbeddedResource Include="rAdmin\fc_EditSupplier.resx">
       <DependentUpon>fc_EditSupplier.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="rStaff\fc_ExpiredMed.resx">
+    <EmbeddedResource Include="rAdmin\fc_ExpiredMed.resx">
       <DependentUpon>fc_ExpiredMed.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="rStaff\fc_StaffDetail.resx">

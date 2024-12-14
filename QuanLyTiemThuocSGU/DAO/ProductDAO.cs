@@ -115,6 +115,35 @@ namespace QuanLyThuVienSGU_Winform.DAO
             };
         }
 
+        public List<ProductDTO> GetExpiredMedicines()
+        {
+            List<ProductDTO> expiredMedicines = new List<ProductDTO>();
+            string query = "EXEC USP_GetExpiredMedicines";
+            DataTable data = DataProvider.Instance.ExecuteQuery(query);
+
+            foreach (DataRow row in data.Rows)
+            {
+                expiredMedicines.Add(new ProductDTO(row));
+            }
+
+            return expiredMedicines;
+        }
+
+
+        public List<ProductDTO> GetLowStockMedicines(int threshold)
+        {
+            List<ProductDTO> lowStockMeds = new List<ProductDTO>();
+            string query = "EXEC USP_GetLowStockMedicines @Threshold";
+            DataTable data = DataProvider.Instance.ExecuteQuery(query, new object[] { threshold });
+
+            foreach (DataRow row in data.Rows)
+            {
+                lowStockMeds.Add(new ProductDTO(row));
+            }
+
+            return lowStockMeds;
+        }
+
     }
 }
 

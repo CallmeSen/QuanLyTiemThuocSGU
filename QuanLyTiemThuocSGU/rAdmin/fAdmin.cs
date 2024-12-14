@@ -131,7 +131,7 @@ namespace QuanLyThuVienSGU_Winform
         private void button_ThongTinThuoc_Click(object sender, EventArgs e)
         {
             label_CurrentPage.Text = "Quản lí thuốc";
-            label_CurrentFunction.Text = "> Quản lí thuốc > Thông tin thuốc";
+            label_CurrentFunction.Text = "> Quản lí thuốc > Kho thuốc";
             openChildForm(new fc_EditMed());
         }
 
@@ -159,18 +159,21 @@ namespace QuanLyThuVienSGU_Winform
         private void btnThongKe_Click(object sender, EventArgs e)
         {
             label_CurrentPage.Text = "Thống kê";
+            label_CurrentFunction.Text = ">Thống kê doanh thu";
             openChildForm(new fc_Dashboard());
         }
 
         private void btnThuocHetHan_Click(object sender, EventArgs e)
         {
-            label_CurrentPage.Text = "Danh sách hết hạn sử dụng thuốc";
+            label_CurrentPage.Text = "Danh sách tình trạng thuốc";
+            label_CurrentFunction.Text = ">Tình trạng thuốc";
             openChildForm(new fc_ExpiredMed());
         }
 
         private void button_QuanLiKhachHang_Click(object sender, EventArgs e)
         {
             label_CurrentPage.Text = "Danh sách quản lý khách hàng";
+            label_CurrentFunction.Text = "> Quản lí khách hàng > Thông tin khách hàng";
             openChildForm(new fc_EditCustomer());
         }
 
@@ -179,6 +182,7 @@ namespace QuanLyThuVienSGU_Winform
             DialogResult result = MessageBox.Show("Bạn có muốn đăng xuất?", "Xác nhận", MessageBoxButtons.YesNo);
             if (result == DialogResult.Yes)
             {
+                this.Close();
                 fLogin f = new fLogin();
                 f.Show();
             }
@@ -186,11 +190,7 @@ namespace QuanLyThuVienSGU_Winform
 
         private void fAdmin_FormClosed(object sender, FormClosedEventArgs e)
         {
-            DialogResult result = MessageBox.Show("Bạn có muốn thoát?", "Xác nhận", MessageBoxButtons.YesNo);
-            if (result == DialogResult.Yes)
-            {
-                Application.Exit();
-            }
+
         }
         #endregion
     }

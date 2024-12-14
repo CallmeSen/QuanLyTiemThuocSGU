@@ -676,12 +676,16 @@ GO
 CREATE PROCEDURE USP_GetExpiredMedicines
 AS
 BEGIN
-    SELECT 
+    SELECT
+		Products.ProductID,
+		Products.CategoryID,
         Products.ProductName,
         ProductCategory.CategoryName,
+		Products.SupplierID,
         Suppliers.SupplierName,
         Products.ExpirationDate,
-        Products.QuantityInStock
+        Products.QuantityInStock,
+		Products.Price
     FROM 
         Products
     JOIN 
@@ -693,6 +697,31 @@ BEGIN
 END
 GO
 
+CREATE PROCEDURE USP_GetLowStockMedicines
+    @Threshold INT
+AS
+BEGIN
+    -- Retrieve low-stock products
+    SELECT 
+        Products.ProductID,
+        Products.ProductName,
+        Products.CategoryID,
+        ProductCategory.CategoryName,
+        Products.SupplierID,
+        Suppliers.SupplierName,
+		Products.ExpirationDate,
+        Products.QuantityInStock,
+        Products.Price
+    FROM 
+        Products
+    INNER JOIN 
+        ProductCategory ON Products.CategoryID = ProductCategory.CategoryID
+    INNER JOIN 
+        Suppliers ON Products.SupplierID = Suppliers.SupplierID
+    WHERE 
+        Products.QuantityInStock <= @Threshold;
+END
+GO
 
 --hàm tìm kiếm gần đúng
 CREATE FUNCTION [dbo].[fuConvertToUnsign1](@strInput NVARCHAR(4000)) 

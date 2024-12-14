@@ -25,7 +25,6 @@ namespace QuanLyThuVienSGU_Winform
             InitializeComponent();
             this.employeeID = employeeID;
             this.role = role;
-            panel_ChildQuanLiThuoc.Height = 0; //Mặc định button con của QLT có height = 0
         }
 
         #region Functions
@@ -82,18 +81,6 @@ namespace QuanLyThuVienSGU_Winform
         //Events
         #region Events
 
-        private void timer_QuanLiThuocTransition_Tick(object sender, EventArgs e)
-        {
-            MenuExpand_Transition(ref menuExpandQuanLiThuoc, panel_ChildQuanLiThuoc, timer_QuanLiThuocTransition);
-        }
-
-        private void button_QuanLiThuoc_Click(object sender, EventArgs e)
-        {
-            StartTimer(timer_QuanLiThuocTransition);
-            label_CurrentPage.Text = "Quản lí thuốc";
-            label_CurrentFunction.Text = "";
-        }
-
         private void button_Thongtin_Click(object sender, EventArgs e)
         {
             label_CurrentPage.Text = "Thông tin nhân viên";
@@ -110,14 +97,9 @@ namespace QuanLyThuVienSGU_Winform
 
         private void btnThuocHetHan_Click(object sender, EventArgs e)
         {
-            label_CurrentPage.Text = "Danh sách hết hạn sử dụng thuốc";
+            label_CurrentPage.Text = "Kho thuốc";
+            label_CurrentFunction.Text = ">Danh sách tình trạng thuốc";
             openChildForm(new fc_ExpiredMed());
-        }
-
-        private void button_QuanLiKhachHang_Click(object sender, EventArgs e)
-        {
-            label_CurrentPage.Text = "Danh sách quản lý khách hàng";
-            openChildForm(new fc_EditCustomer());
         }
 
         private void btnExit_Click(object sender, EventArgs e)
@@ -125,19 +107,21 @@ namespace QuanLyThuVienSGU_Winform
             DialogResult result = MessageBox.Show("Bạn có muốn đăng xuất?", "Xác nhận", MessageBoxButtons.YesNo);
             if (result == DialogResult.Yes)
             {
+                this.Close();
                 fLogin f = new fLogin();
                 f.Show();
             }
         }
 
-        private void fStaff_FormClosed(object sender, FormClosedEventArgs e)
+        private void button_ThongKe_Click(object sender, EventArgs e)
         {
-            DialogResult result = MessageBox.Show("Bạn có muốn thoát?", "Xác nhận", MessageBoxButtons.YesNo);
-            if (result == DialogResult.Yes)
-            {
-                Application.Exit();
-            }
+            label_CurrentPage.Text = "Thống kê";
+            label_CurrentFunction.Text = ">Thống kê doanh thu";
+
+            openChildForm(new fc_Dashboard());
         }
+
         #endregion
+
     }
 }
