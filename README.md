@@ -109,11 +109,33 @@ Trước khi bắt đầu, hãy đảm bảo rằng các yêu cầu sau đã đ�
 9. Build và chạy ứng dụng.
 
 ## Ảnh Màn Hình 📸
-![image](https://github.com/user-attachments/assets/1ee87c27-97ae-4e18-9e36-ad7f41b22a40)
-![image](https://github.com/user-attachments/assets/f95bfbb4-1126-4aa7-99d1-31388a4fcbe2)
-![image](https://github.com/user-attachments/assets/13b76a0a-dc08-4219-a8f9-5cf27c775c93)
-![image](https://github.com/user-attachments/assets/e4955952-9daf-4353-b9e6-f96b75f553b6)
-![image](https://github.com/user-attachments/assets/804eebb2-a4c9-4d21-a87b-8340253b81d6)
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/1ee87c27-97ae-4e18-9e36-ad7f41b22a40" alt="Screenshot 1" width="600">
+</div>
+
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/f95bfbb4-1126-4aa7-99d1-31388a4fcbe2" alt="Screenshot 2" width="600">
+</div>
+
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/13b76a0a-dc08-4219-a8f9-5cf27c775c93" alt="Screenshot 3" width="600">
+</div>
+
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/e4955952-9daf-4353-b9e6-f96b75f553b6" alt="Screenshot 4" width="600">
+</div>
+
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/804eebb2-a4c9-4d21-a87b-8340253b81d6" alt="Screenshot 5" width="600">
+</div>
+
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/ff8aaeec-afb6-45ed-8411-bb8c6c0183cf" alt="Image 1" width="600">
+</div>
+
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/32345477-1901-4a27-9e18-f95d6928c72f" alt="Image 2" width="600">
+</div>
 
 ## Về Nhóm Dự Án 🤝
 - **Developer:** *[CallmeSen](https://github.com/CallmeSen)*
