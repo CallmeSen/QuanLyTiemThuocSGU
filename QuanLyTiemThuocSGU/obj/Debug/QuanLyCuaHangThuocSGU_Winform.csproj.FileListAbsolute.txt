@@ -237,3 +237,6 @@ E:\GitHub\QuanLyTiemThuocSGU_Winform\QuanLyTiemThuocSGU\obj\Debug\QuanLyThuVienS
 E:\GitHub\QuanLyTiemThuocSGU_Winform\QuanLyTiemThuocSGU\obj\Debug\QuanLyThuVienSGU_Winform.rAdmin.fc_EditCategory.resources
 E:\GitHub\QuanLyTiemThuocSGU_Winform\QuanLyTiemThuocSGU\obj\Debug\QuanLyThuVienSGU_Winform.rAdmin.fc_EditCustomer.resources
 E:\GitHub\QuanLyTiemThuocSGU_Winform\QuanLyTiemThuocSGU\obj\Debug\QuanLyThuVienSGU_Winform.rAdmin.fc_EditSupplier.resources
+E:\GitHub\QuanLyTiemThuocSGU_Winform\QuanLyTiemThuocSGU\bin\Debug\Microsoft.ReportViewer.Common.dll
+E:\GitHub\QuanLyTiemThuocSGU_Winform\QuanLyTiemThuocSGU\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+E:\GitHub\QuanLyTiemThuocSGU_Winform\QuanLyTiemThuocSGU\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
