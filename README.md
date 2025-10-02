@@ -4,7 +4,7 @@
 Phần mềm quản lý cửa hàng thuốc - Ứng dụng desktop được thiết kế cho nhân viên và quản trị viên nhằm tối ưu hóa hoạt động của cửa hàng thuốc.
 
 ### Instructor
-*[Đỗ Như Tài](https://github.com/dntai)*
+*[TS. Đỗ Như Tài](https://github.com/dntai)*
 
 ## Tổng Quan
 Dự án Quản Lý Cửa Hàng Thuốc là một giải pháp phần mềm mạnh mẽ, được phát triển để nâng cao và đơn giản hóa quy trình quản lý cửa hàng thuốc. Xây dựng bằng .NET WinForms, C#, và tích hợp SQL Server, ứng dụng này mang đến giao diện thân thiện cho việc quản lý các khía cạnh khác nhau của doanh nghiệp cửa hàng thuốc.
